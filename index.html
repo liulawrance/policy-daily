@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>华东区域政策日报</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--blue:#1F4E79;--red:#C00000;--orange:#ED7D31;--green:#27AE60;--gray:#888;--bg:#F5F7FA;--card:#FFF;--border:#E8ECF1;--radius:12px}
+body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro SC","PingFang SC","Helvetica Neue",sans-serif;background:var(--bg);color:#333;-webkit-font-smoothing:antialiased;padding-bottom:80px}
+
+/* Header */
+.header{background:linear-gradient(135deg,#1F4E79 0%,#2E6EA6 100%);color:#fff;padding:20px 16px 16px;position:sticky;top:0;z-index:100}
+.header h1{font-size:20px;font-weight:700;letter-spacing:1px}
+.header .subtitle{font-size:12px;opacity:.7;margin-top:4px}
+.header .date-nav{margin-top:12px}
+.date-btn{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);color:#fff;padding:7px 16px;border-radius:20px;font-size:13px;cursor:pointer;transition:.2s}
+.date-btn:active{transform:scale(.95)}
+.date-btn .arrow{font-size:10px;transition:.2s}
+.date-btn.open .arrow{transform:rotate(180deg)}
+
+/* Date Picker */
+.date-picker-mask{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.4);z-index:200}
+.date-picker-mask.show{display:block}
+.date-picker{display:none;position:fixed;bottom:0;left:0;right:0;background:#fff;border-radius:16px 16px 0 0;z-index:210;max-height:60vh;overflow:hidden;transform:translateY(100%);transition:transform .3s ease}
+.date-picker.show{display:block;transform:translateY(0)}
+.dp-header{padding:16px;font-size:15px;font-weight:700;color:var(--blue);border-bottom:1px solid var(--border);text-align:center}
+.dp-list{overflow-y:auto;max-height:calc(60vh - 52px);padding-bottom:env(safe-area-inset-bottom)}
+.dp-item{padding:14px 20px;font-size:14px;color:#333;border-bottom:1px solid #F5F5F5;cursor:pointer;display:flex;justify-content:space-between;align-items:center;transition:.15s}
+.dp-item:active{background:#F5F7FA}
+.dp-item.active{color:var(--blue);font-weight:600}
+.dp-item.active::after{content:"✓";color:var(--blue);font-weight:700}
+.dp-item .dp-weekday{font-size:12px;color:var(--gray)}
+
+/* Filters */
+.filters{display:flex;gap:8px;padding:12px 16px;overflow-x:auto;-webkit-overflow-scrolling:touch;position:sticky;top:88px;background:var(--bg);z-index:90}
+.filters::-webkit-scrollbar{display:none}
+.chip{flex-shrink:0;padding:6px 14px;border-radius:20px;border:1px solid var(--border);background:#fff;font-size:12px;color:#666;cursor:pointer;transition:.2s;white-space:nowrap}
+.chip.active{background:var(--blue);color:#fff;border-color:var(--blue)}
+.chip:active{transform:scale(.95)}
+
+/* Stats Bar */
+.stats{display:flex;gap:8px;padding:8px 16px;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.stats::-webkit-scrollbar{display:none}
+.stat-item{flex-shrink:0;background:#fff;border-radius:10px;padding:10px 14px;min-width:80px;text-align:center;border:1px solid var(--border)}
+.stat-item .num{font-size:22px;font-weight:700;color:var(--blue)}
+.stat-item .label{font-size:10px;color:var(--gray);margin-top:2px}
+
+/* Section */
+.section{padding:0 16px;margin-top:16px}
+.section-title{font-size:15px;font-weight:700;color:var(--blue);padding:8px 0;display:flex;align-items:center;gap:6px;position:sticky;top:130px;background:var(--bg);z-index:80}
+.section-title .badge{background:var(--blue);color:#fff;font-size:10px;padding:2px 8px;border-radius:10px;font-weight:500}
+
+/* Card */
+.card{background:var(--card);border-radius:var(--radius);padding:14px;margin-bottom:10px;border:1px solid var(--border);transition:.2s}
+.card.top-card{border-left:3px solid var(--red)}
+.card.new-card{border-left:3px solid var(--orange)}
+.card-head{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.card-title{font-size:14px;font-weight:600;line-height:1.5;flex:1}
+.card-tags{display:flex;gap:4px;flex-shrink:0;flex-wrap:wrap;justify-content:flex-end}
+.tag{font-size:10px;padding:2px 7px;border-radius:6px;font-weight:500;white-space:nowrap}
+.tag-high{background:#FEE;color:var(--red)}
+.tag-mid{background:#FFF3E0;color:var(--orange)}
+.tag-low{background:#F0F4F8;color:var(--gray)}
+.tag-new{background:#E3F2FD;color:#1565C0}
+.tag-province{background:#E8F5E9;color:#2E7D32}
+.card-body{margin-top:8px;font-size:12px;color:#666;line-height:1.7}
+.card-meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px;font-size:11px;color:var(--gray)}
+.card-meta span{display:flex;align-items:center;gap:3px}
+.card-action{margin-top:8px;padding:8px 10px;background:#F8FAFC;border-radius:8px;font-size:12px;color:var(--blue);line-height:1.5}
+.card-link{display:inline-block;margin-top:6px;font-size:11px;color:var(--blue);text-decoration:none;opacity:.8}
+.card-link:active{opacity:1}
+
+/* Alert Table */
+.alert-list{margin-bottom:10px}
+.alert-item{display:flex;align-items:flex-start;gap:10px;padding:10px 14px;background:#fff;border-radius:10px;margin-bottom:6px;border:1px solid var(--border)}
+.alert-level{flex-shrink:0;font-size:11px;font-weight:700;padding:3px 8px;border-radius:6px;white-space:nowrap}
+.alert-level.l1{background:#FEE;color:var(--red)}
+.alert-level.l2{background:#FFF3E0;color:var(--orange)}
+.alert-level.l3{background:#E3F2FD;color:var(--blue)}
+.alert-content{flex:1}
+.alert-content .a-title{font-size:13px;font-weight:600}
+.alert-content .a-desc{font-size:11px;color:var(--gray);margin-top:2px}
+
+/* Competitor */
+.comp-card{background:#fff;border-radius:10px;padding:12px;margin-bottom:8px;border:1px solid var(--border)}
+.comp-name{font-size:13px;font-weight:700;color:var(--blue)}
+.comp-text{font-size:12px;color:#555;margin-top:4px;line-height:1.6}
+
+/* Event */
+.event-item{display:flex;gap:10px;padding:10px 14px;background:#fff;border-radius:10px;margin-bottom:6px;border:1px solid var(--border)}
+.event-date{flex-shrink:0;text-align:center;min-width:54px}
+.event-date .day{font-size:18px;font-weight:700;color:var(--blue)}
+.event-date .month{font-size:10px;color:var(--gray)}
+.event-info .e-name{font-size:13px;font-weight:600}
+.event-info .e-loc{font-size:11px;color:var(--gray);margin-top:2px}
+.event-info .e-note{font-size:11px;color:#555;margin-top:2px}
+
+/* Personnel */
+.personnel-block{background:#fff;border-radius:var(--radius);margin-bottom:12px;border:1px solid var(--border);overflow:hidden}
+.personnel-header{padding:12px 14px;background:linear-gradient(135deg,#1F4E79,#2E6EA6);color:#fff}
+.personnel-header .p-title{font-size:14px;font-weight:600}
+.personnel-header .p-meta{font-size:11px;opacity:.8;margin-top:3px;display:flex;gap:8px}
+.p-section{padding:10px 14px;border-bottom:1px solid var(--border)}
+.p-section:last-child{border-bottom:none}
+.p-section-title{font-size:12px;font-weight:700;color:var(--blue);margin-bottom:6px;display:flex;align-items:center;gap:4px}
+.p-section-title .p-count{background:var(--blue);color:#fff;font-size:10px;padding:1px 6px;border-radius:8px;font-weight:500}
+.p-table{width:100%;border-collapse:collapse}
+.p-table th{text-align:left;font-size:11px;color:var(--gray);font-weight:500;padding:4px 0;border-bottom:1px solid var(--border)}
+.p-table td{font-size:12px;padding:6px 0;border-bottom:1px solid #F5F5F5;vertical-align:top}
+.p-table td:first-child{font-weight:600;width:70px;color:var(--blue)}
+.p-table .note{font-size:10px;color:var(--orange);margin-left:4px}
+.p-link{display:inline-block;margin:8px 14px 12px;font-size:11px;color:var(--blue);text-decoration:none}
+
+/* Lock Screen */
+#lockScreen{position:fixed;top:0;left:0;right:0;bottom:0;background:linear-gradient(135deg,#1F4E79 0%,#2E6EA6 50%,#4A90D9 100%);display:flex;align-items:center;justify-content:center;z-index:9999}
+.lock-box{background:#fff;border-radius:20px;padding:40px 30px;width:320px;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.3)}
+.lock-icon{font-size:48px;margin-bottom:16px}
+.lock-title{font-size:18px;font-weight:700;color:var(--blue);margin-bottom:6px}
+.lock-desc{font-size:12px;color:var(--gray);margin-bottom:24px}
+.lock-input{width:100%;padding:12px 16px;border:1.5px solid var(--border);border-radius:10px;font-size:15px;outline:none;text-align:center;transition:.2s}
+.lock-input:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(31,78,121,.1)}
+.lock-btn{width:100%;padding:12px;background:var(--blue);color:#fff;border:none;border-radius:10px;font-size:15px;font-weight:600;margin-top:12px;cursor:pointer;transition:.2s}
+.lock-btn:active{transform:scale(.97);background:#163D5E}
+.lock-err{font-size:12px;color:var(--red);margin-top:10px;min-height:18px}
+
+/* Tab Bar */
+.tab-bar{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:1px solid var(--border);display:flex;z-index:100;padding-bottom:env(safe-area-inset-bottom)}
+.tab-item{flex:1;text-align:center;padding:8px 0;cursor:pointer;transition:.2s}
+.tab-item.active{color:var(--blue)}
+.tab-item .tab-icon{font-size:20px}
+.tab-item .tab-label{font-size:10px;margin-top:2px}
+
+/* Hide sections */
+.panel{display:none}
+.panel.active{display:block}
+
+/* Empty */
+.empty{text-align:center;padding:40px;color:var(--gray);font-size:13px}
+
+/* Impact dot */
+.impact-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px}
+.impact-dot.high{background:var(--red)}
+.impact-dot.mid{background:var(--orange)}
+.impact-dot.low{background:#CCC}
+</style>
+</head>
+<body>
+
+<!-- 密码锁 -->
+<div id="lockScreen">
+  <div class="lock-box">
+    <div class="lock-icon">🔒</div>
+    <h2 class="lock-title">华东区域政策日报</h2>
+    <p class="lock-desc">内部资料，请输入访问密码</p>
+    <input type="password" id="pwdInput" class="lock-input" placeholder="请输入密码" autocomplete="off">
+    <button class="lock-btn" onclick="checkPwd()">进入</button>
+    <p class="lock-err" id="lockErr"></p>
+  </div>
+</div>
+
+<!-- 主内容（默认隐藏） -->
+<div id="mainApp" style="display:none">
+
+<div class="header">
+  <h1>📋 华东区域政策日报</h1>
+  <div class="subtitle">六省一市 · 每日政策监测</div>
+  <div class="date-nav" id="dateNav">
+    <div class="date-btn" id="dateBtn" onclick="toggleDatePicker()">
+      <span id="dateBtnText">全部日期</span>
+      <span class="arrow">▾</span>
+    </div>
+  </div>
+</div>
+
+<div class="date-picker-mask" id="datePickerMask" onclick="closeDatePicker()"></div>
+<div class="date-picker" id="datePicker">
+  <div class="dp-header">选择日期</div>
+  <div class="dp-list" id="dpList"></div>
+</div>
+
+<div id="panelAlert" class="panel active">
+  <div class="section" id="alertList"></div>
+</div>
+
+<div id="panelPolicy" class="panel">
+  <div class="filters" id="provinceFilters"></div>
+  <div class="stats" id="statsBar"></div>
+  <div class="section" id="policyList"></div>
+</div>
+
+<div id="panelPersonnel" class="panel">
+  <div class="section" id="personnelList"></div>
+</div>
+
+<div id="panelCompetitor" class="panel">
+  <div class="section" id="compList"></div>
+</div>
+
+<div id="panelEvent" class="panel">
+  <div class="section" id="eventList"></div>
+</div>
+
+<div class="tab-bar">
+  <div class="tab-item active" data-panel="panelAlert" onclick="switchTab(this)">
+    <div class="tab-icon">⚠️</div>
+    <div class="tab-label">预警</div>
+  </div>
+  <div class="tab-item" data-panel="panelPolicy" onclick="switchTab(this)">
+    <div class="tab-icon">📄</div>
+    <div class="tab-label">政策</div>
+  </div>
+  <div class="tab-item" data-panel="panelPersonnel" onclick="switchTab(this)">
+    <div class="tab-icon">👤</div>
+    <div class="tab-label">人事</div>
+  </div>
+  <div class="tab-item" data-panel="panelCompetitor" onclick="switchTab(this)">
+    <div class="tab-icon">🏢</div>
+    <div class="tab-label">友商</div>
+  </div>
+  <div class="tab-item" data-panel="panelEvent" onclick="switchTab(this)">
+    <div class="tab-icon">📅</div>
+    <div class="tab-label">活动</div>
+  </div>
+</div>
+</div><!-- end mainApp -->
+
+<script>
+// Password protection
+var _k = 'aGRwYTIwMjY=';
+function checkPwd() {
+  var pwd = document.getElementById('pwdInput').value;
+  if (btoa(pwd) === _k) {
+    localStorage.setItem('policy_auth', _k);
+    unlock();
+  } else {
+    document.getElementById('lockErr').textContent = '密码错误，请重试';
+    document.getElementById('pwdInput').value = '';
+    document.getElementById('pwdInput').focus();
+  }
+}
+function unlock() {
+  document.getElementById('lockScreen').style.display = 'none';
+  document.getElementById('mainApp').style.display = '';
+}
+if (localStorage.getItem('policy_auth') === _k) {
+  document.addEventListener('DOMContentLoaded', unlock);
+}
+document.addEventListener('DOMContentLoaded', function() {
+  var input = document.getElementById('pwdInput');
+  if (input) input.addEventListener('keydown', function(e) { if (e.key === 'Enter') checkPwd(); });
+});
+</script>
+<script src="data.js"></script>
+<script>
+// State
+let currentDate = 'all';
+let currentProvince = 'all';
+
+// Get unique dates
+const dates = [...new Set(DATA.entries.map(e => e.date))].sort().reverse();
+const provinces = ['全部','国家级','上海','浙江','江苏','安徽','福建','江西','湖南'];
+
+// Render date picker
+const weekdays = ['日','一','二','三','四','五','六'];
+function renderDatePicker() {
+  const el = document.getElementById('dpList');
+  let html = `<div class="dp-item ${currentDate==='all'?'active':''}" onclick="pickDate('all')">全部日期</div>`;
+  dates.forEach(d => {
+    const dt = new Date(d);
+    const label = `${d}（周${weekdays[dt.getDay()]}）`;
+    const count = DATA.entries.filter(e => e.date === d).length;
+    html += `<div class="dp-item ${currentDate===d?'active':''}" onclick="pickDate('${d}')">
+      <span>${label} <span class="dp-weekday">${count}条</span></span>
+    </div>`;
+  });
+  el.innerHTML = html;
+  // Update button text
+  const btn = document.getElementById('dateBtnText');
+  if (currentDate === 'all') {
+    btn.textContent = '全部日期';
+  } else {
+    const dt = new Date(currentDate);
+    btn.textContent = `${currentDate.slice(5)}（周${weekdays[dt.getDay()]}）`;
+  }
+}
+function toggleDatePicker() {
+  const mask = document.getElementById('datePickerMask');
+  const picker = document.getElementById('datePicker');
+  const btn = document.getElementById('dateBtn');
+  const isOpen = picker.classList.contains('show');
+  if (isOpen) { closeDatePicker(); } else {
+    mask.classList.add('show');
+    picker.classList.add('show');
+    btn.classList.add('open');
+  }
+}
+function closeDatePicker() {
+  document.getElementById('datePickerMask').classList.remove('show');
+  document.getElementById('datePicker').classList.remove('show');
+  document.getElementById('dateBtn').classList.remove('open');
+}
+function pickDate(d) {
+  currentDate = d;
+  closeDatePicker();
+  renderAll();
+}
+
+// Render province filters
+function renderFilters() {
+  const el = document.getElementById('provinceFilters');
+  el.innerHTML = provinces.map(p => 
+    `<div class="chip ${currentProvince===(p==='全部'?'all':p)?'active':''}" 
+      onclick="setProvince('${p==='全部'?'all':p}')">${p}</div>`
+  ).join('');
+}
+
+// Get filtered entries
+function getFiltered() {
+  return DATA.entries.filter(e => {
+    if (currentDate !== 'all' && e.date !== currentDate) return false;
+    if (currentProvince !== 'all' && e.province !== currentProvince) return false;
+    return true;
+  });
+}
+
+// Render stats
+function renderStats() {
+  const entries = getFiltered();
+  const high = entries.filter(e => e.impact === '高').length;
+  const mid = entries.filter(e => e.impact === '中').length;
+  const newCount = entries.filter(e => e.isNew).length;
+  const el = document.getElementById('statsBar');
+  el.innerHTML = `
+    <div class="stat-item"><div class="num">${entries.length}</div><div class="label">总条目</div></div>
+    <div class="stat-item"><div class="num" style="color:var(--red)">${high}</div><div class="label">高影响</div></div>
+    <div class="stat-item"><div class="num" style="color:var(--orange)">${mid}</div><div class="label">中影响</div></div>
+    <div class="stat-item"><div class="num" style="color:#1565C0">${newCount}</div><div class="label">新发现</div></div>
+  `;
+}
+
+// Render policy cards
+function renderPolicies() {
+  const entries = getFiltered();
+  const el = document.getElementById('policyList');
+  if (!entries.length) { el.innerHTML = '<div class="empty">暂无符合条件的政策</div>'; return; }
+
+  // Group by category
+  const groups = {};
+  entries.forEach(e => {
+    if (!groups[e.category]) groups[e.category] = [];
+    groups[e.category].push(e);
+  });
+
+  const categoryOrder = ['行业监管','人工智能','数据安全','数字经济','人事变动','平台经济'];
+  const categoryIcons = {'行业监管':'🔒','人工智能':'🤖','数据安全':'🛡️','数字经济':'💹','人事变动':'👤','平台经济':'📱'};
+
+  let html = '';
+  categoryOrder.forEach(cat => {
+    const items = groups[cat];
+    if (!items) return;
+    html += `<div class="section-title">${categoryIcons[cat]||'📋'} ${cat} <span class="badge">${items.length}</span></div>`;
+    items.sort((a,b) => {
+      const imp = {'高':0,'中':1,'低':2};
+      return (imp[a.impact]||3) - (imp[b.impact]||3);
+    });
+    items.forEach(e => {
+      const cardClass = e.isTop ? 'top-card' : e.isNew ? 'new-card' : '';
+      const impactTag = `<span class="tag tag-${e.impact==='高'?'high':e.impact==='中'?'mid':'low'}">${e.impact}影响</span>`;
+      const newTag = e.isNew ? '<span class="tag tag-new">🆕</span>' : '';
+      const provTag = e.province !== '国家级' ? `<span class="tag tag-province">${e.province}</span>` : '';
+      html += `
+        <div class="card ${cardClass}">
+          <div class="card-head">
+            <div class="card-title">${e.title}</div>
+            <div class="card-tags">${newTag}${impactTag}${provTag}</div>
+          </div>
+          <div class="card-body">${e.summary}</div>
+          <div class="card-meta">
+            <span>📌 ${e.source}</span>
+            <span>📅 ${e.publishDate}</span>
+            <span>📊 ${e.status}</span>
+          </div>
+          ${e.action ? `<div class="card-action">💡 ${e.action}</div>` : ''}
+          ${e.url ? `<a class="card-link" href="${e.url}" target="_blank">🔗 查看原文 →</a>` : ''}
+        </div>`;
+    });
+  });
+  el.innerHTML = html;
+}
+
+// Render alerts
+function renderAlerts() {
+  const el = document.getElementById('alertList');
+  let html = '<div class="section-title">⚠️ 预警提示</div><div class="alert-list">';
+  DATA.alerts.forEach(a => {
+    const cls = a.level.includes('一级')?'l1':a.level.includes('二级')?'l2':'l3';
+    html += `
+      <div class="alert-item">
+        <div class="alert-level ${cls}">${a.level}</div>
+        <div class="alert-content">
+          <div class="a-title">${a.item}</div>
+          <div class="a-desc">${a.assessment}</div>
+        </div>
+      </div>`;
+  });
+  html += '</div>';
+  el.innerHTML = html;
+}
+
+// Render competitors
+function renderCompetitors() {
+  const el = document.getElementById('compList');
+  let html = '<div class="section-title">🏢 友商动态</div>';
+  DATA.competitors.forEach(c => {
+    html += `
+      <div class="comp-card">
+        <div class="comp-name">${c.name}</div>
+        <div class="comp-text">${c.update}</div>
+      </div>`;
+  });
+  el.innerHTML = html;
+}
+
+// Render events
+function renderEvents() {
+  const el = document.getElementById('eventList');
+  let html = '<div class="section-title">📅 区域活动</div>';
+  DATA.events.forEach(e => {
+    const parts = e.time.split(/[\s\/]/);
+    html += `
+      <div class="event-item">
+        <div class="event-date">
+          <div class="day">${parts[0]}</div>
+          <div class="month">${e.location}</div>
+        </div>
+        <div class="event-info">
+          <div class="e-name">${e.name}</div>
+          <div class="e-loc">📍 ${e.location} · ${e.time}</div>
+          <div class="e-note">${e.note}</div>
+        </div>
+      </div>`;
+  });
+  el.innerHTML = html;
+}
+
+// Render personnel
+function renderPersonnel() {
+  const el = document.getElementById('personnelList');
+  const items = DATA.personnel || [];
+  const filtered = items.filter(p => {
+    if (currentDate !== 'all' && p.date !== currentDate) return false;
+    if (currentProvince !== 'all' && p.province !== currentProvince) return false;
+    return true;
+  });
+  if (!filtered.length) { el.innerHTML = '<div class="empty">暂无符合条件的人事变动</div>'; return; }
+
+  let html = '<div class="section-title">👤 人事变动 <span class="badge">' + filtered.length + '批</span></div>';
+  filtered.forEach(p => {
+    const apptCount = p.appointments ? p.appointments.length : 0;
+    const rmvCount = p.removals ? p.removals.length : 0;
+    html += `
+      <div class="personnel-block">
+        <div class="personnel-header">
+          <div class="p-title">${p.title}</div>
+          <div class="p-meta"><span>📍 ${p.province}</span><span>📅 ${p.date}</span><span>任命${apptCount}人 · 免职${rmvCount}人</span></div>
+        </div>`;
+    if (apptCount > 0) {
+      html += `
+        <div class="p-section">
+          <div class="p-section-title">✅ 任命 <span class="p-count">${apptCount}</span></div>
+          <table class="p-table">
+            <tr><th>姓名</th><th>新职务</th><th>备注</th></tr>`;
+      p.appointments.forEach(a => {
+        html += `<tr><td>${a.name}</td><td>${a.newRole}</td><td><span class="note">${a.note||''}</span></td></tr>`;
+      });
+      html += '</table></div>';
+    }
+    if (rmvCount > 0) {
+      html += `
+        <div class="p-section">
+          <div class="p-section-title">❌ 免职 <span class="p-count">${rmvCount}</span></div>
+          <table class="p-table">
+            <tr><th>姓名</th><th>原职务</th></tr>`;
+      p.removals.forEach(r => {
+        html += `<tr><td>${r.name}</td><td>${r.oldRole}</td></tr>`;
+      });
+      html += '</table></div>';
+    }
+    if (p.url) { html += `<a class="p-link" href="${p.url}" target="_blank">🔗 查看原文 →</a>`; }
+    html += '</div>';
+  });
+  el.innerHTML = html;
+}
+
+// Actions
+function setProvince(p) { currentProvince = p; renderAll(); }
+function switchTab(el) {
+  document.querySelectorAll('.tab-item').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  el.classList.add('active');
+  document.getElementById(el.dataset.panel).classList.add('active');
+}
+function renderAll() {
+  renderDatePicker();
+  renderFilters();
+  renderStats();
+  renderPolicies();
+  renderAlerts();
+  renderPersonnel();
+  renderCompetitors();
+  renderEvents();
+}
+
+// Init
+renderAll();
+</script>
+</body>
+</html>
