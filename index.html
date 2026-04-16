@@ -73,7 +73,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro SC","PingFang SC","Hel
 
 /* Alert Table */
 .alert-list{margin-bottom:10px}
-.alert-item{display:flex;align-items:flex-start;gap:10px;padding:10px 14px;background:#fff;border-radius:10px;margin-bottom:6px;border:1px solid var(--border)}
+.alert-item{display:flex;align-items:flex-start;gap:10px;padding:10px 14px;background:#fff;border-radius:10px;margin-bottom:6px;border:1px solid var(--border);cursor:pointer;transition:.15s}
+.alert-item:active{background:#F5F7FA;transform:scale(.99)}
 .alert-level{flex-shrink:0;font-size:11px;font-weight:700;padding:3px 8px;border-radius:6px;white-space:nowrap}
 .alert-level.l1{background:#FEE;color:var(--red)}
 .alert-level.l2{background:#FFF3E0;color:var(--orange)}
@@ -81,6 +82,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro SC","PingFang SC","Hel
 .alert-content{flex:1}
 .alert-content .a-title{font-size:13px;font-weight:600}
 .alert-content .a-desc{font-size:11px;color:var(--gray);margin-top:2px}
+.alert-content .a-arrow{font-size:10px;color:var(--blue);margin-top:3px;opacity:.5}
+
+/* Highlight animation */
+@keyframes highlightPulse{0%{box-shadow:0 0 0 0 rgba(31,78,121,.4)}50%{box-shadow:0 0 0 8px rgba(31,78,121,.1)}100%{box-shadow:0 0 0 0 rgba(31,78,121,0)}}
+.card.highlight,.personnel-block.highlight,.comp-card.highlight{animation:highlightPulse .8s ease 2;border-color:var(--blue)}
 
 /* Competitor */
 .comp-card{background:#fff;border-radius:10px;padding:12px;margin-bottom:8px;border:1px solid var(--border)}
@@ -370,7 +376,7 @@ function renderPolicies() {
       const newTag = e.isNew ? '<span class="tag tag-new">🆕</span>' : '';
       const provTag = e.province !== '国家级' ? `<span class="tag tag-province">${e.province}</span>` : '';
       html += `
-        <div class="card ${cardClass}">
+        <div class="card ${cardClass}" data-id="${e.id}">
           <div class="card-head">
             <div class="card-title">${e.title}</div>
             <div class="card-tags">${newTag}${impactTag}${provTag}</div>
@@ -391,21 +397,72 @@ function renderPolicies() {
 
 // Render alerts
 function renderAlerts() {
-  const el = document.getElementById('alertList');
-  let html = '<div class="section-title">⚠️ 预警提示</div><div class="alert-list">';
-  DATA.alerts.forEach(a => {
-    const cls = a.level.includes('一级')?'l1':a.level.includes('二级')?'l2':'l3';
-    html += `
-      <div class="alert-item">
-        <div class="alert-level ${cls}">${a.level}</div>
-        <div class="alert-content">
-          <div class="a-title">${a.item}</div>
-          <div class="a-desc">${a.assessment}</div>
-        </div>
-      </div>`;
+  var el = document.getElementById('alertList');
+  var html = '<div class="section-title">\u26A0\uFE0F 预警提示</div><div class="alert-list">';
+  DATA.alerts.forEach(function(a, i) {
+    var cls = a.level.indexOf('\u4E00\u7EA7') >= 0 ? 'l1' : a.level.indexOf('\u4E8C\u7EA7') >= 0 ? 'l2' : 'l3';
+    var daysTag = a.days ? '<span style="margin-left:6px;font-size:10px;color:var(--orange)">' + a.days + '</span>' : '';
+    html += '<div class="alert-item" onclick="alertJump(' + i + ')">' +
+      '<div class="alert-level ' + cls + '">' + a.level + '</div>' +
+      '<div class="alert-content">' +
+        '<div class="a-title">' + a.item + daysTag + '</div>' +
+        '<div class="a-desc">' + a.assessment + '</div>' +
+        '<div class="a-arrow">\u70B9\u51FB\u67E5\u770B\u8BE6\u60C5 \u2192</div>' +
+      '</div></div>';
   });
   html += '</div>';
   el.innerHTML = html;
+}
+
+// Alert jump to related content
+function alertJump(idx) {
+  var a = DATA.alerts[idx];
+  if (!a || !a.linkType) return;
+
+  if (a.linkType === 'url') {
+    window.open(a.linkTarget, '_blank');
+    return;
+  }
+
+  // Switch to target tab
+  var tabMap = {policy:'panelPolicy', personnel:'panelPersonnel', competitor:'panelCompetitor'};
+  var targetPanel = tabMap[a.linkType];
+  if (!targetPanel) return;
+
+  // Reset filters to show all
+  currentDate = 'all';
+  currentProvince = 'all';
+  renderAll();
+
+  // Activate tab
+  document.querySelectorAll('.tab-item').forEach(function(t) { t.classList.remove('active'); });
+  document.querySelectorAll('.panel').forEach(function(p) { p.classList.remove('active'); });
+  var tabEl = document.querySelector('[data-panel="' + targetPanel + '"]');
+  if (tabEl) tabEl.classList.add('active');
+  var panelEl = document.getElementById(targetPanel);
+  if (panelEl) panelEl.classList.add('active');
+
+  // Find and highlight target element
+  setTimeout(function() {
+    var target = null;
+    if (a.linkType === 'policy') {
+      // Find card by entry id
+      var cards = document.querySelectorAll('.card');
+      cards.forEach(function(c) { if (c.getAttribute('data-id') === a.linkTarget) target = c; });
+    } else if (a.linkType === 'personnel') {
+      // Find personnel block by province
+      var blocks = document.querySelectorAll('.personnel-block');
+      blocks.forEach(function(b) { if (b.getAttribute('data-province') === a.linkTarget) target = b; });
+    } else if (a.linkType === 'competitor') {
+      var comps = document.querySelectorAll('.comp-card');
+      comps.forEach(function(c) { if (c.getAttribute('data-name') === a.linkTarget) target = c; });
+    }
+    if (target) {
+      target.scrollIntoView({behavior:'smooth', block:'center'});
+      target.classList.add('highlight');
+      setTimeout(function() { target.classList.remove('highlight'); }, 2000);
+    }
+  }, 100);
 }
 
 // Render competitors
@@ -414,7 +471,7 @@ function renderCompetitors() {
   let html = '<div class="section-title">🏢 友商动态</div>';
   DATA.competitors.forEach(c => {
     html += `
-      <div class="comp-card">
+      <div class="comp-card" data-name="${c.name}">
         <div class="comp-name">${c.name}</div>
         <div class="comp-text">${c.update}</div>
       </div>`;
@@ -460,7 +517,7 @@ function renderPersonnel() {
     const apptCount = p.appointments ? p.appointments.length : 0;
     const rmvCount = p.removals ? p.removals.length : 0;
     html += `
-      <div class="personnel-block">
+      <div class="personnel-block" data-province="${p.province}">
         <div class="personnel-header">
           <div class="p-title">${p.title}</div>
           <div class="p-meta"><span>📍 ${p.province}</span><span>📅 ${p.date}</span><span>任命${apptCount}人 · 免职${rmvCount}人</span></div>

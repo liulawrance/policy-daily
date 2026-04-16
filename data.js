@@ -23,17 +23,17 @@ var DATA = {
     {id:"0415-004",date:"2026-04-15",title:"浙江省《人工智能标准化建设指南（2026版）》",source:"浙江省市场监管局等",province:"浙江",category:"人工智能",impact:"中",status:"已印发",summary:"浙江首个AI标准化制度文件，围绕大模型、算力、数据标注、安全伦理等领域构建标准体系。",action:"腾讯应争取参与核心标准起草。",url:"https://jxt.zj.gov.cn/col/col1229886900/art/2026/art_b0077153c3f548e88bcffea94afb74be.html",publishDate:"2026-04-15",isNew:false,isTop:false}
   ],
   alerts: [
-    {level:"一级紧急",item:"《数字虚拟人管理办法》征求意见中",assessment:"虚拟人业务需立即关注并参与反馈",days:""},
-    {level:"一级紧急",item:"AI科技伦理审查办法印发，所有AI产品需纳入审查",assessment:"混元、元宝、ima等需建立内部伦理审查机制",days:""},
-    {level:"一级紧急",item:"网络直播打赏11条新规合规整改窗口期",assessment:"视频号直播等需全面整改",days:"持续跟踪"},
-    {level:"一级紧急",item:"AI拟人化互动服务管理办法7月15日施行",assessment:"AI助手/虚拟角色/NPC等需完成合规评估",days:"倒计时90天"},
-    {level:"二级重要",item:"福建AI园区补助 + 数字中国峰会4.29-30福州",assessment:"参展和BD对接机会",days:"倒计时13天"},
-    {level:"二级重要",item:"安徽AI政策兑现申报（5月5日截止）",assessment:"算力补贴等市场机会",days:"倒计时19天"},
-    {level:"二级重要",item:"《小型个人信息处理者保护简化措施》征求意见中",assessment:"中小开发者合规环境改善",days:""},
-    {level:"二级重要",item:"GPT-6发布，全球AI竞争加剧",assessment:"混元3.0发布节奏和市场定位需评估",days:""},
-    {level:"三级关注",item:"江苏省数据局局长易人（刘世虎）",assessment:"关注数据要素流通政策方向",days:""},
-    {level:"三级关注",item:"湖南省十五五规划纲要印发",assessment:"政务AI平台和智慧城市机会",days:""},
-    {level:"三级关注",item:"江西数智化补贴最高3000万",assessment:"工业互联网市场机会",days:""}
+    {level:"一级紧急",item:"《数字虚拟人管理办法》征求意见中",assessment:"虚拟人业务需立即关注并参与反馈",days:"",linkType:"policy",linkTarget:"0416-001"},
+    {level:"一级紧急",item:"AI科技伦理审查办法印发，所有AI产品需纳入审查",assessment:"混元、元宝、ima等需建立内部伦理审查机制",days:"",linkType:"policy",linkTarget:"0416-002"},
+    {level:"一级紧急",item:"网络直播打赏11条新规合规整改窗口期",assessment:"视频号直播等需全面整改",days:"持续跟踪",linkType:"url",linkTarget:"https://www.cac.gov.cn/2026-04/13/c_1777815804150225.htm"},
+    {level:"一级紧急",item:"AI拟人化互动服务管理办法7月15日施行",assessment:"AI助手/虚拟角色/NPC等需完成合规评估",days:"倒计时90天",linkType:"url",linkTarget:"https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm"},
+    {level:"二级重要",item:"福建AI园区补助 + 数字中国峰会4.29-30福州",assessment:"参展和BD对接机会",days:"倒计时13天",linkType:"policy",linkTarget:"0416-004"},
+    {level:"二级重要",item:"安徽AI政策兑现申报（5月5日截止）",assessment:"算力补贴等市场机会",days:"倒计时19天",linkType:"policy",linkTarget:"0416-006"},
+    {level:"二级重要",item:"《小型个人信息处理者保护简化措施》征求意见中",assessment:"中小开发者合规环境改善",days:"",linkType:"policy",linkTarget:"0416-003"},
+    {level:"二级重要",item:"GPT-6发布，全球AI竞争加剧",assessment:"混元3.0发布节奏和市场定位需评估",days:"",linkType:"competitor",linkTarget:"OpenAI"},
+    {level:"三级关注",item:"江苏省数据局局长易人（刘世虎）",assessment:"关注数据要素流通政策方向",days:"",linkType:"personnel",linkTarget:"江苏"},
+    {level:"三级关注",item:"湖南省十五五规划纲要印发",assessment:"政务AI平台和智慧城市机会",days:"",linkType:"policy",linkTarget:"0415-002"},
+    {level:"三级关注",item:"江西数智化补贴最高3000万",assessment:"工业互联网市场机会",days:"",linkType:"policy",linkTarget:"0416-008"}
   ],
   competitors: [
     {name:"腾讯",date:"2026-04-15",update:"混元3.0确认4月发布，由姚顺雨主导研发，激活参数大幅降低，复杂推理和Agent能力显著提升。腾讯云已结束GLM 5等第三方模型免费公测，混元HY2.0定价上调。"},
