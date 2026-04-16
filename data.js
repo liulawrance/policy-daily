@@ -2,29 +2,25 @@ var DATA = {
   meta: {
     title: "华东区域政策日报",
     scope: "江苏、浙江、上海、安徽、福建、江西、湖南（六省一市）",
-    version: "v2.3"
+    version: "v2.5"
   },
   entries: [
-    // ============ 2026-04-16 当日新增（发布日期4月15-16日）============
+    // ============ 2026-04-16 ============
     {id:"0416-001",date:"2026-04-16",title:"《数字虚拟人信息服务管理办法》公开征求意见",source:"国家网信办",province:"国家级",category:"行业监管",impact:"高",status:"征求意见中",summary:"对数字虚拟人的开发、运营和服务提出监管要求。与《AI拟人化办法》共同构成虚拟人/数字人监管双轨体系。",action:"腾讯虚拟人业务线需立即关注并参与意见反馈。",url:"https://www.cac.gov.cn/2026-04/03/c_1776952992709096.htm",publishDate:"2026-04-16",isNew:true,isTop:true},
     {id:"0416-002",date:"2026-04-16",title:"十部门《人工智能科技伦理审查与服务办法（试行）》",source:"工信部等十部门",province:"国家级",category:"行业监管",impact:"高",status:"已印发",summary:"对AI伦理审查的适用范围、实施主体、工作程序、监督管理作出规定。标志我国AI伦理治理从原则倡导迈向制度化。",action:"混元、元宝、ima等AI产品需尽快建立内部伦理审查机制。",url:"https://www.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_2995f16b28504ddcbb604e918eb15759.html",publishDate:"2026-04-16",isNew:true,isTop:true},
     {id:"0416-003",date:"2026-04-16",title:"《小型个人信息处理者保护简化措施规定》征求意见",source:"国家网信办",province:"国家级",category:"数据安全",impact:"中",status:"征求意见中",summary:"简化小型个人信息处理者的合规要求，降低中小企业数据合规成本。",action:"对腾讯生态内中小开发者合规环境有积极影响。",url:"https://www.cac.gov.cn/2026-04/03/c_1776865011603509.htm",publishDate:"2026-04-16",isNew:true,isTop:false},
     {id:"0416-004",date:"2026-04-16",title:"福建省财政专项补助AI产业园区",source:"福建省财政厅",province:"福建",category:"人工智能",impact:"中",status:"已发布",summary:"对福州、泉州两个省级AI产业园区下达专项补助资金。力争三年内每园招引落地30家AI企业，扶持开发50+智能体或智能终端产品。",action:"园区招商和场景合作是腾讯云的潜在机会。",url:"https://fjnews.fjsen.com/2026-04/15/content_32169768.htm",publishDate:"2026-04-15",isNew:true,isTop:false},
-    {id:"0416-005",date:"2026-04-16",title:"静安区《AI创新应用示范区三年行动方案（2026-2028）》",source:"静安区发改委、科经委",province:"上海",category:"人工智能",impact:"中",status:"已印发",summary:"到2028年形成50+AI示范应用项目，每年培育10+智能体或垂类模型标杆项目。",action:"智能体和AIGC方向有直接对接机会。",url:"",publishDate:"2026-04-16",isNew:true,isTop:false},
+    {id:"0416-005",date:"2026-04-16",title:"静安区《AI创新应用示范区三年行动方案（2026-2028）》",source:"静安区发改委、科经委",province:"上海",category:"人工智能",impact:"中",status:"已印发",summary:"到2028年形成50+AI示范应用项目，每年培育10+智能体或垂类模型标杆项目。",action:"智能体和AIGC方向有直接对接机会。",url:"https://www.nbd.com.cn/articles/2026-04-15/4340692.html",publishDate:"2026-04-16",isNew:true,isTop:false},
     {id:"0416-006",date:"2026-04-16",title:"安徽省AI产业高地2.0版政策兑现申报",source:"安徽省科技厅",province:"安徽",category:"人工智能",impact:"中",status:"申报中（截止5月5日）",summary:"涵盖场景创新、垂类模型标杆、算力成本补贴（免申即享）、大赛成果转化奖励五大方向。",action:"腾讯云在皖算力服务可借助补贴政策降低客户成本。",url:"https://kjt.ah.gov.cn/kjzx/tzgg/123335561.html",publishDate:"2026-04-16",isNew:true,isTop:false},
     {id:"0416-007",date:"2026-04-16",title:"福建省政府领导成员工作分工通知",source:"福建省人民政府",province:"福建",category:"数字经济",impact:"低",status:"已发布",summary:"新一届领导班子分工明确。关注分管科技、数据、工信领域的副省长人选。",action:"关注分管数字经济的领导变化。",url:"https://www.fujian.gov.cn/zwgk/zxwj/szfwj/202604/t20260409_7120893.htm",publishDate:"2026-04-16",isNew:true,isTop:false},
     {id:"0416-008",date:"2026-04-16",title:"江西制造业数智化转型补贴最高3000万元",source:"江西省工信厅、财政厅",province:"江西",category:"数字经济",impact:"低",status:"已印发",summary:"《支持深化制造业数智化转型若干措施》已出台，单个项目补贴最高3000万元。已完成入企诊断1.8万家。",action:"制造业数字化转型市场机会。",url:"https://jxfzb.jxnews.com.cn/system/2026/04/09/031099494.shtml",publishDate:"2026-04-16",isNew:true,isTop:false},
-    {id:"0416-009",date:"2026-04-16",title:"江苏省政府大规模人事调整（11人任命、12人免职）",source:"江苏省人民政府",province:"江苏",category:"人事变动",impact:"中",status:"已发布",summary:"重点：刘世虎任省数据局局长，邱志强任省政府办公厅主任，赵庆红任省政府副秘书长（正厅级）。另有4月10日省管干部公示。",action:"新任数据局局长刘世虎的数据要素流通政策取向值得关注。",url:"https://finance.sina.com.cn/jjxw/2026-04-08/doc-inhtucsf6525763.shtml",publishDate:"2026-04-16",isNew:true,isTop:false},
-    {id:"0416-010",date:"2026-04-16",title:"福建省政府人事任免（15条通知完整版）",source:"福建省人民政府",province:"福建",category:"人事变动",impact:"低",status:"已发布",summary:"4月1日集中发布14条+4月3日1条。涉及郝超、孙雄鹏职务任免，李伟、方志坚、蔡晃任职，吴伟平、刘德培等6人免职。",action:"",url:"https://www.fujian.gov.cn/zwgk/rsxx/rsrm/",publishDate:"2026-04-16",isNew:true,isTop:false},
-    {id:"0416-011",date:"2026-04-16",title:"工信部《2026年工业和信息化质量工作通知》",source:"工信部办公厅",province:"国家级",category:"人工智能",impact:"低",status:"已印发",summary:"深化AI赋能质量提升，组织编制'AI+质量'应用全景图和转型路线图。",action:"主要影响制造业领域。",url:"",publishDate:"2026-04-16",isNew:false,isTop:false},
+    {id:"0416-009",date:"2026-04-16",title:"工信部《2026年工业和信息化质量工作通知》",source:"工信部办公厅",province:"国家级",category:"数字经济",impact:"低",status:"已印发",summary:"深化AI赋能质量提升，组织编制'AI+质量'应用全景图和转型路线图。",action:"主要影响制造业领域。",url:"https://www.nbd.com.cn/articles/2026-04-15/4340692.html",publishDate:"2026-04-16",isNew:false,isTop:false},
 
-    // ============ 2026-04-15 当日新增（发布日期4月14-15日）============
+    // ============ 2026-04-15 ============
     {id:"0415-001",date:"2026-04-15",title:"教育部等五部门《人工智能+教育行动计划》",source:"教育部等五部门",province:"国家级",category:"人工智能",impact:"中",status:"已印发",summary:"推动AI人才培养与素养提升，促进AI与教育深度融合。涉及智能教学平台、教育数据治理。文号：教科信〔2026〕1号。",action:"关注腾讯教育、腾讯云智慧教育与该计划的对接机会。",url:"https://www.moe.gov.cn/srcsite/A16/s3342/202604/t20260410_1433240.html",publishDate:"2026-04-15",isNew:false,isTop:true},
     {id:"0415-002",date:"2026-04-15",title:"湖南省十五五规划纲要正式印发",source:"湖南省人民政府",province:"湖南",category:"数字经济",impact:"中",status:"已印发",summary:"锚定'三高四新'战略定位，提出建设数字湖南。大力发展AI、量子科技等未来产业，建设政务AI大模型统一服务平台。",action:"政务AI平台、智慧城市建设与腾讯云政企业务直接相关。",url:"https://www.hunan.gov.cn/hnszf/xxgk/wjk/szfwj/",publishDate:"2026-04-15",isNew:false,isTop:true},
-    {id:"0415-003",date:"2026-04-15",title:"'数安中国行'系列宣讲会密集推进",source:"国家网信办",province:"国家级",category:"数据安全",impact:"中",status:"巡回中",summary:"上海站（4月10日）约350人参会，广东站（4月14日）在广州同步推进。重点解读数据出境安全管理制度。",action:"关注数据出境管理新要求对腾讯数据安全产品线的市场机会。",url:"",publishDate:"2026-04-15",isNew:false,isTop:false},
-    {id:"0415-004",date:"2026-04-15",title:"浙江省《人工智能标准化建设指南（2026版）》",source:"浙江省市场监管局等",province:"浙江",category:"人工智能",impact:"中",status:"已印发",summary:"浙江首个AI标准化制度文件，围绕大模型、算力、数据标注、安全伦理等领域构建标准体系。",action:"腾讯应争取参与核心标准起草。",url:"",publishDate:"2026-04-15",isNew:false,isTop:false},
-    {id:"0415-005",date:"2026-04-15",title:"GPT-6正式发布，全球AI竞争格局重塑",source:"OpenAI",province:"国家级",category:"人工智能",impact:"中",status:"已发布",summary:"4月14日全球发布GPT-6（代号Spud），性能暴涨40%，支持200万Token上下文，采用全新Symphony架构。",action:"关注GPT-6对腾讯混元3.0发布节奏的影响。",url:"",publishDate:"2026-04-14",isNew:false,isTop:false},
-    {id:"0415-006",date:"2026-04-15",title:"国务院4月2日人事任免（补录）",source:"国务院",province:"国家级",category:"人事变动",impact:"低",status:"已发布",summary:"常军红任财政部部长助理（女），雷小武任国家统计局副局长，汪剑波任国家能源局副局长，姚来英任国家烟草专卖局局长。",action:"",url:"https://www.news.cn/politics/20260414/ecdad08298fe4317a0acc3e80ed29777/c.html",publishDate:"2026-04-15",isNew:false,isTop:false}
+    {id:"0415-003",date:"2026-04-15",title:"'数安中国行'系列宣讲会密集推进",source:"国家网信办",province:"国家级",category:"数据安全",impact:"中",status:"巡回中",summary:"上海站（4月10日）约350人参会，广东站（4月14日）在广州同步推进。重点解读数据出境安全管理制度。",action:"关注数据出境管理新要求对腾讯数据安全产品线的市场机会。",url:"https://www.thepaper.cn/newsDetail_forward_31076451",publishDate:"2026-04-15",isNew:false,isTop:false},
+    {id:"0415-004",date:"2026-04-15",title:"浙江省《人工智能标准化建设指南（2026版）》",source:"浙江省市场监管局等",province:"浙江",category:"人工智能",impact:"中",status:"已印发",summary:"浙江首个AI标准化制度文件，围绕大模型、算力、数据标注、安全伦理等领域构建标准体系。",action:"腾讯应争取参与核心标准起草。",url:"https://jxt.zj.gov.cn/col/col1229886900/art/2026/art_b0077153c3f548e88bcffea94afb74be.html",publishDate:"2026-04-15",isNew:false,isTop:false}
   ],
   alerts: [
     {level:"一级紧急",item:"《数字虚拟人管理办法》征求意见中",assessment:"虚拟人业务需立即关注并参与反馈",days:""},
@@ -45,6 +41,7 @@ var DATA = {
     {name:"智谱AI",date:"2026-04-15",update:"4月8日发布GLM-5.1并开源，全球首个验证8小时持续自主工作能力的开源模型。2025年收入7.243亿元，同比增131.9%。"},
     {name:"字节跳动",date:"2026-04-15",update:"4月9日推出全双工语音大模型Seeduplex，已全量上线豆包App。即梦AI月内第三次涨价。豆包日均Token突破120万亿。"},
     {name:"DeepSeek",date:"2026-04-16",update:"V4模型确认4月下旬发布，万亿参数+百万上下文，完全运行于华为昇腾950PR芯片。聚焦AI编程能力突破。"},
+    {name:"OpenAI",date:"2026-04-15",update:"4月14日全球发布GPT-6（代号Spud），性能暴涨40%，支持200万Token上下文，采用全新Symphony架构。对国产模型形成新竞争压力。"},
     {name:"其他",date:"2026-04-16",update:"MiniMax一月内从2.5进化至2.7版；月之暗面预告Kimi K3将实现10倍性能提升；百度文心一言全面免费、6月30日开源。"}
   ],
   events: [
