@@ -514,6 +514,15 @@ function renderAll() {
 
 // Init
 renderAll();
+
+// 强制所有外部链接在新窗口打开（兼容微信/手机浏览器）
+document.addEventListener('click', function(e) {
+  var a = e.target.closest('a[href]');
+  if (a && a.href && a.href.indexOf('http') === 0 && a.href.indexOf(location.host) === -1) {
+    e.preventDefault();
+    window.open(a.href, '_blank');
+  }
+});
 </script>
 </body>
 </html>
