@@ -55,6 +55,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro SC","PingFang SC","Hel
 .card{background:var(--card);border-radius:var(--radius);padding:14px;margin-bottom:10px;border:1px solid var(--border);transition:.2s}
 .card.top-card{border-left:3px solid var(--red)}
 .card.new-card{border-left:3px solid var(--orange)}
+.card.backfill-card{border-left:3px dashed var(--gray)}
+.personnel-block.backfill{border-left:3px dashed var(--gray)}
 .card-head{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
 .card-title{font-size:14px;font-weight:600;line-height:1.5;flex:1}
 .card-tags{display:flex;gap:4px;flex-shrink:0;flex-wrap:wrap;justify-content:flex-end}
@@ -410,15 +412,16 @@ function renderPolicies() {
       return (imp[a.impact]||3) - (imp[b.impact]||3);
     });
     items.forEach(e => {
-      const cardClass = e.isTop ? 'top-card' : e.isNew ? 'new-card' : '';
+      const cardClass = e.isBackfill ? 'backfill-card' : e.isTop ? 'top-card' : e.isNew ? 'new-card' : '';
       const impactTag = `<span class="tag tag-${e.impact==='高'?'high':e.impact==='中'?'mid':'low'}">${e.impact}影响</span>`;
       const newTag = e.isNew ? '<span class="tag tag-new">🆕</span>' : '';
+      const backfillTag = e.isBackfill ? '<span class="tag tag-low">📌补录</span>' : '';
       const provTag = e.province !== '国家级' ? `<span class="tag tag-province">${e.province}</span>` : '';
       html += `
         <div class="card ${cardClass}" data-id="${e.id}">
           <div class="card-head">
             <div class="card-title">${e.title}</div>
-            <div class="card-tags">${newTag}${impactTag}${provTag}</div>
+            <div class="card-tags">${backfillTag}${newTag}${impactTag}${provTag}</div>
           </div>
           <div class="card-body">${e.summary}</div>
           <div class="card-meta">
@@ -581,10 +584,12 @@ function renderPersonnel() {
   filtered.forEach(p => {
     const apptCount = p.appointments ? p.appointments.length : 0;
     const rmvCount = p.removals ? p.removals.length : 0;
+    const bfClass = p.isBackfill ? ' backfill' : '';
+    const bfLabel = p.isBackfill ? ' <span style="font-size:10px;opacity:.7">📌补录</span>' : '';
     html += `
-      <div class="personnel-block" data-province="${p.province}">
+      <div class="personnel-block${bfClass}" data-province="${p.province}">
         <div class="personnel-header">
-          <div class="p-title">${p.title}</div>
+          <div class="p-title">${p.title}${bfLabel}</div>
           <div class="p-meta"><span>📍 ${p.province}</span><span>📅 ${p.date}</span><span>任命${apptCount}人 · 免职${rmvCount}人</span></div>
         </div>`;
     if (apptCount > 0) {
