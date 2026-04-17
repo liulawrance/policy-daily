@@ -222,7 +222,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro SC","PingFang SC","Hel
   </div>
   <div class="tab-item" data-panel="panelCompetitor" onclick="switchTab(this)">
     <div class="tab-icon">🏢</div>
-    <div class="tab-label">友商</div>
+    <div class="tab-label">行业</div>
   </div>
   <div class="tab-item" data-panel="panelEvent" onclick="switchTab(this)">
     <div class="tab-icon">📅</div>
@@ -468,7 +468,7 @@ function alertJump(idx) {
 // Render competitors
 function renderCompetitors() {
   const el = document.getElementById('compList');
-  let html = '<div class="section-title">🏢 友商动态</div>';
+  let html = '<div class="section-title">🏢 行业动态</div>';
   DATA.competitors.forEach(c => {
     html += `
       <div class="comp-card" data-name="${c.name}">
