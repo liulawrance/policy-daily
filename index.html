@@ -659,9 +659,9 @@ function renderDigest() {
       var urgentClass = item.priority === 0 ? ' urgent' : item.priority <= 1 ? ' important' : '';
       var onclick = '';
       if (item.type === 'alert') onclick = 'alertJump(' + item.idx + ')';
-      else if (item.type === 'policy') onclick = 'digestJump(\"policy\",\"' + item.id + '\")';
-      else if (item.type === 'personnel') onclick = 'digestJump(\"personnel\",\"\")';
-      else if (item.type === 'competitor') onclick = 'digestJump(\"competitor\",\"' + item.name + '\")';
+      else if (item.type === 'policy') onclick = "digestJump('policy','" + item.id + "')";
+      else if (item.type === 'personnel') onclick = "digestJump('personnel','')";
+      else if (item.type === 'competitor') onclick = "digestJump('competitor','" + (item.name || '') + "')";
 
       html += '<div class="digest-card' + urgentClass + '" onclick="' + onclick + '">' +
         '<span class="d-tag ' + item.tagClass + '">' + item.tag + '</span>' +
