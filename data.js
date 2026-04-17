@@ -82,16 +82,6 @@ var DATA = {
       ],
       removals:[]
     },
-    {date:"2026-04-17",province:"上海",title:"上海市政府任免卢山、董建华、刘健、顾军职务（3月底，4月10日公开）",url:"http://m.ce.cn/bwzg/202604/t20260410_2894662.shtml",
-      appointments:[
-        {name:"卢山",newRole:"上海虹桥国际中央商务区管委会主任",note:""},
-        {name:"刘健",newRole:"市政府副秘书长、长三角一体化示范区执委会主任",note:""}
-      ],
-      removals:[
-        {name:"董建华",oldRole:"市政府研究室主任"},
-        {name:"顾军",oldRole:"市政府副秘书长、长三角一体化示范区执委会主任"}
-      ]
-    },
     {date:"2026-04-17",province:"浙江",title:"浙江省政府人事任免（4月16日，2批通知）",url:"https://www.zj.gov.cn/col/col1229697843/index.html",
       appointments:[],
       removals:[
@@ -105,18 +95,6 @@ var DATA = {
       removals:[
         {name:"周其红",oldRole:"广德市委书记"}
       ]
-    },
-    {date:"2026-04-17",province:"湖南",title:"陈澎任张家界市代市长（4月10日人大常委会决定）",url:"https://www.163.com/dy/article/KQKV5UOU055040N3.html",
-      appointments:[
-        {name:"陈澎",newRole:"张家界市副市长、代市长",note:"此前任衡阳市委副书记"}
-      ],
-      removals:[]
-    },
-    {date:"2026-04-17",province:"江苏",title:"马明龙卸任镇江市委书记后任省政府参事",url:"https://news.qq.com/rain/a/20260415A075VG00",
-      appointments:[
-        {name:"马明龙",newRole:"江苏省政府参事",note:"此前任镇江市委书记（2026年3月卸任）"}
-      ],
-      removals:[]
     },
     {date:"2026-04-16",province:"福建",title:"福建省政府领导成员工作分工通知（4月9日发布）",url:"https://www.fujian.gov.cn/zwgk/zxwj/szfwj/202604/t20260409_7120893.htm",
       appointments:[],
