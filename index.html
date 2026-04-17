@@ -303,7 +303,11 @@ document.addEventListener('DOMContentLoaded', function() {
 <script>
 // State
 var today = new Date().toISOString().slice(0, 10);
-var dates = [...new Set(DATA.entries.map(e => e.date))].sort().reverse();
+var dates = [...new Set([
+  ...DATA.entries.map(e => e.date),
+  ...(DATA.personnel || []).map(p => p.date),
+  ...(DATA.competitors || []).map(c => c.date)
+])].sort().reverse();
 var provinces = ['全部','国家级','上海','浙江','江苏','安徽','福建','江西','湖南'];
 var currentDate = dates.indexOf(today) >= 0 ? today : dates[0];
 var currentProvince = 'all';

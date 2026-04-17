@@ -96,7 +96,7 @@ var DATA = {
         {name:"周其红",oldRole:"广德市委书记"}
       ]
     },
-    {date:"2026-04-17",province:"上海",title:"上海市政府任免卢山、刘健、顾军等（4月10日公开，补录）",url:"http://m.ce.cn/bwzg/202604/t20260410_2894662.shtml",isBackfill:true,
+    {date:"2026-04-10",province:"上海",title:"上海市政府任免卢山、刘健、顾军等（4月10日公开，补录）",url:"http://m.ce.cn/bwzg/202604/t20260410_2894662.shtml",isBackfill:true,
       appointments:[
         {name:"卢山",newRole:"上海虹桥国际中央商务区管委会主任",note:""},
         {name:"刘健",newRole:"市政府副秘书长、长三角一体化示范区执委会主任",note:""}
@@ -106,21 +106,17 @@ var DATA = {
         {name:"顾军",oldRole:"市政府副秘书长、长三角一体化示范区执委会主任"}
       ]
     },
-    {date:"2026-04-17",province:"湖南",title:"陈澎任张家界市代市长（4月10日决定，补录）",url:"https://www.163.com/dy/article/KQKV5UOU055040N3.html",isBackfill:true,
+    {date:"2026-04-10",province:"湖南",title:"陈澎任张家界市代市长（4月10日决定，补录）",url:"https://www.163.com/dy/article/KQKV5UOU055040N3.html",isBackfill:true,
       appointments:[
         {name:"陈澎",newRole:"张家界市副市长、代市长",note:"此前任衡阳市委副书记"}
       ],
       removals:[]
     },
-    {date:"2026-04-17",province:"江苏",title:"马明龙任省政府参事（4月15日见报，补录）",url:"https://news.qq.com/rain/a/20260415A075VG00",isBackfill:true,
+    {date:"2026-04-15",province:"江苏",title:"马明龙任省政府参事（4月15日见报，补录）",url:"https://news.qq.com/rain/a/20260415A075VG00",isBackfill:true,
       appointments:[
         {name:"马明龙",newRole:"江苏省政府参事",note:"此前任镇江市委书记（2026年3月卸任）"}
       ],
       removals:[]
-    },
-      removals:[
-        {name:"周其红",oldRole:"广德市委书记"}
-      ]
     },
     {date:"2026-04-16",province:"福建",title:"福建省政府领导成员工作分工通知（4月9日发布）",url:"https://www.fujian.gov.cn/zwgk/zxwj/szfwj/202604/t20260409_7120893.htm",
       appointments:[],
