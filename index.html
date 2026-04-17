@@ -116,6 +116,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro SC","PingFang SC","Hel
 .p-table td{font-size:12px;padding:6px 0;border-bottom:1px solid #F5F5F5;vertical-align:top}
 .p-table td:first-child{font-weight:600;width:70px;color:var(--blue)}
 .p-table .note{font-size:10px;color:var(--orange);margin-left:4px}
+.name-link{color:var(--blue);text-decoration:none;border-bottom:1px dashed var(--blue)}
+.name-link:active{opacity:.6}
 .p-link{display:inline-block;margin:8px 14px 12px;font-size:11px;color:var(--blue);text-decoration:none}
 
 /* Lock Screen */
@@ -529,7 +531,8 @@ function renderPersonnel() {
           <table class="p-table">
             <tr><th>姓名</th><th>新职务</th><th>备注</th></tr>`;
       p.appointments.forEach(a => {
-        html += `<tr><td>${a.name}</td><td>${a.newRole}</td><td><span class="note">${a.note||''}</span></td></tr>`;
+        var baikeLink = 'https://baike.baidu.com/item/' + encodeURIComponent(a.name);
+        html += `<tr><td><a href="${baikeLink}" target="_blank" class="name-link">${a.name}</a></td><td>${a.newRole}</td><td><span class="note">${a.note||''}</span></td></tr>`;
       });
       html += '</table></div>';
     }
@@ -540,7 +543,8 @@ function renderPersonnel() {
           <table class="p-table">
             <tr><th>姓名</th><th>原职务</th></tr>`;
       p.removals.forEach(r => {
-        html += `<tr><td>${r.name}</td><td>${r.oldRole}</td></tr>`;
+        var baikeLink = 'https://baike.baidu.com/item/' + encodeURIComponent(r.name);
+        html += `<tr><td><a href="${baikeLink}" target="_blank" class="name-link">${r.name}</a></td><td>${r.oldRole}</td></tr>`;
       });
       html += '</table></div>';
     }
