@@ -26,7 +26,16 @@ var DATA = {
     {id:"0415-001",date:"2026-04-15",title:"教育部等五部门《人工智能+教育行动计划》",source:"教育部等五部门",province:"国家级",category:"人工智能",impact:"中",status:"已印发",summary:"推动AI人才培养与素养提升，促进AI与教育深度融合。涉及智能教学平台、教育数据治理。文号：教科信〔2026〕1号。",action:"关注腾讯教育、腾讯云智慧教育与该计划的对接机会。",url:"https://www.moe.gov.cn/srcsite/A16/s3342/202604/t20260410_1433240.html",publishDate:"2026-04-15",isNew:false,isTop:true},
     {id:"0415-002",date:"2026-04-15",title:"湖南省十五五规划纲要正式印发",source:"湖南省人民政府",province:"湖南",category:"数字经济",impact:"中",status:"已印发",summary:"锚定'三高四新'战略定位，提出建设数字湖南。大力发展AI、量子科技等未来产业，建设政务AI大模型统一服务平台。",action:"政务AI平台、智慧城市建设与腾讯云政企业务直接相关。",url:"https://www.hunan.gov.cn/hnszf/xxgk/wjk/szfwj/",publishDate:"2026-04-15",isNew:false,isTop:true},
     {id:"0415-003",date:"2026-04-15",title:"'数安中国行'系列宣讲会密集推进",source:"国家网信办",province:"国家级",category:"数据安全",impact:"中",status:"巡回中",summary:"上海站（4月10日）约350人参会，广东站（4月14日）在广州同步推进。重点解读数据出境安全管理制度。",action:"关注数据出境管理新要求对腾讯数据安全产品线的市场机会。",url:"https://www.thepaper.cn/newsDetail_forward_31076451",publishDate:"2026-04-15",isNew:false,isTop:false},
-    {id:"0415-004",date:"2026-04-15",title:"浙江省《人工智能标准化建设指南（2026版）》",source:"浙江省市场监管局等",province:"浙江",category:"人工智能",impact:"中",status:"已印发",summary:"浙江首个AI标准化制度文件，围绕大模型、算力、数据标注、安全伦理等领域构建标准体系。",action:"腾讯应争取参与核心标准起草。",url:"https://jxt.zj.gov.cn/col/col1229886900/art/2026/art_b0077153c3f548e88bcffea94afb74be.html",publishDate:"2026-04-15",isNew:false,isTop:false}
+    {id:"0415-004",date:"2026-04-15",title:"浙江省《人工智能标准化建设指南（2026版）》",source:"浙江省市场监管局等",province:"浙江",category:"人工智能",impact:"中",status:"已印发",summary:"浙江首个AI标准化制度文件，围绕大模型、算力、数据标注、安全伦理等领域构建标准体系。",action:"腾讯应争取参与核心标准起草。",url:"https://jxt.zj.gov.cn/col/col1229886900/art/2026/art_b0077153c3f548e88bcffea94afb74be.html",publishDate:"2026-04-15",isNew:false,isTop:false},
+
+    // ============ 2026-04-14（补录） ============
+    {id:"0414-001",date:"2026-04-14",title:"中央网信办《关于加强网络直播打赏规范管理的通知》（11条新规）",source:"中央网信办",province:"国家级",category:"行业监管",impact:"高",status:"已发布",summary:"4月4日发布、4月13日公开。禁止向8岁以下未成年人提供打赏服务；8-16岁需监护人同意；强制打赏限额和提醒；禁止以打赏额排名；要求全额退还未成年人打赏。",action:"视频号直播、微信直播、QQ直播均需全面合规整改。",url:"https://www.cac.gov.cn/2026-04/13/c_1777815804150225.htm",publishDate:"2026-04-13",isNew:false,isTop:true,isBackfill:true},
+    {id:"0414-002",date:"2026-04-14",title:"五部门《AI拟人化互动服务管理暂行办法》（7月15日施行）",source:"网信办等五部门",province:"国家级",category:"行业监管",impact:"高",status:"7月15日施行",summary:"规范AI拟人化互动服务，涉及AI助手、虚拟角色、NPC等。要求提供者进行安全评估、标注AI生成内容、保护用户权益。",action:"混元AI助手、虚拟角色等需在7月15日前完成合规评估。",url:"https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm",publishDate:"2026-04-10",isNew:false,isTop:true,isBackfill:true},
+    {id:"0414-003",date:"2026-04-14",title:"国务院任免国家工作人员（4月14日）",source:"国务院",province:"国家级",category:"跨领域",impact:"中",status:"已发布",summary:"任命赵文芳为国家铁路局副局长。免去孙卫东外交部副部长、安路生国家铁路局副局长职务。",action:"外交部人事调整。",url:"https://www.news.cn/politics/20260414/ecdad08298fe4317a0acc3e80ed29777/c.html",publishDate:"2026-04-14",isNew:false,isTop:false,isBackfill:true},
+
+    // ============ 2026-04-12（补录） ============
+    {id:"0412-001",date:"2026-04-12",title:"《互联网平台价格行为规则》4月10日正式实施",source:"发改委/市场监管总局/网信办",province:"国家级",category:"平台经济",impact:"高",status:"已实施",summary:"共7章29条，规范平台补贴行为、遏制恶性价格竞争。三部门召开合规指导会，通报部分平台价格合规问题并要求立即整改。平台经济涉及数千万网络经营主体、9亿多消费者。",action:"法务与合规团队需对照7章29条自查，重点关注平台补贴、价格标示、促销合规。",url:"https://www.news.cn/politics/20260410/6a0a60a1d2484a30bc8d9270f1cddea8/c.html",publishDate:"2026-04-10",isNew:false,isTop:true,isBackfill:true},
+    {id:"0412-002",date:"2026-04-12",title:"上海市市场监管局《促进互联网平台广告规范健康发展指导意见》",source:"上海市市场监管局",province:"上海",category:"平台经济",impact:"中",status:"持续执行",summary:"20项重点任务，提升上海互联网平台广告规范化水平，助力建设国际数字广告之都。",action:"涉及腾讯在沪广告业务合规。",url:"https://scjgj.sh.gov.cn/207/20260109/2c984a729b92b990019ba06d36224232.html",publishDate:"2026-01-09",isNew:false,isTop:false,isBackfill:true}
   ],
   alerts: [
     {level:"一级紧急",item:"《数字虚拟人管理办法》征求意见中",assessment:"虚拟人业务需立即关注并参与反馈",days:"",linkType:"policy",linkTarget:"0416-001"},
@@ -94,6 +103,57 @@ var DATA = {
       ],
       removals:[
         {name:"周其红",oldRole:"广德市委书记"}
+      ]
+    },
+    {date:"2026-04-14",province:"国家级",title:"国务院任免国家工作人员（4月14日，补录）",url:"https://www.news.cn/politics/20260414/ecdad08298fe4317a0acc3e80ed29777/c.html",isBackfill:true,
+      appointments:[
+        {name:"赵文芳",newRole:"国家铁路局副局长",note:""}
+      ],
+      removals:[
+        {name:"孙卫东",oldRole:"外交部副部长"},
+        {name:"安路生",oldRole:"国家铁路局副局长"}
+      ]
+    },
+    {date:"2026-04-12",province:"国家级",title:"国务院任免国家工作人员（4月2日发布，4月12日首次录入，补录）",url:"https://www.gov.cn/yaowen/liebiao/202604/content_7064499.htm",isBackfill:true,
+      appointments:[
+        {name:"常军红",newRole:"财政部部长助理",note:"女",analysis:{
+          bio:"1970年2月生，女，汉族，博士研究生，中共党员。1995年进入财政部，历任世界银行司、国际司、对外财经交流办公室副主任、中国驻世界银行副执行董事、驻亚开行执行董事顾问、国际经济关系司副司长、国际财金合作司司长。",
+          leaderLink:"长期在财政部国际司系统工作，与财政部历任领导有直接汇报关系。财政部现任部长蓝佛安2022年到任。",
+          tencentLink:"主管国际财金合作领域，与腾讯业务直接交集有限。但财政部在数字经济税收、跨境数据、政府采购等政策制定中对腾讯有间接影响。",
+          impact:"中性 — 国际财金方向，与腾讯华东业务关联度低"
+        }},
+        {name:"雷小武",newRole:"国家统计局副局长",note:"",analysis:{
+          bio:"1970年4月生，男，汉族，研究生学历，管理学硕士。2022-2025年任国家统计局办公室主任，2025年任统计执法监督局局长（正厅级）。",
+          leaderLink:"长期在国家统计局系统工作。国家统计局现任局长康义，此前曾任天津市常务副市长。",
+          tencentLink:"分管统计执法监督，与腾讯业务直接交集有限。统计局在数字经济核算方面有间接影响。",
+          impact:"中性 — 统计系统内部晋升"
+        }},
+        {name:"汪剑波",newRole:"国家能源局副局长",note:"",analysis:{
+          bio:"1970年1月生，男，汉族，大学学历，高级工程师。1993年毕业于抚顺石油学院。长期在中石化、中海油工作，曾任中海油集团党组成员、副总经理，中共二十大代表。",
+          leaderLink:"央企领导转任，中共二十大代表身份显示政治资历。",
+          tencentLink:"能源领域与腾讯业务交集有限，腾讯云有智慧能源解决方案。",
+          impact:"中性 — 能源系统"
+        }},
+        {name:"姚来英",newRole:"国家烟草专卖局局长",note:"",analysis:{
+          bio:"1966年12月生，河北任丘人，经济学硕士。历任天津市河西区区长、南开区委书记、天津市副市长，2020年调任湖南省委常委、省纪委书记，2023年任国家税务总局副局长。",
+          leaderLink:"天津任副市长时（2017-2020）与李鸿忠有工作交集，湖南任省委常委时（2020-2023）与张庆伟共事。",
+          tencentLink:"天津是腾讯北方重要布局城市（腾讯天津数据中心），湖南是华东日报覆盖省份。烟草系统与腾讯交集较少。",
+          impact:"中性 — 此前在天津/湖南与腾讯有间接交集"
+        }}
+      ],
+      removals:[
+        {name:"赵增连",oldRole:"国家烟草专卖局局长"}
+      ]
+    },
+    {date:"2026-04-12",province:"江苏",title:"江苏省政府人事任免（4月8日公布，补录）",url:"https://finance.sina.com.cn/jjxw/2026-04-08/doc-inhtucsf6525763.shtml",isBackfill:true,
+      appointments:[
+        {name:"邱志强",newRole:"省政府办公厅主任兼参事室主任",note:""}
+      ],
+      removals:[
+        {name:"曹玉梅",oldRole:"省教育厅副厅长"},
+        {name:"孙林华",oldRole:"省自然资源厅副厅长（挂职）"},
+        {name:"周晓阳",oldRole:"省商务厅副厅长"},
+        {name:"李秀斌",oldRole:"省数据局副局长"}
       ]
     },
     {date:"2026-04-10",province:"上海",title:"上海市政府任免卢山、刘健、顾军等（4月10日公开，补录）",url:"http://m.ce.cn/bwzg/202604/t20260410_2894662.shtml",isBackfill:true,
@@ -168,35 +228,6 @@ var DATA = {
         {name:"陈旺玉、何绍福、余德贵",oldRole:"省政府相关职务"},
         {name:"吴承祯、陈浩",oldRole:"省政府相关职务"}
       ]
-    },
-    {date:"2026-04-15",province:"国家级",title:"国务院任免国家工作人员（4月2日，补录）",url:"https://www.news.cn/politics/20260414/ecdad08298fe4317a0acc3e80ed29777/c.html",
-      appointments:[
-        {name:"常军红",newRole:"财政部部长助理",note:"女",analysis:{
-          bio:"1970年2月生，女，汉族，博士研究生，中共党员。1995年进入财政部，历任世界银行司、国际司、对外财经交流办公室副主任、中国驻世界银行副执行董事、驻亚开行执行董事顾问、国际经济关系司副司长、国际财金合作司司长。",
-          leaderLink:"长期在财政部国际司系统工作，与财政部历任领导有直接汇报关系。财政部现任部长蓝佛安2022年到任。",
-          tencentLink:"主管国际财金合作领域，与腾讯业务直接交集有限。但财政部在数字经济税收、跨境数据、政府采购等政策制定中对腾讯有间接影响。",
-          impact:"中性 — 国际财金方向，与腾讯华东业务关联度低"
-        }},
-        {name:"雷小武",newRole:"国家统计局副局长",note:"",analysis:{
-          bio:"1970年4月生，男，汉族，研究生学历，管理学硕士。2022-2025年任国家统计局办公室（国际合作司、政策研究室）主任，2025年任统计执法监督局局长（正厅级）。分管办公室、统计执法监督局、固定资产投资统计司等。",
-          leaderLink:"长期在国家统计局系统工作。国家统计局现任局长康义，此前曾任天津市常务副市长。",
-          tencentLink:"分管统计执法监督，与腾讯业务直接交集有限。但统计局在数字经济核算、互联网经济统计等方面的方法论对行业有间接影响。",
-          impact:"中性 — 统计系统内部晋升，与腾讯业务关联度低"
-        }},
-        {name:"汪剑波",newRole:"国家能源局副局长",note:"",analysis:{
-          bio:"1970年1月生，男，汉族，大学学历，工学学士，高级工程师。1993年毕业于抚顺石油学院。长期在中石化、中海油系统工作，曾任中海油集团党组成员、副总经理，中共二十大代表。",
-          leaderLink:"作为央企领导转任国家能源局，此前在中海油任职期间向中海油集团董事长汇报。中共二十大代表身份显示一定的政治资历。",
-          tencentLink:"能源领域与腾讯业务交集有限。但腾讯云在能源行业数字化转型有布局（智慧能源解决方案），能源局政策方向影响行业数字化节奏。",
-          impact:"中性 — 能源系统，与腾讯业务间接相关"
-        }},
-        {name:"姚来英",newRole:"国家烟草专卖局局长",note:"",analysis:{
-          bio:"1966年12月生，男，汉族，河北任丘人，经济学硕士。历任天津市河西区区长、南开区委书记、天津市副市长，2020年调任湖南省委常委、省纪委书记，2023年任国家税务总局副局长。",
-          leaderLink:"在天津任副市长期间（2017-2020），与时任天津市委书记李鸿忠有工作交集。在湖南任省委常委、纪委书记期间（2020-2023），与时任湖南省委书记张庆伟有直接共事关系。",
-          tencentLink:"曾任天津市副市长，天津是腾讯北方重要布局城市（腾讯天津数据中心）。在湖南任职期间，湖南是华东政策日报覆盖省份之一，期间腾讯在湘有智慧城市等项目。烟草系统与腾讯业务交集较少。",
-          impact:"中性 — 烟草系统，与腾讯直接业务关联度低，但此前在天津/湖南任职期间与腾讯有间接交集"
-        }}
-      ],
-      removals:[]
     }
   ]
 };
