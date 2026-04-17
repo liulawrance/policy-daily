@@ -70,7 +70,7 @@ var DATA = {
   ],
   personnel: [
     // ============ 4月17日（周四） ============
-    {date:"2026-04-17",province:"国家级",title:"国务院免去戴建业澳门经济财政司司长职务",url:"https://www.thepaper.cn/newsDetail_forward_32990831",
+    {date:"2026-04-17",province:"国家级",title:"国务院人事任免（4月16日）",url:"https://www.thepaper.cn/newsDetail_forward_32990831",
       appointments:[],
       removals:[
         {name:"戴建业",oldRole:"澳门特别行政区经济财政司司长",analysis:{
@@ -93,7 +93,7 @@ var DATA = {
       appointments:[],
       removals:[{name:"陈艳勤",oldRole:"省外事办副主任、省港澳办副主任"}]
     },
-    {date:"2026-04-17",province:"安徽",title:"金宁任广德市委书记（4月16日宣布）",url:"https://news.qq.com/rain/a/20260416A0640100",
+    {date:"2026-04-17",province:"安徽",title:"安徽省干部任免（4月16日）",url:"https://news.qq.com/rain/a/20260416A0640100",
       appointments:[{name:"金宁",newRole:"广德市委书记",note:"此前任宣城市工信局局长、党组书记"}],
       removals:[{name:"周其红",oldRole:"广德市委书记"}]
     },
@@ -143,7 +143,7 @@ var DATA = {
     },
 
     // ============ 4月15日（周二）补录 ============
-    {date:"2026-04-15",province:"江苏",title:"马明龙任省政府参事（4月15日见报，补录）",url:"https://news.qq.com/rain/a/20260415A075VG00",isBackfill:true,
+    {date:"2026-04-15",province:"江苏",title:"江苏省干部任免（4月15日，补录）",url:"https://news.qq.com/rain/a/20260415A075VG00",isBackfill:true,
       appointments:[{name:"马明龙",newRole:"江苏省政府参事",note:"此前任镇江市委书记（2026年3月卸任）"}],
       removals:[]
     },
@@ -182,7 +182,7 @@ var DATA = {
       ],
       removals:[{name:"赵增连",oldRole:"国家烟草专卖局局长"}]
     },
-    {date:"2026-04-14",province:"上海",title:"上海市政府任免卢山、刘健、顾军等（4月10日公开，补录）",url:"http://m.ce.cn/bwzg/202604/t20260410_2894662.shtml",isBackfill:true,
+    {date:"2026-04-14",province:"上海",title:"上海市政府人事任免（4月10日公开，补录）",url:"http://m.ce.cn/bwzg/202604/t20260410_2894662.shtml",isBackfill:true,
       appointments:[
         {name:"卢山",newRole:"上海虹桥国际中央商务区管委会主任",note:""},
         {name:"刘健",newRole:"市政府副秘书长、长三角一体化示范区执委会主任",note:""}
@@ -192,7 +192,7 @@ var DATA = {
         {name:"顾军",oldRole:"市政府副秘书长、长三角一体化示范区执委会主任"}
       ]
     },
-    {date:"2026-04-14",province:"湖南",title:"陈澎任张家界市代市长（4月10日决定，补录）",url:"https://www.163.com/dy/article/KQKV5UOU055040N3.html",isBackfill:true,
+    {date:"2026-04-14",province:"湖南",title:"湖南省地市主官任免（4月10日，补录）",url:"https://www.163.com/dy/article/KQKV5UOU055040N3.html",isBackfill:true,
       appointments:[{name:"陈澎",newRole:"张家界市副市长、代市长",note:"此前任衡阳市委副书记"}],
       removals:[]
     }
