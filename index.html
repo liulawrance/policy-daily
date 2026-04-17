@@ -497,14 +497,24 @@ function alertJump(idx) {
 // Render competitors
 function renderCompetitors() {
   const el = document.getElementById('compList');
-  let html = '<div class="section-title">🏢 行业动态</div>';
-  DATA.competitors.forEach(c => {
-    html += `
-      <div class="comp-card" data-name="${c.name}">
-        <div class="comp-name">${c.name}</div>
-        <div class="comp-text">${c.update}</div>
-      </div>`;
+  // 按当前日期过滤，只显示有新动态的公司
+  const filtered = DATA.competitors.filter(c => {
+    if (currentDate === 'all') return true;
+    return c.date === currentDate;
   });
+  let html = '<div class="section-title">🏢 行业动态 <span class="badge">' + filtered.length + '</span></div>';
+  if (filtered.length === 0) {
+    html += '<div class="empty">当日无新增行业动态</div>';
+  } else {
+    filtered.forEach(c => {
+      html += `
+        <div class="comp-card" data-name="${c.name}">
+          <div class="comp-name">${c.name}</div>
+          <div class="comp-text">${c.update}</div>
+          <div style="font-size:10px;color:var(--gray);margin-top:4px">📅 ${c.date}</div>
+        </div>`;
+    });
+  }
   el.innerHTML = html;
 }
 
