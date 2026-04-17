@@ -507,11 +507,13 @@ function renderCompetitors() {
     html += '<div class="empty">当日无新增行业动态</div>';
   } else {
     filtered.forEach(c => {
+      var linkHtml = c.url ? '<a href="javascript:void(0)" onclick="window.open(\'' + c.url + '\',\'_blank\')" class="card-link">\u{1F517} 查看原文 →</a>' : '';
       html += `
         <div class="comp-card" data-name="${c.name}">
           <div class="comp-name">${c.name}</div>
           <div class="comp-text">${c.update}</div>
           <div style="font-size:10px;color:var(--gray);margin-top:4px">📅 ${c.date}</div>
+          ${linkHtml}
         </div>`;
     });
   }

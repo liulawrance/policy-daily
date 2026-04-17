@@ -40,13 +40,13 @@ var DATA = {
     {level:"三级关注",item:"江西数智化补贴最高3000万",assessment:"工业互联网市场机会",days:"",linkType:"policy",linkTarget:"0416-008"}
   ],
   competitors: [
-    {name:"腾讯",date:"2026-04-15",update:"混元3.0确认4月发布，由姚顺雨主导研发，激活参数大幅降低，复杂推理和Agent能力显著提升。腾讯云已结束GLM 5等第三方模型免费公测，混元HY2.0定价上调。"},
-    {name:"阿里巴巴",date:"2026-04-15",update:"一周内连发三款重磅模型：Qwen3.5-Omni（全模态）、Wan2.7-Image（AI图像生成）、Qwen3.6-Plus（旗舰级，总参3970亿）。上线OpenRouter当晚调用量激增711%。"},
-    {name:"智谱AI",date:"2026-04-15",update:"4月8日发布GLM-5.1并开源，全球首个验证8小时持续自主工作能力的开源模型。2025年收入7.243亿元，同比增131.9%。"},
-    {name:"字节跳动",date:"2026-04-17",update:"前DeepSeek核心研究员郭达雅确认加入Seed团队任Agent方向负责人（L8）。字节否认亿元年薪但承认四年期权收益可达数亿。Seed团队过去一年约70人被挖走。"},
-    {name:"DeepSeek",date:"2026-04-17",update:"V4全量发布进入最后倒计时，预计4月下旬正式发布。万亿参数+推理速度提升35倍。核心研究员郭达雅离职加入字节。"},
-    {name:"OpenAI",date:"2026-04-15",update:"4月14日全球发布GPT-6（代号Spud），性能暴涨40%，支持200万Token上下文，采用全新Symphony架构。对国产模型形成新竞争压力。"},
-    {name:"其他",date:"2026-04-16",update:"MiniMax一月内从2.5进化至2.7版；月之暗面预告Kimi K3将实现10倍性能提升；百度文心一言全面免费、6月30日开源。"}
+    {name:"腾讯",date:"2026-04-15",update:"混元3.0确认4月发布，由姚顺雨主导研发，激活参数大幅降低，复杂推理和Agent能力显著提升。腾讯云已结束GLM 5等第三方模型免费公测，混元HY2.0定价上调。",url:"https://post.smzdm.com/p/a03r4err/"},
+    {name:"阿里巴巴",date:"2026-04-15",update:"一周内连发三款重磅模型：Qwen3.5-Omni（全模态）、Wan2.7-Image（AI图像生成）、Qwen3.6-Plus（旗舰级，总参3970亿）。上线OpenRouter当晚调用量激增711%。",url:"https://www.iheima.com/article-396057.html"},
+    {name:"智谱AI",date:"2026-04-15",update:"4月8日发布GLM-5.1并开源，全球首个验证8小时持续自主工作能力的开源模型。2025年收入7.243亿元，同比增131.9%。",url:"https://www.iheima.com/article-396057.html"},
+    {name:"字节跳动",date:"2026-04-17",update:"前DeepSeek核心研究员郭达雅确认加入Seed团队任Agent方向负责人（L8）。字节否认亿元年薪但承认四年期权收益可达数亿。Seed团队过去一年约70人被挖走。",url:"https://www.eet-china.com/news/202604093584.html"},
+    {name:"DeepSeek",date:"2026-04-17",update:"V4全量发布进入最后倒计时，预计4月下旬正式发布。万亿参数+推理速度提升35倍。核心研究员郭达雅离职加入字节。",url:"https://cloud.tencent.com/developer/article/2652850"},
+    {name:"OpenAI",date:"2026-04-15",update:"4月14日全球发布GPT-6（代号Spud），性能暴涨40%，支持200万Token上下文，采用全新Symphony架构。对国产模型形成新竞争压力。",url:"https://blog.my321.cn/ai-daily-20260415/"},
+    {name:"其他",date:"2026-04-16",update:"MiniMax一月内从2.5进化至2.7版；月之暗面预告Kimi K3将实现10倍性能提升；百度文心一言全面免费、6月30日开源。",url:"https://aicode.cc/2026-04-10-e1de1862-b997-4ac7-a4e2-531cc4ac4610.html"}
   ],
   events: [
     {name:"第九届数字中国建设峰会",time:"4月29-30日",location:"福州",note:"国家发改委牵头主办，50余场交流活动"},
