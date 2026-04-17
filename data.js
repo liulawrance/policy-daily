@@ -73,8 +73,7 @@ var DATA = {
         {name:"宋国森",newRole:"省交通运输厅副厅长",note:""},
         {name:"臧玉淼",newRole:"省审计厅副厅长",note:"试用期"},
         {name:"汤莉",newRole:"省统计局副局长",note:"试用期"},
-        {name:"金华",newRole:"省铁路办副主任",note:"试用期"},
-        {name:"徐钢",newRole:"省国画院院长",note:"试用期"}
+        {name:"金华",newRole:"省铁路办副主任",note:"试用期"}
       ],
       removals:[
         {name:"沈剑荣",oldRole:"省数据局局长"},
@@ -93,8 +92,7 @@ var DATA = {
     },
     {date:"2026-04-16",province:"江苏",title:"江苏省管领导干部任前公示（4月10日，公示至17日）",url:"https://zgjssw.jschina.com.cn/fabuting/renmian/202604/t20260410_8567794.shtml",
       appointments:[
-        {name:"陈安",newRole:"拟任省级机关正职",note:"现任省公安厅副厅长"},
-        {name:"袁军",newRole:"拟进一步使用",note:"现任江苏银行行长"}
+        {name:"陈安",newRole:"拟任省级机关正职",note:"现任省公安厅副厅长"}
       ],
       removals:[]
     },
@@ -102,8 +100,7 @@ var DATA = {
       appointments:[
         {name:"郝超、孙雄鹏",newRole:"省政府相关职务",note:"任免"},
         {name:"李伟、方志坚、蔡晃",newRole:"省政府相关职务",note:"任命"},
-        {name:"吴琛",newRole:"省政府相关职务",note:"岗位调整"},
-        {name:"闽江学院",newRole:"更名后行政领导任职",note:""}
+        {name:"吴琛",newRole:"省政府相关职务",note:"岗位调整"}
       ],
       removals:[
         {name:"吴伟平、刘德培",oldRole:"省政府相关职务"},
