@@ -5,6 +5,10 @@ var DATA = {
     version: "v2.5"
   },
   entries: [
+    // ============ 2026-04-17 ============
+    {id:"0417-001",date:"2026-04-17",title:"国家网信办持续整治网上金融信息乱象",source:"国家网信办",province:"国家级",category:"行业监管",impact:"中",status:"持续推进",summary:"依法处置非法荐股账号，涉及微博、微信公众号、小红书、雪球、B站、快手等多平台。涵盖公开推荐个股、诱导加群荐股、兜售AI选股软件三类违规。",action:"关注微信公众号平台内非法荐股内容排查，AI选股类产品合规。",url:"https://news.cctv.com/2026/04/16/ARTIEAnjPuWOgnOYamxcbo23260416.shtml",publishDate:"2026-04-16",isNew:true,isTop:true},
+    {id:"0417-002",date:"2026-04-17",title:"国务院办公厅《关于深化投资审批制度改革的意见》",source:"国务院办公厅",province:"国家级",category:"跨领域",impact:"低",status:"已发布",summary:"深化投资审批制度改革，简化审批流程，对数字经济基础设施投资审批提效有间接积极影响。",action:"关注数据中心等算力基建项目审批流程简化。",url:"https://www.gov.cn/zhengce/zuixin/",publishDate:"2026-04-15",isNew:true,isTop:false},
+
     // ============ 2026-04-16 ============
     {id:"0416-001",date:"2026-04-16",title:"《数字虚拟人信息服务管理办法》公开征求意见",source:"国家网信办",province:"国家级",category:"行业监管",impact:"高",status:"征求意见中",summary:"对数字虚拟人的开发、运营和服务提出监管要求。与《AI拟人化办法》共同构成虚拟人/数字人监管双轨体系。",action:"腾讯虚拟人业务线需立即关注并参与意见反馈。",url:"https://www.cac.gov.cn/2026-04/03/c_1776952992709096.htm",publishDate:"2026-04-16",isNew:true,isTop:true},
     {id:"0416-002",date:"2026-04-16",title:"十部门《人工智能科技伦理审查与服务办法（试行）》",source:"工信部等十部门",province:"国家级",category:"行业监管",impact:"高",status:"已印发",summary:"对AI伦理审查的适用范围、实施主体、工作程序、监督管理作出规定。标志我国AI伦理治理从原则倡导迈向制度化。",action:"混元、元宝、ima等AI产品需尽快建立内部伦理审查机制。",url:"https://www.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_2995f16b28504ddcbb604e918eb15759.html",publishDate:"2026-04-16",isNew:true,isTop:true},
@@ -26,9 +30,9 @@ var DATA = {
     {level:"一级紧急",item:"《数字虚拟人管理办法》征求意见中",assessment:"虚拟人业务需立即关注并参与反馈",days:"",linkType:"policy",linkTarget:"0416-001"},
     {level:"一级紧急",item:"AI科技伦理审查办法印发，所有AI产品需纳入审查",assessment:"混元、元宝、ima等需建立内部伦理审查机制",days:"",linkType:"policy",linkTarget:"0416-002"},
     {level:"一级紧急",item:"网络直播打赏11条新规合规整改窗口期",assessment:"视频号直播等需全面整改",days:"持续跟踪",linkType:"url",linkTarget:"https://www.cac.gov.cn/2026-04/13/c_1777815804150225.htm"},
-    {level:"一级紧急",item:"AI拟人化互动服务管理办法7月15日施行",assessment:"AI助手/虚拟角色/NPC等需完成合规评估",days:"倒计时90天",linkType:"url",linkTarget:"https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm"},
-    {level:"二级重要",item:"福建AI园区补助 + 数字中国峰会4.29-30福州",assessment:"参展和BD对接机会",days:"倒计时13天",linkType:"policy",linkTarget:"0416-004"},
-    {level:"二级重要",item:"安徽AI政策兑现申报（5月5日截止）",assessment:"算力补贴等市场机会",days:"倒计时19天",linkType:"policy",linkTarget:"0416-006"},
+    {level:"一级紧急",item:"AI拟人化互动服务管理办法7月15日施行",assessment:"AI助手/虚拟角色/NPC等需完成合规评估",days:"倒计时89天",linkType:"url",linkTarget:"https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm"},
+    {level:"二级重要",item:"福建AI园区补助 + 数字中国峰会4.29-30福州",assessment:"参展和BD对接机会",days:"倒计时12天",linkType:"policy",linkTarget:"0416-004"},
+    {level:"二级重要",item:"安徽AI政策兑现申报（5月5日截止）",assessment:"算力补贴等市场机会",days:"倒计时18天",linkType:"policy",linkTarget:"0416-006"},
     {level:"二级重要",item:"《小型个人信息处理者保护简化措施》征求意见中",assessment:"中小开发者合规环境改善",days:"",linkType:"policy",linkTarget:"0416-003"},
     {level:"二级重要",item:"GPT-6发布，全球AI竞争加剧",assessment:"混元3.0发布节奏和市场定位需评估",days:"",linkType:"competitor",linkTarget:"OpenAI"},
     {level:"三级关注",item:"江苏省数据局局长易人（刘世虎）",assessment:"关注数据要素流通政策方向",days:"",linkType:"personnel",linkTarget:"江苏"},
@@ -39,8 +43,8 @@ var DATA = {
     {name:"腾讯",date:"2026-04-15",update:"混元3.0确认4月发布，由姚顺雨主导研发，激活参数大幅降低，复杂推理和Agent能力显著提升。腾讯云已结束GLM 5等第三方模型免费公测，混元HY2.0定价上调。"},
     {name:"阿里巴巴",date:"2026-04-15",update:"一周内连发三款重磅模型：Qwen3.5-Omni（全模态）、Wan2.7-Image（AI图像生成）、Qwen3.6-Plus（旗舰级，总参3970亿）。上线OpenRouter当晚调用量激增711%。"},
     {name:"智谱AI",date:"2026-04-15",update:"4月8日发布GLM-5.1并开源，全球首个验证8小时持续自主工作能力的开源模型。2025年收入7.243亿元，同比增131.9%。"},
-    {name:"字节跳动",date:"2026-04-15",update:"4月9日推出全双工语音大模型Seeduplex，已全量上线豆包App。即梦AI月内第三次涨价。豆包日均Token突破120万亿。"},
-    {name:"DeepSeek",date:"2026-04-16",update:"V4模型确认4月下旬发布，万亿参数+百万上下文，完全运行于华为昇腾950PR芯片。聚焦AI编程能力突破。"},
+    {name:"字节跳动",date:"2026-04-17",update:"前DeepSeek核心研究员郭达雅确认加入Seed团队任Agent方向负责人（L8）。字节否认亿元年薪但承认四年期权收益可达数亿。Seed团队过去一年约70人被挖走。"},
+    {name:"DeepSeek",date:"2026-04-17",update:"V4全量发布进入最后倒计时，预计4月下旬正式发布。万亿参数+推理速度提升35倍。核心研究员郭达雅离职加入字节。"},
     {name:"OpenAI",date:"2026-04-15",update:"4月14日全球发布GPT-6（代号Spud），性能暴涨40%，支持200万Token上下文，采用全新Symphony架构。对国产模型形成新竞争压力。"},
     {name:"其他",date:"2026-04-16",update:"MiniMax一月内从2.5进化至2.7版；月之暗面预告Kimi K3将实现10倍性能提升；百度文心一言全面免费、6月30日开源。"}
   ],
@@ -52,6 +56,12 @@ var DATA = {
     {name:"CIPSE 2026中国（杭州）国际数字安防及AI博览会",time:"筹备中",location:"杭州",note:"数字安防+AI融合展"}
   ],
   personnel: [
+    {date:"2026-04-17",province:"浙江",title:"浙江省政府人事任免（4月16日，2批通知）",url:"https://www.zj.gov.cn/col/col1229697843/index.html",
+      appointments:[],
+      removals:[
+        {name:"陈艳勤",oldRole:"省外事办副主任、省港澳办副主任"}
+      ]
+    },
     {date:"2026-04-16",province:"江苏",title:"江苏省政府人事任免通知（11人任命、12人免职）",url:"https://finance.sina.com.cn/jjxw/2026-04-08/doc-inhtucsf6525763.shtml",
       appointments:[
         {name:"邱志强",newRole:"省政府办公厅主任兼参事室主任",note:""},
