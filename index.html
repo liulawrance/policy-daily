@@ -559,7 +559,7 @@ function renderPersonnel() {
             <tr><th>姓名</th><th>新职务</th><th>备注</th></tr>`;
       p.appointments.forEach(a => {
         var baikeLink = 'https://baike.baidu.com/item/' + encodeURIComponent(a.name);
-        html += `<tr><td><a href="${baikeLink}" target="_blank" class="name-link">${a.name}</a></td><td>${a.newRole}</td><td><span class="note">${a.note||''}</span></td></tr>`;
+        html += `<tr><td><a href="javascript:void(0)" onclick="window.open('${baikeLink}','_blank')" class="name-link">${a.name}</a></td><td>${a.newRole}</td><td><span class="note">${a.note||''}</span></td></tr>`;
       });
       html += '</table></div>';
     }
@@ -571,7 +571,7 @@ function renderPersonnel() {
             <tr><th>姓名</th><th>原职务</th></tr>`;
       p.removals.forEach(r => {
         var baikeLink = 'https://baike.baidu.com/item/' + encodeURIComponent(r.name);
-        html += `<tr><td><a href="${baikeLink}" target="_blank" class="name-link">${r.name}</a></td><td>${r.oldRole}</td></tr>`;
+        html += `<tr><td><a href="javascript:void(0)" onclick="window.open('${baikeLink}','_blank')" class="name-link">${r.name}</a></td><td>${r.oldRole}</td></tr>`;
       });
       html += '</table></div>';
     }
