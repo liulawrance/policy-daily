@@ -120,6 +120,16 @@ body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro SC","PingFang SC","Hel
 .name-link:active{opacity:.6}
 .p-link{display:inline-block;margin:8px 14px 12px;font-size:11px;color:var(--blue);text-decoration:none}
 
+/* Personnel Analysis Card */
+.p-analysis{margin:8px 14px 4px;padding:10px 12px;background:#F8FAFC;border-radius:8px;border:1px solid #E3EBF3;font-size:12px;line-height:1.7;color:#444}
+.p-analysis-title{font-size:12px;font-weight:700;color:var(--blue);margin-bottom:6px;display:flex;align-items:center;gap:4px}
+.p-analysis-row{margin-bottom:6px}
+.p-analysis-label{font-weight:600;color:#555;display:inline}
+.p-analysis-impact{display:inline-block;margin-top:4px;padding:3px 8px;border-radius:6px;font-size:11px;font-weight:600}
+.p-analysis-impact.positive{background:#E8F5E9;color:#2E7D32}
+.p-analysis-impact.neutral{background:#F0F4F8;color:#666}
+.p-analysis-impact.watch{background:#FFF3E0;color:var(--orange)}
+
 /* Lock Screen */
 
 /* Digest */
@@ -542,6 +552,20 @@ function renderEvents() {
   el.innerHTML = html;
 }
 
+// Render analysis card for vice-ministerial+ personnel
+function renderAnalysis(name, a) {
+  var impactClass = 'neutral';
+  if (a.impact && a.impact.indexOf('利好') >= 0) impactClass = 'positive';
+  else if (a.impact && (a.impact.indexOf('关注') >= 0 || a.impact.indexOf('需') >= 0)) impactClass = 'watch';
+  return '<div class="p-analysis">' +
+    '<div class="p-analysis-title">🔍 ' + name + ' — 背景分析（副部级+）</div>' +
+    '<div class="p-analysis-row"><span class="p-analysis-label">📋 履历：</span>' + (a.bio || '') + '</div>' +
+    '<div class="p-analysis-row"><span class="p-analysis-label">🤝 高层交集：</span>' + (a.leaderLink || '暂未发现明显交集') + '</div>' +
+    '<div class="p-analysis-row"><span class="p-analysis-label">🏢 腾讯交集：</span>' + (a.tencentLink || '暂未发现明显交集') + '</div>' +
+    '<div class="p-analysis-row"><span class="p-analysis-label">📊 影响研判：</span><span class="p-analysis-impact ' + impactClass + '">' + (a.impact || '待评估') + '</span></div>' +
+    '</div>';
+}
+
 // Render personnel
 function renderPersonnel() {
   const el = document.getElementById('personnelList');
@@ -574,6 +598,10 @@ function renderPersonnel() {
         html += `<tr><td><a href="javascript:void(0)" onclick="window.open('${baikeLink}','_blank')" class="name-link">${a.name}</a></td><td>${a.newRole}</td><td><span class="note">${a.note||''}</span></td></tr>`;
       });
       html += '</table></div>';
+      // Render analysis cards for appointments with analysis
+      p.appointments.forEach(a => {
+        if (a.analysis) html += renderAnalysis(a.name, a.analysis);
+      });
     }
     if (rmvCount > 0) {
       html += `
@@ -586,6 +614,10 @@ function renderPersonnel() {
         html += `<tr><td><a href="javascript:void(0)" onclick="window.open('${baikeLink}','_blank')" class="name-link">${r.name}</a></td><td>${r.oldRole}</td></tr>`;
       });
       html += '</table></div>';
+      // Render analysis cards for removals with analysis
+      p.removals.forEach(r => {
+        if (r.analysis) html += renderAnalysis(r.name, r.analysis);
+      });
     }
     if (p.url) { html += `<a class="p-link" href="${p.url}" target="_blank">🔗 查看原文 →</a>`; }
     html += '</div>';
