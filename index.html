@@ -290,7 +290,10 @@ document.addEventListener('DOMContentLoaded', function() {
 <script src="data.js"></script>
 <script>
 // State
-let currentDate = 'all';
+// Get today's date string
+var today = new Date().toISOString().slice(0, 10);
+// Default to today if data exists, otherwise latest date
+let currentDate = dates.indexOf(today) >= 0 ? today : dates[0];
 let currentProvince = 'all';
 
 // Get unique dates
