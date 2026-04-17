@@ -121,6 +121,26 @@ body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro SC","PingFang SC","Hel
 .p-link{display:inline-block;margin:8px 14px 12px;font-size:11px;color:var(--blue);text-decoration:none}
 
 /* Lock Screen */
+
+/* Digest */
+.digest-date{font-size:13px;color:var(--gray);padding:12px 16px 4px;font-weight:500}
+.digest-card{background:#fff;border-radius:var(--radius);margin:6px 16px;padding:14px;border:1px solid var(--border);cursor:pointer;transition:.15s}
+.digest-card:active{background:#F8FAFC;transform:scale(.99)}
+.digest-card.urgent{border-left:3px solid var(--red)}
+.digest-card.important{border-left:3px solid var(--orange)}
+.digest-card .d-tag{display:inline-block;font-size:10px;padding:2px 7px;border-radius:6px;font-weight:500;margin-right:6px}
+.digest-card .d-tag-alert{background:#FEE;color:var(--red)}
+.digest-card .d-tag-policy{background:#E3F2FD;color:#1565C0}
+.digest-card .d-tag-personnel{background:#E8F5E9;color:#2E7D32}
+.digest-card .d-tag-industry{background:#F3E5F5;color:#7B1FA2}
+.digest-card .d-title{font-size:14px;font-weight:600;margin-top:6px;line-height:1.5}
+.digest-card .d-summary{font-size:12px;color:#666;margin-top:4px;line-height:1.6}
+.digest-card .d-meta{font-size:11px;color:var(--gray);margin-top:6px;display:flex;gap:8px}
+.digest-empty{text-align:center;color:var(--gray);padding:40px 16px;font-size:13px}
+.digest-section{margin-top:12px}
+.digest-section-title{font-size:12px;font-weight:600;color:var(--blue);padding:0 16px;margin-bottom:4px}
+
+/* Lock Screen */
 #lockScreen{position:fixed;top:0;left:0;right:0;bottom:0;background:linear-gradient(135deg,#1F4E79 0%,#2E6EA6 50%,#4A90D9 100%);display:flex;align-items:center;justify-content:center;z-index:9999}
 .lock-box{background:#fff;border-radius:20px;padding:40px 30px;width:320px;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.3)}
 .lock-icon{font-size:48px;margin-bottom:16px}
@@ -187,7 +207,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro SC","PingFang SC","Hel
   <div class="dp-list" id="dpList"></div>
 </div>
 
-<div id="panelAlert" class="panel active">
+<div id="panelDigest" class="panel active">
+  <div class="section" id="digestList"></div>
+</div>
+
+<div id="panelAlert" class="panel">
   <div class="section" id="alertList"></div>
 </div>
 
@@ -210,7 +234,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro SC","PingFang SC","Hel
 </div>
 
 <div class="tab-bar">
-  <div class="tab-item active" data-panel="panelAlert" onclick="switchTab(this)">
+  <div class="tab-item active" data-panel="panelDigest" onclick="switchTab(this)">
+    <div class="tab-icon">📰</div>
+    <div class="tab-label">导读</div>
+  </div>
+  <div class="tab-item" data-panel="panelAlert" onclick="switchTab(this)">
     <div class="tab-icon">⚠️</div>
     <div class="tab-label">预警</div>
   </div>
@@ -562,10 +590,117 @@ function switchTab(el) {
   el.classList.add('active');
   document.getElementById(el.dataset.panel).classList.add('active');
 }
+// Render daily digest
+function renderDigest() {
+  var el = document.getElementById('digestList');
+  // 取当日或最新一天的数据
+  var targetDate = currentDate !== 'all' ? currentDate : dates[0];
+  var weekdays = ['\u65E5','\u4E00','\u4E8C','\u4E09','\u56DB','\u4E94','\u516D'];
+  var dt = new Date(targetDate);
+  var dateLabel = targetDate + '\uFF08\u5468' + weekdays[dt.getDay()] + '\uFF09';
+
+  // 筛选重要信息：高影响政策 + 一级紧急预警 + 重点人事 + 重要行业动态
+  var items = [];
+
+  // 1. 一级紧急预警
+  DATA.alerts.forEach(function(a, i) {
+    if (a.level.indexOf('\u4E00\u7EA7') >= 0) {
+      items.push({type:'alert',tag:'\u7D27\u6025\u9884\u8B66',tagClass:'d-tag-alert',title:a.item,summary:a.assessment,meta:a.days||'',priority:0,idx:i});
+    }
+  });
+
+  // 2. 高影响政策
+  DATA.entries.filter(function(e) { return e.date === targetDate && e.impact === '\u9AD8'; }).forEach(function(e) {
+    items.push({type:'policy',tag:'\u91CD\u8981\u653F\u7B56',tagClass:'d-tag-policy',title:e.title,summary:e.summary,meta:e.source,priority:1,id:e.id});
+  });
+
+  // 3. 中影响+isTop的政策
+  DATA.entries.filter(function(e) { return e.date === targetDate && e.impact === '\u4E2D' && e.isTop; }).forEach(function(e) {
+    items.push({type:'policy',tag:'\u653F\u7B56\u52A8\u6001',tagClass:'d-tag-policy',title:e.title,summary:e.summary,meta:e.source,priority:2,id:e.id});
+  });
+
+  // 4. 当日重点人事（P0/P1部门的）
+  DATA.personnel.filter(function(p) { return p.date === targetDate; }).forEach(function(p) {
+    var keyNames = [];
+    if (p.appointments) p.appointments.forEach(function(a) {
+      if (a.note && (a.note.indexOf('\u2B50') >= 0 || a.note.indexOf('\u6B63\u5385') >= 0)) keyNames.push(a.name + ' \u2192 ' + a.newRole);
+    });
+    if (keyNames.length > 0) {
+      items.push({type:'personnel',tag:'\u4EBA\u4E8B\u53D8\u52A8',tagClass:'d-tag-personnel',title:p.title,summary:keyNames.join('\uFF1B'),meta:p.province,priority:3});
+    }
+  });
+
+  // 5. 重要行业动态（腾讯和DeepSeek）
+  DATA.competitors.filter(function(c) { return c.date === targetDate && (c.name === '\u817E\u8BAF' || c.name === 'DeepSeek'); }).forEach(function(c) {
+    items.push({type:'competitor',tag:'\u884C\u4E1A\u52A8\u6001',tagClass:'d-tag-industry',title:c.name + '\u6700\u65B0\u52A8\u6001',summary:c.update.substring(0, 80) + '...',meta:c.date,priority:4,name:c.name});
+  });
+
+  // 排序
+  items.sort(function(a, b) { return a.priority - b.priority; });
+
+  // 渲染
+  var html = '<div class="digest-date">\u{1F4F0} ' + dateLabel + ' \u6BCF\u65E5\u5BFC\u8BFB</div>';
+
+  if (items.length === 0) {
+    html += '<div class="digest-empty">\u5F53\u65E5\u65E0\u91CD\u8981\u4FE1\u606F</div>';
+  } else {
+    items.forEach(function(item, i) {
+      var urgentClass = item.priority === 0 ? ' urgent' : item.priority <= 1 ? ' important' : '';
+      var onclick = '';
+      if (item.type === 'alert') onclick = 'alertJump(' + item.idx + ')';
+      else if (item.type === 'policy') onclick = 'digestJump(\"policy\",\"' + item.id + '\")';
+      else if (item.type === 'personnel') onclick = 'digestJump(\"personnel\",\"\")';
+      else if (item.type === 'competitor') onclick = 'digestJump(\"competitor\",\"' + item.name + '\")';
+
+      html += '<div class="digest-card' + urgentClass + '" onclick="' + onclick + '">' +
+        '<span class="d-tag ' + item.tagClass + '">' + item.tag + '</span>' +
+        '<div class="d-title">' + item.title + '</div>' +
+        '<div class="d-summary">' + item.summary + '</div>' +
+        '<div class="d-meta"><span>\u{1F4CC} ' + item.meta + '</span></div>' +
+        '</div>';
+    });
+  }
+
+  el.innerHTML = html;
+}
+
+// Digest jump helper
+function digestJump(type, target) {
+  var tabMap = {policy:'panelPolicy', personnel:'panelPersonnel', competitor:'panelCompetitor'};
+  var targetPanel = tabMap[type];
+  if (!targetPanel) return;
+
+  currentDate = 'all'; currentProvince = 'all';
+  renderAll();
+
+  document.querySelectorAll('.tab-item').forEach(function(t) { t.classList.remove('active'); });
+  document.querySelectorAll('.panel').forEach(function(p) { p.classList.remove('active'); });
+  var tabEl = document.querySelector('[data-panel="' + targetPanel + '"]');
+  if (tabEl) tabEl.classList.add('active');
+  var panelEl = document.getElementById(targetPanel);
+  if (panelEl) panelEl.classList.add('active');
+
+  if (target) {
+    setTimeout(function() {
+      var sel = type === 'policy' ? '.card[data-id="' + target + '"]' :
+                type === 'competitor' ? '.comp-card[data-name="' + target + '"]' : null;
+      if (sel) {
+        var el = document.querySelector(sel);
+        if (el) {
+          el.scrollIntoView({behavior:'smooth', block:'center'});
+          el.classList.add('highlight');
+          setTimeout(function() { el.classList.remove('highlight'); }, 2000);
+        }
+      }
+    }, 100);
+  }
+}
+
 function renderAll() {
   renderDatePicker();
   renderFilters();
   renderStats();
+  renderDigest();
   renderPolicies();
   renderAlerts();
   renderPersonnel();
