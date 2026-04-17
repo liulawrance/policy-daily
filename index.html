@@ -290,15 +290,11 @@ document.addEventListener('DOMContentLoaded', function() {
 <script src="data.js"></script>
 <script>
 // State
-// Get today's date string
 var today = new Date().toISOString().slice(0, 10);
-// Default to today if data exists, otherwise latest date
-let currentDate = dates.indexOf(today) >= 0 ? today : dates[0];
-let currentProvince = 'all';
-
-// Get unique dates
-const dates = [...new Set(DATA.entries.map(e => e.date))].sort().reverse();
-const provinces = ['全部','国家级','上海','浙江','江苏','安徽','福建','江西','湖南'];
+var dates = [...new Set(DATA.entries.map(e => e.date))].sort().reverse();
+var provinces = ['全部','国家级','上海','浙江','江苏','安徽','福建','江西','湖南'];
+var currentDate = dates.indexOf(today) >= 0 ? today : dates[0];
+var currentProvince = 'all';
 
 // Render date picker
 const weekdays = ['日','一','二','三','四','五','六'];
