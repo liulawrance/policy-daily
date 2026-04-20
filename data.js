@@ -5,6 +5,11 @@ var DATA = {
     version: "v3.1"
   },
   entries: [
+    // ============ 2026-04-20（周一，含周末）收录窗口：4/18-20 ============
+    {id:"0420-001",date:"2026-04-20",title:"国家发改委：将制定2026-2030年扩大内需战略实施方案",source:"国家发改委",province:"国家级",category:"数字经济",impact:"中",status:"制定中",summary:"4月17日国新办十五五系列发布会上，发改委宣布将制定2026-2030年扩大内需战略实施方案，涵盖消费升级、有效投资、新消费增长点，数字经济和智能消费为重点方向。",action:"关注数字经济/消费互联网扶持政策窗口，提前储备华东数字消费合作项目。",url:"https://jingji.cctv.com/2026/04/17/ARTIkcjpMMQcMzUJQRX1cbDA260417.shtml",publishDate:"2026-04-17",isNew:true,isTop:true},
+    {id:"0420-002",date:"2026-04-20",title:"科技部报道：安徽打造人工智能产业新高地",source:"科技部",province:"安徽",category:"人工智能",impact:"中",status:"已发布",summary:"科技部网站专题报道安徽AI产业布局：合肥中国声谷集聚企业2500余家，马鞍山图灵小镇汇聚AI企业150余家，亳州聚力AI+中医药，黄山承办AI+文旅专项赛。2025年安徽AI产业营收突破3000亿元。",action:"安徽AI产业生态成熟，腾讯云可对接各市AI产业园需求。",url:"https://www.most.gov.cn/dfkj/ah/zxdt/202604/t20260417_196429.html",publishDate:"2026-04-17",isNew:true,isTop:false},
+    {id:"0420-003",date:"2026-04-20",title:"央视报道：具身智能加速走进日常生活（经济大省调研行）",source:"新华网/央视网",province:"国家级",category:"人工智能",impact:"中",status:"已报道",summary:"新华社经济大省调研行聚焦深圳前海具身智能企业集群。留形科技研发空间记忆模组给机器人装海马体，可在复杂环境精准感知。具身智能从实验室走向生产线。",action:"具身智能政策与产业加速落地，腾讯混元3D/RoboticS可对接产业需求。",url:"https://news.cctv.cn/2026/04/19/ARTIl8cydEgtSuFyWCpZXOyc260419.shtml",publishDate:"2026-04-19",isNew:true,isTop:false},
+
     // ============ 2026-04-17（周四）收录窗口：4/16-17 ============
     {id:"0417-001",date:"2026-04-17",title:"国家网信办持续整治网上金融信息乱象",source:"国家网信办",province:"国家级",category:"行业监管",impact:"中",status:"持续推进",summary:"依法处置非法荐股账号，涉及微博、微信公众号、小红书、雪球、B站、快手等多平台。涵盖公开推荐个股、诱导加群荐股、兜售AI选股软件三类违规。",action:"关注微信公众号平台内非法荐股内容排查，AI选股类产品合规。",url:"https://news.cctv.com/2026/04/16/ARTIEAnjPuWOgnOYamxcbo23260416.shtml",publishDate:"2026-04-16",isNew:true,isTop:true},
     {id:"0417-002",date:"2026-04-17",title:"上海市2026年碳达峰碳中和及节能减排重点工作安排",source:"上海市发改委",province:"上海",category:"数字经济",impact:"中",status:"已印发",summary:"经市政府同意印发，涉及建立碳排放双控目标体系、推进零碳园区建设等。与算力基础设施能效、数据中心绿色发展相关。",action:"关注数据中心能效要求和绿色算力政策方向。",url:"https://fgw.sh.gov.cn/fgw_zyjyhhjbh/20260416/28bc161eae9049b9853ea0e5c6b7305f.html",publishDate:"2026-04-16",isNew:true,isTop:false},
@@ -39,18 +44,26 @@ var DATA = {
     {level:"一级紧急",item:"《数字虚拟人管理办法》征求意见中",assessment:"虚拟人业务需立即关注并参与反馈",days:"",linkType:"policy",linkTarget:"0416-001"},
     {level:"一级紧急",item:"AI科技伦理审查办法印发，所有AI产品需纳入审查",assessment:"混元、元宝、ima等需建立内部伦理审查机制",days:"",linkType:"policy",linkTarget:"0416-002"},
     {level:"一级紧急",item:"网络直播打赏11条新规合规整改窗口期",assessment:"视频号直播等需全面整改",days:"持续跟踪",linkType:"policy",linkTarget:"0414-003"},
-    {level:"一级紧急",item:"AI拟人化互动服务管理办法7月15日施行",assessment:"AI助手/虚拟角色/NPC等需完成合规评估",days:"倒计时89天",linkType:"policy",linkTarget:"0414-004"},
+    {level:"一级紧急",item:"AI拟人化互动服务管理办法7月15日施行",assessment:"AI助手/虚拟角色/NPC等需完成合规评估",days:"倒计时86天",linkType:"policy",linkTarget:"0414-004"},
     {level:"一级紧急",item:"Claude Opus 4.7发布+AI设计工具即将推出",assessment:"混元3.0发布节奏需加快",days:"4月16日",linkType:"competitor",linkTarget:"Anthropic"},
     {level:"二级重要",item:"互联网平台价格行为规则已实施，三部门通报合规问题",assessment:"电商/广告/支付全平台需对标合规",days:"持续跟踪",linkType:"policy",linkTarget:"0414-001"},
     {level:"二级重要",item:"三部门个人信息保护专项行动",assessment:"腾讯各App需自查个人信息收集合规",days:"持续跟踪",linkType:"policy",linkTarget:"0414-002"},
     {level:"二级重要",item:"Token通胀元年：算力全面涨价最高463%",assessment:"腾讯云算力定价策略需关注",days:"持续跟踪",linkType:"competitor",linkTarget:"其他"},
     {level:"二级重要",item:"具身智能Q1融资超200亿",assessment:"机器人赛道战略评估",days:"持续跟踪",linkType:"competitor",linkTarget:"具身智能"},
-    {level:"二级重要",item:"福建AI园区补助 + 数字中国峰会4.29-30福州",assessment:"参展和BD对接机会",days:"倒计时12天",linkType:"policy",linkTarget:"0416-004"},
-    {level:"二级重要",item:"安徽AI政策兑现申报（5月5日截止）",assessment:"算力补贴等市场机会",days:"倒计时18天",linkType:"policy",linkTarget:"0416-006"},
+    {level:"二级重要",item:"福建AI园区补助 + 数字中国峰会4.29-30福州",assessment:"参展和BD对接机会",days:"倒计时9天",linkType:"policy",linkTarget:"0416-004"},
+    {level:"二级重要",item:"安徽AI政策兑现申报（5月5日截止）",assessment:"算力补贴等市场机会",days:"倒计时15天",linkType:"policy",linkTarget:"0416-006"},
+    {level:"三级关注",item:"DeepSeek V4纯国产算力训练完成，4月下旬全量发布",assessment:"关注对混元竞争力影响",days:"预计4月底前",linkType:"competitor",linkTarget:"DeepSeek"},
     {level:"三级关注",item:"江苏省数据局局长易人（刘世虎）",assessment:"关注数据要素流通政策方向",days:"",linkType:"personnel",linkTarget:"江苏"},
     {level:"三级关注",item:"上海金山区长袁罡拟任区委书记、崇明副书记杨元飞拟任区长",assessment:"关注上海区级主官调整",days:"公示至4月22日",linkType:"personnel",linkTarget:"上海"}
   ],
   competitors: [
+    // ============ 4月20日新增动态 ============
+    {name:"腾讯",date:"2026-04-20",update:"4月16日正式发布并开源混元3D世界模型2.0（HY-World 2.0），多模态世界模型可理解文字/图片/视频输入，自动生成完整3D世界场景，输出可直接导入Unity/Unreal游戏引擎。与Google DeepMind Genie 3、李飞飞World Labs形成三足鼎立。混元3.0大模型内部测试中，计划4月正式发布。",url:"https://news.qq.com/rain/a/20260416A03QFK00"},
+    {name:"DeepSeek",date:"2026-04-20",update:"4月17日官宣V4全程采用纯国产算力集群（华为昇腾950PR）完成训练，为国内首个彻底摆脱英伟达CUDA依赖的万亿级大模型。MoE架构，万亿参数，推理速度比V3提升35倍，支持1M Token上下文。4月下旬全量发布。",url:"https://aiproducthub.cn/newsflash/deepseek-v4-pure-domestic-computing-power-training/"},
+    {name:"具身智能",date:"2026-04-20",update:"4月17-19日2026中国人形机器人生态大会在上海举办，主题人机共融智造未来。4月19日央视焦点访谈聚焦人形机器人半马赛事，具身天工ultra以1小时15分自主完赛。4月11-12日中国具身智能大会在合肥召开并发布《具身智能白皮书（2026）》。",url:"https://news.cctv.cn/2026/04/19/ARTIl8cydEgtSuFyWCpZXOyc260419.shtml"},
+    {name:"国产算力",date:"2026-04-20",update:"2026年4月，DeepSeek V4、阿里通义、字节豆包等头部大模型全面完成从英伟达CUDA到华为昇腾CANN的全栈迁移，昇腾950PR芯片进入规模化量产交付，标志国产AI算力生态进入新阶段。",url:"https://www.sohu.com/a/1008903123_120426565"},
+
+    // ============ 4月17日动态 ============
     {name:"腾讯",date:"2026-04-17",update:"4月16日微信官宣升级AI小程序成长计划，面向全行业开放申请。混元3.0计划4月内发布。腾讯云4月9日宣布5月9日起AI算力涨价5%。QuestMobile数据显示国产AI三强：DeepSeek技术最强、豆包用户最多、混元生态最广。",url:"https://www.sohu.com/a/1010468113_362042"},
     {name:"阿里巴巴",date:"2026-04-17",update:"Qwen 3.6 Plus成全球首个单日调用破1万亿Token模型，问鼎OpenRouter全球周榜。锚定智能体经济。此前一周连发Qwen3.5-Omni、Wan2.7-Image、Qwen3.6-Plus三款模型。",url:"https://news.qq.com/rain/a/20260414A04QF100"},
     {name:"字节跳动",date:"2026-04-17",update:"豆包Seed-2.0-pro登顶SuperCLUE国产大模型榜首（71.53分）。前DeepSeek核心研究员郭达雅加入Seed团队任Agent方向负责人。Seeduplex全双工语音模型全量上线豆包App。",url:"https://news.pedaily.cn/202604/562628.shtml"},
@@ -63,9 +76,12 @@ var DATA = {
     {name:"其他",date:"2026-04-17",update:"Token通胀元年：算力全面涨价最高463%。杭州六小龙第一股登陆港交所高开172%市值307亿。MiniMax 2.5→2.7版；百度文心一言全面免费6月30日开源。",url:"https://36kr.com/information/AI/"}
   ],
   events: [
+    {name:"2026中国人形机器人生态大会",time:"4月17-19日",location:"上海",note:"人机共融智造未来。已举办"},
+    {name:"CDIE2026数字化创新博览会",time:"4月14-15日",location:"上海",note:"将AI转化为生产力。已闭幕"},
+    {name:"2026中国具身智能大会（CEAI）",time:"4月11-12日",location:"合肥",note:"智驱万物具汇江淮，发布《具身智能白皮书》。已举办"},
     {name:"2026年世界互联网大会亚太峰会",time:"4月13-14日",location:"香港",note:"AI治理、数据跨境、数字经济合作。已举办"},
-    {name:"2026中国AI+数字峰会",time:"4月18日",location:"苏州",note:"CIO时代主办"},
-    {name:"第九届数字中国建设峰会",time:"4月29-30日",location:"福州",note:"国家发改委牵头主办，50余场交流活动"},
+    {name:"2026中国AI+数字峰会",time:"4月18日",location:"苏州",note:"CIO时代主办。已举办"},
+    {name:"第九届数字中国建设峰会",time:"4月29-30日",location:"福州",note:"国家发改委牵头主办，50余场交流活动。倒计时9天"},
     {name:"CIPSE 2026中国（杭州）国际数字安防及AI博览会",time:"筹备中",location:"杭州",note:"数字安防+AI融合展"}
   ],
   personnel: [
