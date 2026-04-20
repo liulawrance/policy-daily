@@ -68,6 +68,8 @@ var DATA = {
     {name:"具身智能",date:"2026-04-20",update:"4月20日自变量机器人完成近20亿元B轮融资（小米战投/红杉中国领投），唯一同时获字节/美团/阿里/小米四家大厂投资。4月17-19日人形机器人生态大会上海举办。4月19日央视焦点访谈聚焦人形机器人半马，具身天工ultra以1小时15分自主完赛。4月11-12日具身智能大会合肥召开发布白皮书。",url:"https://36kr.com/information/AI/"},
     {name:"Anthropic",date:"2026-04-20",update:"4月18日Claude Design视觉创作工具正式上线，基于Opus 4.7模型，支持对话生成设计原型和演示文稿。CEO达里奥阿莫迪警告AI将在5年内取代最多50%初级白领岗位。",url:"https://www.ithome.com/tag/AI/"},
     {name:"xAI",date:"2026-04-20",update:"4月18日曝光即将发布Grok Build与Grok CLI两款编程产品，正式进军AI智能编程领域，与Claude Code/Codex形成竞争。",url:"https://www.ithome.com/tag/AI/"},
+    {name:"Cursor",date:"2026-04-20",update:"4月19日完成20亿美元融资，估值飙升至500亿美元，成为最热AI编程独角兽。AI编程赛道竞争白热化。",url:"https://www.geekpark.net/"},
+    {name:"Meta",date:"2026-04-20",update:"4月19日宣布再裁8000人（拟5月20日启动），同时微软首日集成Claude Opus 4.7至GitHub Copilot等9大AI工具。",url:"https://www.geekpark.net/"},
     {name:"国产算力",date:"2026-04-20",update:"2026年4月，DeepSeek V4、阿里通义、字节豆包等头部大模型全面完成从英伟达CUDA到华为昇腾CANN的全栈迁移，昇腾950PR芯片进入规模化量产交付，标志国产AI算力生态进入新阶段。",url:"https://www.sohu.com/a/1008903123_120426565"},
 
     // ============ 4月17日动态 ============
