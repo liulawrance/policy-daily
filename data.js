@@ -7,8 +7,10 @@ var DATA = {
   entries: [
     // ============ 2026-04-20（周一，含周末）收录窗口：4/18-20 ============
     {id:"0420-001",date:"2026-04-20",title:"国家发改委：将制定2026-2030年扩大内需战略实施方案",source:"国家发改委",province:"国家级",category:"数字经济",impact:"中",status:"制定中",summary:"4月17日国新办十五五系列发布会上，发改委宣布将制定2026-2030年扩大内需战略实施方案，涵盖消费升级、有效投资、新消费增长点，数字经济和智能消费为重点方向。",action:"关注数字经济/消费互联网扶持政策窗口，提前储备华东数字消费合作项目。",url:"https://jingji.cctv.com/2026/04/17/ARTIkcjpMMQcMzUJQRX1cbDA260417.shtml",publishDate:"2026-04-17",isNew:true,isTop:true},
-    {id:"0420-002",date:"2026-04-20",title:"科技部报道：安徽打造人工智能产业新高地",source:"科技部",province:"安徽",category:"人工智能",impact:"中",status:"已发布",summary:"科技部网站专题报道安徽AI产业布局：合肥中国声谷集聚企业2500余家，马鞍山图灵小镇汇聚AI企业150余家，亳州聚力AI+中医药，黄山承办AI+文旅专项赛。2025年安徽AI产业营收突破3000亿元。",action:"安徽AI产业生态成熟，腾讯云可对接各市AI产业园需求。",url:"https://www.most.gov.cn/dfkj/ah/zxdt/202604/t20260417_196429.html",publishDate:"2026-04-17",isNew:true,isTop:false},
-    {id:"0420-003",date:"2026-04-20",title:"央视报道：具身智能加速走进日常生活（经济大省调研行）",source:"新华网/央视网",province:"国家级",category:"人工智能",impact:"中",status:"已报道",summary:"新华社经济大省调研行聚焦深圳前海具身智能企业集群。留形科技研发空间记忆模组给机器人装海马体，可在复杂环境精准感知。具身智能从实验室走向生产线。",action:"具身智能政策与产业加速落地，腾讯混元3D/RoboticS可对接产业需求。",url:"https://news.cctv.cn/2026/04/19/ARTIl8cydEgtSuFyWCpZXOyc260419.shtml",publishDate:"2026-04-19",isNew:true,isTop:false},
+    {id:"0420-002",date:"2026-04-20",title:"浦东新区《以科技创新推进产业高质量发展若干措施》",source:"浦东新区人民政府",province:"上海",category:"数字经济",impact:"中",status:"已印发",summary:"浦东新区发布科技创新推进产业高质量发展综合性政策措施，聚焦研发投入、成果转化、人才引进等多维度支持。",action:"浦东是腾讯华东重要布局区域，关注科创扶持政策细则和项目申报机会。",url:"https://www.shanghai.gov.cn/nw12344/",publishDate:"2026-04-20",isNew:true,isTop:true},
+    {id:"0420-003",date:"2026-04-20",title:"国务院两重建设第二批项目清单下达 累计安排6065亿元",source:"国务院",province:"国家级",category:"数字经济",impact:"中",status:"已下达",summary:"第二批两重建设项目清单下达，2026年已累计安排两重建设资金6065亿元，涵盖国家重大战略实施和重点领域安全能力建设。",action:"关注数字基建、新型城镇化智慧化需求中的项目机会。",url:"https://www.gov.cn/lianbo/202604/content_7066300.htm",publishDate:"2026-04-20",isNew:true,isTop:false},
+    {id:"0420-004",date:"2026-04-20",title:"科技部报道：安徽打造人工智能产业新高地",source:"科技部",province:"安徽",category:"人工智能",impact:"中",status:"已发布",summary:"科技部网站专题报道安徽AI产业布局：合肥中国声谷集聚企业2500余家，马鞍山图灵小镇汇聚AI企业150余家，亳州聚力AI+中医药，黄山承办AI+文旅专项赛。2025年安徽AI产业营收突破3000亿元。",action:"安徽AI产业生态成熟，腾讯云可对接各市AI产业园需求。",url:"https://www.most.gov.cn/dfkj/ah/zxdt/202604/t20260417_196429.html",publishDate:"2026-04-17",isNew:true,isTop:false},
+    {id:"0420-005",date:"2026-04-20",title:"央视报道：具身智能加速走进日常生活（经济大省调研行）",source:"新华网/央视网",province:"国家级",category:"人工智能",impact:"中",status:"已报道",summary:"新华社经济大省调研行聚焦深圳前海具身智能企业集群。央视焦点访谈同日报道人形机器人半马赛事，具身天工ultra以1小时15分自主完赛。",action:"具身智能政策与产业加速落地，腾讯混元3D/RoboticS可对接产业需求。",url:"https://news.cctv.cn/2026/04/19/ARTIl8cydEgtSuFyWCpZXOyc260419.shtml",publishDate:"2026-04-19",isNew:true,isTop:false},
 
     // ============ 2026-04-17（周四）收录窗口：4/16-17 ============
     {id:"0417-001",date:"2026-04-17",title:"国家网信办持续整治网上金融信息乱象",source:"国家网信办",province:"国家级",category:"行业监管",impact:"中",status:"持续推进",summary:"依法处置非法荐股账号，涉及微博、微信公众号、小红书、雪球、B站、快手等多平台。涵盖公开推荐个股、诱导加群荐股、兜售AI选股软件三类违规。",action:"关注微信公众号平台内非法荐股内容排查，AI选股类产品合规。",url:"https://news.cctv.com/2026/04/16/ARTIEAnjPuWOgnOYamxcbo23260416.shtml",publishDate:"2026-04-16",isNew:true,isTop:true},
@@ -59,8 +61,10 @@ var DATA = {
   competitors: [
     // ============ 4月20日新增动态 ============
     {name:"腾讯",date:"2026-04-20",update:"4月16日正式发布并开源混元3D世界模型2.0（HY-World 2.0），多模态世界模型可理解文字/图片/视频输入，自动生成完整3D世界场景，输出可直接导入Unity/Unreal游戏引擎。与Google DeepMind Genie 3、李飞飞World Labs形成三足鼎立。混元3.0大模型内部测试中，计划4月正式发布。",url:"https://news.qq.com/rain/a/20260416A03QFK00"},
-    {name:"DeepSeek",date:"2026-04-20",update:"4月17日官宣V4全程采用纯国产算力集群（华为昇腾950PR）完成训练，为国内首个彻底摆脱英伟达CUDA依赖的万亿级大模型。MoE架构，万亿参数，推理速度比V3提升35倍，支持1M Token上下文。4月下旬全量发布。",url:"https://aiproducthub.cn/newsflash/deepseek-v4-pure-domestic-computing-power-training/"},
-    {name:"具身智能",date:"2026-04-20",update:"4月17-19日2026中国人形机器人生态大会在上海举办，主题人机共融智造未来。4月19日央视焦点访谈聚焦人形机器人半马赛事，具身天工ultra以1小时15分自主完赛。4月11-12日中国具身智能大会在合肥召开并发布《具身智能白皮书（2026）》。",url:"https://news.cctv.cn/2026/04/19/ARTIl8cydEgtSuFyWCpZXOyc260419.shtml"},
+    {name:"DeepSeek",date:"2026-04-20",update:"4月17日官宣V4全程采用纯国产算力集群（华为昇腾950PR）完成训练，为国内首个彻底摆脱英伟达CUDA依赖的万亿级大模型。MoE架构，万亿参数，推理速度比V3提升35倍，支持1M Token上下文。4月下旬全量发布。4月20日36氪报道融资传闻3亿美元估值超100亿美元。",url:"https://aiproducthub.cn/newsflash/deepseek-v4-pure-domestic-computing-power-training/"},
+    {name:"具身智能",date:"2026-04-20",update:"4月20日自变量机器人完成近20亿元B轮融资（小米战投/红杉中国领投），唯一同时获字节/美团/阿里/小米四家大厂投资。4月17-19日人形机器人生态大会上海举办。4月19日央视焦点访谈聚焦人形机器人半马，具身天工ultra以1小时15分自主完赛。4月11-12日具身智能大会合肥召开发布白皮书。",url:"https://36kr.com/information/AI/"},
+    {name:"Anthropic",date:"2026-04-20",update:"4月18日Claude Design视觉创作工具正式上线，基于Opus 4.7模型，支持对话生成设计原型和演示文稿。CEO达里奥阿莫迪警告AI将在5年内取代最多50%初级白领岗位。",url:"https://www.ithome.com/tag/AI/"},
+    {name:"xAI",date:"2026-04-20",update:"4月18日曝光即将发布Grok Build与Grok CLI两款编程产品，正式进军AI智能编程领域，与Claude Code/Codex形成竞争。",url:"https://www.ithome.com/tag/AI/"},
     {name:"国产算力",date:"2026-04-20",update:"2026年4月，DeepSeek V4、阿里通义、字节豆包等头部大模型全面完成从英伟达CUDA到华为昇腾CANN的全栈迁移，昇腾950PR芯片进入规模化量产交付，标志国产AI算力生态进入新阶段。",url:"https://www.sohu.com/a/1008903123_120426565"},
 
     // ============ 4月17日动态 ============
