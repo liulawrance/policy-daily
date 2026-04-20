@@ -665,12 +665,14 @@ function renderDigest() {
 
   // 2. 高影响政策
   DATA.entries.filter(function(e) { return e.date === targetDate && e.impact === '\u9AD8'; }).forEach(function(e) {
-    items.push({type:'policy',tag:'\u91CD\u8981\u653F\u7B56',tagClass:'d-tag-policy',title:e.title,summary:e.summary,meta:e.source,priority:1,id:e.id});
+    var dTitle = e.headline || e.title;
+    items.push({type:'policy',tag:'\u91CD\u8981\u653F\u7B56',tagClass:'d-tag-policy',title:dTitle,summary:e.summary,meta:e.source,priority:1,id:e.id});
   });
 
   // 3. 中影响+isTop的政策
   DATA.entries.filter(function(e) { return e.date === targetDate && e.impact === '\u4E2D' && e.isTop; }).forEach(function(e) {
-    items.push({type:'policy',tag:'\u653F\u7B56\u52A8\u6001',tagClass:'d-tag-policy',title:e.title,summary:e.summary,meta:e.source,priority:2,id:e.id});
+    var dTitle = e.headline || e.title;
+    items.push({type:'policy',tag:'\u653F\u7B56\u52A8\u6001',tagClass:'d-tag-policy',title:dTitle,summary:e.summary,meta:e.source,priority:2,id:e.id});
   });
 
   // 4. 当日重点人事（P0/P1部门的）
@@ -686,7 +688,9 @@ function renderDigest() {
 
   // 5. 重要行业动态（腾讯和DeepSeek）
   DATA.competitors.filter(function(c) { return c.date === targetDate && (c.name === '\u817E\u8BAF' || c.name === 'DeepSeek'); }).forEach(function(c) {
-    items.push({type:'competitor',tag:'\u884C\u4E1A\u52A8\u6001',tagClass:'d-tag-industry',title:c.name + '\u6700\u65B0\u52A8\u6001',summary:c.update.substring(0, 80) + '...',meta:c.date,priority:4,name:c.name});
+    var dTitle = c.title ? c.name + ' | ' + c.title : c.name + '\u6700\u65B0\u52A8\u6001';
+    var dSummary = c.update || '';
+    items.push({type:'competitor',tag:'\u884C\u4E1A\u52A8\u6001',tagClass:'d-tag-industry',title:dTitle,summary:dSummary,meta:c.date,priority:4,name:c.name});
   });
 
   // 排序
