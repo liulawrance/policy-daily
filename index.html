@@ -656,9 +656,11 @@ function renderDigest() {
   // 筛选重要信息：高影响政策 + 一级紧急预警 + 重点人事 + 重要行业动态
   var items = [];
 
-  // 1. 一级紧急预警
+  // 1. 当日新增预警（只显示有date字段且匹配当天的预警，或无date字段的一级紧急）
   DATA.alerts.forEach(function(a, i) {
-    if (a.level.indexOf('\u4E00\u7EA7') >= 0) {
+    if (a.date && a.date !== targetDate) return; // 有日期但不是当天，跳过
+    if (!a.date && a.level.indexOf('\u4E00\u7EA7') < 0) return; // 无日期且非一级，跳过
+    if (a.date) {
       var dSummary = a.detail || a.assessment;
       items.push({type:'alert',tag:'\u7D27\u6025\u9884\u8B66',tagClass:'d-tag-alert',title:a.item,summary:dSummary,meta:a.days||a.assessment,priority:0,idx:i});
     }
