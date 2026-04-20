@@ -46,20 +46,20 @@ var DATA = {
     {id:"0414-005",date:"2026-04-14",title:"上海市市场监管局《促进互联网平台广告规范健康发展指导意见》",source:"上海市市场监管局",province:"上海",category:"平台经济",impact:"中",status:"持续执行",summary:"20项重点任务，提升上海互联网平台广告规范化水平，助力建设国际数字广告之都。",action:"涉及腾讯在沪广告业务合规。",url:"https://scjgj.sh.gov.cn/207/20260109/2c984a729b92b990019ba06d36224232.html",publishDate:"2026-01-09",isNew:false,isTop:false}
   ],
   alerts: [
-    {level:"一级紧急",item:"《数字虚拟人管理办法》征求意见中",assessment:"虚拟人业务需立即关注并参与反馈",days:"",linkType:"policy",linkTarget:"0416-001"},
-    {level:"一级紧急",item:"AI科技伦理审查办法印发，所有AI产品需纳入审查",assessment:"混元、元宝、ima等需建立内部伦理审查机制",days:"",linkType:"policy",linkTarget:"0416-002"},
-    {level:"一级紧急",item:"网络直播打赏11条新规合规整改窗口期",assessment:"视频号直播等需全面整改",days:"持续跟踪",linkType:"policy",linkTarget:"0414-003"},
-    {level:"一级紧急",item:"AI拟人化互动服务管理办法7月15日施行",assessment:"AI助手/虚拟角色/NPC等需完成合规评估",days:"倒计时86天",linkType:"policy",linkTarget:"0414-004"},
-    {level:"一级紧急",item:"Claude Opus 4.7发布+AI设计工具即将推出",assessment:"混元3.0发布节奏需加快",days:"4月16日",linkType:"competitor",linkTarget:"Anthropic"},
-    {level:"二级重要",item:"互联网平台价格行为规则已实施，三部门通报合规问题",assessment:"电商/广告/支付全平台需对标合规",days:"持续跟踪",linkType:"policy",linkTarget:"0414-001"},
-    {level:"二级重要",item:"三部门个人信息保护专项行动",assessment:"腾讯各App需自查个人信息收集合规",days:"持续跟踪",linkType:"policy",linkTarget:"0414-002"},
-    {level:"二级重要",item:"Token通胀元年：算力全面涨价最高463%",assessment:"腾讯云算力定价策略需关注",days:"持续跟踪",linkType:"competitor",linkTarget:"其他"},
-    {level:"二级重要",item:"具身智能Q1融资超200亿",assessment:"机器人赛道战略评估",days:"持续跟踪",linkType:"competitor",linkTarget:"具身智能"},
-    {level:"二级重要",item:"福建AI园区补助 + 数字中国峰会4.29-30福州",assessment:"参展和BD对接机会",days:"倒计时9天",linkType:"policy",linkTarget:"0416-004"},
-    {level:"二级重要",item:"安徽AI政策兑现申报（5月5日截止）",assessment:"算力补贴等市场机会",days:"倒计时15天",linkType:"policy",linkTarget:"0416-006"},
-    {level:"三级关注",item:"DeepSeek V4纯国产算力训练完成，4月下旬全量发布",assessment:"关注对混元竞争力影响",days:"预计4月底前",linkType:"competitor",linkTarget:"DeepSeek"},
-    {level:"三级关注",item:"江苏省数据局局长易人（刘世虎）",assessment:"关注数据要素流通政策方向",days:"",linkType:"personnel",linkTarget:"江苏"},
-    {level:"三级关注",item:"上海金山区长袁罡拟任区委书记、崇明副书记杨元飞拟任区长",assessment:"关注上海区级主官调整",days:"公示至4月22日",linkType:"personnel",linkTarget:"上海"}
+    {level:"一级紧急",item:"数字虚拟人管理办法征求意见中",assessment:"虚拟人业务需立即关注并参与反馈",detail:"国家网信办4月3日发布《数字虚拟人信息服务管理办法》征求意见稿，对虚拟人的开发、运营和服务提出监管要求，与AI拟人化办法共同构成虚拟人/数字人监管双轨体系。",days:"",linkType:"policy",linkTarget:"0416-001"},
+    {level:"一级紧急",item:"AI伦理审查办法印发，所有AI产品需纳入审查",assessment:"混元、元宝、ima等需建立内部伦理审查机制",detail:"工信部等十部门印发《人工智能科技伦理审查与服务办法（试行）》，对AI伦理审查的适用范围、实施主体、工作程序、监督管理作出制度性规定，标志AI伦理治理从倡导迈向制度化。",days:"",linkType:"policy",linkTarget:"0416-002"},
+    {level:"一级紧急",item:"直播打赏11条新规，合规整改窗口期",assessment:"视频号直播等需全面整改",detail:"中央网信办发布《关于加强网络直播打赏规范管理的通知》，禁止向8岁以下未成年人提供打赏，8-16岁需监护人同意，强制打赏限额和提醒，全额退还未成年人打赏。",days:"持续跟踪",linkType:"policy",linkTarget:"0414-003"},
+    {level:"一级紧急",item:"AI拟人化互动服务管理办法7月15日施行",assessment:"AI助手/虚拟角色/NPC等需完成合规评估",detail:"网信办等五部门联合发布，规范AI拟人化互动服务，涉及AI助手、虚拟角色、NPC等，要求安全评估、标注AI生成内容、保护用户权益。距施行还有86天。",days:"倒计时86天",linkType:"policy",linkTarget:"0414-004"},
+    {level:"一级紧急",item:"Claude Opus 4.7发布+AI设计工具上线",assessment:"混元3.0发布节奏需加快",detail:"Anthropic发布Opus 4.7视觉+编码能力跃升至满分级，Claude Design视觉创作工具正式上线，对Figma构成直接威胁。腾讯混元3.0需加快发布节奏应对竞争压力。",days:"4月16日",linkType:"competitor",linkTarget:"Anthropic"},
+    {level:"二级重要",item:"互联网平台价格行为规则已实施",assessment:"电商/广告/支付全平台需对标合规",detail:"发改委/市场监管总局/网信办联合发布7章29条，规范平台补贴行为、遏制恶性价格竞争。三部门已召开合规指导会并通报部分平台价格合规问题。",days:"持续跟踪",linkType:"policy",linkTarget:"0414-001"},
+    {level:"二级重要",item:"三部门个人信息保护专项行动启动",assessment:"腾讯各App需自查个人信息收集合规",detail:"网信办/工信部/公安部部署七大专项行动：App/SDK治理、互联网广告、教育、交通、卫生健康、金融、违法犯罪打击，特别强调人脸识别技术安全管理。",days:"持续跟踪",linkType:"policy",linkTarget:"0414-002"},
+    {level:"二级重要",item:"Token通胀元年，算力全面涨价最高463%",assessment:"腾讯云算力定价策略需关注",detail:"阿里、Anthropic等厂商连续调价，严重算力荒再现。腾讯云也已宣布5月9日起AI算力涨价5%。台积电CEO表示全力扩产仍难以满足强劲AI需求。",days:"持续跟踪",linkType:"competitor",linkTarget:"其他"},
+    {level:"二级重要",item:"具身智能Q1融资超200亿，赛道持续升温",assessment:"机器人赛道战略评估",detail:"Q1国内具身赛道融资超50起累计约200亿元。自变量机器人近20亿B轮（小米/红杉/字节/美团/阿里齐投），它石智航4.55亿美金创最大单笔。人形机器人半马已自主完赛。",days:"持续跟踪",linkType:"competitor",linkTarget:"具身智能"},
+    {level:"二级重要",item:"数字中国峰会4月29-30日福州举办",assessment:"参展和BD对接机会",detail:"第九届数字中国建设峰会由国家发改委牵头主办，50余场交流活动。福建AI园区此前已获财政专项补助。距开幕还有9天。",days:"倒计时9天",linkType:"policy",linkTarget:"0416-004"},
+    {level:"二级重要",item:"安徽AI政策兑现申报5月5日截止",assessment:"算力补贴等市场机会",detail:"安徽省AI产业高地2.0版政策兑现申报中，涵盖场景创新、垂类模型标杆、算力成本补贴（免申即享）、大赛成果转化奖励五大方向。截止5月5日。",days:"倒计时15天",linkType:"policy",linkTarget:"0416-006"},
+    {level:"三级关注",item:"DeepSeek V4纯国产算力训练完成，4月下旬发布",assessment:"关注对混元竞争力影响",detail:"万亿参数MoE架构全程采用华为昇腾950PR训练，推理速度比V3提升35倍。首轮融资传闻估值超100亿美元。预计4月底前全量发布。",days:"预计4月底前",linkType:"competitor",linkTarget:"DeepSeek"},
+    {level:"三级关注",item:"江苏省数据局局长易人（刘世虎）",assessment:"关注数据要素流通政策方向",detail:"江苏省政府3月28日发布人事任免，刘世虎接任省数据局局长兼政务服务办主任兼发改委副主任。此前任国家发改委投资司司长，熟悉数字基建和投资审批。",days:"",linkType:"personnel",linkTarget:"江苏"},
+    {level:"三级关注",item:"上海金山区长袁罡拟任区委书记",assessment:"关注上海区级主官调整",detail:"上海市委4月15日发布市管干部任前公示：袁罡（现任金山区委副书记、区长）拟任地区党委书记，杨元飞拟为区长人选，姜爱锋拟任市级机关正职。公示至4月22日。",days:"公示至4月22日",linkType:"personnel",linkTarget:"上海"}
   ],
   competitors: [
     // ============ 4月20日新增动态 ============
