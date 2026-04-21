@@ -5,6 +5,10 @@ var DATA = {
     version: "v3.1"
   },
   entries: [
+    // ============ 2026-04-21（周二）收录窗口：4/20-21 ============
+    {id:"0421-001",date:"2026-04-21",title:"上海市政府办公厅《上海全球科技伙伴计划》",headline:"上海发布全球科技伙伴计划，六大行动18条打造全球科创枢纽",source:"上海市政府办公厅",province:"上海",category:"数字经济",impact:"高",status:"已印发",summary:"六大行动18条措施：国际联合研究、人才交流（白玉兰计划）、国际科技组织引育、开放科学、产业创新国际化、创新生态优化。财政科技计划向外资企业平等开放，推进数据跨境传输制度标准规范。",action:"外资平等申报科技计划、数据跨境制度、世界AI大会国际化与腾讯直接相关。",url:"https://www.shanghai.gov.cn/nw12344/20260420/f99dfd9f2b3c4cffa2551d2590c1bbd9.html",publishDate:"2026-04-20",isNew:true,isTop:true},
+    {id:"0421-002",date:"2026-04-21",title:"浙江省《推进服务业扩能提质实施意见》征求意见",source:"浙江省发改委",province:"浙江",category:"数字经济",impact:"低",status:"征求意见中",summary:"征求意见稿公开，推进服务业扩能提质，涉及数字服务业、科技服务业等领域升级。",action:"间接相关，关注数字服务业方向。",url:"https://fzggw.zj.gov.cn/",publishDate:"2026-04-20",isNew:true,isTop:false},
+
     // ============ 2026-04-20（周一，含周末）收录窗口：4/18-20 ============
     {id:"0420-001",date:"2026-04-20",title:"国家发改委：将制定2026-2030年扩大内需战略实施方案",headline:"发改委将出台十五五扩大内需方案，数字经济和智能消费为重点方向",source:"国家发改委",province:"国家级",category:"数字经济",impact:"中",status:"制定中",summary:"4月17日国新办十五五系列发布会上，发改委宣布将制定2026-2030年扩大内需战略实施方案，涵盖消费升级、有效投资、新消费增长点，数字经济和智能消费为重点方向。",action:"关注数字经济/消费互联网扶持政策窗口，提前储备华东数字消费合作项目。",url:"https://jingji.cctv.com/2026/04/17/ARTIkcjpMMQcMzUJQRX1cbDA260417.shtml",publishDate:"2026-04-17",isNew:true,isTop:true},
     {id:"0420-002",date:"2026-04-20",title:"浦东新区《以科技创新推进产业高质量发展若干措施》",headline:"浦东新区发布科创产业新政，聚焦研发投入和成果转化",source:"浦东新区人民政府",province:"上海",category:"数字经济",impact:"中",status:"已印发",summary:"浦东新区发布科技创新推进产业高质量发展综合性政策措施，聚焦研发投入、成果转化、人才引进等多维度支持。",action:"浦东是腾讯华东重要布局区域，关注科创扶持政策细则和项目申报机会。",url:"https://www.shanghai.gov.cn/nw12344/",publishDate:"2026-04-20",isNew:true,isTop:true},
@@ -62,6 +66,14 @@ var DATA = {
     {date:"2026-04-17",level:"三级关注",item:"上海金山区长袁罡拟任区委书记",assessment:"关注上海区级主官调整",detail:"上海市委4月15日发布市管干部任前公示：袁罡（现任金山区委副书记、区长）拟任地区党委书记，杨元飞拟为区长人选，姜爱锋拟任市级机关正职。公示至4月22日。",days:"公示至4月22日",linkType:"personnel",linkTarget:"上海"}
   ],
   competitors: [
+    // ============ 4月21日新增动态 ============
+    {name:"月之暗面",date:"2026-04-21",title:"Kimi K2.6正式发布并开源，Agent+代码旗舰",update:"从Preview到GA仅用8天，通用Agent、代码生成、视觉理解全面提升，为Kimi系列最智能旗舰。kimi-k2系列5月25日下线。",url:"https://kimi-k2.org/zh/blog/24-kimi-k2-6-release"},
+    {name:"字节跳动",date:"2026-04-21",title:"2025年净利润下滑超70%，AI烧钱成主因",update:"据每经/第一财经报道，净利润率大幅下滑，核心原因是AI投入加大+硬件涨价。但海外营收同比增长近50%，国内增幅约20%。",url:"https://www.nbd.com.cn/articles/2026-04-21/4348210.html"},
+    {name:"xAI",date:"2026-04-21",title:"马斯克宣称Grok 5即AGI，5月连发两代万亿参数模型",update:"马斯克放出豪言，五月将连发1T和1.5T两代万亿参数模型。AI巨头AGI竞赛进入白热化阶段。",url:"https://36kr.com/information/AI/"},
+    {name:"Anthropic",date:"2026-04-21",title:"Claude Mythos架构被22岁天才逆向开源（OpenMythos）",update:"Kye Gomez融合DeepSeek MoE和注意力机制思路，采用循环思考16次的推理方式复现Mythos。闭源模型护城河受到挑战。",url:"https://news.qq.com/rain/a/20260420A069X200"},
+    {name:"阿里巴巴",date:"2026-04-21",title:"高德发布四足机器狗途途，阿里正式入局具身智能硬件",update:"高德具身业务部推出首款四足机器人，在亦庄半马化身智能导盲犬。此前已开源ABot-M0具身操作基座模型。阿里继小米/字节后入局具身硬件。",url:"https://www.36kr.com/p/3775075041128964"},
+    {name:"芯片",date:"2026-04-21",title:"谷歌TPUv8双芯片发布+AMD MI500前瞻CDNA6架构",update:"谷歌TPUv8t（博通）专注训练+TPUv8i（联发科）主打推理。AMD MI500采用CPO封装CDNA6架构，内存带宽超19.6TB/s。AI芯片三强竞争加剧。",url:"https://www.ithome.com/tag/AI/"},
+
     // ============ 4月20日新增动态 ============
     {name:"腾讯",date:"2026-04-20",title:"混元3D世界模型2.0正式开源，一句话生成可交互3D世界",update:"多模态世界模型，理解文字/图片/视频输入生成完整3D世界场景，可直接导入Unity/Unreal引擎。与Google Genie 3、李飞飞World Labs三足鼎立。混元3.0大模型内部测试中，计划4月发布。",url:"https://news.qq.com/rain/a/20260416A03QFK00"},
     {name:"DeepSeek",date:"2026-04-20",title:"V4纯国产昇腾算力训练完成，首轮融资估值超100亿美元",update:"万亿参数MoE架构，推理速度比V3提升35倍，支持1M Token上下文，4月下旬全量发布。全程采用华为昇腾950PR完成训练，为国内首个彻底摆脱英伟达依赖的万亿级大模型。36氪报道融资传闻或为员工期权定价。",url:"https://aiproducthub.cn/newsflash/deepseek-v4-pure-domestic-computing-power-training/"},
@@ -94,6 +106,20 @@ var DATA = {
     {name:"CIPSE 2026中国（杭州）国际数字安防及AI博览会",time:"筹备中",location:"杭州",note:"数字安防+AI融合展"}
   ],
   personnel: [
+    // ============ 4月21日（周二） ============
+    {date:"2026-04-21",province:"国家级",title:"国务院人事任免（4月21日）",url:"https://www.gov.cn/yaowen/liebiao/202604/content_7066474.htm",
+      appointments:[
+        {name:"吕武钦",newRole:"公安部部长助理",note:"副部级"},
+        {name:"池景阳",newRole:"国家移民管理局副局长",note:""},
+        {name:"丰成友",newRole:"中国地质调查局副局长",note:""}
+      ],
+      removals:[
+        {name:"林涛",oldRole:"国务院副秘书长"},
+        {name:"张勇",oldRole:"国家移民管理局副局长"},
+        {name:"徐学义",oldRole:"中国地质调查局副局长"}
+      ]
+    },
+
     // ============ 4月17日（周四） ============
     {date:"2026-04-17",province:"国家级",title:"国务院人事任免（4月16日）",url:"https://www.thepaper.cn/newsDetail_forward_32990831",
       appointments:[],
