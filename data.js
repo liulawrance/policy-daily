@@ -5,6 +5,10 @@ var DATA = {
     version: "v3.1"
   },
   entries: [
+    // ============ 2026-04-22（周三）收录窗口：4/21-22 ============
+    {id:"0422-001",date:"2026-04-22",title:"国务院《关于推进服务业扩能提质的意见》（国发〔2026〕7号）",headline:"服务业顶层设计出炉，2030年100万亿目标，明确支持采购大模型/智能体服务",source:"国务院",province:"国家级",category:"数字经济",impact:"高",status:"已印发",summary:"五大板块20条措施：深化AI+行动、支持采购大模型/智能体服务、建设AI应用中试基地、有序推进算力布局与边缘算力建设、建立算力服务标准体系、开展数字人民币赋能行动、制定低空服务标准。到2030年服务业总规模迈上100万亿元台阶。",action:"多项措施与腾讯直接相关：AI+制造专项、算力服务标准、大模型采购支持、低空服务标准均为腾讯云业务新机会。",url:"https://www.gov.cn/zhengce/content/202604/content_7066483.htm",publishDate:"2026-04-21",isNew:true,isTop:true},
+    {id:"0422-002",date:"2026-04-22",title:"上海《国家数字经济创新发展试验区（上海）实施方案》7大板块30条",headline:"上海数字经济试验区方案发布，力争2028年数据要素价值全面激活",source:"上海市政府办公厅（沪府办发〔2026〕5号）",province:"上海",category:"数字经济",impact:"高",status:"已印发",summary:"继广东、四川后第三个发布实施方案的试验区。七大板块：数据要素市场化配置、新型数字基础设施（算力互联互通/千帆星座/低空智能网联）、关键核心技术创新（脑机接口/6G/量子计算/Web3.0）、实数融合赋能五个中心、数字产业集群（浦东/徐汇/杨浦/普陀4大集聚区）、高水平开放合作（数据出境负面清单扩至全域）、人才与制度支撑。培育50家数字经济标杆企业。",action:"数据产品首发首试首购首用行动、算力调度平台、AI安全靶场建设、具身智能/自动驾驶数据创新平台均与腾讯云直接相关。临港国际数据经济产业园为数据出海业务提供新机会。",url:"https://www.shanghai.gov.cn/nw12344/20260421/9edf5d5c1b2244298c315304349d0963.html",publishDate:"2026-04-21",isNew:true,isTop:true},
+
     // ============ 2026-04-21（周二）收录窗口：4/20-21 ============
     {id:"0421-001",date:"2026-04-21",title:"上海市政府办公厅《上海全球科技伙伴计划》",headline:"上海发布全球科技伙伴计划，六大行动18条打造全球科创枢纽",source:"上海市政府办公厅",province:"上海",category:"数字经济",impact:"高",status:"已印发",summary:"六大行动18条措施：国际联合研究、人才交流（白玉兰计划）、国际科技组织引育、开放科学、产业创新国际化、创新生态优化。财政科技计划向外资企业平等开放，推进数据跨境传输制度标准规范。",action:"外资平等申报科技计划、数据跨境制度、世界AI大会国际化与腾讯直接相关。",url:"https://www.shanghai.gov.cn/nw12344/20260420/f99dfd9f2b3c4cffa2551d2590c1bbd9.html",publishDate:"2026-04-20",isNew:true,isTop:true},
     {id:"0421-002",date:"2026-04-21",title:"浙江省《推进服务业扩能提质实施意见》征求意见",source:"浙江省发改委",province:"浙江",category:"数字经济",impact:"低",status:"征求意见中",summary:"征求意见稿公开，推进服务业扩能提质，涉及数字服务业、科技服务业等领域升级。",action:"间接相关，关注数字服务业方向。",url:"https://fzggw.zj.gov.cn/",publishDate:"2026-04-20",isNew:true,isTop:false},
@@ -55,19 +59,27 @@ var DATA = {
     {date:"2026-04-16",level:"一级紧急",item:"数字虚拟人管理办法征求意见中",assessment:"虚拟人业务需立即关注并参与反馈",detail:"国家网信办4月3日发布《数字虚拟人信息服务管理办法》征求意见稿，对虚拟人的开发、运营和服务提出监管要求，与AI拟人化办法共同构成虚拟人/数字人监管双轨体系。",days:"",linkType:"policy",linkTarget:"0416-001"},
     {date:"2026-04-16",level:"一级紧急",item:"AI伦理审查办法印发，所有AI产品需纳入审查",assessment:"混元、元宝、ima等需建立内部伦理审查机制",detail:"工信部等十部门印发《人工智能科技伦理审查与服务办法（试行）》，对AI伦理审查的适用范围、实施主体、工作程序、监督管理作出制度性规定，标志AI伦理治理从倡导迈向制度化。",days:"",linkType:"policy",linkTarget:"0416-002"},
     {date:"2026-04-14",level:"一级紧急",item:"直播打赏11条新规，合规整改窗口期",assessment:"视频号直播等需全面整改",detail:"中央网信办发布《关于加强网络直播打赏规范管理的通知》，禁止向8岁以下未成年人提供打赏，8-16岁需监护人同意，强制打赏限额和提醒，全额退还未成年人打赏。",days:"持续跟踪",linkType:"policy",linkTarget:"0414-003"},
-    {date:"2026-04-14",level:"一级紧急",item:"AI拟人化互动服务管理办法7月15日施行",assessment:"AI助手/虚拟角色/NPC等需完成合规评估",detail:"网信办等五部门联合发布，规范AI拟人化互动服务，涉及AI助手、虚拟角色、NPC等，要求安全评估、标注AI生成内容、保护用户权益。距施行还有86天。",days:"倒计时86天",linkType:"policy",linkTarget:"0414-004"},
+    {date:"2026-04-14",level:"一级紧急",item:"AI拟人化互动服务管理办法7月15日施行",assessment:"AI助手/虚拟角色/NPC等需完成合规评估",detail:"网信办等五部门联合发布，规范AI拟人化互动服务，涉及AI助手、虚拟角色、NPC等，要求安全评估、标注AI生成内容、保护用户权益。距施行还有84天。",days:"倒计时84天",linkType:"policy",linkTarget:"0414-004"},
     {date:"2026-04-17",level:"一级紧急",item:"Claude Opus 4.7发布+AI设计工具上线",assessment:"混元3.0发布节奏需加快",detail:"Anthropic发布Opus 4.7视觉+编码能力跃升至满分级，Claude Design视觉创作工具正式上线，对Figma构成直接威胁。腾讯混元3.0需加快发布节奏应对竞争压力。",days:"4月16日",linkType:"competitor",linkTarget:"Anthropic"},
     {date:"2026-04-14",level:"二级重要",item:"互联网平台价格行为规则已实施",assessment:"电商/广告/支付全平台需对标合规",detail:"发改委/市场监管总局/网信办联合发布7章29条，规范平台补贴行为、遏制恶性价格竞争。三部门已召开合规指导会并通报部分平台价格合规问题。",days:"持续跟踪",linkType:"policy",linkTarget:"0414-001"},
     {date:"2026-04-14",level:"二级重要",item:"三部门个人信息保护专项行动启动",assessment:"腾讯各App需自查个人信息收集合规",detail:"网信办/工信部/公安部部署七大专项行动：App/SDK治理、互联网广告、教育、交通、卫生健康、金融、违法犯罪打击，特别强调人脸识别技术安全管理。",days:"持续跟踪",linkType:"policy",linkTarget:"0414-002"},
     {date:"2026-04-17",level:"二级重要",item:"Token通胀元年，算力全面涨价最高463%",assessment:"腾讯云算力定价策略需关注",detail:"阿里、Anthropic等厂商连续调价，严重算力荒再现。腾讯云也已宣布5月9日起AI算力涨价5%。台积电CEO表示全力扩产仍难以满足强劲AI需求。",days:"持续跟踪",linkType:"competitor",linkTarget:"其他"},
     {date:"2026-04-17",level:"二级重要",item:"具身智能Q1融资超200亿，赛道持续升温",assessment:"机器人赛道战略评估",detail:"Q1国内具身赛道融资超50起累计约200亿元。自变量机器人近20亿B轮（小米/红杉/字节/美团/阿里齐投），它石智航4.55亿美金创最大单笔。人形机器人半马已自主完赛。",days:"持续跟踪",linkType:"competitor",linkTarget:"具身智能"},
-    {date:"2026-04-16",level:"二级重要",item:"数字中国峰会4月29-30日福州举办",assessment:"参展和BD对接机会",detail:"第九届数字中国建设峰会由国家发改委牵头主办，50余场交流活动。福建AI园区此前已获财政专项补助。距开幕还有9天。",days:"倒计时9天",linkType:"policy",linkTarget:"0416-004"},
-    {date:"2026-04-16",level:"二级重要",item:"安徽AI政策兑现申报5月5日截止",assessment:"算力补贴等市场机会",detail:"安徽省AI产业高地2.0版政策兑现申报中，涵盖场景创新、垂类模型标杆、算力成本补贴（免申即享）、大赛成果转化奖励五大方向。截止5月5日。",days:"倒计时15天",linkType:"policy",linkTarget:"0416-006"},
+    {date:"2026-04-16",level:"二级重要",item:"数字中国峰会4月29-30日福州举办",assessment:"参展和BD对接机会",detail:"第九届数字中国建设峰会由国家发改委牵头主办，50余场交流活动。福建AI园区此前已获财政专项补助。距开幕还有7天。",days:"倒计时7天",linkType:"policy",linkTarget:"0416-004"},
+    {date:"2026-04-16",level:"二级重要",item:"安徽AI政策兑现申报5月5日截止",assessment:"算力补贴等市场机会",detail:"安徽省AI产业高地2.0版政策兑现申报中，涵盖场景创新、垂类模型标杆、算力成本补贴（免申即享）、大赛成果转化奖励五大方向。截止5月5日。",days:"倒计时13天",linkType:"policy",linkTarget:"0416-006"},
     {date:"2026-04-20",level:"三级关注",item:"DeepSeek V4纯国产算力训练完成，4月下旬发布",assessment:"关注对混元竞争力影响",detail:"万亿参数MoE架构全程采用华为昇腾950PR训练，推理速度比V3提升35倍。首轮融资传闻估值超100亿美元。预计4月底前全量发布。",days:"预计4月底前",linkType:"competitor",linkTarget:"DeepSeek"},
     {date:"2026-04-16",level:"三级关注",item:"江苏省数据局局长易人（刘世虎）",assessment:"关注数据要素流通政策方向",detail:"江苏省政府3月28日发布人事任免，刘世虎接任省数据局局长兼政务服务办主任兼发改委副主任。此前任国家发改委投资司司长，熟悉数字基建和投资审批。",days:"",linkType:"personnel",linkTarget:"江苏"},
     {date:"2026-04-17",level:"三级关注",item:"上海金山区长袁罡拟任区委书记",assessment:"关注上海区级主官调整",detail:"上海市委4月15日发布市管干部任前公示：袁罡（现任金山区委副书记、区长）拟任地区党委书记，杨元飞拟为区长人选，姜爱锋拟任市级机关正职。公示至4月22日。",days:"公示至4月22日",linkType:"personnel",linkTarget:"上海"}
   ],
   competitors: [
+    // ============ 4月22日新增动态 ============
+    {name:"OpenAI",date:"2026-04-22",title:"ChatGPT Images 2.0发布，首个具备思考能力的图像模型",update:"基于GPT Image 2模型，引入思考能力核心升级。支持联网搜索、单次生成8张连贯图像、多语言渲染零偏差。Codex新增Chronicle功能可截取用户桌面屏幕作为上下文。",url:"https://www.ithome.com/0/941/549.htm"},
+    {name:"亚马逊/Anthropic",date:"2026-04-22",title:"亚马逊追加投资Anthropic最高250亿美元，十年锁定千亿算力大单",update:"50亿美元立即到位，剩余200亿按里程碑兑现。Anthropic承诺十年采购超1000亿美元AWS技术（含Trainium芯片）。此前亚马逊已累计投入80亿。全球AI算力军备竞赛白热化。",url:"https://finance.sina.com.cn/jjxw/2026-04-21/doc-inhvfivk6364512.shtml"},
+    {name:"谷歌",date:"2026-04-22",title:"紧急更新Deep Research智能体，布林亲自督战围剿Claude",update:"基于Gemini 3.1 Pro，新增支持MCP协议、原生图表。联合创始人布林亲自挂帅组建DeepMind精英团队提升编程能力，全力追赶Anthropic Claude。自ChatGPT发布以来再次进入红色警报状态。",url:"https://aiproducthub.cn/newsflash/google-deep-research-max-launch-mcp-support-enterprise-data/"},
+    {name:"DeepSeek",date:"2026-04-22",title:"既要融资也要商业化，梁文锋被评还是太保守了",update:"V4发布在即，估值超100亿美元。多名核心人员流失，AGI梦想与商业化现实博弈。36氪深度报道DeepSeek的下一步战略。",url:"https://www.thepaper.cn/newsDetail_forward_33002057"},
+    {name:"腾讯",date:"2026-04-22",title:"混元3.0本周内发布，推理较2.0提升42%",update:"姚顺雨主导研发，以通用版与Dev版等多个版本形式开放。元宝内测版已发现HY3-dev条目。2025年AI投入超180亿元，2026年将翻倍。",url:"https://www.chooseai.net/news/3393/"},
+    {name:"Forbes AI 50",date:"2026-04-22",title:"2026福布斯AI 50榜单发布，20家新上榜",update:"OpenAI+Anthropic累计融资2426亿美元占榜单总融资80%。OpenAI年化收入超250亿美元，Anthropic收入运行率突破300亿美元。两家正筹备重磅IPO。",url:"https://www.ithome.com/0/941/759.htm"},
+
     // ============ 4月21日新增动态 ============
     {name:"月之暗面",date:"2026-04-21",title:"Kimi K2.6正式发布并开源，Agent+代码旗舰",update:"从Preview到GA仅用8天，通用Agent、代码生成、视觉理解全面提升，为Kimi系列最智能旗舰。kimi-k2系列5月25日下线。",url:"https://kimi-k2.org/zh/blog/24-kimi-k2-6-release"},
     {name:"字节跳动",date:"2026-04-21",title:"2025年净利润下滑超70%，AI烧钱成主因",update:"据每经/第一财经报道，净利润率大幅下滑，核心原因是AI投入加大+硬件涨价。但海外营收同比增长近50%，国内增幅约20%。",url:"https://www.nbd.com.cn/articles/2026-04-21/4348210.html"},
@@ -104,7 +116,7 @@ var DATA = {
     {name:"2026中国具身智能大会（CEAI）",time:"4月11-12日",location:"合肥",note:"智驱万物具汇江淮，发布《具身智能白皮书》。已举办"},
     {name:"2026年世界互联网大会亚太峰会",time:"4月13-14日",location:"香港",note:"AI治理、数据跨境、数字经济合作。已举办"},
     {name:"2026中国AI+数字峰会",time:"4月18日",location:"苏州",note:"CIO时代主办。已举办"},
-    {name:"第九届数字中国建设峰会",time:"4月29-30日",location:"福州",note:"国家发改委牵头主办，50余场交流活动。倒计时9天"},
+    {name:"第九届数字中国建设峰会",time:"4月29-30日",location:"福州",note:"国家发改委牵头主办，50余场交流活动。倒计时7天"},
     {name:"CIPSE 2026中国（杭州）国际数字安防及AI博览会",time:"筹备中",location:"杭州",note:"数字安防+AI融合展"}
   ],
   personnel: [
