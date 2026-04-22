@@ -125,6 +125,14 @@ var DATA = {
     {name:"CIPSE 2026中国（杭州）国际数字安防及AI博览会",time:"筹备中",location:"杭州",note:"数字安防+AI融合展"}
   ],
   personnel: [
+    // ============ 4月22日（周三）收录窗口：4/21-22 ============
+    {date:"2026-04-22",province:"福建",title:"福州市人大常委会人事任免（4月20日）",url:"https://www.fuzhou.gov.cn/zwgk/rsxx/202604/t20260421_5311064.htm",
+      appointments:[
+        {name:"许用贵",newRole:"福州市人民政府副市长",note:"1970年11月生，此前任福州新区管委会副主任兼长乐区委常委"}
+      ],
+      removals:[]
+    },
+
     // ============ 4月21日（周二） ============
     {date:"2026-04-21",province:"国家级",title:"国务院人事任免（4月21日）",url:"https://www.gov.cn/yaowen/liebiao/202604/content_7066474.htm",
       appointments:[
