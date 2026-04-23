@@ -5,6 +5,10 @@ var DATA = {
     version: "v3.1"
   },
   entries: [
+    // ============ 2026-04-23（周四）收录窗口：4/22-23 ============
+    {id:"0423-001",date:"2026-04-23",title:"中办国办《关于更高水平更高质量做好节能降碳工作的意见》",headline:"节能降碳顶层设计，六方面18条措施，涉及数据中心能效标准",source:"中共中央办公厅、国务院办公厅",province:"国家级",category:"数字经济",impact:"中",status:"已印发",summary:"4月22日发布，六方面18条措施：协同推进节能降碳与绿色转型、加强重点领域节能降碳、完善节能降碳管理体系、健全节能降碳市场化机制、加强节能降碳基础能力建设、加强组织领导。对数据中心、算力基础设施等能耗大户提出更高要求。",action:"腾讯云在华东数据中心需关注后续各省落地细则中的能效标准，评估绿色算力布局。",url:"https://www.gov.cn/zhengce/202604/content_7066623.htm",publishDate:"2026-04-22",isNew:true,isTop:true},
+    {id:"0423-002",date:"2026-04-23",title:"湖南省工信厅发布2026年度AI应用需求清单与供给能力清单",headline:"湖南发布AI两张清单，推动技术供给与产业需求双向对接",source:"湖南省工信厅",province:"湖南",category:"人工智能",impact:"中",status:"已发布",summary:"4月21日发布，在全省范围内公布人工智能应用需求和供给能力两张清单，推动AI技术供给与产业需求双向奔赴，促进技术创新与应用发展双向赋能。",action:"腾讯云可对接湖南AI供给能力清单中的合作机会。",url:"https://gxt.hunan.gov.cn/gxt/xxgk_71033/gzdt/rdjj/202604/t20260422_33962574.html",publishDate:"2026-04-21",isNew:true,isTop:false},
+
     // ============ 2026-04-22（周三）收录窗口：4/21-22 ============
     {id:"0422-001",date:"2026-04-22",title:"国务院《关于推进服务业扩能提质的意见》（国发〔2026〕7号）",headline:"服务业顶层设计出炉，2030年100万亿目标，明确支持采购大模型/智能体服务",source:"国务院",province:"国家级",category:"数字经济",impact:"高",status:"已印发",summary:"五大板块20条措施：深化AI+行动、支持采购大模型/智能体服务、建设AI应用中试基地、有序推进算力布局与边缘算力建设、建立算力服务标准体系、开展数字人民币赋能行动、制定低空服务标准。到2030年服务业总规模迈上100万亿元台阶。",action:"多项措施与腾讯直接相关：AI+制造专项、算力服务标准、大模型采购支持、低空服务标准均为腾讯云业务新机会。",url:"https://www.gov.cn/zhengce/content/202604/content_7066483.htm",publishDate:"2026-04-21",isNew:true,isTop:true},
     {id:"0422-002",date:"2026-04-22",title:"上海《国家数字经济创新发展试验区（上海）实施方案》7大板块30条",headline:"上海数字经济试验区方案发布，力争2028年数据要素价值全面激活",source:"上海市政府办公厅（沪府办发〔2026〕5号）",province:"上海",category:"数字经济",impact:"高",status:"已印发",summary:"继广东、四川后第三个发布实施方案的试验区。七大板块：数据要素市场化配置、新型数字基础设施（算力互联互通/千帆星座/低空智能网联）、关键核心技术创新（脑机接口/6G/量子计算/Web3.0）、实数融合赋能五个中心、数字产业集群（浦东/徐汇/杨浦/普陀4大集聚区）、高水平开放合作（数据出境负面清单扩至全域）、人才与制度支撑。培育50家数字经济标杆企业。",action:"数据产品首发首试首购首用行动、算力调度平台、AI安全靶场建设、具身智能/自动驾驶数据创新平台均与腾讯云直接相关。临港国际数据经济产业园为数据出海业务提供新机会。",url:"https://www.shanghai.gov.cn/nw12344/20260421/9edf5d5c1b2244298c315304349d0963.html",publishDate:"2026-04-21",isNew:true,isTop:true},
@@ -60,7 +64,7 @@ var DATA = {
     {date:"2026-04-16",level:"一级紧急",item:"数字虚拟人管理办法征求意见中",assessment:"虚拟人业务需立即关注并参与反馈",detail:"国家网信办4月3日发布《数字虚拟人信息服务管理办法》征求意见稿，对虚拟人的开发、运营和服务提出监管要求，与AI拟人化办法共同构成虚拟人/数字人监管双轨体系。",days:"",linkType:"policy",linkTarget:"0416-001"},
     {date:"2026-04-16",level:"一级紧急",item:"AI伦理审查办法印发，所有AI产品需纳入审查",assessment:"混元、元宝、ima等需建立内部伦理审查机制",detail:"工信部等十部门印发《人工智能科技伦理审查与服务办法（试行）》，对AI伦理审查的适用范围、实施主体、工作程序、监督管理作出制度性规定，标志AI伦理治理从倡导迈向制度化。",days:"",linkType:"policy",linkTarget:"0416-002"},
     {date:"2026-04-14",level:"一级紧急",item:"直播打赏11条新规，合规整改窗口期",assessment:"视频号直播等需全面整改",detail:"中央网信办发布《关于加强网络直播打赏规范管理的通知》，禁止向8岁以下未成年人提供打赏，8-16岁需监护人同意，强制打赏限额和提醒，全额退还未成年人打赏。",days:"持续跟踪",linkType:"policy",linkTarget:"0414-003"},
-    {date:"2026-04-14",level:"一级紧急",item:"AI拟人化互动服务管理办法7月15日施行",assessment:"AI助手/虚拟角色/NPC等需完成合规评估",detail:"网信办等五部门联合发布，规范AI拟人化互动服务，涉及AI助手、虚拟角色、NPC等，要求安全评估、标注AI生成内容、保护用户权益。距施行还有84天。",days:"倒计时84天",linkType:"policy",linkTarget:"0414-004"},
+    {date:"2026-04-14",level:"一级紧急",item:"AI拟人化互动服务管理办法7月15日施行",assessment:"AI助手/虚拟角色/NPC等需完成合规评估",detail:"网信办等五部门联合发布，规范AI拟人化互动服务，涉及AI助手、虚拟角色、NPC等，要求安全评估、标注AI生成内容、保护用户权益。距施行还有83天。",days:"倒计时83天",linkType:"policy",linkTarget:"0414-004"},
     {date:"2026-04-17",level:"一级紧急",item:"Claude Opus 4.7发布+AI设计工具上线",assessment:"混元3.0发布节奏需加快",detail:"Anthropic发布Opus 4.7视觉+编码能力跃升至满分级，Claude Design视觉创作工具正式上线，对Figma构成直接威胁。腾讯混元3.0需加快发布节奏应对竞争压力。",days:"4月16日",linkType:"competitor",linkTarget:"Anthropic"},
     {date:"2026-04-14",level:"二级重要",item:"互联网平台价格行为规则已实施",assessment:"电商/广告/支付全平台需对标合规",detail:"发改委/市场监管总局/网信办联合发布7章29条，规范平台补贴行为、遏制恶性价格竞争。三部门已召开合规指导会并通报部分平台价格合规问题。",days:"持续跟踪",linkType:"policy",linkTarget:"0414-001"},
     {date:"2026-04-14",level:"二级重要",item:"三部门个人信息保护专项行动启动",assessment:"腾讯各App需自查个人信息收集合规",detail:"网信办/工信部/公安部部署七大专项行动：App/SDK治理、互联网广告、教育、交通、卫生健康、金融、违法犯罪打击，特别强调人脸识别技术安全管理。",days:"持续跟踪",linkType:"policy",linkTarget:"0414-002"},
@@ -74,6 +78,15 @@ var DATA = {
     {date:"2026-04-17",level:"三级关注",item:"上海金山区长袁罡拟任区委书记",assessment:"关注上海区级主官调整",detail:"上海市委4月15日发布市管干部任前公示：袁罡（现任金山区委副书记、区长）拟任地区党委书记，杨元飞拟为区长人选，姜爱锋拟任市级机关正职。公示至4月22日。",days:"公示至4月22日",linkType:"personnel",linkTarget:"上海"}
   ],
   competitors: [
+    // ============ 4月23日新增动态 ============
+    {name:"小米",date:"2026-04-23",title:"MiMo-V2.5系列发布并开源，Pro版百万上下文对标GPT-5.4",update:"4月23日小米发布迄今最强大模型系列MiMo-V2.5并开启公测。旗舰Pro版支持百万级上下文，4.3小时完成北大编译原理课程项目，比Kimi K2.6省42% Token。核心模型面向全球开源。",url:"https://www.ithome.com/0/942/347.htm"},
+    {name:"OpenAI",date:"2026-04-23",title:"发布ChatGPT Workspace Agents，7x24企业级工作流智能体",update:"4月23日OpenAI在ChatGPT中推出Workspace Agents，由Codex底层支持，能处理报告准备、代码编写、消息响应等多种办公任务，7x24小时在线自动化处理长周期工作流。解决跨时区、跨工具协作难题。",url:"https://www.ithome.com/0/942/362.htm"},
+    {name:"DeepSeek",date:"2026-04-23",title:"估值飙升至200亿美元，两大科技巨头争投",update:"据智东西报道，DeepSeek估值已飙升至200亿美元，有两家科技大厂争相投资。此前首轮融资目标为100亿美元估值、3亿美元募资。V4纯国产华为昇腾算力训练，4月下旬发布。",url:"https://news.qq.com/rain/a/20260422A06J4900"},
+    {name:"普渡机器人",date:"2026-04-23",title:"完成近10亿元融资，估值突破百亿元人民币",update:"全球商用服务机器人龙头，龙岗金控、亚投资本联合领投，北汽产投、蓝思科技等参与。累计融资超20亿元。资金将投入具身智能技术研发和全球化布局。",url:"https://www.nbd.com.cn/articles/2026-04-23/4354083.html"},
+    {name:"阿里巴巴",date:"2026-04-23",title:"开源Qwen3.6-27B，270亿参数编程能力超前代397B模型",update:"4月22日阿里云通义千问团队正式开源Qwen3.6-27B多模态大模型，在SWE-bench、Terminal-Bench等编程基准上全面超越前代Qwen3.5-397B-A17B。此前已发布Qwen3.6-Max-Preview登顶国产模型榜。",url:"https://www.donews.com/news/detail/8/6524528.html"},
+    {name:"谷歌",date:"2026-04-23",title:"发布Gemini 3.1 Pro深度研究智能体，支持MCP协议",update:"4月22日谷歌升级自主研究智能体，推出Deep Research与Deep Research Max，基于Gemini 3.1 Pro，支持MCP协议连接专有数据源，将智能体从摘要引擎升级为企业级工作流组件。",url:"https://www.ithome.com/0/942/071.htm"},
+    {name:"Anthropic",date:"2026-04-23",title:"Claude Mythos遭未授权访问+无预警切断Belo公司权限",update:"据彭博社报道少数未授权用户访问了Anthropic最新Claude Mythos模型。同时无预警切断Belo公司访问权限，60名员工停摆15小时。安全治理和客户信任同时受挑战。",url:"https://www.ithome.com/tag/AI/"},
+
     // ============ 4月22日新增动态 ============
     {name:"OpenAI",date:"2026-04-22",title:"ChatGPT Images 2.0发布，首个具备思考能力的图像模型",update:"基于GPT Image 2模型，引入思考能力核心升级。支持联网搜索、单次生成8张连贯图像、多语言渲染零偏差。Codex新增Chronicle功能可截取用户桌面屏幕作为上下文。",url:"https://www.ithome.com/0/941/549.htm"},
     {name:"亚马逊/Anthropic",date:"2026-04-22",title:"亚马逊追加投资Anthropic最高250亿美元，十年锁定千亿算力大单",update:"50亿美元立即到位，剩余200亿按里程碑兑现。Anthropic承诺十年采购超1000亿美元AWS技术（含Trainium芯片）。此前亚马逊已累计投入80亿。全球AI算力军备竞赛白热化。",url:"https://finance.sina.com.cn/jjxw/2026-04-21/doc-inhvfivk6364512.shtml"},
@@ -120,11 +133,42 @@ var DATA = {
     {name:"2026中国具身智能大会（CEAI）",time:"4月11-12日",location:"合肥",note:"智驱万物具汇江淮，发布《具身智能白皮书》。已举办"},
     {name:"2026年世界互联网大会亚太峰会",time:"4月13-14日",location:"香港",note:"AI治理、数据跨境、数字经济合作。已举办"},
     {name:"2026中国AI+数字峰会",time:"4月18日",location:"苏州",note:"CIO时代主办。已举办"},
-    {name:"第九届数字中国建设峰会",time:"4月29-30日",location:"福州",note:"国家发改委牵头主办，50余场交流活动。倒计时7天"},
+    {name:"第九届数字中国建设峰会",time:"4月29-30日",location:"福州",note:"国家发改委牵头主办，50余场交流活动。倒计时6天"},
     {name:"2026中国AIGC产业峰会",time:"5月20日",location:"北京",note:"量子位主办，聚焦AI落地与应用普及。报名已启动"},
-    {name:"CIPSE 2026中国（杭州）国际数字安防及AI博览会",time:"筹备中",location:"杭州",note:"数字安防+AI融合展"}
+    {name:"CIPSE 2026中国（杭州）国际数字安防及AI博览会",time:"5月13-15日",location:"杭州",note:"数字赋能平安浙江，数字安防+AI融合展"}
   ],
   personnel: [
+    // ============ 4月23日（周四）收录窗口：4/22-23 ============
+    {date:"2026-04-23",province:"上海",title:"上海市政府人事任免（4月22日）",url:"https://www.shanghai.gov.cn/nw12344/20260422/2c34c23aeed74f8ab1ce2d6b51a35bf8.html",
+      appointments:[
+        {name:"贺青",newRole:"上海市食品药品安全委员会主任、质量工作领导小组组长",note:"3月底任上海市副市长，此为分工调整"}
+      ],
+      removals:[
+        {name:"陈杰",oldRole:"上海市食品药品安全委员会主任、质量工作领导小组组长"}
+      ]
+    },
+    {date:"2026-04-23",province:"福建",title:"福建省委干部任前公示（4月21日）",url:"https://www.fj.gov.cn/zwgk/rsxx/rqgs/202604/t20260421_7129439.htm",
+      appointments:[
+        {name:"严峻",newRole:"拟任正厅级领导职务",note:"现任省委政法委副书记"},
+        {name:"陈茂和",newRole:"拟任省法检系统正厅长级职务",note:"现任省检察院检察委员会专职委员"},
+        {name:"陈爱棋",newRole:"拟任设区市党政副职",note:""}
+      ],
+      removals:[]
+    },
+    {date:"2026-04-23",province:"福建",title:"福建省委干部任前公示（4月22日）",url:"http://district.ce.cn/newarea/sddy/202604/t20260422_2921757.shtml",
+      appointments:[
+        {name:"周桂良",newRole:"拟进一步使用",note:""},
+        {name:"黄晓军",newRole:"拟进一步使用",note:""}
+      ],
+      removals:[]
+    },
+    {date:"2026-04-23",province:"国家级",title:"国务院人事任免（4月21日发布、22日人民日报刊发）",url:"https://cpc.people.com.cn/n1/2026/0422/c64387-40706104.html",
+      appointments:[],
+      removals:[
+        {name:"周亮",oldRole:"国家金融监督管理总局副局长",note:"副部级"}
+      ]
+    },
+
     // ============ 4月22日（周三）收录窗口：4/21-22 ============
     {date:"2026-04-22",province:"福建",title:"福州市人大常委会人事任免（4月20日）",url:"https://www.fuzhou.gov.cn/zwgk/rsxx/202604/t20260421_5311064.htm",
       appointments:[
