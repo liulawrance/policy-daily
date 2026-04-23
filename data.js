@@ -62,7 +62,35 @@ var DATA = {
     {id:"0414-002",date:"2026-04-14",title:"三部门启动2026年个人信息保护系列专项行动",source:"网信办/工信部/公安部",province:"国家级",category:"数据安全",impact:"高",status:"已发布",summary:"部署七大专项行动：App/SDK治理、互联网广告、教育、交通、卫生健康、金融、违法犯罪打击。特别强调人脸识别技术安全管理。",action:"互联网广告和App隐私合规为重点，腾讯广告、微信等需自查。",url:"https://www1.xinhuanet.com/politics/20260402/1ee4b2aa0fe64af99a916701e215c59f/c.html",publishDate:"2026-04-02",isNew:true,isTop:true},
     {id:"0414-003",date:"2026-04-14",title:"中央网信办《关于加强网络直播打赏规范管理的通知》（11条新规）",source:"中央网信办",province:"国家级",category:"行业监管",impact:"高",status:"已发布",summary:"禁止向8岁以下未成年人提供打赏服务；8-16岁需监护人同意；强制打赏限额和提醒；禁止以打赏额排名；全额退还未成年人打赏。4月4日发布、4月13日公开。",action:"视频号直播、微信直播、QQ直播均需全面合规整改。",url:"https://www.cac.gov.cn/2026-04/13/c_1777815804150225.htm",publishDate:"2026-04-13",isNew:true,isTop:true},
     {id:"0414-004",date:"2026-04-14",title:"五部门《AI拟人化互动服务管理暂行办法》（7月15日施行）",source:"网信办等五部门",province:"国家级",category:"行业监管",impact:"高",status:"7月15日施行",summary:"规范AI拟人化互动服务，涉及AI助手、虚拟角色、NPC等。要求安全评估、标注AI生成内容、保护用户权益。",action:"混元AI助手、虚拟角色等需在7月15日前完成合规评估。",url:"https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm",publishDate:"2026-04-10",isNew:true,isTop:true},
-    {id:"0414-005",date:"2026-04-14",title:"上海市市场监管局《促进互联网平台广告规范健康发展指导意见》",source:"上海市市场监管局",province:"上海",category:"平台经济",impact:"中",status:"持续执行",summary:"20项重点任务，提升上海互联网平台广告规范化水平，助力建设国际数字广告之都。",action:"涉及腾讯在沪广告业务合规。",url:"https://scjgj.sh.gov.cn/207/20260109/2c984a729b92b990019ba06d36224232.html",publishDate:"2026-01-09",isNew:false,isTop:false}
+    {id:"0414-005",date:"2026-04-14",title:"上海市市场监管局《促进互联网平台广告规范健康发展指导意见》",source:"上海市市场监管局",province:"上海",category:"平台经济",impact:"中",status:"持续执行",summary:"20项重点任务，提升上海互联网平台广告规范化水平，助力建设国际数字广告之都。",action:"涉及腾讯在沪广告业务合规。",url:"https://scjgj.sh.gov.cn/207/20260109/2c984a729b92b990019ba06d36224232.html",publishDate:"2026-01-09",isNew:false,isTop:false},
+
+    // ============ 2026-04-11（周五）v3.4补建 ============
+    {id:"0411-001",date:"2026-04-11",title:"国务院办公厅《关于加快建设分级诊疗体系的若干措施》（国办发〔2026〕11号）",source:"国务院办公厅",province:"国家级",category:"医疗健康",impact:"中",status:"已印发",summary:"推进互联网医疗、远程诊疗、基层医疗信息化建设，加快分级诊疗体系建设。",action:"腾讯健康、企业微信医疗场景可对接远程诊疗信息化需求。",url:"https://www.toutiao.com/article/7626936854780068415/",publishDate:"2026-04-11",isNew:true,isTop:false},
+
+    // ============ 2026-04-10（周四）v3.4补建 — 重磅密集日 ============
+    {id:"0410-001",date:"2026-04-10",title:"五部门《AI拟人化互动服务管理暂行办法》7月15日施行",source:"网信办等五部门",province:"国家级",category:"行业监管",impact:"高",status:"7月15日施行",summary:"规范AI拟人化互动服务：AI助手、虚拟角色、NPC。要求安全评估、标注AI生成内容、保护用户权益。",action:"混元AI助手、虚拟角色等需在7月15日前完成合规评估。",url:"https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm",publishDate:"2026-04-10",isNew:true,isTop:true},
+    {id:"0410-002",date:"2026-04-10",title:"三部门《网络安全标识管理办法》7月1日施行",source:"网信办/工信部/公安部",province:"国家级",category:"数据安全",impact:"高",status:"7月1日施行",summary:"联网产品须标注网络安全能力等级，产品目录管理，自愿参与原则。",action:"腾讯IoT设备、智能硬件需评估网络安全标识合规方案。",url:"https://www.cac.gov.cn/2026-04/10/c_1777558393316312.htm",publishDate:"2026-04-10",isNew:true,isTop:true},
+    {id:"0410-003",date:"2026-04-10",title:"《互联网平台价格行为规则》正式实施",source:"发改委/市监总局/网信办",province:"国家级",category:"平台经济",impact:"高",status:"已实施",summary:"7章29条规范平台补贴行为、遏制恶性价格竞争。涉及数千万经营主体、9亿多消费者。",action:"法务合规团队对照7章29条自查。",url:"https://www.news.cn/politics/20260410/6a0a60a1d2484a30bc8d9270f1cddea8/c.html",publishDate:"2026-04-10",isNew:true,isTop:true},
+    {id:"0410-004",date:"2026-04-10",title:"第二批625亿元超长期特别国债下达，支持消费品以旧换新",source:"发改委/财政部",province:"国家级",category:"消费零售",impact:"中",status:"已下达",summary:"全年2500亿分四批投放，第二批625亿衔接五一消费旺季。",action:"视频号电商、微信支付对接国补流量。",url:"https://www.ndrc.gov.cn/xwdt/ztzl/tddgmsbgxhxfpyjhx/gzdt/202604/t20260410_1404595.html",publishDate:"2026-04-10",isNew:true,isTop:false},
+
+    // ============ 2026-04-09（周三）v3.4补建 ============
+    {id:"0409-001",date:"2026-04-09",title:"福建省政府领导成员工作分工通知",source:"福建省政府",province:"福建",category:"数字经济",impact:"中",status:"已发布",summary:"赵龙省长主持全面工作，各副省长分管领域明确。",action:"关注分管科技/数据领域的副省长变化。",url:"https://www.fujian.gov.cn/zwgk/zxwj/szfwj/",publishDate:"2026-04-09",isNew:true,isTop:false},
+    {id:"0409-002",date:"2026-04-09",title:"安徽省启动AI产业高地政策2.0版兑现申报",source:"安徽省科技厅",province:"安徽",category:"人工智能",impact:"中",status:"申报中",summary:"场景创新、垂类模型标杆、算力成本补贴（免申即享）。",action:"腾讯云在皖算力服务可借助补贴政策。",url:"https://kjt.ah.gov.cn/kjzx/tzgg/123335561.html",publishDate:"2026-04-09",isNew:true,isTop:false},
+
+    // ============ 2026-04-07（周一含周末）v3.4补建 ============
+    {id:"0407-001",date:"2026-04-07",title:"国务院令835号《反外国不当域外管辖条例》施行",source:"国务院",province:"国家级",category:"行业监管",impact:"高",status:"已施行",summary:"维护国家主权安全，保护中国公民组织权益，共20条。3月27日国务院常务会议通过。",action:"法务评估对腾讯海外业务和数据跨境的影响。",url:"https://www.gov.cn/zhengce/zhengceku/202604/content_7064897.htm",publishDate:"2026-04-07",isNew:true,isTop:true},
+    {id:"0407-002",date:"2026-04-07",title:"AI安全标准工作组推动3项人工智能安全新标准",source:"AI安全标准工作组",province:"国家级",category:"人工智能",impact:"中",status:"制定中",summary:"AI安全能力成熟度评估、AI应用安全分类分级、AI训练数据安全规范。",action:"关注标准对混元产品的合规要求。",url:"https://www.xinhuanet.com/tech/20260407/dcae7c4e487d4cac87dea510d65ab03f/c.html",publishDate:"2026-04-07",isNew:true,isTop:false},
+
+    // ============ 2026-04-03（周四）v3.4补建 ============
+    {id:"0403-001",date:"2026-04-03",title:"网信办《数字虚拟人信息服务管理办法》征求意见",source:"国家网信办",province:"国家级",category:"行业监管",impact:"高",status:"征求意见中",summary:"全流程规范虚拟人开发运营服务，涵盖形象、声音、行为管理。与AI拟人化办法构成双轨体系。",action:"腾讯虚拟人业务参与意见反馈。",url:"https://www.cac.gov.cn/2026-04/03/c_1776952992709096.htm",publishDate:"2026-04-03",isNew:true,isTop:true},
+    {id:"0403-002",date:"2026-04-03",title:"网信办《小型个人信息处理者保护简化措施》征求意见",source:"国家网信办",province:"国家级",category:"数据安全",impact:"中",status:"征求意见中",summary:"简化中小企业数据合规要求。",action:"对腾讯生态内中小开发者有利。",url:"https://www.cac.gov.cn/2026-04/03/c_1776865011603509.htm",publishDate:"2026-04-03",isNew:true,isTop:false},
+    {id:"0403-003",date:"2026-04-03",title:"发改委+人行《全国公共信用信息基础目录（2026版）》",source:"发改委/人行",province:"国家级",category:"数字经济",impact:"中",status:"已发布",summary:"13类公共信用信息+3类14项惩戒措施。",action:"关注信用体系对平台经济影响。",url:"https://www.gov.cn/zhengce/zhengceku/202604/content_7064897.htm",publishDate:"2026-04-03",isNew:true,isTop:false},
+
+    // ============ 2026-04-02（周三）v3.4补建 ============
+    {id:"0402-001",date:"2026-04-02",title:"三部门启动2026年个人信息保护系列专项行动",source:"网信办/工信部/公安部",province:"国家级",category:"数据安全",impact:"高",status:"已发布",summary:"七大专项行动：App/SDK治理、互联网广告、教育、交通、卫生健康、金融、违法犯罪打击。",action:"互联网广告和App隐私合规为重点。",url:"https://www1.xinhuanet.com/politics/20260402/1ee4b2aa0fe64af99a916701e215c59f/c.html",publishDate:"2026-04-02",isNew:true,isTop:true},
+
+    // ============ 2026-04-04（周五）v3.4补建 ============
+    {id:"0404-001",date:"2026-04-04",title:"中央网信办《网络直播打赏规范管理通知》11条新规",source:"中央网信办",province:"国家级",category:"行业监管",impact:"高",status:"已发布",summary:"禁止向8岁以下提供打赏、8-16岁需监护人同意、全额退还未成年人打赏。",action:"视频号/QQ直播全面整改。",url:"https://www.cac.gov.cn/2026-04/13/c_1777815804150225.htm",publishDate:"2026-04-04",isNew:true,isTop:true}
   ],
   alerts: [
     {date:"2026-04-23",level:"一级紧急",item:"网络安全标识管理办法7月1日施行（v3.4新发现）",assessment:"腾讯IoT设备、智能硬件需对标合规",detail:"网信办/工信部/公安部联合发布（国信办发文〔2026〕4号），联网产品须标注网络安全能力等级。产品目录管理，自愿参与原则。7月1日正式施行。此前日报因2天窗口限制漏收，v3.4扩至3天窗口后补充发现。",days:"倒计时69天",linkType:"policy",linkTarget:"0423-003"},
