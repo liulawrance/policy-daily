@@ -5,6 +5,10 @@ var DATA = {
     version: "v3.1"
   },
   entries: [
+    // ============ 2026-04-24（周五）收录窗口：4/22-24 ============
+    {id:"0424-001",date:"2026-04-24",title:"上海市政府办公厅《上海市人民政府2026年度立法工作计划》",headline:"上海2026立法计划发布，关注AI/数据/平台立法项目",source:"上海市政府办公厅",province:"上海",category:"数字经济",impact:"中",status:"已印发",summary:"4月23日发布，明确2026年度拟提请审议和研究起草的地方性法规、政府规章项目。关注其中是否涉及AI治理、数据安全、平台经济等立法。",action:"关注立法计划中与腾讯业务直接相关的立法项目动态。",url:"https://www.shanghai.gov.cn/nw12344/",publishDate:"2026-04-23",isNew:true,isTop:false},
+    {id:"0424-002",date:"2026-04-24",title:"江西省政府第123次常务会议审议通过《养老服务设施公建民营管理办法》",headline:"江西推进养老服务设施社会化运营，智慧养老方向机会",source:"江西省政府",province:"江西",category:"医疗健康",impact:"中",status:"已审议通过",summary:"4月21日，省长叶建春主持召开第123次省政府常务会议，审议通过《江西省养老服务设施公建民营管理办法》。推进养老服务设施社会化运营管理。",action:"智慧养老、养老信息化是腾讯健康/企微的延伸方向。",url:"https://www.jxcn.cn/system/2026/04/22/031111387.shtml",publishDate:"2026-04-22",isNew:true,isTop:false},
+
     // ============ 2026-04-23（周四）收录窗口：4/22-23 ============
     {id:"0423-001",date:"2026-04-23",title:"中办国办《关于更高水平更高质量做好节能降碳工作的意见》",headline:"节能降碳顶层设计，六方面18条措施，涉及数据中心能效标准",source:"中共中央办公厅、国务院办公厅",province:"国家级",category:"数字经济",impact:"中",status:"已印发",summary:"4月22日发布，六方面18条措施：协同推进节能降碳与绿色转型、加强重点领域节能降碳、完善节能降碳管理体系、健全节能降碳市场化机制、加强节能降碳基础能力建设、加强组织领导。对数据中心、算力基础设施等能耗大户提出更高要求。",action:"腾讯云在华东数据中心需关注后续各省落地细则中的能效标准，评估绿色算力布局。",url:"https://www.gov.cn/zhengce/202604/content_7066623.htm",publishDate:"2026-04-22",isNew:true,isTop:true},
     {id:"0423-002",date:"2026-04-23",title:"湖南省工信厅发布2026年度AI应用需求清单与供给能力清单",headline:"湖南发布AI两张清单，推动技术供给与产业需求双向对接",source:"湖南省工信厅",province:"湖南",category:"人工智能",impact:"中",status:"已发布",summary:"4月21日发布，在全省范围内公布人工智能应用需求和供给能力两张清单，推动AI技术供给与产业需求双向奔赴，促进技术创新与应用发展双向赋能。",action:"腾讯云可对接湖南AI供给能力清单中的合作机会。",url:"https://gxt.hunan.gov.cn/gxt/xxgk_71033/gzdt/rdjj/202604/t20260422_33962574.html",publishDate:"2026-04-21",isNew:true,isTop:false},
@@ -123,6 +127,10 @@ var DATA = {
     {date:"2026-04-17",level:"三级关注",item:"上海金山区长袁罡拟任区委书记",assessment:"关注上海区级主官调整",detail:"上海市委4月15日发布市管干部任前公示：袁罡（现任金山区委副书记、区长）拟任地区党委书记，杨元飞拟为区长人选，姜爱锋拟任市级机关正职。公示至4月22日。",days:"公示至4月22日",linkType:"personnel",linkTarget:"上海"}
   ],
   competitors: [
+    // ============ 4月24日新增动态 ============
+    {name:"腾讯",date:"2026-04-24",title:"混元3.0（Hy3 preview）正式发布并开源，姚顺雨首秀交卷",update:"4月23日正式发布。295B总参数MoE，激活21B，支持256K上下文。快慢思考融合，复杂推理/代码/智能体大幅提升。已接入元宝/CodeBuddy/WorkBuddy/QQ/腾讯文档等首发上线，微信等十余核心产品陆续接入。混元重建后训练的第一个模型。",url:"https://finance.sina.com.cn/jjxw/2026-04-23/doc-inhvnxpa3709044.shtml"},
+    {name:"DeepSeek",date:"2026-04-24",title:"阿里腾讯争投推估值冲200亿美元，V4本月内发布",update:"据chinaz等多方报道，阿里和腾讯争相投资DeepSeek。V4引入多模态处理能力，纯国产华为昇腾算力训练。混元3.0与V4同周亮相，大模型竞争白热化。",url:"https://www.chinaz.com/ainews/27388.shtml"},
+
     // ============ 4月23日新增动态 ============
     {name:"小米",date:"2026-04-23",title:"MiMo-V2.5系列发布并开源，Pro版百万上下文对标GPT-5.4",update:"4月23日小米发布迄今最强大模型系列MiMo-V2.5并开启公测。旗舰Pro版支持百万级上下文，4.3小时完成北大编译原理课程项目，比Kimi K2.6省42% Token。核心模型面向全球开源。",url:"https://www.ithome.com/0/942/347.htm"},
     {name:"OpenAI",date:"2026-04-23",title:"发布ChatGPT Workspace Agents，7x24企业级工作流智能体",update:"4月23日OpenAI在ChatGPT中推出Workspace Agents，由Codex底层支持，能处理报告准备、代码编写、消息响应等多种办公任务，7x24小时在线自动化处理长周期工作流。解决跨时区、跨工具协作难题。",url:"https://www.ithome.com/0/942/362.htm"},
@@ -183,6 +191,14 @@ var DATA = {
     {name:"CIPSE 2026中国（杭州）国际数字安防及AI博览会",time:"5月13-15日",location:"杭州",note:"数字赋能平安浙江，数字安防+AI融合展"}
   ],
   personnel: [
+    // ============ 4月24日（周五）收录窗口：4/22-24 ============
+    {date:"2026-04-24",province:"江西",title:"江西省委领导干部任前公示（4月17日，公示期至4月24日）",url:"https://epaper.jxxw.com.cn/html/2026-04/18/content_2_100104.htm",
+      appointments:[
+        {name:"陈克龙",newRole:"拟任设区市委书记",note:"1976年12月生，研究生，现任景德镇市委副书记、市长"},
+        {name:"方向军",newRole:"拟任设区市委书记",note:"1970年10月生，大学，现任新余市委副书记、市长"}
+      ],
+      removals:[]
+    },
     // ============ 4月23日（周四）收录窗口：4/22-23 ============
     {date:"2026-04-23",province:"上海",title:"上海市政府人事任免（4月22日）",url:"https://www.shanghai.gov.cn/nw12344/20260422/2c34c23aeed74f8ab1ce2d6b51a35bf8.html",
       appointments:[
