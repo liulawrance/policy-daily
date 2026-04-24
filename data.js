@@ -9,6 +9,9 @@ var DATA = {
     {id:"0424-001",date:"2026-04-24",title:"上海市政府办公厅《上海市人民政府2026年度立法工作计划》",headline:"上海2026立法计划发布，关注AI/数据/平台立法项目",source:"上海市政府办公厅",province:"上海",category:"数字经济",impact:"中",status:"已印发",summary:"4月23日发布，明确2026年度拟提请审议和研究起草的地方性法规、政府规章项目。关注其中是否涉及AI治理、数据安全、平台经济等立法。",action:"关注立法计划中与腾讯业务直接相关的立法项目动态。",url:"https://www.shanghai.gov.cn/nw12344/",publishDate:"2026-04-23",isNew:true,isTop:false},
     {id:"0424-002",date:"2026-04-24",title:"江西省政府第123次常务会议审议通过《养老服务设施公建民营管理办法》",headline:"江西推进养老服务设施社会化运营，智慧养老方向机会",source:"江西省政府",province:"江西",category:"医疗健康",impact:"中",status:"已审议通过",summary:"4月21日，省长叶建春主持召开第123次省政府常务会议，审议通过《江西省养老服务设施公建民营管理办法》。推进养老服务设施社会化运营管理。",action:"智慧养老、养老信息化是腾讯健康/企微的延伸方向。",url:"https://www.jxcn.cn/system/2026/04/22/031111387.shtml",publishDate:"2026-04-22",isNew:true,isTop:false},
 
+    // ============ 2026-04-24（周五）v2刷新追加 ============
+    {id:"0424-JS1",date:"2026-04-24",title:"苏州市第十七届人大第六次会议选举王维为苏州市市长",headline:"万亿GDP城市市长更替：王维正式当选苏州市长",source:"苏州市人大",province:"江苏",category:"数字经济",impact:"高",status:"已当选",summary:"4月23日，苏州市第十七届人大第六次会议选举王维为苏州市市长。王维1971年4月生，江苏睢宁人，研究生学历博士学位，此前任江苏省纪委副书记、3月底任苏州副市长代市长。苏州GDP超2.5万亿，是腾讯华东重要市场。",action:"关注苏州新任市长的施政方向，尤其是数字经济/AI产业方面的布局。苏州工业园区是腾讯云核心客户区域。",url:"https://news.qq.com/rain/a/20260423A05MQY00",publishDate:"2026-04-23",isNew:true,isTop:true},
+
     // ============ 2026-04-23（周四）收录窗口：4/22-23 ============
     {id:"0423-001",date:"2026-04-23",title:"中办国办《关于更高水平更高质量做好节能降碳工作的意见》",headline:"节能降碳顶层设计，六方面18条措施，涉及数据中心能效标准",source:"中共中央办公厅、国务院办公厅",province:"国家级",category:"数字经济",impact:"中",status:"已印发",summary:"4月22日发布，六方面18条措施：协同推进节能降碳与绿色转型、加强重点领域节能降碳、完善节能降碳管理体系、健全节能降碳市场化机制、加强节能降碳基础能力建设、加强组织领导。对数据中心、算力基础设施等能耗大户提出更高要求。",action:"腾讯云在华东数据中心需关注后续各省落地细则中的能效标准，评估绿色算力布局。",url:"https://www.gov.cn/zhengce/202604/content_7066623.htm",publishDate:"2026-04-22",isNew:true,isTop:true},
     {id:"0423-002",date:"2026-04-23",title:"湖南省工信厅发布2026年度AI应用需求清单与供给能力清单",headline:"湖南发布AI两张清单，推动技术供给与产业需求双向对接",source:"湖南省工信厅",province:"湖南",category:"人工智能",impact:"中",status:"已发布",summary:"4月21日发布，在全省范围内公布人工智能应用需求和供给能力两张清单，推动AI技术供给与产业需求双向奔赴，促进技术创新与应用发展双向赋能。",action:"腾讯云可对接湖南AI供给能力清单中的合作机会。",url:"https://gxt.hunan.gov.cn/gxt/xxgk_71033/gzdt/rdjj/202604/t20260422_33962574.html",publishDate:"2026-04-21",isNew:true,isTop:false},
@@ -128,8 +131,11 @@ var DATA = {
   ],
   competitors: [
     // ============ 4月24日新增动态 ============
-    {name:"腾讯",date:"2026-04-24",title:"混元3.0（Hy3 preview）正式发布并开源，姚顺雨首秀交卷",update:"4月23日正式发布。295B总参数MoE，激活21B，支持256K上下文。快慢思考融合，复杂推理/代码/智能体大幅提升。已接入元宝/CodeBuddy/WorkBuddy/QQ/腾讯文档等首发上线，微信等十余核心产品陆续接入。混元重建后训练的第一个模型。",url:"https://finance.sina.com.cn/jjxw/2026-04-23/doc-inhvnxpa3709044.shtml"},
-    {name:"DeepSeek",date:"2026-04-24",title:"阿里腾讯争投推估值冲200亿美元，V4本月内发布",update:"据chinaz等多方报道，阿里和腾讯争相投资DeepSeek。V4引入多模态处理能力，纯国产华为昇腾算力训练。混元3.0与V4同周亮相，大模型竞争白热化。",url:"https://www.chinaz.com/ainews/27388.shtml"},
+    {name:"腾讯",date:"2026-04-24",title:"混元3.0（Hy3 preview）正式发布并开源，姚顺雨首秀交卷",update:"4月23日正式发布。295B总参数MoE，激活21B，支持256K上下文。快慢思考融合，已接入元宝/CodeBuddy/WorkBuddy/QQ/腾讯文档等首发上线，微信等十余核心产品陆续接入。混元重建后训练的第一个模型。",url:"https://finance.sina.com.cn/jjxw/2026-04-23/doc-inhvnxpa3709044.shtml"},
+    {name:"DeepSeek",date:"2026-04-24",title:"V4预览版正式上线并开源，1.6万亿参数+百万上下文",update:"4月24日中午正式上线。V4-Pro(1.6T参数)+V4-Flash(284B参数)两版本，百万字超长上下文，全面适配华为昇腾950PR(CANN框架)，推理成本降至GPT系列十分之一。混元3.0与V4在同周亮相。",url:"https://aiproducthub.cn/newsflash/2026-04-24/"},
+    {name:"华为",date:"2026-04-24",title:"发布乾崑智驾ADS 5+鸿蒙座舱HarmonySpace 6",update:"4月23日发布新一代汽车解决方案，ADS 5采用WEWA 2.0架构进化为自动驾驶AI智能体，训练效率提升10倍碰撞风险降50%。累计搭载170万辆，合作25个车企品牌。",url:"https://aiproducthub.cn/newsflash/2026-04-24/"},
+    {name:"阿里巴巴",date:"2026-04-24",title:"千问首家接入东航，上线全流程AI机票服务",update:"4月23日千问对外开放AI办事能力，首家接入中国东方航空。用户可通过自然语言完成航班查询/购票/选座/值机全流程，标志AI助手从对话走向实际场景应用。",url:"https://aiproducthub.cn/newsflash/2026-04-24/"},
+    {name:"特斯拉",date:"2026-04-24",title:"季报披露拟以最高20亿美元收购AI硬件企业",update:"4月23日Q1季报披露，特斯拉将收购一家未具名AI硬件企业，约18亿美元附加业绩里程碑条件。旨在为自动驾驶芯片和机器人业务提供硬件支撑。",url:"https://aiproducthub.cn/newsflash/2026-04-24/"},
 
     // ============ 4月23日新增动态 ============
     {name:"小米",date:"2026-04-23",title:"MiMo-V2.5系列发布并开源，Pro版百万上下文对标GPT-5.4",update:"4月23日小米发布迄今最强大模型系列MiMo-V2.5并开启公测。旗舰Pro版支持百万级上下文，4.3小时完成北大编译原理课程项目，比Kimi K2.6省42% Token。核心模型面向全球开源。",url:"https://www.ithome.com/0/942/347.htm"},
@@ -192,6 +198,14 @@ var DATA = {
   ],
   personnel: [
     // ============ 4月24日（周五）收录窗口：4/22-24 ============
+    {date:"2026-04-24",province:"江苏",title:"苏州市第十七届人大第六次会议人事任免（4月23日）",url:"https://news.qq.com/rain/a/20260423A05MQY00",
+      appointments:[{name:"王维",newRole:"苏州市市长",note:"1971年4月生，江苏睢宁人，研究生博士，曾任省纪委副书记，3月底任代市长"}],
+      removals:[]
+    },
+    {date:"2026-04-24",province:"浙江",title:"浙江省省管干部任前公示通告（4月21日）",url:"https://www.sohu.com/a/1012602749_121106832",
+      appointments:[{name:"倪永军",newRole:"拟任省直单位正厅领导职务",note:"1969年10月生，省人大常委会副秘书长"},{name:"朱关明",newRole:"拟任省直单位正厅领导职务",note:"1977年10月生，省政协办公厅副主任"}],
+      removals:[]
+    },
     {date:"2026-04-24",province:"江西",title:"江西省委领导干部任前公示（4月17日，公示期至4月24日）",url:"https://epaper.jxxw.com.cn/html/2026-04/18/content_2_100104.htm",
       appointments:[
         {name:"陈克龙",newRole:"拟任设区市委书记",note:"1976年12月生，研究生，现任景德镇市委副书记、市长"},
