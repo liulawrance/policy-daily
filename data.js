@@ -423,6 +423,24 @@ var DATA = {
     {date:"2026-04-14",province:"湖南",title:"湖南省地市主官任免（4月10日，补录）",url:"https://www.163.com/dy/article/KQKV5UOU055040N3.html",isBackfill:true,
       appointments:[{name:"陈澎",newRole:"张家界市副市长、代市长",note:"此前任衡阳市委副书记"}],
       removals:[]
+    },
+
+    // ============ 2026-04-27（周一，含周末）收录窗口：4/24-27 ============
+    {date:"2026-04-27",province:"上海",title:"上海市人民政府人事任免（4月22日）",url:"https://www.shanghai.gov.cn/nw44931/index.html",
+      appointments:[
+        {name:"金跃明",newRole:"任职（详见沪府任文件）",note:"4月22日发布任命通知"},
+        {name:"叶卫东",newRole:"任职（详见沪府任文件）",note:"4月22日发布任命通知"},
+        {name:"王他竽",newRole:"任职（详见沪府任文件）",note:"4月22日发布任命通知"},
+        {name:"罗志松",newRole:"职务任免（详见沪府任文件）",note:"4月22日发布任免通知"},
+        {name:"江舸",newRole:"任职（详见沪府任文件）",note:"4月22日发布任命通知"}
+      ],
+      removals:[]
+    },
+    {date:"2026-04-27",province:"上海",title:"上海市辖区人事动态（4月24-25日）",url:"https://finance.sina.com.cn/wm/2026-04-25/doc-inhvsuvi0858669.shtml",
+      appointments:[
+        {name:"王伟杰",newRole:"已任宝山区领导",note:"此前公示拟为副区长人选，4月24日参加区委书记调研开发区体制机制改革会议"}
+      ],
+      removals:[]
     }
   ]
 };
