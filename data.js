@@ -112,10 +112,19 @@ var DATA = {
 
     // ============ 2026-04-04（周五）v3.4补建 ============
     {id:"0404-001",date:"2026-04-04",title:"中央网信办《网络直播打赏规范管理通知》11条新规",source:"中央网信办",province:"国家级",category:"行业监管",impact:"高",status:"已发布",summary:"禁止向8岁以下提供打赏、8-16岁需监护人同意、全额退还未成年人打赏。",action:"视频号/QQ直播全面整改。",url:"https://www.cac.gov.cn/2026-04/13/c_1777815804150225.htm",publishDate:"2026-04-04",isNew:true,isTop:true},
-    {id:"0404-SH1",date:"2026-04-04",title:"上海市《促进长三角政务服务\"一网通办\"规定》",headline:"4月1日发布，长三角政务协同再升级（v3.5上海补采）",source:"上海市政府",province:"上海",category:"数字经济",impact:"中",status:"已发布",summary:"4月1日发布，推进长三角政务服务\"一网通办\"，涉及数据跨省共享、电子证照互认。（v3.5上海市政府官网补采发现）",action:"腾讯政务云长三角政务协同业务机会。",url:"https://www.shanghai.gov.cn/nw12344/",publishDate:"2026-04-01",isNew:true,isTop:true}
+    {id:"0404-SH1",date:"2026-04-04",title:"上海市《促进长三角政务服务\"一网通办\"规定》",headline:"4月1日发布，长三角政务协同再升级（v3.5上海补采）",source:"上海市政府",province:"上海",category:"数字经济",impact:"中",status:"已发布",summary:"4月1日发布，推进长三角政务服务\"一网通办\"，涉及数据跨省共享、电子证照互认。（v3.5上海市政府官网补采发现）",action:"腾讯政务云长三角政务协同业务机会。",url:"https://www.shanghai.gov.cn/nw12344/",publishDate:"2026-04-01",isNew:true,isTop:true},
+
+    // ============ 2026-04-28（周二）收录窗口：4/26-28 ============
+    {id:"0428-001",date:"2026-04-28",title:"国常会研究科技创新，审议通过《行政法规制定程序条例（修订草案）》",headline:"国常会：全面深化科技体制机制改革，一体推进教育科技人才发展",source:"国务院",province:"国家级",category:"数字经济",impact:"高",status:"4月24日召开",summary:"李强主持4月24日国常会，强调锚定2035年建成科技强国战略目标，充分发挥新型举国体制优势，全面深化科技体制机制改革，一体推进教育科技人才发展。同时审议推动海洋经济高质量发展。",action:"腾讯云/AI Lab关注科技强国战略落地机遇，基础研究+产业应用双向发力或带来更多政企合作空间。",url:"https://www.gov.cn/yaowen/liebiao/202604/content_7066822.htm",publishDate:"2026-04-24",isNew:true,isTop:true},
+    {id:"0428-002",date:"2026-04-28",title:"国新办举行政策例行吹风会解读《关于推进服务业扩能提质的意见》",headline:"五部委联合解读服务业扩能提质，数字服务是重点方向",source:"国新办/发改委/商务部/文旅部/市监总局/工信部",province:"国家级",category:"数字经济",impact:"中",status:"4月28日下午3时",summary:"发改委副主任沈竹林、商务部部长助理张力等出席，解读国发〔2026〕7号。服务业扩能提质将推动数字服务、平台经济规范发展。",action:"关注吹风会释放的数字服务、AI+行业具体政策信号。",url:"http://www.scio.gov.cn/xwfb/fbhyg_13737/zxyg/202604/t20260427_986957.html",publishDate:"2026-04-28",isNew:true,isTop:false},
+    {id:"0428-SH1",date:"2026-04-28",title:"上海市人大常委会审议《上海市发展规划条例》草案",headline:"上海发展规划条例立法，确立1+46+16规划体系框架",source:"上海市人大常委会",province:"上海",category:"数字经济",impact:"中",status:"审议中",summary:"市十六届人大常委会第21次会议4月28日起召开，审议条例草案。确立'1+46+16'规划体系框架，强化发展规划与国土空间规划、专项规划的衔接。",action:"关注条例中数字经济/AI产业相关规划衔接机制。",url:"https://export.shobserver.com/baijiahao/html/901759.html",publishDate:"2026-04-28",isNew:true,isTop:false},
+    {id:"0428-FJ1",date:"2026-04-28",title:"福建省政府办公厅《福建省推进社会信用体系建设三年行动方案（2026-2028年）》",headline:"福建信用体系数字化建设三年行动，涉及信用平台和数据共享",source:"福建省政府办公厅",province:"福建",category:"数字经济",impact:"中",status:"已印发",summary:"4月20日印发，构建覆盖全省的社会信用信息平台，推动公共信用信息归集共享、信用监管创新应用、信用服务市场培育。",action:"信用体系数字化建设机会，腾讯云数字政务可对接福建省信用平台。",url:"https://www.fujian.gov.cn/zwgk/zfxxgk/szfwj/jgzz/xzgfxwj/202604/t20260423_7130573.htm",publishDate:"2026-04-20",isNew:true,isTop:false}
   ],
   alerts: [
-    {date:"2026-04-26",level:"一级紧急",item:"金融产品网络营销管理办法9月30日施行",assessment:"微信支付/腾讯广告/视频号全面合规",detail:"央行等八部门联合发布（公告〔2026〕第9号），7章39条全面规范金融产品网络营销。禁止秒到账高收益等诱导用语，非银行支付机构不得为贷款/资管产品提供营销，算法推荐须提供关闭选项。",days:"倒计时157天",linkType:"policy",linkTarget:"0426-001"},
+    // ============ 4月28日更新倒计时 ============
+    {date:"2026-04-28",level:"二级重要",item:"数字中国峰会4月29-30日福州举办（明天开幕）",assessment:"参展和BD对接机会",detail:"第九届数字中国建设峰会由国家发改委牵头主办，50余场交流活动。距开幕1天。",days:"倒计时1天",linkType:"policy",linkTarget:"0416-004"},
+    {date:"2026-04-28",level:"三级关注",item:"江苏省数据局局长调整为刘世虎",assessment:"关注数据要素流通政策方向",detail:"苏政发〔2026〕34号任命刘世虎为省数据局局长、省政务服务管理办公室主任兼省发改委副主任。曾任国家发改委投资司司长，熟悉数字基建。",days:"已到任",linkType:"personnel",linkTarget:"江苏"},
+    {date:"2026-04-26",level:"一级紧急",item:"金融产品网络营销管理办法9月30日施行",assessment:"微信支付/腾讯广告/视频号全面合规",detail:"央行等八部门联合发布（公告〔2026〕第9号），7章39条全面规范金融产品网络营销。禁止秒到账高收益等诱导用语，非银行支付机构不得为贷款/资管产品提供营销，算法推荐须提供关闭选项。",days:"倒计时155天",linkType:"policy",linkTarget:"0426-001"},
     {date:"2026-04-26",level:"二级重要",item:"碳达峰碳中和综合评价考核办法自2026年度起实施",assessment:"数据中心能效考核更严格",detail:"中办国办印发，5+9指标体系正式纳入党内法规体系。各省党委政府为考核对象，1项控制指标不达标即不合格。腾讯云华东数据中心能效将面临更严考核。",days:"已实施",linkType:"policy",linkTarget:"0426-002"},
     {date:"2026-04-23",level:"一级紧急",item:"网络安全标识管理办法7月1日施行（v3.4新发现）",assessment:"腾讯IoT设备、智能硬件需对标合规",detail:"网信办/工信部/公安部联合发布（国信办发文〔2026〕4号），联网产品须标注网络安全能力等级。产品目录管理，自愿参与原则。7月1日正式施行。此前日报因2天窗口限制漏收，v3.4扩至3天窗口后补充发现。",days:"倒计时69天",linkType:"policy",linkTarget:"0423-003"},
     {date:"2026-04-23",level:"三级关注",item:"现代商贸流通体系试点城市申报5月10日截止",assessment:"华东城市可申报，腾讯提供数字化方案",detail:"财政部+商务部联合发文，全国不超20个试点城市，中央财政定额补助（直辖市每城5亿元）。华东六省一市中符合条件的省会和地级市均可申报。",days:"倒计时17天",linkType:"policy",linkTarget:"0423-005"},
@@ -136,6 +145,12 @@ var DATA = {
     {date:"2026-04-17",level:"三级关注",item:"上海金山区长袁罡拟任区委书记",assessment:"关注上海区级主官调整",detail:"上海市委4月15日发布市管干部任前公示：袁罡（现任金山区委副书记、区长）拟任地区党委书记，杨元飞拟为区长人选，姜爱锋拟任市级机关正职。公示至4月22日。",days:"公示至4月22日",linkType:"personnel",linkTarget:"上海"}
   ],
   competitors: [
+    // ============ 4月28日新增动态 ============
+    {name:"Kimi（月之暗面）",date:"2026-04-28",title:"K2.6发布并开源，13小时不间断编码+300子Agent并行",update:"4月20日发布并开源K2.6，代码能力对标GPT-5.4，Agent集群支持300子Agent并行调度。估值3个月翻4倍，新一轮融资推进中。",url:"https://news.qq.com/rain/a/20260421A04Y2M00"},
+    {name:"阿里（通义千问）",date:"2026-04-28",title:"Qwen3.6-Max-Preview+27B开源版密集发布",update:"4月20日发布旗舰模型Qwen3.6-Max-Preview；4月22日开源Qwen3.6-27B。Qwen3.6-Plus上线24小时调用1.4万亿Token创纪录。",url:"https://finance.sina.com.cn/tech/digi/2026-04-22/doc-inhvkupy6024987.shtml"},
+    {name:"华为（昇腾）",date:"2026-04-28",title:"昇腾产业链全面爆发，DeepSeek V4首发适配昇腾950P",update:"DeepSeek V4论文中昇腾和英伟达首次并列。昇腾950单卡算力是H20的2.87倍，搭载国产HBM。昇腾SuperNode商用加速。",url:"https://finance.sina.com.cn/stock/relnews/cn/2026-04-28/doc-inhvyzks7395902.shtml"},
+    {name:"字节跳动（豆包）",date:"2026-04-28",title:"Seeduplex全双工语音模型上线豆包App",update:"4月9日发布Seeduplex语音模型并全量上线豆包App，实现自然交互。Seed 2.0系列持续迭代中。",url:"https://news.pedaily.cn/202604/562628.shtml"},
+
     // ============ 4月26日新增动态 ============
     {name:"OpenAI",date:"2026-04-26",title:"GPT-5.5深夜发布，Token成本降至前代1/4",update:"4月24日凌晨发布GPT-5.5及GPT-5.5 Pro。OpenAI称其为迄今最智能最直观的模型。在Agentic Coding、计算机使用及科研领域表现卓越，完成相同Codex任务Token消耗仅GPT-5.4的1/4。与DeepSeek V4同日发布，全球AI竞争进入同日对决新阶段。",url:"https://www.ithome.com/0/942/841.htm"},
     {name:"华为",date:"2026-04-26",title:"昇腾SuperNode全系零日适配DeepSeek V4",update:"4月24日华为同步官宣昇腾超节点全系列产品支持DeepSeek V4系列，寒武纪也完成适配。昇腾950单卡算力为英伟达H20的2.87倍，搭载自研国产HBM芯片。国产算力生态里程碑事件。",url:"https://finance.sina.com.cn/tech/roll/2026-04-24/doc-inhvqrvy4391095.shtml"},
@@ -439,6 +454,60 @@ var DATA = {
     {date:"2026-04-27",province:"上海",title:"上海市辖区人事动态（4月24-25日）",url:"https://finance.sina.com.cn/wm/2026-04-25/doc-inhvsuvi0858669.shtml",
       appointments:[
         {name:"王伟杰",newRole:"已任宝山区领导",note:"此前公示拟为副区长人选，4月24日参加区委书记调研开发区体制机制改革会议"}
+      ],
+      removals:[]
+    },
+
+    // ============ 2026-04-28（周二）收录窗口：4/26-28 ============
+    {date:"2026-04-28",province:"国家级",title:"国务院人事任免（4月24日）",url:"https://www.gov.cn/yaowen/liebiao/202604/content_7066822.htm",
+      appointments:[],
+      removals:[{name:"王文灵",oldRole:"全国社会保障基金理事会副理事长",note:"4月7日已被查。1966年10月生，曾任重庆市委研究室副主任，2015年任副理事长。"}]
+    },
+    {date:"2026-04-28",province:"江苏",title:"江苏省政府人事任免（苏政发〔2026〕34号）",url:"https://jsnews.jschina.com.cn/jsyw/202604/t20260428_s69f01317e4b077df9927f1e2.shtml",
+      appointments:[
+        {name:"邱志强",newRole:"省政府办公厅主任兼省政府参事室主任",note:"1970年11月生，在职研究生博士，此前任省政府副秘书长"},
+        {name:"赵庆红",newRole:"省政府副秘书长（正厅级）",note:"1974年4月生，此前任扬州市委常委、对口支援新疆前方指挥部总指挥"},
+        {name:"刘世虎",newRole:"省数据局局长、省政务服务管理办公室主任兼省发改委副主任",note:"同时免去省政府副秘书长、省政府研究室主任。数据局一把手调整对腾讯数字政务合作有直接影响。"}
+      ],
+      removals:[]
+    },
+    {date:"2026-04-28",province:"江苏",title:"江苏省省管领导干部任前公示（4月28日发布）",url:"https://www.zgjssw.gov.cn/yaowen/202604/t20260428_8570567.shtml",
+      appointments:[
+        {name:"孙文华等",newRole:"多人拟推荐提名为设区市副市长人选",note:"公示期4月28日至5月7日，涉及多个地市领导班子调整"}
+      ],
+      removals:[]
+    },
+    {date:"2026-04-28",province:"江西",title:"江西省地市主官调整（4月25日）",url:"https://finance.sina.com.cn/wm/2026-04-25/doc-inhvszce2503159.shtml",
+      appointments:[
+        {name:"陈克龙",newRole:"景德镇市委书记",note:"此前任市委副书记/市长。1976年12月生，曾任工信部原材料工业司司长、规划司司长。"},
+        {name:"方向军",newRole:"新余市委书记",note:"此前任市委副书记/市长。1970年10月生。"}
+      ],
+      removals:[]
+    },
+    {date:"2026-04-28",province:"福建",title:"福建省委干部任前公示（4月21日发布）",url:"https://news.qq.com/rain/a/20260421A01ZWC00",
+      appointments:[
+        {name:"严峻",newRole:"拟任省直单位正职",note:"现任省委政法委副书记，1973年3月生"},
+        {name:"陈爱棋",newRole:"拟任设区市党政副职",note:"现任漳浦县委书记，1971年7月生"}
+      ],
+      removals:[]
+    },
+    {date:"2026-04-28",province:"安徽",title:"安徽省委干部任前公示（4月24日发布）",url:"https://news.qq.com/rain/a/20260424A08PBT00",
+      appointments:[
+        {name:"陈家志",newRole:"拟任省直单位正职",note:"现任省委组织部干部队伍建设规划办公室主任"},
+        {name:"另有7市9名县（市、区）党政一把手",newRole:"拟任正职",note:"涉及多个市县领导班子调整"}
+      ],
+      removals:[]
+    },
+    {date:"2026-04-28",province:"浙江",title:"浙江省省管干部任前公示（4月21日发布）",url:"http://www.zj.xinhuanet.com/20260421/05530354dfb54d6491c3c843a3051634/c.html",
+      appointments:[
+        {name:"倪永军",newRole:"拟任新职",note:"1969年10月生，省委党校研究生。公示期4月21日至28日"},
+        {name:"朱关明",newRole:"拟任新职",note:"详情见浙江日报"}
+      ],
+      removals:[]
+    },
+    {date:"2026-04-28",province:"上海",title:"上海金山区区委书记到任（4月24日）",url:"https://www.thepaper.cn/newsDetail_forward_33044887",
+      appointments:[
+        {name:"袁罡",newRole:"金山区委书记",note:"此前任金山区委副书记/区长，1976年8月生，4月15日公示4月24日正式到任"}
       ],
       removals:[]
     }
