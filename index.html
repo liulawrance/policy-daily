@@ -137,18 +137,17 @@ body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro SC","PingFang SC","Hel
 
 /* Digest */
 .digest-date{font-size:13px;color:var(--gray);padding:12px 16px 4px;font-weight:500}
-.digest-card{background:#fff;border-radius:var(--radius);margin:6px 16px;padding:14px;border:1px solid var(--border);cursor:pointer;transition:.15s}
+.digest-card{background:#fff;border-radius:var(--radius);margin:4px 16px;padding:12px 14px;border:1px solid var(--border);cursor:pointer;transition:.15s;display:flex;align-items:center;gap:10px}
 .digest-card:active{background:#F8FAFC;transform:scale(.99)}
 .digest-card.urgent{border-left:3px solid var(--red)}
 .digest-card.important{border-left:3px solid var(--orange)}
-.digest-card .d-tag{display:inline-block;font-size:10px;padding:2px 7px;border-radius:6px;font-weight:500;margin-right:6px}
+.digest-card .d-tag{flex-shrink:0;font-size:10px;padding:2px 7px;border-radius:6px;font-weight:500;white-space:nowrap}
 .digest-card .d-tag-alert{background:#FEE;color:var(--red)}
 .digest-card .d-tag-policy{background:#E3F2FD;color:#1565C0}
 .digest-card .d-tag-personnel{background:#E8F5E9;color:#2E7D32}
 .digest-card .d-tag-industry{background:#F3E5F5;color:#7B1FA2}
-.digest-card .d-title{font-size:14px;font-weight:600;margin-top:6px;line-height:1.5}
-.digest-card .d-summary{font-size:12px;color:#666;margin-top:4px;line-height:1.6}
-.digest-card .d-meta{font-size:11px;color:var(--gray);margin-top:6px;display:flex;gap:8px}
+.digest-card .d-text{flex:1;font-size:13px;font-weight:500;line-height:1.5;color:#333}
+.digest-card .d-arrow{flex-shrink:0;font-size:12px;color:var(--blue);opacity:.5}
 .digest-empty{text-align:center;color:var(--gray);padding:40px 16px;font-size:13px}
 .digest-section{margin-top:12px}
 .digest-section-title{font-size:12px;font-weight:600;color:var(--blue);padding:0 16px;margin-bottom:4px}
@@ -391,31 +390,37 @@ function renderStats() {
   `;
 }
 
-// Render policy cards
+// Render policy cards (sorted by importance: impact level first, then category)
 function renderPolicies() {
   const entries = getFiltered();
   const el = document.getElementById('policyList');
   if (!entries.length) { el.innerHTML = '<div class="empty">暂无符合条件的政策</div>'; return; }
 
-  // Group by category
-  const groups = {};
-  entries.forEach(e => {
-    if (!groups[e.category]) groups[e.category] = [];
-    groups[e.category].push(e);
+  // Sort all entries by importance: impact(高>中>低) → isTop → date(newest first)
+  const impOrder = {'高':0,'中':1,'低':2};
+  const sorted = entries.slice().sort((a,b) => {
+    const ia = impOrder[a.impact] !== undefined ? impOrder[a.impact] : 3;
+    const ib = impOrder[b.impact] !== undefined ? impOrder[b.impact] : 3;
+    if (ia !== ib) return ia - ib;
+    if (a.isTop !== b.isTop) return a.isTop ? -1 : 1;
+    return b.publishDate > a.publishDate ? 1 : b.publishDate < a.publishDate ? -1 : 0;
   });
 
-  const categoryOrder = ['行业监管','人工智能','数据安全','数字经济','平台经济'];
-  const categoryIcons = {'行业监管':'🔒','人工智能':'🤖','数据安全':'🛡️','数字经济':'💹','平台经济':'📱'};
+  // Group sorted entries by impact level for display
+  const impactGroups = {'高':[],'中':[],'低':[]};
+  sorted.forEach(e => { (impactGroups[e.impact] || impactGroups['低']).push(e); });
+  const impactLabels = [
+    {key:'高',icon:'🔴',label:'高影响'},
+    {key:'中',icon:'🟡',label:'中影响'},
+    {key:'低',icon:'⚪',label:'低影响'}
+  ];
+  const categoryIcons = {'行业监管':'🔒','人工智能':'🤖','数据安全':'🛡️','数字经济':'💹','平台经济':'📱','金融监管':'💰','消费零售':'🛒','医疗健康':'🏥','教育':'📚'};
 
   let html = '';
-  categoryOrder.forEach(cat => {
-    const items = groups[cat];
-    if (!items) return;
-    html += `<div class="section-title">${categoryIcons[cat]||'📋'} ${cat} <span class="badge">${items.length}</span></div>`;
-    items.sort((a,b) => {
-      const imp = {'高':0,'中':1,'低':2};
-      return (imp[a.impact]||3) - (imp[b.impact]||3);
-    });
+  impactLabels.forEach(grp => {
+    const items = impactGroups[grp.key];
+    if (!items || !items.length) return;
+    html += `<div class="section-title">${grp.icon} ${grp.label} <span class="badge">${items.length}</span></div>`;
     items.forEach(e => {
       const cardClass = e.isBackfill ? 'backfill-card' : e.isTop ? 'top-card' : e.isNew ? 'new-card' : '';
       const impactTag = `<span class="tag tag-${e.impact==='高'?'high':e.impact==='中'?'mid':'low'}">${e.impact}影响</span>`;
@@ -442,11 +447,17 @@ function renderPolicies() {
   el.innerHTML = html;
 }
 
-// Render alerts
+// Render alerts (sorted by level: 一级>二级>三级)
 function renderAlerts() {
   var el = document.getElementById('alertList');
   var html = '<div class="section-title">\u26A0\uFE0F 预警提示</div><div class="alert-list">';
-  DATA.alerts.forEach(function(a, i) {
+  var levelOrder = {'一级紧急':0,'二级重要':1,'三级关注':2};
+  var sortedAlerts = DATA.alerts.map(function(a,i){return {a:a,i:i};}).sort(function(x,y){
+    var lx = levelOrder[x.a.level] !== undefined ? levelOrder[x.a.level] : 9;
+    var ly = levelOrder[y.a.level] !== undefined ? levelOrder[y.a.level] : 9;
+    return lx - ly;
+  });
+  sortedAlerts.forEach(function(obj) { var a = obj.a; var i = obj.i;
     var cls = a.level.indexOf('\u4E00\u7EA7') >= 0 ? 'l1' : a.level.indexOf('\u4E8C\u7EA7') >= 0 ? 'l2' : 'l3';
     var daysTag = a.days ? '<span style="margin-left:6px;font-size:10px;color:var(--orange)">' + a.days + '</span>' : '';
     html += '<div class="alert-item" onclick="alertJump(' + i + ')">' +
@@ -512,13 +523,20 @@ function alertJump(idx) {
   }, 100);
 }
 
-// Render competitors
+// Render competitors (sorted by importance: 腾讯>DeepSeek>OpenAI>阿里>字节>华为>others)
 function renderCompetitors() {
   const el = document.getElementById('compList');
-  // 按当前日期过滤，只显示有新动态的公司
   const filtered = DATA.competitors.filter(c => {
     if (currentDate === 'all') return true;
     return c.date === currentDate;
+  });
+  // Sort by company importance, then by date descending
+  const compOrder = {'腾讯':0,'DeepSeek':1,'OpenAI':2,'阿里巴巴':3,'阿里（通义千问）':3,'字节跳动':4,'字节跳动（豆包）':4,'华为':5,'华为（昇腾）':5,'智谱AI':6,'月之暗面':7,'Kimi（月之暗面）':7,'Anthropic':8,'谷歌':9};
+  filtered.sort((a,b) => {
+    const oa = compOrder[a.name] !== undefined ? compOrder[a.name] : 20;
+    const ob = compOrder[b.name] !== undefined ? compOrder[b.name] : 20;
+    if (oa !== ob) return oa - ob;
+    return b.date > a.date ? 1 : b.date < a.date ? -1 : 0;
   });
   let html = '<div class="section-title">🏢 行业动态 <span class="badge">' + filtered.length + '</span></div>';
   if (filtered.length === 0) {
@@ -575,7 +593,7 @@ function renderAnalysis(name, a) {
     '</div>';
 }
 
-// Render personnel
+// Render personnel (sorted: 国家级 first, then by total count desc)
 function renderPersonnel() {
   const el = document.getElementById('personnelList');
   const items = DATA.personnel || [];
@@ -585,6 +603,21 @@ function renderPersonnel() {
     return true;
   });
   if (!filtered.length) { el.innerHTML = '<div class="empty">暂无符合条件的人事变动</div>'; return; }
+
+  // Sort: 国家级 first, then has analysis (vice-minister+), then by total people count desc
+  const provOrder = {'国家级':0};
+  filtered.sort((a,b) => {
+    const pa = provOrder[a.province] !== undefined ? provOrder[a.province] : 1;
+    const pb = provOrder[b.province] !== undefined ? provOrder[b.province] : 1;
+    if (pa !== pb) return pa - pb;
+    // Has vice-minister analysis
+    const hasAnalysisA = (a.appointments||[]).some(x=>x.analysis) || (a.removals||[]).some(x=>x.analysis);
+    const hasAnalysisB = (b.appointments||[]).some(x=>x.analysis) || (b.removals||[]).some(x=>x.analysis);
+    if (hasAnalysisA !== hasAnalysisB) return hasAnalysisA ? -1 : 1;
+    const ca = (a.appointments?a.appointments.length:0) + (a.removals?a.removals.length:0);
+    const cb = (b.appointments?b.appointments.length:0) + (b.removals?b.removals.length:0);
+    return cb - ca;
+  });
 
   let html = '<div class="section-title">👤 人事变动 <span class="badge">' + filtered.length + '批</span></div>';
   filtered.forEach(p => {
@@ -661,39 +694,42 @@ function renderDigest() {
     if (a.date && a.date !== targetDate) return; // 有日期但不是当天，跳过
     if (!a.date && a.level.indexOf('\u4E00\u7EA7') < 0) return; // 无日期且非一级，跳过
     if (a.date) {
-      var dSummary = a.detail || a.assessment;
-      items.push({type:'alert',tag:'\u7D27\u6025\u9884\u8B66',tagClass:'d-tag-alert',title:a.item,summary:dSummary,meta:a.days||a.assessment,priority:0,idx:i});
+      items.push({type:'alert',tag:'\u7D27\u6025\u9884\u8B66',tagClass:'d-tag-alert',headline:a.item,title:a.item,summary:a.detail||a.assessment,meta:a.days||a.assessment,priority:0,idx:i});
     }
   });
 
   // 2. 高影响政策
   DATA.entries.filter(function(e) { return e.date === targetDate && e.impact === '\u9AD8'; }).forEach(function(e) {
     var dTitle = e.headline || e.title;
-    items.push({type:'policy',tag:'\u91CD\u8981\u653F\u7B56',tagClass:'d-tag-policy',title:dTitle,summary:e.summary,meta:e.source,priority:1,id:e.id});
+    items.push({type:'policy',tag:'\u91CD\u8981\u653F\u7B56',tagClass:'d-tag-policy',headline:e.headline,title:dTitle,summary:e.summary,meta:e.source,priority:1,id:e.id});
   });
 
   // 3. 中影响+isTop的政策
   DATA.entries.filter(function(e) { return e.date === targetDate && e.impact === '\u4E2D' && e.isTop; }).forEach(function(e) {
     var dTitle = e.headline || e.title;
-    items.push({type:'policy',tag:'\u653F\u7B56\u52A8\u6001',tagClass:'d-tag-policy',title:dTitle,summary:e.summary,meta:e.source,priority:2,id:e.id});
+    items.push({type:'policy',tag:'\u653F\u7B56\u52A8\u6001',tagClass:'d-tag-policy',headline:e.headline,title:dTitle,summary:e.summary,meta:e.source,priority:2,id:e.id});
   });
 
-  // 4. 当日重点人事（P0/P1部门的）
+  // 4. 当日人事变动（所有有任命或免职的）
   DATA.personnel.filter(function(p) { return p.date === targetDate; }).forEach(function(p) {
     var keyNames = [];
     if (p.appointments) p.appointments.forEach(function(a) {
-      if (a.note && (a.note.indexOf('\u2B50') >= 0 || a.note.indexOf('\u6B63\u5385') >= 0)) keyNames.push(a.name + ' \u2192 ' + a.newRole);
+      keyNames.push(a.name + ' \u2192 ' + a.newRole);
+    });
+    if (p.removals) p.removals.forEach(function(r) {
+      keyNames.push(r.name + '\uff08\u514d\u804c\uff09');
     });
     if (keyNames.length > 0) {
-      items.push({type:'personnel',tag:'\u4EBA\u4E8B\u53D8\u52A8',tagClass:'d-tag-personnel',title:p.title,summary:keyNames.join('\uFF1B'),meta:p.province,priority:3});
+      var oneLine = p.title;
+      items.push({type:'personnel',tag:'\u4EBA\u4E8B\u53D8\u52A8',tagClass:'d-tag-personnel',headline:oneLine,title:oneLine,summary:keyNames.join('\uFF1B'),meta:p.province,priority:3});
     }
   });
 
-  // 5. 重要行业动态（腾讯和DeepSeek）
-  DATA.competitors.filter(function(c) { return c.date === targetDate && (c.name === '\u817E\u8BAF' || c.name === 'DeepSeek'); }).forEach(function(c) {
+  // 5. 重要行业动态（腾讯、DeepSeek、OpenAI、阿里、字节）
+  var keyComps = ['\u817E\u8BAF','DeepSeek','OpenAI','\u963f\u91cc\u5df4\u5df4','\u963f\u91cc\uff08\u901a\u4e49\u5343\u95ee\uff09','\u5b57\u8282\u8df3\u52a8','\u5b57\u8282\u8df3\u52a8\uff08\u8c46\u5305\uff09'];
+  DATA.competitors.filter(function(c) { return c.date === targetDate && keyComps.indexOf(c.name) >= 0; }).forEach(function(c) {
     var dTitle = c.title ? c.name + ' | ' + c.title : c.name + '\u6700\u65B0\u52A8\u6001';
-    var dSummary = c.update || '';
-    items.push({type:'competitor',tag:'\u884C\u4E1A\u52A8\u6001',tagClass:'d-tag-industry',title:dTitle,summary:dSummary,meta:c.date,priority:4,name:c.name});
+    items.push({type:'competitor',tag:'\u884C\u4E1A\u52A8\u6001',tagClass:'d-tag-industry',headline:c.title,title:dTitle,summary:c.update||'',meta:c.date,priority:4,name:c.name});
   });
 
   // 排序
@@ -713,11 +749,14 @@ function renderDigest() {
       else if (item.type === 'personnel') onclick = "digestJump('personnel','')";
       else if (item.type === 'competitor') onclick = "digestJump('competitor','" + (item.name || '') + "')";
 
+      // 一句话导读：优先用headline，否则用title截断
+      var oneLiner = item.headline || item.title;
+      if (oneLiner.length > 50) oneLiner = oneLiner.substring(0, 48) + '...';
+
       html += '<div class="digest-card' + urgentClass + '" onclick="' + onclick + '">' +
         '<span class="d-tag ' + item.tagClass + '">' + item.tag + '</span>' +
-        '<div class="d-title">' + item.title + '</div>' +
-        '<div class="d-summary">' + item.summary + '</div>' +
-        '<div class="d-meta"><span>\u{1F4CC} ' + item.meta + '</span></div>' +
+        '<span class="d-text">' + oneLiner + '</span>' +
+        '<span class="d-arrow">\u203A</span>' +
         '</div>';
     });
   }
