@@ -16,6 +16,8 @@ var DATA = {
     {id:"0430-FJ1",date:"2026-04-30",title:"福建省工信厅披露AI产业集群建设进展(政协提案答复)",headline:"福建AI产业专班+福厦泉三地集聚态势明确",source:"福建省工业和信息化厅",province:"福建",category:"人工智能",impact:"中",status:"已答复",summary:"答复省政协委员提案,披露成立省领导牵头的AI产业专班,福州/厦门/泉州三地集聚发展态势明确。",action:"关注福建AI园区招商合作机会。",url:"https://gxt.fujian.gov.cn/zwgk/zfxxgk/fdzdgknr/dbwyzs/zxwyta/202604/t20260429_7132630.htm",publishDate:"2026-04-29",isNew:true,isTop:false},
     {id:"0430-HN1",date:"2026-04-30",title:"湖南省加快场景创新和大规模应用三年行动方案(2026-2028)正式公开",headline:"湖南20个重点领域场景大规模应用,探索先试用后付费",source:"湖南省人民政府办公厅(湘政办发[2026]23号)",province:"湖南",category:"数字经济",impact:"中",status:"已公开",summary:"推动新技术新产品新场景大规模应用,探索先试用后付费机制,涵盖先进制造、文化科技融合、低空经济等20个重点领域。",action:"腾讯可参与湖南场景创新清单对接。",url:"https://new.qq.com/rain/a/20260430A03X6R00",publishDate:"2026-04-30",isNew:true,isTop:false},
     {id:"0430-JX1",date:"2026-04-30",title:"江西省政府办公厅印发贯彻落实政务数据共享条例工作方案",headline:"江西2028年前建成一体化政务大数据体系",source:"江西省人民政府办公厅",province:"江西",category:"数字经济",impact:"中",status:"已印发",summary:"2026年底前建立健全政务数据共享规章制度,2028年底前全省一体化政务大数据体系科学完备。",action:"腾讯政务云可对接江西数据共享平台建设。",url:"https://www.jiangxi.gov.cn/jxsrmzf/szfbg100/pc/content/content_2042156856701943808.html",publishDate:"2026-04-02",isNew:true,isTop:false},
+    {id:"0430-004",date:"2026-04-30",title:"中央网信办通报33款App个人信息收集使用问题",headline:"个人信息保护专项行动持续推进,33款App被通报",source:"中央网信办/工信部/公安部",province:"国家级",category:"数据安全",impact:"中",status:"已通报",summary:"依据2026年个人信息保护系列专项行动,通报天气汇、雅思斩单词等33款App存在违规收集使用个人信息问题。",action:"腾讯各App需持续自查个人信息收集合规。",url:"https://news.cctv.com/2026/04/27/ARTI6RRVqf6Ap5oLOgslPKgA260427.shtml",publishDate:"2026-04-27",isNew:true,isTop:false},
+    {id:"0430-005",date:"2026-04-30",title:"中央网信办发布清朗-优化营商网络环境专项行动成果",headline:"3年清理涉企侵权信息92.7万余条",source:"中央网信办",province:"国家级",category:"行业监管",impact:"中",status:"已发布",summary:"连续3年专项行动共清理涉企侵权信息92.7万余条,处置违法违规账号8.98万余个,部分线索移送公安追刑责。",action:"关注涉企网络侵权治理对平台运营的影响。",url:"https://www.chinanews.com/fz/2026/04-29/10612918.shtml",publishDate:"2026-04-29",isNew:true,isTop:false},
 
     // ============ 2026-04-29（周三）收录窗口：4/27-29 ============
     {id:"0429-001",date:"2026-04-29",title:"工信部+国家数据局《关于联合实施2026年\"模数共振\"行动的通知》",headline:"两部门启动\"模数共振\"行动，面向20行业打造\"智能体工厂\"",source:"工信部办公厅/国家数据局综合司",province:"国家级",category:"人工智能",impact:"高",status:"已印发",summary:"面向制造业领域20个重点行业，确定一批重点城市，探索场景、模型、智能体、数据集等关键技术成果产出路径。到2026年底形成数据-模型-场景应用良性循环。",action:"腾讯云AI+制造方案可直接对接20个行业智能体场景需求。",url:"https://news.qq.com/rain/a/20260428A06PD900",publishDate:"2026-04-28",isNew:true,isTop:true},
@@ -258,7 +260,9 @@ var DATA = {
     {name:"2026中国具身智能大会（CEAI）",time:"4月11-12日",location:"合肥",note:"智驱万物具汇江淮，发布《具身智能白皮书》。已举办"},
     {name:"2026年世界互联网大会亚太峰会",time:"4月13-14日",location:"香港",note:"AI治理、数据跨境、数字经济合作。已举办"},
     {name:"2026中国AI+数字峰会",time:"4月18日",location:"苏州",note:"CIO时代主办。已举办"},
-    {name:"第九届数字中国建设峰会",time:"4月29日-5月4日",location:"福州",note:"国家发改委牵头主办，50余场交流活动。福州地铁公交4月28日-5月5日免费。倒计时3天"},
+    {name:"第九届数字中国建设峰会",time:"4月29日-5月4日",location:"福州",note:"国家发改委牵头主办,50余场交流活动。腾讯Agent智能体生态参展,混元Hy3 preview首秀。进行中"},
+    {name:"2026安徽电信数智科技生态大会",time:"4月28-29日",location:"芜湖",note:"AI+万物应用生态联盟成立,华为/海康等十余家首批加入。已举办"},
+    {name:"第四届中国(安徽)科交会AI创新对接",time:"4月26日",location:"合肥",note:"安徽省科技厅/中国移动主办,工程院院士杨善林演讲。已举办"},
     {name:"2026中国AIGC产业峰会",time:"5月20日",location:"北京",note:"量子位主办，聚焦AI落地与应用普及。报名已启动"},
     {name:"CIPSE 2026中国（杭州）国际数字安防及AI博览会",time:"5月13-15日",location:"杭州",note:"数字赋能平安浙江，数字安防+AI融合展"}
   ],
