@@ -5,6 +5,18 @@ var DATA = {
     version: "v3.1"
   },
   entries: [
+    // ============ 2026-04-30（周四）收录窗口：4/28-30 ============
+    {id:"0430-001",date:"2026-04-30",title:"发改委禁止Meta收购Manus——AI领域首个外资安审禁止案",headline:"中国首次公开叫停AI领域外资收购,涉及20亿美元交易",source:"国家发改委",province:"国家级",category:"行业监管",impact:"高",status:"已生效",summary:"国家发改委外商投资安全审查工作机制办公室依法禁止Meta对AI初创公司Manus的收购,要求撤销交易。系外商投资安全审查办法实施以来首个被公开叫停的AI领域外资收购案。",action:"腾讯投资部门评估外资安审趋势对AI产业投融资的影响。",url:"https://finance.sina.com.cn/roll/2026-04-27/doc-inhvyefa7758572.shtml",publishDate:"2026-04-27",isNew:true,isTop:true},
+    {id:"0430-002",date:"2026-04-30",title:"网信办依法查处剪映/猫箱/即梦AI生成合成内容标识违法问题",headline:"AI内容标识办法首次公开执法,字节三款产品被罚",source:"国家网信办",province:"国家级",category:"行业监管",impact:"高",status:"已处罚",summary:"对字节系剪映App、猫箱App及即梦AI网站约谈处罚,因未有效落实AI生成合成内容标识规定。系AI生成合成内容标识办法施行以来首次公开点名处罚。",action:"腾讯混元、ima等AI产品需立即自查AI生成内容标识合规情况。",url:"https://www.cac.gov.cn/2026-04/28/c_1779119736411711.htm",publishDate:"2026-04-28",isNew:true,isTop:true},
+    {id:"0430-003",date:"2026-04-30",title:"市场监管总局部署互联网广告生态治理半年专项整治",headline:"互联网广告+网络食品双线整治同步启动",source:"市场监管总局",province:"国家级",category:"行业监管",impact:"高",status:"已启动",summary:"开展为期半年的互联网广告市场秩序整治行动,强化导向监管,规范直播带货广告;同步启动网络食品销售虚假宣传专项整治。",action:"腾讯广告、视频号带货需对标新一轮整治要求。",url:"https://finance.sina.com.cn/roll/2026-04-29/doc-inhwenau7880191.shtml",publishDate:"2026-04-29",isNew:true,isTop:true},
+    {id:"0430-SH1",date:"2026-04-30",title:"上海市政府常务会议: 推进长三角统一大市场先行区建设",headline:"上海深化免申即享惠企政策改革",source:"上海市人民政府",province:"上海",category:"数字经济",impact:"中",status:"已部署",summary:"4月27日龚正主持市政府常务会议,贯彻建设全国统一大市场要求,巩固经济回升向好势头,深化高效办成一件事改革。",action:"关注上海惠企政策数字化服务平台建设机会。",url:"https://www.shanghai.gov.cn/nw4411/20260428/d6eb1c32ffb445668b3b55455408f8b1.html",publishDate:"2026-04-28",isNew:true,isTop:false},
+    {id:"0430-ZJ1",date:"2026-04-30",title:"杭州拱墅区发布2026年AI创新高地行动方案,打造中国算谷",headline:"拱墅区聚焦开源生态/文化科创/算力经济三大赛道",source:"杭州市拱墅区人民政府",province:"浙江",category:"人工智能",impact:"中",status:"已发布",summary:"明确一轴一核两翼六融合产业布局,聚焦开源生态先导区、文化科创示范区、算力经济集聚区三大核心赛道。",action:"腾讯云算力业务可关注杭州算谷合作机会。",url:"https://zjnews.zjol.com.cn/yc/qmt/202604/t20260429_31635770.shtml",publishDate:"2026-04-29",isNew:true,isTop:false},
+    {id:"0430-JS1",date:"2026-04-30",title:"江苏省人工智能+能源融合发展大会召开,副省长出席",headline:"江苏发布能源领域AI应用场景清单",source:"江苏省政府/省发改委",province:"江苏",category:"人工智能",impact:"中",status:"已召开",summary:"副省长沈剑荣出席,省发改委发布能源领域AI应用场景清单,多个产学研合作签约。",action:"腾讯云AI解决方案可对接江苏能源AI场景需求。",url:"https://finance.sina.com.cn/wm/2026-04-28/doc-inhwaicu8450732.shtml",publishDate:"2026-04-28",isNew:true,isTop:false},
+    {id:"0430-AH1",date:"2026-04-30",title:"2026安徽电信数智科技生态大会: AI+万物应用生态联盟成立",headline:"安徽AI+万物生态联盟首批吸纳华为/海康等十余家企业",source:"安徽省/中国电信安徽公司",province:"安徽",category:"人工智能",impact:"中",status:"已成立",summary:"芜湖举办,发布人工智能+万物应用承接方案,联盟首批吸纳华为/海康威视/新华三等十余家企业。",action:"关注安徽AI生态联盟竞争动态。",url:"https://ah.people.com.cn/BIG5/n2/2026/0429/c227131-41566887.html",publishDate:"2026-04-28",isNew:true,isTop:false},
+    {id:"0430-FJ1",date:"2026-04-30",title:"福建省工信厅披露AI产业集群建设进展(政协提案答复)",headline:"福建AI产业专班+福厦泉三地集聚态势明确",source:"福建省工业和信息化厅",province:"福建",category:"人工智能",impact:"中",status:"已答复",summary:"答复省政协委员提案,披露成立省领导牵头的AI产业专班,福州/厦门/泉州三地集聚发展态势明确。",action:"关注福建AI园区招商合作机会。",url:"https://gxt.fujian.gov.cn/zwgk/zfxxgk/fdzdgknr/dbwyzs/zxwyta/202604/t20260429_7132630.htm",publishDate:"2026-04-29",isNew:true,isTop:false},
+    {id:"0430-HN1",date:"2026-04-30",title:"湖南省加快场景创新和大规模应用三年行动方案(2026-2028)正式公开",headline:"湖南20个重点领域场景大规模应用,探索先试用后付费",source:"湖南省人民政府办公厅(湘政办发[2026]23号)",province:"湖南",category:"数字经济",impact:"中",status:"已公开",summary:"推动新技术新产品新场景大规模应用,探索先试用后付费机制,涵盖先进制造、文化科技融合、低空经济等20个重点领域。",action:"腾讯可参与湖南场景创新清单对接。",url:"https://new.qq.com/rain/a/20260430A03X6R00",publishDate:"2026-04-30",isNew:true,isTop:false},
+    {id:"0430-JX1",date:"2026-04-30",title:"江西省政府办公厅印发贯彻落实政务数据共享条例工作方案",headline:"江西2028年前建成一体化政务大数据体系",source:"江西省人民政府办公厅",province:"江西",category:"数字经济",impact:"中",status:"已印发",summary:"2026年底前建立健全政务数据共享规章制度,2028年底前全省一体化政务大数据体系科学完备。",action:"腾讯政务云可对接江西数据共享平台建设。",url:"https://www.jiangxi.gov.cn/jxsrmzf/szfbg100/pc/content/content_2042156856701943808.html",publishDate:"2026-04-02",isNew:true,isTop:false},
+
     // ============ 2026-04-29（周三）收录窗口：4/27-29 ============
     {id:"0429-001",date:"2026-04-29",title:"工信部+国家数据局《关于联合实施2026年\"模数共振\"行动的通知》",headline:"两部门启动\"模数共振\"行动，面向20行业打造\"智能体工厂\"",source:"工信部办公厅/国家数据局综合司",province:"国家级",category:"人工智能",impact:"高",status:"已印发",summary:"面向制造业领域20个重点行业，确定一批重点城市，探索场景、模型、智能体、数据集等关键技术成果产出路径。到2026年底形成数据-模型-场景应用良性循环。",action:"腾讯云AI+制造方案可直接对接20个行业智能体场景需求。",url:"https://news.qq.com/rain/a/20260428A06PD900",publishDate:"2026-04-28",isNew:true,isTop:true},
     {id:"0429-002",date:"2026-04-29",title:"国务院关税税则委员会：5月1日起对所有非洲建交国实施零关税",headline:"中国成全球首个对所有非洲建交国全覆盖零关税的主要经济体",source:"国务院关税税则委员会",province:"国家级",category:"数字经济",impact:"低",status:"5月1日起实施",summary:"自2026年5月1日至2028年4月30日，对20个不属于最不发达国家的非洲建交国以特惠税率实施零关税。",action:"微信支付国际化/跨境电商可关注中非贸易便利化机会。",url:"https://www.news.cn/fortune/20260428/bb06c8239f7445fca355209900d3bc7d/c.html",publishDate:"2026-04-28",isNew:true,isTop:false},
@@ -128,6 +140,9 @@ var DATA = {
     {id:"0428-FJ1",date:"2026-04-28",title:"福建省政府办公厅《福建省推进社会信用体系建设三年行动方案（2026-2028年）》",headline:"福建信用体系数字化建设三年行动，涉及信用平台和数据共享",source:"福建省政府办公厅",province:"福建",category:"数字经济",impact:"中",status:"已印发",summary:"4月20日印发，构建覆盖全省的社会信用信息平台，推动公共信用信息归集共享、信用监管创新应用、信用服务市场培育。",action:"信用体系数字化建设机会，腾讯云数字政务可对接福建省信用平台。",url:"https://www.fujian.gov.cn/zwgk/zfxxgk/szfwj/jgzz/xzgfxwj/202604/t20260423_7130573.htm",publishDate:"2026-04-20",isNew:true,isTop:false}
   ],
   alerts: [
+    // ============ 4月30日更新倒计时 ============
+    {date:"2026-04-30",level:"一级紧急",item:"互联网广告半年专项整治已启动",assessment:"腾讯广告/视频号带货全面对标",detail:"市场监管总局4月29日启动为期半年的互联网广告市场秩序整治+网络食品虚假宣传专项整治,规范直播带货广告。",days:"已启动",linkType:"policy",linkTarget:"0430-003"},
+    {date:"2026-04-30",level:"一级紧急",item:"AI外资安审禁止案先例(Meta/Manus)",assessment:"关注AI投融资安审趋势",detail:"发改委首次公开禁止AI领域外资收购案,Meta收购Manus被叫停,20亿美元交易撤销。对全行业外资AI投资形成示范效应。",days:"已生效",linkType:"policy",linkTarget:"0430-001"},
     // ============ 4月29日更新倒计时 ============
     {date:"2026-04-29",level:"一级紧急",item:"AI生成内容标识执法已启动（字节三款产品被罚）",assessment:"混元/ima/元宝/视频号立即自查",detail:"4月28日网信办处罚字节跳动旗下剪映、猫箱、即梦AI，因未有效落实AI生成合成内容标识规定。这是AI标识违规的首个大规模执法案例。",days:"立即",linkType:"policy",linkTarget:"0429-001"},
     {date:"2026-04-29",level:"二级重要",item:"数字中国峰会4月29日-5月4日福州举办（今日开幕）",assessment:"参展和BD对接机会",detail:"第九届数字中国建设峰会今日开幕，50余场交流活动。",days:"今日",linkType:"policy",linkTarget:"0416-004"},
@@ -155,6 +170,15 @@ var DATA = {
     {date:"2026-04-17",level:"三级关注",item:"上海金山区长袁罡拟任区委书记",assessment:"关注上海区级主官调整",detail:"上海市委4月15日发布市管干部任前公示：袁罡（现任金山区委副书记、区长）拟任地区党委书记，杨元飞拟为区长人选，姜爱锋拟任市级机关正职。公示至4月22日。",days:"公示至4月22日",linkType:"personnel",linkTarget:"上海"}
   ],
   competitors: [
+    // ============ 4月30日新增动态 ============
+    {name:"智谱AI",date:"2026-04-30",title:"GLM-5 Coding Agent推理工程实践首次系统披露",update:"智谱公众号首次系统披露GLM-5系列在超大规模Coding Agent调用场景下的底层推理技术突破,包括KV Cache分层存储等关键优化。",url:"https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-04-30/doc-inhwfyef0358119.shtml"},
+    {name:"OpenAI",date:"2026-04-30",title:"GPT-5.5 API价格翻三倍引发行业热议",update:"4月24日发布GPT-5.5称为史上最智能模型,Terminal-Bench 2.0准确率82.7%,但API价格从$5升至$15/百万token引发关注。",url:"https://news.qq.com/rain/a/20260429A02Z0C00"},
+    {name:"谷歌/Anthropic",date:"2026-04-30",title:"谷歌向Anthropic投资400亿美元创AI史最大单笔",update:"谷歌4月24日宣布100亿美元立即到账(估值3800亿),剩余300亿视业绩追加。Anthropic同时考虑按超9000亿估值进一步融资。",url:"https://finance.sina.com.cn/wm/2026-04-25/doc-inhvupep0114847.shtml"},
+    {name:"百度",date:"2026-04-30",title:"创作者大会发布Master Agent搜索升级引擎",update:"百度4月24日创作者大会发布Master Agent,搜索从信息查找升级为任务执行。百度App日活同比增1.6倍。",url:"https://finance.sina.com.cn/roll/2026-04-29/doc-inhwaxzu7002312.shtml"},
+    {name:"小米",date:"2026-04-30",title:"MiMo Orbit计划: 百万亿Token免费发放+Agent生态共建",update:"4月28日宣布MiMo Orbit计划,30天内免费发放100万亿Token,加速AI开发者生态建设。",url:"https://finance.sina.com.cn/tech/roll/2026-04-28/doc-inhvzwqc1663586.shtml"},
+    {name:"寒武纪",date:"2026-04-30",title:"Q1营收28.85亿(+160%),净利10.13亿(+185%)",update:"受益AI算力需求持续攀升,寒武纪一季度业绩大幅增长。预付款项环比激增155%至19亿元。",url:"https://finance.sina.com.cn/roll/2026-04-30/doc-inhwewsw6620541.shtml"},
+    {name:"腾讯",date:"2026-04-30",title:"Agent智能体生态亮相数字中国峰会+算力涨价",update:"腾讯在福州第九届数字中国峰会展示混元Hy3 preview首秀和SkillHub社区(3.5万+技能)。CodeBuddy企业旗舰版5月15日涨价154%。",url:"https://finance.sina.com.cn/tech/digi/2026-04-29/doc-inhwefuw7881849.shtml"},
+
     // ============ 4月29日新增动态 ============
     {name:"字节跳动",date:"2026-04-29",title:"入选《时代》全球十大AI公司+3款AI产品被网信办处罚",update:"《时代》杂志4月27日公布2026全球十大最具影响力AI公司，字节跳动入选。同日旗下剪映/猫箱/即梦AI因AI标识违规被网信办处罚。",url:"https://finance.sina.com.cn/chanjing/wddc/2026-04-28/doc-inhvzsha8536341.shtml"},
     {name:"智谱AI",date:"2026-04-29",title:"入选《时代》全球十大AI公司，国内AI新势力唯一入选",update:"《时代》评价智谱为中国AI新势力代表，国际影响力获权威认可。GLM-5.1系列已在多项评测中进入全球前五。",url:"https://www.ithome.com/0/944/371.htm"},
@@ -500,6 +524,43 @@ var DATA = {
         {name:"邱志强",newRole:"省政府办公厅主任兼省政府参事室主任",note:"1970年11月生，在职研究生博士，此前任省政府副秘书长"},
         {name:"赵庆红",newRole:"省政府副秘书长（正厅级）",note:"1974年4月生，此前任扬州市委常委、对口支援新疆前方指挥部总指挥"},
         {name:"刘世虎",newRole:"省数据局局长、省政务服务管理办公室主任兼省发改委副主任",note:"同时免去省政府副秘书长、省政府研究室主任。数据局一把手调整对腾讯数字政务合作有直接影响。"}
+      ],
+      removals:[]
+    },
+    {date:"2026-04-30",province:"国家级",title:"全国人大常委会任命(4月30日)",url:"https://www.news.cn/politics/20260430/3a8d71db4ead43cb865444c622a4b365/c.html",
+      appointments:[
+        {name:"张柱",newRole:"农业农村部部长",note:"十四届全国人大常委会第22次会议表决任命,正部级"},
+        {name:"张成中",newRole:"应急管理部部长",note:"十四届全国人大常委会第22次会议表决任命,正部级"}
+      ],
+      removals:[
+        {name:"韩俊",oldRole:"农业农村部部长",note:"免职"}
+      ]
+    },
+    {date:"2026-04-30",province:"国家级",title:"国务院人事任免(4月29日)",url:"https://www.gov.cn/yaowen/liebiao/202604/content_7067402.htm",
+      appointments:[
+        {name:"宋友春",newRole:"住房和城乡建设部副部长",note:"副部级"},
+        {name:"隋洪波",newRole:"退役军人事务部副部长",note:"副部级"},
+        {name:"尚锐",newRole:"国务院国资委副主任",note:"副部级,免去审计署副审计长"},
+        {name:"刘浩凌",newRole:"证监会副主席",note:"副部级"},
+        {name:"张利明",newRole:"国家林草局副局长",note:"副部级"},
+        {name:"黄果",newRole:"国家药监局局长",note:"正部级"}
+      ],
+      removals:[
+        {name:"刘振国",oldRole:"民政部副部长",note:"免职"},
+        {name:"袁野",oldRole:"国资委副主任",note:"免职"},
+        {name:"唐芳林",oldRole:"林草局副局长",note:"免职"},
+        {name:"李利",oldRole:"药监局局长",note:"免职"}
+      ]
+    },
+    {date:"2026-04-30",province:"江苏",title:"江苏省省管领导干部任前公示(4月28日发布)",url:"https://www.jszzb.gov.cn/gbrm/art/2026/art_e2a2a4cad6464683b83ff4ddd389df99.html",
+      appointments:[
+        {name:"许峰",newRole:"拟任副省级城市市委常委",note:"现任南京市副市长,1973年10月生"},
+        {name:"施勇君",newRole:"拟推荐提名为副省级城市辖区区长人选",note:"现任南京市委副秘书长、研究室主任"},
+        {name:"陈文斌",newRole:"拟推荐提名为副省级城市辖区区长人选",note:"现任南京江北新区管委会副主任"},
+        {name:"荣飞",newRole:"拟推荐提名为副省级城市辖区区长人选",note:"现任南京六合区委副书记"},
+        {name:"徐本",newRole:"拟任县(市、区)委书记",note:"现任苏州市政府秘书长"},
+        {name:"周子川",newRole:"拟任县(市、区)委书记",note:"现任无锡梁溪区委副书记、区长"},
+        {name:"单杰",newRole:"拟推荐提名为设区市副市长人选",note:"现任昆山市副市长"}
       ],
       removals:[]
     },
