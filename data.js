@@ -89,7 +89,7 @@ var DATA = {
         {
           "name": "张成中",
           "newRole": "国家消防救援局第一政治委员",
-          "note": ""
+          "prevRole": ""
         }
       ],
       "removals": [],
@@ -104,12 +104,12 @@ var DATA = {
         {
           "name": "袁罡",
           "newRole": "金山区委书记",
-          "note": "原金山区区长"
+          "prevRole": "原金山区区长"
         },
         {
           "name": "杨元飞",
           "newRole": "金山区代理区长",
-          "note": ""
+          "prevRole": ""
         }
       ],
       "removals": [],
@@ -124,22 +124,22 @@ var DATA = {
         {
           "name": "王珏",
           "newRole": "拟为市级机关正职人选",
-          "note": "现任普陀区副区长"
+          "prevRole": "现任普陀区副区长"
         },
         {
           "name": "金俊峰",
           "newRole": "拟任市属事业单位党委正职",
-          "note": "现任金山区委副书记"
+          "prevRole": "现任金山区委副书记"
         },
         {
           "name": "吴韬",
           "newRole": "拟任市属事业单位党委正职",
-          "note": "现任上海健康医学院党委副书记、院长"
+          "prevRole": "现任上海健康医学院党委副书记、院长"
         },
         {
           "name": "干春晖",
           "newRole": "拟任市属事业单位行政正职",
-          "note": "现任上海社科院常务副院长"
+          "prevRole": "现任上海社科院常务副院长"
         }
       ],
       "removals": [],
@@ -154,7 +154,7 @@ var DATA = {
         {
           "name": "罗昌锋",
           "newRole": "拟任市级机关部门正局职",
-          "note": "现任玄武区委常委、区纪委书记"
+          "prevRole": "现任玄武区委常委、区纪委书记"
         }
       ],
       "removals": [],
@@ -178,12 +178,12 @@ var DATA = {
         {
           "name": "陈家志",
           "newRole": "拟任省辖市市委常委",
-          "note": "现任省委组织部干部队伍建设规划办公室主任"
+          "prevRole": "现任省委组织部干部队伍建设规划办公室主任"
         },
         {
           "name": "杨春杰",
           "newRole": "拟提名为省辖市副市长人选",
-          "note": "现任淮北市司法局局长"
+          "prevRole": "现任淮北市司法局局长"
         }
       ],
       "removals": [],
@@ -198,24 +198,22 @@ var DATA = {
         {
           "name": "祝海辉",
           "newRole": "福建省政府副秘书长",
-          "note": "免去省政府办公厅副主任职务"
+          "prevRole": "免去省政府办公厅副主任职务"
         },
         {
           "name": "陈辉宗",
           "newRole": "福建行政学院分管日常工作的副院长",
-          "note": ""
+          "prevRole": ""
         }
       ],
       "removals": [
         {
           "name": "张帆",
-          "formerRole": "福州新区管委会分管日常工作的副主任",
-          "note": "免职"
+          "prevRole": "福州新区管委会分管日常工作的副主任"
         },
         {
           "name": "郑朝晖",
-          "formerRole": "省人社厅副厅长",
-          "note": "免职"
+          "prevRole": "省人社厅副厅长"
         }
       ],
       "source_url": "",
@@ -229,14 +227,13 @@ var DATA = {
         {
           "name": "刘烁",
           "newRole": "上饶市委书记",
-          "note": "原萍乡市委书记"
+          "prevRole": "原萍乡市委书记"
         }
       ],
       "removals": [
         {
           "name": "陈云",
-          "formerRole": "上饶市委书记",
-          "note": "不再担任"
+          "prevRole": "上饶市委书记"
         }
       ],
       "source_url": "",
@@ -250,24 +247,22 @@ var DATA = {
         {
           "name": "尹清源",
           "newRole": "省住建厅副厅长（试用期一年）",
-          "note": ""
+          "prevRole": ""
         },
         {
           "name": "叶仁雄",
           "newRole": "省国防科工局局长（兼）",
-          "note": "免去省政府副秘书长等职"
+          "prevRole": "免去省政府副秘书长等职"
         }
       ],
       "removals": [
         {
           "name": "石超刚",
-          "formerRole": "省发改委副主任",
-          "note": "免职"
+          "prevRole": "省发改委副主任"
         },
         {
           "name": "钟艺兵",
-          "formerRole": "省司法厅副厅长",
-          "note": "免职"
+          "prevRole": "省司法厅副厅长"
         }
       ],
       "source_url": "",
