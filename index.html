@@ -638,7 +638,7 @@ function renderPersonnel() {
           <table class="p-table">
             <tr><th>姓名</th><th>新职务</th><th>备注</th></tr>`;
       p.appointments.forEach(a => {
-        var searchLink = 'https://www.baidu.com/s?wd=' + encodeURIComponent(a.name + ' ' + a.newRole);
+        var searchLink = 'https://www.baidu.com/s?wd=' + encodeURIComponent(a.name + ' ' + a.newRole + (a.prevRole ? ' ' + a.prevRole : ''));
         html += `<tr><td><a href="javascript:void(0)" onclick="window.open('${searchLink}','_blank')" class="name-link">${a.name}</a></td><td>${a.newRole}</td><td><span class="note">${a.prevRole||''}</span></td></tr>`;
       });
       html += '</table></div>';
