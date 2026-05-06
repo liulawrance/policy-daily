@@ -2,6 +2,160 @@ var DATA = {
   "lastUpdate": "2026-05-06",
   "entries": [
     {
+      "date": "2026-04-27",
+      "title": "发改委禁止Meta收购Manus——AI领域首个外资安审禁止案",
+      "source": "国家发改委",
+      "province": "国家级",
+      "category": "行业监管",
+      "impact": "高",
+      "summary": "依法禁止Meta对AI初创公司Manus的收购,要求撤销交易。系外商投资安全审查办法实施以来首个被公开叫停的AI领域外资收购案,涉及约20亿美元交易额。",
+      "url": "https://finance.sina.com.cn/roll/2026-04-27/doc-inhvyefa7758572.shtml",
+      "isTop": true,
+      "isNew": false,
+      "publishDate": "2026-04-27",
+      "isBackfill": false
+    },
+    {
+      "date": "2026-04-28",
+      "title": "网信办查处剪映/猫箱/即梦AI生成合成内容标识违法问题",
+      "source": "国家网信办",
+      "province": "国家级",
+      "category": "行业监管",
+      "impact": "高",
+      "summary": "对字节系剪映App、猫箱App及即梦AI网站约谈处罚,因未有效落实AI生成合成内容标识规定,系AI生成合成内容标识办法施行以来首次公开点名处罚。",
+      "url": "https://www.cac.gov.cn/2026-04/28/c_1779119736411711.htm",
+      "isTop": true,
+      "isNew": false,
+      "publishDate": "2026-04-28",
+      "isBackfill": false
+    },
+    {
+      "date": "2026-04-29",
+      "title": "市场监管总局部署互联网广告生态治理半年专项整治",
+      "source": "市场监管总局",
+      "province": "国家级",
+      "category": "行业监管",
+      "impact": "高",
+      "summary": "开展为期半年的互联网广告市场秩序整治行动,强化导向监管,规范直播带货广告,从严打击虚假违法广告;同步启动网络食品销售虚假宣传专项整治。",
+      "url": "https://finance.sina.com.cn/roll/2026-04-29/doc-inhwenau7880191.shtml",
+      "isTop": true,
+      "isNew": false,
+      "publishDate": "2026-04-29",
+      "isBackfill": false
+    },
+    {
+      "date": "2026-04-28",
+      "title": "上海市政府常务会议部署长三角统一大市场先行区建设",
+      "source": "上海市人民政府",
+      "province": "上海",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "4月27日龚正主持市政府常务会议,贯彻建设全国统一大市场要求,巩固经济回升向好势头,深化高效办成一件事改革,实现惠企政策免申即享。",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260428/d6eb1c32ffb445668b3b55455408f8b1.html",
+      "isTop": false,
+      "isNew": false,
+      "publishDate": "2026-04-28",
+      "isBackfill": false
+    },
+    {
+      "date": "2026-04-29",
+      "title": "杭州拱墅区发布2026年AI创新高地行动方案打造中国算谷",
+      "source": "杭州市拱墅区人民政府",
+      "province": "浙江",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "明确一轴一核两翼六融合产业布局,聚焦开源生态先导区、文化科创示范区、算力经济集聚区三大核心赛道,实施模型攀峰、算力筑基等重点工程。",
+      "url": "https://zjnews.zjol.com.cn/yc/qmt/202604/t20260429_31635770.shtml",
+      "isTop": false,
+      "isNew": false,
+      "publishDate": "2026-04-29",
+      "isBackfill": false
+    },
+    {
+      "date": "2026-04-28",
+      "title": "江苏省人工智能+能源融合发展大会召开",
+      "source": "江苏省政府/省发改委",
+      "province": "江苏",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "副省长沈剑荣出席,提出当好技术创新策源者、场景应用建筑师、产业生态先行者。省发改委发布能源领域AI应用场景清单,多个产学研合作签约。",
+      "url": "https://finance.sina.com.cn/wm/2026-04-28/doc-inhwaicu8450732.shtml",
+      "isTop": false,
+      "isNew": false,
+      "publishDate": "2026-04-28",
+      "isBackfill": false
+    },
+    {
+      "date": "2026-04-30",
+      "title": "湖南省加快场景创新和大规模应用三年行动方案(2026-2028)正式公开",
+      "source": "湖南省人民政府办公厅",
+      "province": "湖南",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "推动新技术新产品新场景大规模应用,探索先试用后付费机制,推进长株潭共同发布城市场景机会清单。涵盖先进制造、文化科技融合、低空经济等20个重点领域。",
+      "url": "https://new.qq.com/rain/a/20260430A03X6R00",
+      "isTop": false,
+      "isNew": false,
+      "publishDate": "2026-04-30",
+      "isBackfill": false
+    },
+    {
+      "date": "2026-04-29",
+      "title": "第九届数字中国建设峰会在福州开幕",
+      "source": "国家网信办/福建省政府",
+      "province": "福建",
+      "category": "数字经济",
+      "impact": "高",
+      "summary": "腾讯聚焦让好用的AI成为普惠生产力主题参展,以Agent智能体生态为核心展示产品能力。",
+      "url": "https://www.sohu.com/a/1016299056_362042",
+      "isTop": true,
+      "isNew": false,
+      "publishDate": "2026-04-29",
+      "isBackfill": false
+    },
+    {
+      "date": "2026-04-28",
+      "title": "江苏省高质量数据集建设推进会召开,启动数据赋能AI行动",
+      "source": "江苏省数据局",
+      "province": "江苏",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "省数据局局长刘世虎出席,启动数据赋能AI行动,发布高质量数据集建设先行先试项目入库名单,无锡高新区获批人工智能数据标注产业先导区。",
+      "url": "https://news.qq.com/rain/a/20260423A080IR00",
+      "isTop": false,
+      "isNew": false,
+      "publishDate": "2026-04-28",
+      "isBackfill": false
+    },
+    {
+      "date": "2026-04-28",
+      "title": "2026安徽电信数智科技生态大会: AI+万物应用生态联盟成立",
+      "source": "安徽省/中国电信安徽公司",
+      "province": "安徽",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "芜湖举办,发布人工智能+万物应用承接方案,AI+万物应用生态联盟成立(首批华为/海康威视/新华三等十余家企业),人工智能安徽联合创新中心合肥分中心、芜湖分中心揭牌。",
+      "url": "https://ah.people.com.cn/BIG5/n2/2026/0429/c227131-41566887.html",
+      "isTop": false,
+      "isNew": false,
+      "publishDate": "2026-04-28",
+      "isBackfill": false
+    },
+    {
+      "date": "2026-04-02",
+      "title": "江西省政府办公厅印发贯彻落实政务数据共享条例工作方案",
+      "source": "江西省人民政府办公厅",
+      "province": "江西",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "2026年底前建立健全政务数据共享规章制度;2028年底前全省一体化政务大数据体系科学完备。推进政务数据安全有序高效共享利用。",
+      "url": "https://www.jiangxi.gov.cn/jxsrmzf/szfbg100/pc/content/content_2042156856701943808.html",
+      "isTop": false,
+      "isNew": false,
+      "publishDate": "2026-04-02",
+      "isBackfill": false
+    },
+    {
       "date": "2026-05-01",
       "title": "新修订《通信短信息服务管理规定》正式施行",
       "source": "工业和信息化部",
@@ -12,7 +166,8 @@ var DATA = {
       "url": "https://www.miit.gov.cn/gyhxxhb/jgsj/cyzcyfgs/bmgz/xxtxl/art/2026/art_f729621047ec4c30bcdd5cd4101f9568.html",
       "isTop": true,
       "isNew": true,
-      "publishDate": "2026-05-01"
+      "publishDate": "2026-05-01",
+      "isBackfill": false
     },
     {
       "date": "2026-04-28",
@@ -25,7 +180,8 @@ var DATA = {
       "url": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_ba07e09d40834ec992615490fd2ccd18.html",
       "isTop": true,
       "isNew": true,
-      "publishDate": "2026-04-28"
+      "publishDate": "2026-04-28",
+      "isBackfill": false
     },
     {
       "date": "2026-04-30",
@@ -38,7 +194,8 @@ var DATA = {
       "url": "https://www.chinanews.com.cn/gn/2026/04-30/10613630.shtml",
       "isTop": false,
       "isNew": true,
-      "publishDate": "2026-04-30"
+      "publishDate": "2026-04-30",
+      "isBackfill": false
     },
     {
       "date": "2026-05-01",
@@ -51,7 +208,8 @@ var DATA = {
       "url": "https://www.scca.com.cn/News_Show_theId_1982.html",
       "isTop": false,
       "isNew": true,
-      "publishDate": "2026-05-01"
+      "publishDate": "2026-05-01",
+      "isBackfill": false
     },
     {
       "date": "2026-04-21",
@@ -64,7 +222,8 @@ var DATA = {
       "url": "https://www.shanghai.gov.cn/nw12344/20260421/9edf5d5c1b2244298c315304349d0963.html",
       "isTop": true,
       "isNew": true,
-      "publishDate": "2026-04-21"
+      "publishDate": "2026-04-21",
+      "isBackfill": false
     },
     {
       "date": "2026-04-20",
@@ -77,7 +236,8 @@ var DATA = {
       "url": "https://sheitc.sh.gov.cn/cyfz/20260420/ac9220e475984b5bb37efb51ecfae29d.html",
       "isTop": false,
       "isNew": true,
-      "publishDate": "2026-04-20"
+      "publishDate": "2026-04-20",
+      "isBackfill": false
     },
     {
       "date": "2026-04-28",
@@ -90,7 +250,8 @@ var DATA = {
       "url": "https://www.thepaper.cn/newsDetail_forward_33078455",
       "isTop": false,
       "isNew": true,
-      "publishDate": "2026-04-28"
+      "publishDate": "2026-04-28",
+      "isBackfill": false
     },
     {
       "date": "2026-04-30",
@@ -103,7 +264,8 @@ var DATA = {
       "url": "https://www.zj.gov.cn/col/col1229641549/art/2026/art_12012f2a7a0a4acb838b3a5c1c226862.html",
       "isTop": false,
       "isNew": true,
-      "publishDate": "2026-04-30"
+      "publishDate": "2026-04-30",
+      "isBackfill": false
     },
     {
       "date": "2026-05-06",
@@ -116,7 +278,8 @@ var DATA = {
       "url": "https://jsnews.jschina.com.cn/nt/a/202605/t20260506_s69fa958ce4b077df99280c99.shtml",
       "isTop": false,
       "isNew": true,
-      "publishDate": "2026-05-06"
+      "publishDate": "2026-05-06",
+      "isBackfill": false
     },
     {
       "date": "2026-04-30",
@@ -129,7 +292,8 @@ var DATA = {
       "url": "https://fzggw.ah.gov.cn/ywdt/tzgg/150523751.html",
       "isTop": false,
       "isNew": true,
-      "publishDate": "2026-04-30"
+      "publishDate": "2026-04-30",
+      "isBackfill": false
     },
     {
       "date": "2026-03-18",
@@ -142,7 +306,8 @@ var DATA = {
       "url": "https://fgw.fujian.gov.cn/ztzl/szfjzt/tzgg/202603/t20260318_7113138.htm",
       "isTop": false,
       "isNew": true,
-      "publishDate": "2026-03-18"
+      "publishDate": "2026-03-18",
+      "isBackfill": true
     },
     {
       "date": "2026-03-15",
@@ -155,7 +320,8 @@ var DATA = {
       "url": "https://www.jiangxi.gov.cn/jxsrmzf/2026nd8qzd1294q/pc/content/content_2049755143351570432.html",
       "isTop": false,
       "isNew": true,
-      "publishDate": "2026-03-15"
+      "publishDate": "2026-03-15",
+      "isBackfill": true
     },
     {
       "date": "2026-04-30",
@@ -168,10 +334,150 @@ var DATA = {
       "url": "https://swt.hunan.gov.cn/swt/hnswt/85753/fdzdgknr/ghjhs/202604/t20260430_33968664.html",
       "isTop": false,
       "isNew": true,
-      "publishDate": "2026-04-30"
+      "publishDate": "2026-04-30",
+      "isBackfill": false
     }
   ],
   "personnel": [
+    {
+      "date": "2026-04-30",
+      "province": "国家级",
+      "title": "全国人大常委会任命(2026年4月30日)",
+      "appointments": [
+        {
+          "name": "张柱",
+          "newRole": "农业农村部部长",
+          "prevRole": "免去韩俊农业农村部部长职务",
+          "level": "正部级"
+        },
+        {
+          "name": "张成中",
+          "newRole": "应急管理部部长",
+          "prevRole": "",
+          "level": "正部级"
+        }
+      ],
+      "removals": [],
+      "source_url": "",
+      "analysis": null
+    },
+    {
+      "date": "2026-04-30",
+      "province": "国家级",
+      "title": "国务院人事任免(2026年4月29日)",
+      "appointments": [
+        {
+          "name": "宋友春",
+          "newRole": "住房和城乡建设部副部长",
+          "prevRole": "新任",
+          "level": "副部级"
+        },
+        {
+          "name": "隋洪波",
+          "newRole": "退役军人事务部副部长",
+          "prevRole": "新任",
+          "level": "副部级"
+        },
+        {
+          "name": "尚锐",
+          "newRole": "国务院国资委副主任",
+          "prevRole": "审计署副审计长(免)",
+          "level": "副部级"
+        },
+        {
+          "name": "刘浩凌",
+          "newRole": "证监会副主席",
+          "prevRole": "新任",
+          "level": "副部级"
+        },
+        {
+          "name": "张利明",
+          "newRole": "国家林草局副局长",
+          "prevRole": "新任",
+          "level": "副部级"
+        },
+        {
+          "name": "黄果",
+          "newRole": "国家药监局局长",
+          "prevRole": "新任",
+          "level": "正部级"
+        }
+      ],
+      "removals": [
+        {
+          "name": "刘振国",
+          "prevRole": "民政部副部长",
+          "level": "副部级"
+        },
+        {
+          "name": "袁野",
+          "prevRole": "国资委副主任",
+          "level": "副部级"
+        },
+        {
+          "name": "李利",
+          "prevRole": "药监局局长",
+          "level": "正部级"
+        }
+      ],
+      "source_url": "",
+      "analysis": {
+        "impact": "关注证监会新任副主席刘浩凌(原中投公司背景)对资本市场监管方向的影响",
+        "level": "副部级"
+      }
+    },
+    {
+      "date": "2026-04-30",
+      "province": "江苏",
+      "title": "江苏省省管领导干部任前公示(4月28日)",
+      "appointments": [
+        {
+          "name": "许峰",
+          "newRole": "副省级城市市委常委",
+          "prevRole": "南京市副市长",
+          "level": "副厅级"
+        },
+        {
+          "name": "施勇君",
+          "newRole": "副省级城市辖区区长人选",
+          "prevRole": "南京市委副秘书长",
+          "level": "正处级"
+        },
+        {
+          "name": "陈文斌",
+          "newRole": "副省级城市辖区区长人选",
+          "prevRole": "南京江北新区管委会副主任",
+          "level": "正处级"
+        },
+        {
+          "name": "荣飞",
+          "newRole": "副省级城市辖区区长人选",
+          "prevRole": "南京六合区委副书记",
+          "level": "正处级"
+        },
+        {
+          "name": "徐本",
+          "newRole": "县(市、区)委书记",
+          "prevRole": "苏州市政府秘书长",
+          "level": "正处级"
+        },
+        {
+          "name": "周子川",
+          "newRole": "县(市、区)委书记",
+          "prevRole": "无锡梁溪区委副书记、区长",
+          "level": "正处级"
+        },
+        {
+          "name": "单杰",
+          "newRole": "设区市副市长人选",
+          "prevRole": "昆山市副市长",
+          "level": "副厅级"
+        }
+      ],
+      "removals": [],
+      "source_url": "",
+      "analysis": null
+    },
     {
       "date": "2026-05-06",
       "province": "国家级",
@@ -184,7 +490,7 @@ var DATA = {
         }
       ],
       "removals": [],
-      "source_url": "",
+      "source_url": "https://www.news.cn/politics/20260430/0c2152e3756f4f86a2bc9ed37dcdd98a/c.html",
       "analysis": null
     },
     {
@@ -204,7 +510,7 @@ var DATA = {
         }
       ],
       "removals": [],
-      "source_url": "",
+      "source_url": "https://yule.sohu.com/a/1017152885_115510",
       "analysis": null
     },
     {
@@ -234,7 +540,7 @@ var DATA = {
         }
       ],
       "removals": [],
-      "source_url": "",
+      "source_url": "https://renshi.people.com.cn/n1/2026/0506/c139617-40714110.html",
       "analysis": null
     },
     {
@@ -249,7 +555,7 @@ var DATA = {
         }
       ],
       "removals": [],
-      "source_url": "",
+      "source_url": "https://news.jschina.com.cn/gn/202605/t20260501_s69f3f473e4b0d4f45364329c.shtml",
       "analysis": null
     },
     {
@@ -269,7 +575,7 @@ var DATA = {
         }
       ],
       "removals": [],
-      "source_url": "",
+      "source_url": "https://district.ce.cn/newarea/sddy/202604/t20260427_2932368.shtml",
       "analysis": null
     },
     {
@@ -298,7 +604,7 @@ var DATA = {
           "prevRole": "省人社厅副厅长"
         }
       ],
-      "source_url": "",
+      "source_url": "https://new.qq.com/rain/a/20260501A04NHF00",
       "analysis": null
     },
     {
@@ -318,7 +624,7 @@ var DATA = {
           "prevRole": "上饶市委书记"
         }
       ],
-      "source_url": "",
+      "source_url": "https://new.qq.com/rain/a/20260506A028YI00",
       "analysis": null
     },
     {
@@ -347,11 +653,74 @@ var DATA = {
           "prevRole": "省司法厅副厅长"
         }
       ],
-      "source_url": "",
+      "source_url": "https://www.hunan.gov.cn/hnszf/szf/hnzb_18/2026/202608/rsrm_98722_88_1ugsnvdvqgvfnttcmshkfhbdskfntusgehfthvqmcnsfvgmcucgucnubnqtdgnmckfvbruqqmcfkerhqdhtfpegkhnqrdbbhusegmfekshm/202604/t20260430_33968114.html",
       "analysis": null
     }
   ],
   "competitors": [
+    {
+      "date": "2026-04-30",
+      "name": "腾讯",
+      "title": "Agent智能体生态亮相第九届数字中国建设峰会",
+      "update": "腾讯在福州峰会展示混元Hy3 preview首秀,SkillHub社区(3.5万+AI技能),以及腾讯文档、腾讯会议、地图等产品封装的官方Skills。",
+      "url": "https://finance.sina.com.cn/tech/digi/2026-04-29/doc-inhwefuw7881849.shtml"
+    },
+    {
+      "date": "2026-04-30",
+      "name": "腾讯",
+      "title": "腾讯云AI编程助手涨价: 企业旗舰版涨幅154%",
+      "update": "CodeBuddy与WorkBuddy产品5月15日起执行新计费,企业旗舰版由78元/人/月上调至198元/人/月,反映高端算力需求紧缺。",
+      "url": "https://news.qq.com/rain/a/20260428A05Q7H00"
+    },
+    {
+      "date": "2026-04-30",
+      "name": "智谱AI",
+      "title": "GLM-5超大规模Coding Agent推理技术首次系统披露;入选时代2026全球十大最具影响力AI公司",
+      "update": "GLM-5 Coding Agent推理技术首次系统披露;入选时代2026全球十大最具影响力AI公司。",
+      "url": "https://stock.10jqka.com.cn/20260428/c676337468.shtml"
+    },
+    {
+      "date": "2026-04-30",
+      "name": "字节跳动",
+      "title": "Doubao-Seed-2.0-Pro中文多模态评测总榜第一;入选时代2026全球十大AI公司",
+      "update": "Doubao-Seed-2.0-Pro中文多模态评测总榜第一(90.66分),超越Gemini;入选时代2026全球十大AI公司。",
+      "url": "https://news.qq.com/rain/a/20260429A02LS100"
+    },
+    {
+      "date": "2026-04-30",
+      "name": "OpenAI",
+      "title": "GPT-5.5发布称史上最智能模型",
+      "update": "GPT-5.5发布称史上最智能模型,API价格翻三倍($5->$15/百万token)。",
+      "url": "https://www.caixin.com/2026-04-25/102437791.html"
+    },
+    {
+      "date": "2026-04-30",
+      "name": "DeepSeek",
+      "title": "V4正式发布并开源,万亿参数",
+      "update": "V4正式发布并开源,万亿参数,华为昇腾全系宣布支持适配。",
+      "url": "https://news.qq.com/rain/a/20260424A05GFE00"
+    },
+    {
+      "date": "2026-04-30",
+      "name": "谷歌",
+      "title": "谷歌向Anthropic投资400亿美元(估值3800亿)",
+      "update": "AI史上最大单笔投资,Anthropic估值达3800亿美元。",
+      "url": "https://news.qq.com/rain/a/20260428A06PD900"
+    },
+    {
+      "date": "2026-04-30",
+      "name": "华为",
+      "title": "昇腾950超节点下半年放量预期",
+      "update": "国产算力重要里程碑,昇腾950超节点下半年放量。",
+      "url": "https://finance.sina.com.cn/jjxw/2026-04-30/doc-inhwfyeh7136821.shtml"
+    },
+    {
+      "date": "2026-04-30",
+      "name": "小米",
+      "title": "启动MiMo Orbit计划: 百万亿Token免费发放+Agent生态共建",
+      "update": "启动MiMo Orbit计划,百万亿Token免费发放+Agent生态共建。",
+      "url": ""
+    },
     {
       "date": "2026-05-06",
       "name": "OpenAI",
@@ -402,6 +771,78 @@ var DATA = {
       "url": "https://www.eeo.com.cn/2026/0423/848045.shtml"
     }
   ],
-  "alerts": [],
-  "events": []
+  "alerts": [
+    {
+      "id": "a0430-001",
+      "date": "2026-04-30",
+      "level": "一级紧急",
+      "title": "AI生成内容标识合规(首次执法已启动)",
+      "deadline": "立即",
+      "daysLeft": "0天",
+      "action": "混元/ima立即自查AI生成内容标识合规情况"
+    },
+    {
+      "id": "a0430-002",
+      "date": "2026-04-30",
+      "level": "一级紧急",
+      "title": "互联网广告半年专项整治启动",
+      "deadline": "2026-04-29起",
+      "daysLeft": "已启动",
+      "action": "腾讯广告全面对标整治要求"
+    },
+    {
+      "id": "a0430-003",
+      "date": "2026-04-30",
+      "level": "二级重要",
+      "title": "AI拟人化互动服务管理暂行办法施行",
+      "deadline": "2026-07-15",
+      "daysLeft": "76天",
+      "action": "混元AI助手合规评估"
+    },
+    {
+      "id": "a0430-004",
+      "date": "2026-04-30",
+      "level": "二级重要",
+      "title": "网络安全标识管理办法施行",
+      "deadline": "2026-07-01",
+      "daysLeft": "62天",
+      "action": "IoT设备标识方案准备"
+    },
+    {
+      "id": "a0430-005",
+      "date": "2026-04-30",
+      "level": "二级重要",
+      "title": "金融产品网络营销管理办法施行",
+      "deadline": "2026-09-30",
+      "daysLeft": "153天",
+      "action": "微信支付/财付通合规自查"
+    },
+    {
+      "id": "a0430-006",
+      "date": "2026-04-30",
+      "level": "三级关注",
+      "title": "数字虚拟人信息服务管理办法",
+      "deadline": "征求意见中",
+      "daysLeft": "-",
+      "action": "腾讯虚拟人产品参与反馈"
+    }
+  ],
+  "events": [
+    {
+      "id": "e0430-001",
+      "date": "2026-04-30",
+      "name": "第九届数字中国建设峰会",
+      "time": "2026.4.29-5.1",
+      "location": "福州",
+      "relevance": "高(腾讯参展/Agent首秀)"
+    },
+    {
+      "id": "e0430-002",
+      "date": "2026-04-30",
+      "name": "2026安徽电信数智科技生态大会",
+      "time": "2026.4.28-29",
+      "location": "芜湖",
+      "relevance": "中(AI+万物生态竞争)"
+    }
+  ]
 };
