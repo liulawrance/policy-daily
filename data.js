@@ -189,7 +189,7 @@ var DATA = {
         {
           "name": "祝海辉",
           "newRole": "福建省政府副秘书长",
-          "prevRole": "免去省政府办公厅副主任职务"
+          "prevRole": "省政府办公厅副主任"
         },
         {
           "name": "陈辉宗",
@@ -243,7 +243,7 @@ var DATA = {
         {
           "name": "叶仁雄",
           "newRole": "省国防科工局局长（兼）",
-          "prevRole": "免去省政府副秘书长等职"
+          "prevRole": "省政府副秘书长、省政府办公厅主任"
         }
       ],
       "removals": [
