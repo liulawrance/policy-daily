@@ -163,15 +163,6 @@ var DATA = {
     },
     {
       "date": "2026-05-06",
-      "province": "江苏",
-      "title": "江苏省省管领导干部任职前公示（4月30日）",
-      "appointments": [],
-      "removals": [],
-      "source_url": "",
-      "analysis": null
-    },
-    {
-      "date": "2026-05-06",
       "province": "安徽",
       "title": "安徽省管干部任前公示（4月23日）",
       "appointments": [
