@@ -1921,6 +1921,136 @@ var DATA = {
       "isTop": false,
       "isNew": true,
       "publishDate": "2026-05-03"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "网信办发布第十七批深度合成服务算法备案信息",
+      "source": "国家网信办",
+      "province": "国家级",
+      "category": "行业监管",
+      "impact": "中",
+      "summary": "2026年5月6日发布第十七批深度合成服务算法备案公告，持续推进深度合成算法备案管理。",
+      "url": "https://www.cac.gov.cn/wxzw/wxfb/A093702index_1.htm",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-06"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "工信部+国家数据局联合实施2026年\"模数共振\"行动",
+      "source": "工信部办公厅/国家数据局综合司",
+      "province": "国家级",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "推动AI模型与数据资源协同互促，面向钢铁、汽车、医疗装备等20个行业，产出AI应用场景、攻关行业模型、构建高质量数据集、培育攻关联合体。",
+      "url": "https://www.ncsti.gov.cn/zcfg/zcwj/202605/t20260506_245797.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-06"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "民政部等多部门发布互联网公开募捐服务平台管理办法（5月1日施行）",
+      "source": "民政部/工信部/网信办",
+      "province": "国家级",
+      "category": "行业监管",
+      "impact": "中",
+      "summary": "规范互联网公开募捐服务平台运营，细化平台责任和义务，2026年5月1日起施行。",
+      "url": "https://www.mca.gov.cn/n152/n166/c1662004999980010576/content.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-01"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "浙江省促进长三角政务服务一网通办规定施行",
+      "source": "浙江省人大",
+      "province": "浙江",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "经浙江省第十四届人大常委会第二十三次会议通过，2026年5月1日起施行，促进长三角区域政务服务一体化。",
+      "url": "https://www.cnr.cn/zjfw/zjyw/20260502/t20260502_527607805.shtml",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-01"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "南京市发布市管领导干部任前公示",
+      "source": "南京市委组织部",
+      "province": "江苏",
+      "category": "人事",
+      "impact": "中",
+      "summary": "罗昌锋（现任玄武区委常委、区纪委书记）拟任市级机关部门正局职。公示期5月1日至11日。",
+      "url": "https://news.jschina.com.cn/gn/202605/t20260501_s69f3f473e4b0d4f45364329c.shtml",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-01"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "无锡市发布领导干部任前公示",
+      "source": "无锡市委组织部",
+      "province": "江苏",
+      "category": "人事",
+      "impact": "中",
+      "summary": "翟菁（现任江阴市副市长）拟任市（县）区委常委。公示期5月7日至12日。",
+      "url": "https://new.qq.com/rain/a/20260507A01Z2L00",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-06"
+    },
+    {
+      "date": "2026-05-03",
+      "title": "江苏无锡等5市人大常委会通过人事任免",
+      "source": "江苏5市人大",
+      "province": "江苏",
+      "category": "人事",
+      "impact": "低",
+      "summary": "无锡任命朱烨昕为水利局局长、俞勇军为国防动员办主任；扬州、泰州、淮安、连云港同步发布任免名单。",
+      "url": "https://finance.sina.cn/2026-05-03/detail-inhwqvrh8961351.d.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-03"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "中央网信办部署\"清朗·整治AI应用乱象\"专项行动",
+      "source": "中央网信办",
+      "province": "国家级",
+      "category": "AI监管",
+      "impact": "高",
+      "summary": "为期4个月分两阶段整治14类问题，涵盖大模型备案违规、AI数据投毒、数字泔水、AI魔改经典等。第一阶段整治源头问题，第二阶段整治内容乱象。",
+      "url": "https://wlaq.gmw.cn/2026-05/07/content_38751219.htm",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-06"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "国家网信办发布第十七批深度合成服务算法备案信息",
+      "source": "国家互联网信息办公室",
+      "province": "国家级",
+      "category": "算法备案",
+      "impact": "中",
+      "summary": "公开发布第十七批境内深度合成服务算法备案信息，同时注销5个算法备案编号。",
+      "url": "https://news.cctv.com/2026/05/06/ARTIGgwmCScKeoyOFwPvbJZ0260506.shtml",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-06"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "湖南省\"人工智能+\"\"智赋万企\"行动2026年项目支持资金申报通知",
+      "source": "湖南省工信厅、湖南省财政厅",
+      "province": "湖南",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "对AI创新应用、大模型备案、算力补助、智能制造场景等5大方向给予资金奖励，推动\"人工智能+\"和制造业数字化转型。",
+      "url": "https://gxt.hunan.gov.cn/gxt/xxgk_71033/tzgg/202605/t20260506_33970529.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-06"
     }
   ],
   "personnel": [
@@ -3257,6 +3387,50 @@ var DATA = {
       "removals": [],
       "source_url": "",
       "analysis": null
+    },
+    {
+      "date": "2026-05-07",
+      "province": "江西",
+      "title": "江西省委统战部领导调整（5月7日）",
+      "appointments": [
+        {
+          "name": "罗文江",
+          "newRole": "省委统战部副部长、省工商联党组书记",
+          "prevRole": "此前职务未披露"
+        }
+      ],
+      "removals": [],
+      "source_url": "",
+      "analysis": null
+    },
+    {
+      "date": "2026-05-07",
+      "province": "上海",
+      "title": "上海市政府人事任免（5月7日）",
+      "appointments": [
+        {
+          "name": "魏陆",
+          "newRole": "市发展和改革委员会副主任",
+          "prevRole": "市发改委总经济师"
+        },
+        {
+          "name": "江丹",
+          "newRole": "市住房和城乡建设管理委员会副主任",
+          "prevRole": "未披露"
+        }
+      ],
+      "removals": [
+        {
+          "name": "潘敏",
+          "prevRole": "上海市电影局局长"
+        },
+        {
+          "name": "陈国忠",
+          "prevRole": "市发展和改革委员会副主任"
+        }
+      ],
+      "source_url": "",
+      "analysis": null
     }
   ],
   "competitors": [
@@ -3784,6 +3958,27 @@ var DATA = {
       "title": "腾讯云等头部厂商密集上调AI服务价格",
       "update": "3月中旬以来阿里云、腾讯云、百度云AI服务涨价5%-34%，大厂云业务进入AI算力溢价新阶段。",
       "url": "https://news.qq.com/rain/a/20260420A04JJZ00"
+    },
+    {
+      "date": "2026-05-07",
+      "name": "腾讯",
+      "title": "混元Hy3 Token调用量暴增16.5倍，日均API突破12亿次",
+      "update": "腾讯混元公布最新数据，Hy3 preview总Token调用量超上一代10倍，代码和智能体场景增长16.5倍。日均API调用量突破12亿次。模型采用MoE架构，总参2950亿，激活210亿，支持256K上下文。",
+      "url": "https://www.stcn.com/article/detail/3897777.html"
+    },
+    {
+      "date": "2026-05-07",
+      "name": "月之暗面(Kimi)",
+      "title": "完成20亿美元融资，估值突破200亿美元",
+      "update": "美团龙珠领投，水木资本、中国移动、CPE参投，为国内大模型最大单笔融资。半年累计融资超39亿美元，ARR在4月突破2亿美元。累计融资额居国内大模型创业公司首位。",
+      "url": "https://www.stcn.com/article/detail/3897538.html"
+    },
+    {
+      "date": "2026-05-07",
+      "name": "DeepSeek",
+      "title": "传首轮融资洽谈中，国家大基金领投，估值约450亿美元",
+      "update": "消息称国家集成电路产业投资基金正洽谈领投DeepSeek首轮融资，估值约450亿美元，较半月前200亿美元翻倍。腾讯等也在洽谈入股。",
+      "url": "https://new.qq.com/rain/a/20260507A03Y4400"
     }
   ],
   "alerts": [
