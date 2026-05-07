@@ -2051,6 +2051,253 @@ var DATA = {
       "isTop": false,
       "isNew": true,
       "publishDate": "2026-05-06"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "网信办发布第十七批深度合成服务算法备案信息",
+      "source": "国家网信办",
+      "province": "国家级",
+      "category": "行业监管",
+      "impact": "中",
+      "summary": "2026年5月6日发布第十七批深度合成服务算法备案公告，持续推进深度合成算法备案管理。",
+      "url": "https://www.cac.gov.cn/wxzw/wxfb/A093702index_1.htm",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-06"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "工信部+国家数据局联合实施2026年\"模数共振\"行动",
+      "source": "工信部办公厅/国家数据局综合司",
+      "province": "国家级",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "推动AI模型与数据资源协同互促，面向钢铁、汽车、医疗装备等20个行业，产出AI应用场景、攻关行业模型、构建高质量数据集、培育攻关联合体。",
+      "url": "https://www.ncsti.gov.cn/zcfg/zcwj/202605/t20260506_245797.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-06"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "民政部等多部门发布互联网公开募捐服务平台管理办法（5月1日施行）",
+      "source": "民政部/工信部/网信办",
+      "province": "国家级",
+      "category": "行业监管",
+      "impact": "中",
+      "summary": "规范互联网公开募捐服务平台运营，细化平台责任和义务，2026年5月1日起施行。",
+      "url": "https://www.mca.gov.cn/n152/n166/c1662004999980010576/content.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-01"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "浙江省促进长三角政务服务一网通办规定施行",
+      "source": "浙江省人大",
+      "province": "浙江",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "经浙江省第十四届人大常委会第二十三次会议通过，2026年5月1日起施行，促进长三角区域政务服务一体化。",
+      "url": "https://www.cnr.cn/zjfw/zjyw/20260502/t20260502_527607805.shtml",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-01"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "南京市发布市管领导干部任前公示",
+      "source": "南京市委组织部",
+      "province": "江苏",
+      "category": "人事",
+      "impact": "中",
+      "summary": "罗昌锋（现任玄武区委常委、区纪委书记）拟任市级机关部门正局职。公示期5月1日至11日。",
+      "url": "https://news.jschina.com.cn/gn/202605/t20260501_s69f3f473e4b0d4f45364329c.shtml",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-01"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "无锡市发布领导干部任前公示",
+      "source": "无锡市委组织部",
+      "province": "江苏",
+      "category": "人事",
+      "impact": "中",
+      "summary": "翟菁（现任江阴市副市长）拟任市（县）区委常委。公示期5月7日至12日。",
+      "url": "https://new.qq.com/rain/a/20260507A01Z2L00",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-06"
+    },
+    {
+      "date": "2026-05-03",
+      "title": "江苏无锡等5市人大常委会通过人事任免",
+      "source": "江苏5市人大",
+      "province": "江苏",
+      "category": "人事",
+      "impact": "低",
+      "summary": "无锡任命朱烨昕为水利局局长、俞勇军为国防动员办主任；扬州、泰州、淮安、连云港同步发布任免名单。",
+      "url": "https://finance.sina.cn/2026-05-03/detail-inhwqvrh8961351.d.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-03"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "中央网信办部署\"清朗·整治AI应用乱象\"专项行动",
+      "source": "中央网信办",
+      "province": "国家级",
+      "category": "AI监管",
+      "impact": "高",
+      "summary": "为期4个月分两阶段整治14类问题，涵盖大模型备案违规、AI数据投毒、数字泔水、AI魔改经典等。第一阶段整治源头问题，第二阶段整治内容乱象。",
+      "url": "https://wlaq.gmw.cn/2026-05/07/content_38751219.htm",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-06"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "国家网信办发布第十七批深度合成服务算法备案信息",
+      "source": "国家互联网信息办公室",
+      "province": "国家级",
+      "category": "算法备案",
+      "impact": "中",
+      "summary": "公开发布第十七批境内深度合成服务算法备案信息，同时注销5个算法备案编号。",
+      "url": "https://news.cctv.com/2026/05/06/ARTIGgwmCScKeoyOFwPvbJZ0260506.shtml",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-06"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "李强主持召开国务院常务会议，研究科技创新有关工作，审议通过《行政法规制定程序条例(修订草案)》",
+      "source": "国务院",
+      "province": "国家级",
+      "category": "综合政策",
+      "impact": "高",
+      "summary": "研究科技创新有关工作，听取推动海洋经济高质量发展情况汇报，审议通过《行政法规制定程序条例(修订草案)》。",
+      "url": "https://www.gzqz.gov.cn/?id=gu&url=19394&id=518",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-06"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "国家网信办持续整治网上金融信息乱象，处置荐股账号",
+      "source": "国家网信办",
+      "province": "国家级",
+      "category": "行业监管",
+      "impact": "中",
+      "summary": "持续整治网上金融信息乱象，处置一批违规荐股自媒体账号，规范金融类信息发布秩序。",
+      "url": "https://www.jnnews.tv/yaowen/2026/05-07/xDL90Mgk.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-07"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "网信部门处置9.8万余个未规范标注信息来源的自媒体账号",
+      "source": "国家网信办",
+      "province": "国家级",
+      "category": "行业监管",
+      "impact": "中",
+      "summary": "清理未规范标注信息来源的自媒体账号9.8万余个，强化自媒体信息发布规范管理。",
+      "url": "https://m.chinanews.com/wap/detail/chs/zw/jw669283.shtml",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-07"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "关于重点推进2026年优化营商环境十大攻坚突破任务的通知",
+      "source": "上海市发展和改革委员会",
+      "province": "上海",
+      "category": "营商环境",
+      "impact": "高",
+      "summary": "重点推进营商环境十大攻坚突破任务，强化新经济业态主动发现机制。",
+      "url": "https://fgw.sh.gov.cn/fgw_yshjjs/20260507/225444a3d18c4af8be087aa089c41371.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-06"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "浙江五部门联合发文实施民间投资专项担保计划",
+      "source": "浙江省财政厅等五部门",
+      "province": "浙江",
+      "category": "金融",
+      "impact": "中",
+      "summary": "每年争取全国民间投资专项担保计划额度不低于200亿元。",
+      "url": "https://finance.sina.cn/2026-05-06/detail-inhwycsi5815952.d.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-06"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "关于组织开展2026年人工智能券(算力券)兑付申报的通知",
+      "source": "浙江省发展和改革委员会",
+      "province": "浙江",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "组织AI券兑付申报，申报截止时间为2026年5月7日18:00。",
+      "url": "https://fzggw.zj.gov.cn/col/col1229629046/art/2026/art_e02c15a8d4fb4a0daa9186c87be14e0f.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-07"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "福建省工业和信息化厅关于印发福建消费名品培育建设工作方案(2026-2030年)的通知",
+      "source": "福建省工业和信息化厅",
+      "province": "福建",
+      "category": "产业",
+      "impact": "中",
+      "summary": "培育建设福建消费名品，充分发挥政府引导基金作用。",
+      "url": "https://gxt.fj.gov.cn/zwgk/zfxxgk/fdzdgknr/gfxwj/202605/t20260506_7144607.htm",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-06"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "福建省社会信用体系建设开启三年行动",
+      "source": "福建省人民政府办公厅",
+      "province": "福建",
+      "category": "信用体系",
+      "impact": "中",
+      "summary": "实施社会信用体系建设三年行动，2028年底前实现个人守信激励应用场景跨城市互认。",
+      "url": "https://news.fznews.com.cn/fzyw/20260507/69fbe6836e6e9.shtml",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-07"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "山东省大数据局关于印发山东省行业高质量数据集建设专项行动方案的通知",
+      "source": "山东省大数据局",
+      "province": "山东",
+      "category": "数据要素",
+      "impact": "高",
+      "summary": "到2027年年底全省累计建成50个高质量数据集，单个行业领域数据规模不小于1PB。",
+      "url": "http://bdb.shandong.gov.cn/art/2026/5/7/art_333974_79734.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-07"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "杭州城西科创大走廊创新发展专项资金管理办法5月13日起施行",
+      "source": "杭州市人民政府",
+      "province": "浙江",
+      "category": "科技创新",
+      "impact": "高",
+      "summary": "2026-2030年省市财政每年各安排4.5亿元支持大走廊建设。",
+      "url": "https://www.wuhunews.cn/resou/2026-05-07/637788.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-07"
     }
   ],
   "personnel": [
@@ -3951,6 +4198,34 @@ var DATA = {
       "title": "传首轮融资洽谈中，国家大基金领投，估值约450亿美元",
       "update": "消息称国家集成电路产业投资基金正洽谈领投DeepSeek首轮融资，估值约450亿美元，较半月前200亿美元翻倍。腾讯等也在洽谈入股。",
       "url": "https://new.qq.com/rain/a/20260507A03Y4400"
+    },
+    {
+      "date": "2026-05-07",
+      "name": "Anthropic",
+      "title": "承诺未来5年向谷歌支付2000亿美元采购云计算资源",
+      "update": "重大融资/合作",
+      "url": "https://news.qq.com/rain/a/20260506A05UNE00"
+    },
+    {
+      "date": "2026-05-07",
+      "name": "OpenAI",
+      "title": "ChatGPT上线广告主平台，AI行业迈入广告变现时代",
+      "update": "产品发布",
+      "url": "https://new.qq.com/rain/a/20260507A0519G00"
+    },
+    {
+      "date": "2026-05-07",
+      "name": "月之暗面",
+      "title": "即将完成20亿美元融资，投后估值突破200亿美元",
+      "update": "融资动态",
+      "url": "https://new.qq.com/rain/a/20260507A055G300"
+    },
+    {
+      "date": "2026-05-07",
+      "name": "DeepSeek",
+      "title": "首轮融资估值约450亿美元，大基金寻求领投",
+      "update": "融资动态",
+      "url": "https://new.qq.com/rain/a/20260507A03Y4400"
     }
   ],
   "alerts": [
@@ -3960,35 +4235,43 @@ var DATA = {
       "level": "一级紧急",
       "item": "AI生成内容标识合规（执法持续中）",
       "days": "已启动",
-      "assessment": "混元/ima持续自查标识合规，清朗专项行动已启动",
-      "deadline": "持续"
+      "assessment": "混元/ima持续自查",
+      "deadline": "持续",
+      "linkType": "",
+      "linkTarget": ""
     },
     {
       "id": "a0507-002",
       "date": "2026-05-07",
       "level": "二级重要",
       "item": "AI拟人化互动服务管理暂行办法施行",
-      "days": "⚠️ 69天",
-      "assessment": "7月15日施行，混元AI助手需完成合规评估",
-      "deadline": "2026-07-15"
+      "days": "69天",
+      "assessment": "混元AI助手合规评估",
+      "deadline": "2026-07-15",
+      "linkType": "",
+      "linkTarget": ""
     },
     {
       "id": "a0507-003",
       "date": "2026-05-07",
       "level": "二级重要",
       "item": "网络安全标识管理办法施行",
-      "days": "⚠️ 55天",
-      "assessment": "7月1日施行，IoT设备标识方案需提前落地",
-      "deadline": "2026-07-01"
+      "days": "55天",
+      "assessment": "IoT设备标识方案",
+      "deadline": "2026-07-01",
+      "linkType": "",
+      "linkTarget": ""
     },
     {
       "id": "a0507-004",
       "date": "2026-05-07",
       "level": "二级重要",
       "item": "金融产品网络营销管理办法施行",
-      "days": "⚠️ 146天",
-      "assessment": "9月30日施行，微信支付/财付通合规准备",
-      "deadline": "2026-09-30"
+      "days": "146天",
+      "assessment": "微信支付/财付通合规",
+      "deadline": "2026-09-30",
+      "linkType": "",
+      "linkTarget": ""
     },
     {
       "id": "a0507-005",
@@ -3996,8 +4279,10 @@ var DATA = {
       "level": "三级关注",
       "item": "互联网广告半年专项整治进行中",
       "days": "进行中",
-      "assessment": "2026.4.29启动为期半年，腾讯广告需持续对标",
-      "deadline": "2026-10-29"
+      "assessment": "腾讯广告对标",
+      "deadline": "2026.4.29-10.29",
+      "linkType": "",
+      "linkTarget": ""
     }
   ],
   "events": [
