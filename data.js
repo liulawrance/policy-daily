@@ -3998,466 +3998,116 @@ var DATA = {
   ],
   "competitors": [
     {
-      "name": "智谱AI",
-      "date": "2026-04-30",
-      "title": "GLM-5 Coding Agent推理工程实践首次系统披露",
-      "update": "智谱公众号首次系统披露GLM-5系列在超大规模Coding Agent调用场景下的底层推理技术突破,包括KV Cache分层存储等关键优化。",
-      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-04-30/doc-inhwfyef0358119.shtml"
-    },
-    {
+      "date": "2026-05-08",
       "name": "OpenAI",
-      "date": "2026-04-30",
-      "title": "GPT-5.5 API价格翻三倍引发行业热议",
-      "update": "4月24日发布GPT-5.5称为史上最智能模型,Terminal-Bench 2.0准确率82.7%,但API价格从$5升至$15/百万token引发关注。",
-      "url": "https://news.qq.com/rain/a/20260429A02Z0C00"
+      "title": "发布三款新一代语音模型GPT-Realtime-2，具备GPT-5级推理能力",
+      "update": "OpenAI在API中加入GPT-Realtime-2、GPT-Realtime-Translate和GPT-Realtime-Whisper三款语音模型。GPT-Realtime-2是首个具备GPT-5级别推理能力的语音模型，准确率达96.6%。同时推出GPT-5.5-Cyber网络安全专属模型。",
+      "url": "https://new.qq.com/rain/a/20260508A023LD00"
     },
     {
-      "name": "谷歌/Anthropic",
-      "date": "2026-04-30",
-      "title": "谷歌向Anthropic投资400亿美元创AI史最大单笔",
-      "update": "谷歌4月24日宣布100亿美元立即到账(估值3800亿),剩余300亿视业绩追加。Anthropic同时考虑按超9000亿估值进一步融资。",
-      "url": "https://finance.sina.com.cn/wm/2026-04-25/doc-inhvupep0114847.shtml"
-    },
-    {
-      "name": "百度",
-      "date": "2026-04-30",
-      "title": "创作者大会发布Master Agent搜索升级引擎",
-      "update": "百度4月24日创作者大会发布Master Agent,搜索从信息查找升级为任务执行。百度App日活同比增1.6倍。",
-      "url": "https://finance.sina.com.cn/roll/2026-04-29/doc-inhwaxzu7002312.shtml"
-    },
-    {
-      "name": "小米",
-      "date": "2026-04-30",
-      "title": "MiMo Orbit计划: 百万亿Token免费发放+Agent生态共建",
-      "update": "4月28日宣布MiMo Orbit计划,30天内免费发放100万亿Token,加速AI开发者生态建设。",
-      "url": "https://finance.sina.com.cn/tech/roll/2026-04-28/doc-inhvzwqc1663586.shtml"
-    },
-    {
-      "name": "寒武纪",
-      "date": "2026-04-30",
-      "title": "Q1营收28.85亿(+160%),净利10.13亿(+185%)",
-      "update": "受益AI算力需求持续攀升,寒武纪一季度业绩大幅增长。预付款项环比激增155%至19亿元。",
-      "url": "https://finance.sina.com.cn/roll/2026-04-30/doc-inhwewsw6620541.shtml"
-    },
-    {
-      "name": "腾讯",
-      "date": "2026-04-30",
-      "title": "Agent智能体生态亮相数字中国峰会+算力涨价",
-      "update": "腾讯在福州第九届数字中国峰会展示混元Hy3 preview首秀和SkillHub社区(3.5万+技能)。CodeBuddy企业旗舰版5月15日涨价154%。",
-      "url": "https://finance.sina.com.cn/tech/digi/2026-04-29/doc-inhwefuw7881849.shtml"
-    },
-    {
-      "name": "字节跳动",
-      "date": "2026-04-29",
-      "title": "入选《时代》全球十大AI公司+3款AI产品被网信办处罚",
-      "update": "《时代》杂志4月27日公布2026全球十大最具影响力AI公司，字节跳动入选。同日旗下剪映/猫箱/即梦AI因AI标识违规被网信办处罚。",
-      "url": "https://finance.sina.com.cn/chanjing/wddc/2026-04-28/doc-inhvzsha8536341.shtml"
-    },
-    {
-      "name": "智谱AI",
-      "date": "2026-04-29",
-      "title": "入选《时代》全球十大AI公司，国内AI新势力唯一入选",
-      "update": "《时代》评价智谱为中国AI新势力代表，国际影响力获权威认可。GLM-5.1系列已在多项评测中进入全球前五。",
-      "url": "https://www.ithome.com/0/944/371.htm"
-    },
-    {
-      "name": "阿里巴巴",
-      "date": "2026-04-29",
-      "title": "入选《时代》十大AI公司+HappyHorse视频模型4月27日开测",
-      "update": "HappyHorse-1.0登顶ArtificialAnalysis视频排行榜，4月27日通过百炼平台开放API测试。5月正式商用。",
-      "url": "https://news.china.com/socialgd/10000169/20260420/49433207.html"
-    },
-    {
-      "name": "DeepSeek",
-      "date": "2026-04-29",
-      "title": "V4发布持续发酵：引爆A股半导体板块，昇腾产业链全面爆发",
-      "update": "4月24日发布的V4（1.6T参数/MIT开源/百万上下文）全面适配华为昇腾950PR，引发A股半导体板块4月27日集体走强。",
-      "url": "https://news.qq.com/rain/a/20260428A02MBZ00"
-    },
-    {
-      "name": "华为",
-      "date": "2026-04-29",
-      "title": "昇腾产业链因DeepSeek V4适配迎来全面爆发",
-      "update": "昇腾超节点全系列支持DeepSeek V4。Atlas 350/昇腾950PR服务器整机已商用。昇腾概念股集体暴涨。",
-      "url": "https://www.21jingji.com/article/20260428/herald/bd639c059f92401e30ac50efa8ec349f.html"
-    },
-    {
-      "name": "Kimi（月之暗面）",
-      "date": "2026-04-28",
-      "title": "K2.6发布并开源，13小时不间断编码+300子Agent并行",
-      "update": "4月20日发布并开源K2.6，代码能力对标GPT-5.4，Agent集群支持300子Agent并行调度。估值3个月翻4倍，新一轮融资推进中。",
-      "url": "https://news.qq.com/rain/a/20260421A04Y2M00"
-    },
-    {
-      "name": "阿里（通义千问）",
-      "date": "2026-04-28",
-      "title": "Qwen3.6-Max-Preview+27B开源版密集发布",
-      "update": "4月20日发布旗舰模型Qwen3.6-Max-Preview；4月22日开源Qwen3.6-27B。Qwen3.6-Plus上线24小时调用1.4万亿Token创纪录。",
-      "url": "https://finance.sina.com.cn/tech/digi/2026-04-22/doc-inhvkupy6024987.shtml"
-    },
-    {
-      "name": "华为（昇腾）",
-      "date": "2026-04-28",
-      "title": "昇腾产业链全面爆发，DeepSeek V4首发适配昇腾950P",
-      "update": "DeepSeek V4论文中昇腾和英伟达首次并列。昇腾950单卡算力是H20的2.87倍，搭载国产HBM。昇腾SuperNode商用加速。",
-      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-04-28/doc-inhvyzks7395902.shtml"
-    },
-    {
-      "name": "字节跳动（豆包）",
-      "date": "2026-04-28",
-      "title": "Seeduplex全双工语音模型上线豆包App",
-      "update": "4月9日发布Seeduplex语音模型并全量上线豆包App，实现自然交互。Seed 2.0系列持续迭代中。",
-      "url": "https://news.pedaily.cn/202604/562628.shtml"
-    },
-    {
-      "name": "OpenAI",
-      "date": "2026-04-26",
-      "title": "GPT-5.5深夜发布，Token成本降至前代1/4",
-      "update": "4月24日凌晨发布GPT-5.5及GPT-5.5 Pro。OpenAI称其为迄今最智能最直观的模型。在Agentic Coding、计算机使用及科研领域表现卓越，完成相同Codex任务Token消耗仅GPT-5.4的1/4。与DeepSeek V4同日发布，全球AI竞争进入同日对决新阶段。",
-      "url": "https://www.ithome.com/0/942/841.htm"
-    },
-    {
-      "name": "华为",
-      "date": "2026-04-26",
-      "title": "昇腾SuperNode全系零日适配DeepSeek V4",
-      "update": "4月24日华为同步官宣昇腾超节点全系列产品支持DeepSeek V4系列，寒武纪也完成适配。昇腾950单卡算力为英伟达H20的2.87倍，搭载自研国产HBM芯片。国产算力生态里程碑事件。",
-      "url": "https://finance.sina.com.cn/tech/roll/2026-04-24/doc-inhvqrvy4391095.shtml"
-    },
-    {
-      "name": "腾讯",
-      "date": "2026-04-24",
-      "title": "混元3.0（Hy3 preview）正式发布并开源，姚顺雨首秀交卷",
-      "update": "4月23日正式发布。295B总参数MoE，激活21B，支持256K上下文。快慢思考融合，已接入元宝/CodeBuddy/WorkBuddy/QQ/腾讯文档等首发上线，微信等十余核心产品陆续接入。混元重建后训练的第一个模型。",
-      "url": "https://finance.sina.com.cn/jjxw/2026-04-23/doc-inhvnxpa3709044.shtml"
-    },
-    {
-      "name": "DeepSeek",
-      "date": "2026-04-24",
-      "title": "V4预览版正式上线并开源，1.6万亿参数+百万上下文",
-      "update": "4月24日中午正式上线。V4-Pro(1.6T参数)+V4-Flash(284B参数)两版本，百万字超长上下文，全面适配华为昇腾950PR(CANN框架)，推理成本降至GPT系列十分之一。混元3.0与V4在同周亮相。",
-      "url": "https://aiproducthub.cn/newsflash/2026-04-24/"
-    },
-    {
-      "name": "华为",
-      "date": "2026-04-24",
-      "title": "发布乾崑智驾ADS 5+鸿蒙座舱HarmonySpace 6",
-      "update": "4月23日发布新一代汽车解决方案，ADS 5采用WEWA 2.0架构进化为自动驾驶AI智能体，训练效率提升10倍碰撞风险降50%。累计搭载170万辆，合作25个车企品牌。",
-      "url": "https://aiproducthub.cn/newsflash/2026-04-24/"
-    },
-    {
-      "name": "阿里巴巴",
-      "date": "2026-04-24",
-      "title": "千问首家接入东航，上线全流程AI机票服务",
-      "update": "4月23日千问对外开放AI办事能力，首家接入中国东方航空。用户可通过自然语言完成航班查询/购票/选座/值机全流程，标志AI助手从对话走向实际场景应用。",
-      "url": "https://aiproducthub.cn/newsflash/2026-04-24/"
-    },
-    {
-      "name": "特斯拉",
-      "date": "2026-04-24",
-      "title": "季报披露拟以最高20亿美元收购AI硬件企业",
-      "update": "4月23日Q1季报披露，特斯拉将收购一家未具名AI硬件企业，约18亿美元附加业绩里程碑条件。旨在为自动驾驶芯片和机器人业务提供硬件支撑。",
-      "url": "https://aiproducthub.cn/newsflash/2026-04-24/"
-    },
-    {
-      "name": "小米",
-      "date": "2026-04-23",
-      "title": "MiMo-V2.5系列发布并开源，Pro版百万上下文对标GPT-5.4",
-      "update": "4月23日小米发布迄今最强大模型系列MiMo-V2.5并开启公测。旗舰Pro版支持百万级上下文，4.3小时完成北大编译原理课程项目，比Kimi K2.6省42% Token。核心模型面向全球开源。",
-      "url": "https://www.ithome.com/0/942/347.htm"
-    },
-    {
-      "name": "OpenAI",
-      "date": "2026-04-23",
-      "title": "发布ChatGPT Workspace Agents，7x24企业级工作流智能体",
-      "update": "4月23日OpenAI在ChatGPT中推出Workspace Agents，由Codex底层支持，能处理报告准备、代码编写、消息响应等多种办公任务，7x24小时在线自动化处理长周期工作流。解决跨时区、跨工具协作难题。",
-      "url": "https://www.ithome.com/0/942/362.htm"
-    },
-    {
-      "name": "DeepSeek",
-      "date": "2026-04-23",
-      "title": "估值飙升至200亿美元，两大科技巨头争投",
-      "update": "据智东西报道，DeepSeek估值已飙升至200亿美元，有两家科技大厂争相投资。此前首轮融资目标为100亿美元估值、3亿美元募资。V4纯国产华为昇腾算力训练，4月下旬发布。",
-      "url": "https://news.qq.com/rain/a/20260422A06J4900"
-    },
-    {
-      "name": "普渡机器人",
-      "date": "2026-04-23",
-      "title": "完成近10亿元融资，估值突破百亿元人民币",
-      "update": "全球商用服务机器人龙头，龙岗金控、亚投资本联合领投，北汽产投、蓝思科技等参与。累计融资超20亿元。资金将投入具身智能技术研发和全球化布局。",
-      "url": "https://www.nbd.com.cn/articles/2026-04-23/4354083.html"
-    },
-    {
-      "name": "阿里巴巴",
-      "date": "2026-04-23",
-      "title": "开源Qwen3.6-27B，270亿参数编程能力超前代397B模型",
-      "update": "4月22日阿里云通义千问团队正式开源Qwen3.6-27B多模态大模型，在SWE-bench、Terminal-Bench等编程基准上全面超越前代Qwen3.5-397B-A17B。此前已发布Qwen3.6-Max-Preview登顶国产模型榜。",
-      "url": "https://www.donews.com/news/detail/8/6524528.html"
-    },
-    {
-      "name": "谷歌",
-      "date": "2026-04-23",
-      "title": "发布Gemini 3.1 Pro深度研究智能体，支持MCP协议",
-      "update": "4月22日谷歌升级自主研究智能体，推出Deep Research与Deep Research Max，基于Gemini 3.1 Pro，支持MCP协议连接专有数据源，将智能体从摘要引擎升级为企业级工作流组件。",
-      "url": "https://www.ithome.com/0/942/071.htm"
-    },
-    {
+      "date": "2026-05-08",
       "name": "Anthropic",
-      "date": "2026-04-23",
-      "title": "Claude Mythos遭未授权访问+无预警切断Belo公司权限",
-      "update": "据彭博社报道少数未授权用户访问了Anthropic最新Claude Mythos模型。同时无预警切断Belo公司访问权限，60名员工停摆15小时。安全治理和客户信任同时受挑战。",
-      "url": "https://www.ithome.com/tag/AI/"
+      "title": "开发者大会：与SpaceX签约获22万GPU，Claude Code全面升级",
+      "update": "5月6日Anthropic召开第二届开发者大会，宣布与SpaceX签约接管Colossus 1数据中心全部算力（22万GPU/300兆瓦），Claude Code限额翻倍，新增多智能体编排、自主推演等能力。马斯克同日宣布解散xAI并入SpaceX。",
+      "url": "https://news.qq.com/rain/a/20260507A03CLG00"
     },
     {
-      "name": "OpenAI",
-      "date": "2026-04-22",
-      "title": "ChatGPT Images 2.0发布，首个具备思考能力的图像模型",
-      "update": "基于GPT Image 2模型，引入思考能力核心升级。支持联网搜索、单次生成8张连贯图像、多语言渲染零偏差。Codex新增Chronicle功能可截取用户桌面屏幕作为上下文。",
-      "url": "https://www.ithome.com/0/941/549.htm"
-    },
-    {
-      "name": "亚马逊/Anthropic",
-      "date": "2026-04-22",
-      "title": "亚马逊追加投资Anthropic最高250亿美元，十年锁定千亿算力大单",
-      "update": "50亿美元立即到位，剩余200亿按里程碑兑现。Anthropic承诺十年采购超1000亿美元AWS技术（含Trainium芯片）。此前亚马逊已累计投入80亿。全球AI算力军备竞赛白热化。",
-      "url": "https://finance.sina.com.cn/jjxw/2026-04-21/doc-inhvfivk6364512.shtml"
-    },
-    {
-      "name": "谷歌",
-      "date": "2026-04-22",
-      "title": "紧急更新Deep Research智能体，布林亲自督战围剿Claude",
-      "update": "基于Gemini 3.1 Pro，新增支持MCP协议、原生图表。联合创始人布林亲自挂帅组建DeepMind精英团队提升编程能力，全力追赶Anthropic Claude。自ChatGPT发布以来再次进入红色警报状态。",
-      "url": "https://aiproducthub.cn/newsflash/google-deep-research-max-launch-mcp-support-enterprise-data/"
-    },
-    {
+      "date": "2026-05-08",
       "name": "DeepSeek",
-      "date": "2026-04-22",
-      "title": "既要融资也要商业化，梁文锋被评还是太保守了",
-      "update": "V4发布在即，估值超100亿美元。多名核心人员流失，AGI梦想与商业化现实博弈。36氪深度报道DeepSeek的下一步战略。",
-      "url": "https://www.thepaper.cn/newsDetail_forward_33002057"
+      "title": "8款国产AI芯片Day0实现V4适配，首轮融资估值450亿美元洽谈中",
+      "update": "众智FlagOS社区完成DeepSeek-V4在9种AI芯片适配（含昇腾/沐曦/摩尔线程等），首次在国产可重构芯片完成千亿大模型DAY0适配。融资方面，大基金洽谈领投首轮，估值约450亿美元。",
+      "url": "https://news.qq.com/rain/a/20260508A0267Y00"
     },
     {
-      "name": "腾讯",
-      "date": "2026-04-22",
-      "title": "混元3.0本周内发布，推理较2.0提升42%",
-      "update": "姚顺雨主导研发，以通用版与Dev版等多个版本形式开放。元宝内测版已发现HY3-dev条目。2025年AI投入超180亿元，2026年将翻倍。",
-      "url": "https://www.chooseai.net/news/3393/"
+      "date": "2026-05-08",
+      "name": "阿里巴巴",
+      "title": "通义千问Qwen3.6-27B发布，主打本地部署旗舰级编程能力",
+      "update": "阿里发布Qwen3.6-27B开源模型，可在32GB Mac上运行，定位本地AI编程助手。同时Qwen3-Next架构预览发布，800亿参数30亿激活，训练成本降至十分之一。",
+      "url": "https://www.163.com/dy/article/KS5JG2IR05561FZD_pdya11y.html"
     },
     {
-      "name": "Forbes AI 50",
-      "date": "2026-04-22",
-      "title": "2026福布斯AI 50榜单发布，20家新上榜",
-      "update": "OpenAI+Anthropic累计融资2426亿美元占榜单总融资80%。OpenAI年化收入超250亿美元，Anthropic收入运行率突破300亿美元。两家正筹备重磅IPO。",
-      "url": "https://www.ithome.com/0/941/759.htm"
+      "date": "2026-05-08",
+      "name": "字节跳动",
+      "title": "豆包启动付费订阅测试，标准版68元/月",
+      "update": "5月4日豆包在App Store更新付费订阅：标准版68元/月、加强版200元/月、专业版500元/月，聚焦PPT生成、数据分析等高算力场景。同时Seed-2.0-lite全模态理解模型5月6日发布。",
+      "url": "https://new.qq.com/rain/a/20260508A02NDR00"
     },
     {
-      "name": "苹果",
-      "date": "2026-04-22",
-      "title": "库克官宣9月卸任CEO，硬件老将特努斯接任",
-      "update": "4月20日苹果官宣：库克转任执行董事长，硬件工程SVP约翰·特努斯9月1日接任CEO。乔布斯以来首次最高层交接。特努斯已着手利用AI重塑内部运营，Siri主管洛克威尔考虑离职。",
-      "url": "https://www.36kr.com/p/3775791350268675"
+      "date": "2026-05-08",
+      "name": "华为",
+      "title": "昇腾950PR量产引发大厂抢单，字节56亿美元订单锁定近半产能",
+      "update": "华为昇腾950PR推理芯片量产，单卡FP4算力1.56PFlops（H20的2.87倍），112GB自研HBM。字节采购25万颗（56亿美元），阿里15万颗，腾讯/百度合计超5万颗，全年75万颗产能基本售罄。国产AI芯片厂商Q1营收集体暴增（寒武纪+160%、摩尔线程+155%）。",
+      "url": "https://new.qq.com/rain/a/20260508A02J9Q00"
     },
     {
-      "name": "具身智能",
-      "date": "2026-04-22",
-      "title": "高德ABot-World世界模型破解零样本泛化，众擎聘前小鹏自驾一号位",
-      "update": "高德通过高精渲染引擎解决数据稀缺问题实现零样本泛化突破。前小鹏汽车自动驾驶负责人李力耘加入众擎任CTO，将工业化AI打法引入具身赛道。",
-      "url": "https://www.qbitai.com/"
-    },
-    {
+      "date": "2026-05-08",
       "name": "月之暗面",
-      "date": "2026-04-21",
-      "title": "Kimi K2.6正式发布并开源，Agent+代码旗舰",
-      "update": "从Preview到GA仅用8天，通用Agent、代码生成、视觉理解全面提升，为Kimi系列最智能旗舰。kimi-k2系列5月25日下线。",
-      "url": "https://kimi-k2.org/zh/blog/24-kimi-k2-6-release"
+      "title": "Kimi完成20亿美元融资，估值突破200亿美元",
+      "update": "5月7日华峰资本披露，月之暗面Kimi完成约20亿美元新一轮融资，美团龙珠领投，水木资本、中国移动等参投，估值突破200亿美元。半年内累计融资超39亿美元，ARR已超2亿美元。",
+      "url": "https://www.stcn.com/article/detail/3899605.html"
     },
     {
-      "name": "字节跳动",
-      "date": "2026-04-21",
-      "title": "2025年净利润下滑超70%，AI烧钱成主因",
-      "update": "据每经/第一财经报道，净利润率大幅下滑，核心原因是AI投入加大+硬件涨价。但海外营收同比增长近50%，国内增幅约20%。",
-      "url": "https://www.nbd.com.cn/articles/2026-04-21/4348210.html"
-    },
-    {
-      "name": "xAI",
-      "date": "2026-04-21",
-      "title": "马斯克宣称Grok 5即AGI，5月连发两代万亿参数模型",
-      "update": "马斯克放出豪言，五月将连发1T和1.5T两代万亿参数模型。AI巨头AGI竞赛进入白热化阶段。",
-      "url": "https://36kr.com/information/AI/"
-    },
-    {
-      "name": "Anthropic",
-      "date": "2026-04-21",
-      "title": "Claude Mythos架构被22岁天才逆向开源（OpenMythos）",
-      "update": "Kye Gomez融合DeepSeek MoE和注意力机制思路，采用循环思考16次的推理方式复现Mythos。闭源模型护城河受到挑战。",
-      "url": "https://news.qq.com/rain/a/20260420A069X200"
-    },
-    {
-      "name": "阿里巴巴",
-      "date": "2026-04-21",
-      "title": "高德发布四足机器狗途途，阿里正式入局具身智能硬件",
-      "update": "高德具身业务部推出首款四足机器人，在亦庄半马化身智能导盲犬。此前已开源ABot-M0具身操作基座模型。阿里继小米/字节后入局具身硬件。",
-      "url": "https://www.36kr.com/p/3775075041128964"
-    },
-    {
-      "name": "芯片",
-      "date": "2026-04-21",
-      "title": "谷歌TPUv8双芯片发布+AMD MI500前瞻CDNA6架构",
-      "update": "谷歌TPUv8t（博通）专注训练+TPUv8i（联发科）主打推理。AMD MI500采用CPO封装CDNA6架构，内存带宽超19.6TB/s。AI芯片三强竞争加剧。",
-      "url": "https://www.ithome.com/tag/AI/"
-    },
-    {
-      "name": "腾讯",
-      "date": "2026-04-20",
-      "title": "混元3D世界模型2.0正式开源，一句话生成可交互3D世界",
-      "update": "多模态世界模型，理解文字/图片/视频输入生成完整3D世界场景，可直接导入Unity/Unreal引擎。与Google Genie 3、李飞飞World Labs三足鼎立。混元3.0大模型内部测试中，计划4月发布。",
-      "url": "https://news.qq.com/rain/a/20260416A03QFK00"
-    },
-    {
-      "name": "DeepSeek",
-      "date": "2026-04-20",
-      "title": "V4纯国产昇腾算力训练完成，首轮融资估值超100亿美元",
-      "update": "万亿参数MoE架构，推理速度比V3提升35倍，支持1M Token上下文，4月下旬全量发布。全程采用华为昇腾950PR完成训练，为国内首个彻底摆脱英伟达依赖的万亿级大模型。36氪报道融资传闻或为员工期权定价。",
-      "url": "https://aiproducthub.cn/newsflash/deepseek-v4-pure-domestic-computing-power-training/"
-    },
-    {
-      "name": "具身智能",
-      "date": "2026-04-20",
-      "title": "自变量机器人近20亿B轮融资，五大互联网巨头齐投",
-      "update": "小米战投/红杉中国领投，唯一同时获字节/美团/阿里/小米四家大厂投资的具身智能企业。央视焦点访谈聚焦人形机器人半马赛事，具身天工ultra以1小时15分自主完赛。2026中国人形机器人生态大会在上海举办。",
-      "url": "https://36kr.com/information/AI/"
-    },
-    {
-      "name": "Anthropic",
-      "date": "2026-04-20",
-      "title": "Claude Design视觉创作工具上线，对话即可生成设计原型",
-      "update": "基于Opus 4.7模型，支持对话生成设计原型和演示文稿，具备品牌系统自动应用和多源导入功能。CEO达里奥阿莫迪警告AI将在5年内取代最多50%初级白领岗位。对Figma构成直接威胁。",
-      "url": "https://www.ithome.com/tag/AI/"
-    },
-    {
-      "name": "xAI",
-      "date": "2026-04-20",
-      "title": "马斯克xAI即将发布Grok Build，进军AI编程赛道",
-      "update": "有望推出Grok Build与Grok CLI两款编程产品，正式与Claude Code、Codex、Cursor形成四方竞争格局。",
-      "url": "https://www.ithome.com/tag/AI/"
-    },
-    {
-      "name": "Cursor",
-      "date": "2026-04-20",
-      "title": "完成20亿美元融资，估值飙升至500亿美元",
-      "update": "成为全球最热AI编程独角兽，AI编程赛道竞争白热化。Cursor/Claude Code/Codex/Grok Build四强争霸格局形成。",
-      "url": "https://www.geekpark.net/"
-    },
-    {
-      "name": "Meta",
-      "date": "2026-04-20",
-      "title": "宣布再裁8000人，微软首日集成Claude至9大工具",
-      "update": "裁员拟5月20日启动。同时微软将Claude Opus 4.7集成至GitHub Copilot等9大AI工具，AI编程生态快速重组。",
-      "url": "https://www.geekpark.net/"
-    },
-    {
-      "name": "国产算力",
-      "date": "2026-04-20",
-      "title": "头部大模型全面完成华为昇腾迁移，国产替代里程碑",
-      "update": "DeepSeek V4、阿里通义、字节豆包全面完成从英伟达CUDA到华为昇腾CANN的全栈迁移，昇腾950PR芯片进入规模化量产交付阶段。",
-      "url": "https://www.sohu.com/a/1008903123_120426565"
-    },
-    {
-      "name": "腾讯",
-      "date": "2026-04-17",
-      "title": "微信升级AI小程序成长计划，腾讯云AI算力即将涨价",
-      "update": "微信面向全行业开放AI小程序成长计划申请。混元3.0计划4月内发布。腾讯云5月9日起AI算力涨价5%。QuestMobile数据显示国产AI三强：DeepSeek技术最强、豆包用户最多、混元生态最广。",
-      "url": "https://www.sohu.com/a/1010468113_362042"
-    },
-    {
-      "name": "阿里巴巴",
-      "date": "2026-04-17",
-      "title": "Qwen 3.6 Plus全球首个单日调用破万亿Token",
-      "update": "问鼎OpenRouter全球周榜，锚定智能体经济。此前一周连发Qwen3.5-Omni、Wan2.7-Image、Qwen3.6-Plus三款模型。",
-      "url": "https://news.qq.com/rain/a/20260414A04QF100"
-    },
-    {
-      "name": "字节跳动",
-      "date": "2026-04-17",
-      "title": "豆包登顶SuperCLUE国产大模型榜首，挖角DeepSeek核心人员",
-      "update": "Seed-2.0-pro以71.53分登顶。前DeepSeek核心研究员郭达雅加入Seed团队任Agent方向负责人。Seeduplex全双工语音模型全量上线豆包App。",
-      "url": "https://news.pedaily.cn/202604/562628.shtml"
-    },
-    {
-      "name": "DeepSeek",
-      "date": "2026-04-17",
-      "title": "梁文锋透露V4四月下旬发布，全面运行在华为昇腾上",
-      "update": "万亿参数MoE+百万Token上下文。V4全面运行在华为昇腾950PR上，标志国产算力里程碑。已推出快速/专家模式分层设计。",
-      "url": "https://www.aitop100.cn/deepseek-v4"
-    },
-    {
-      "name": "智谱AI",
-      "date": "2026-04-14",
-      "title": "GLM-5.1开源登顶Code Arena，编程力超越Opus 4.6",
-      "update": "全球首个验证8小时持续工作的开源模型。2025年收入7.243亿元同比增131.9%。同步全线涨价10%，年内累计涨幅83%。",
-      "url": "https://www.qbitai.com/2026/04/397898.html"
-    },
-    {
-      "name": "月之暗面",
-      "date": "2026-04-17",
-      "title": "上线Kimi K2.6-code-preview万亿参数AI编程模型",
-      "update": "专为代码生成优化的万亿参数模型。发布防范假冒融资诈骗声明。",
-      "url": "https://www.chinaz.com/ainews/27125.shtml"
-    },
-    {
-      "name": "Anthropic",
-      "date": "2026-04-17",
-      "title": "Claude Opus 4.7发布，视觉+编码能力跃升至满分级",
-      "update": "上线Claude Code Routine功能（定时/API/GitHub三路触发）。AI设计工具即将发布，Adobe股价跌超2%。",
-      "url": "https://news.qq.com/rain/a/20260416A084YY00"
-    },
-    {
+      "date": "2026-05-07",
       "name": "OpenAI",
-      "date": "2026-04-15",
-      "title": "GPT-6全球发布（代号Spud），性能暴涨40%",
-      "update": "支持200万Token上下文，全新Symphony架构。对国产模型形成新竞争压力。Mac版Codex进化为赛博同事。",
-      "url": "https://blog.my321.cn/ai-daily-20260415/"
+      "title": "ChatGPT上线广告主平台，AI行业迈入广告变现时代",
+      "update": "产品发布",
+      "url": "https://new.qq.com/rain/a/20260507A0519G00"
     },
     {
-      "name": "具身智能",
-      "date": "2026-04-17",
-      "title": "它石智航4.55亿美金创中国具身智能最大单笔融资",
-      "update": "高瓴红杉美团领投。智象未来超5亿元融资。京东发布行业首个具身数据全链路基础设施。Q1国内具身赛道融资超50起累计约200亿元。",
-      "url": "https://www.36kr.com/p/3768920808391176"
+      "date": "2026-05-07",
+      "name": "Anthropic",
+      "title": "承诺未来5年向谷歌支付2000亿美元采购云计算资源",
+      "update": "重大融资/合作",
+      "url": "https://news.qq.com/rain/a/20260506A05UNE00"
     },
     {
-      "name": "其他",
-      "date": "2026-04-17",
-      "title": "Token通胀元年算力全面涨价，杭州六小龙港交所上市",
-      "update": "算力涨价最高463%。杭州六小龙第一股登陆港交所高开172%市值307亿。MiniMax 2.5到2.7版迭代。百度文心一言全面免费6月30日开源。",
-      "url": "https://36kr.com/information/AI/"
-    },
-    {
-      "date": "2026-04-30",
-      "name": "字节跳动",
-      "title": "Doubao-Seed-2.0-Pro中文多模态评测总榜第一;入选时代2026全球十大AI公司",
-      "update": "Doubao-Seed-2.0-Pro中文多模态评测总榜第一(90.66分),超越Gemini;入选时代2026全球十大AI公司。",
-      "url": "https://news.qq.com/rain/a/20260429A02LS100"
-    },
-    {
-      "date": "2026-04-30",
+      "date": "2026-05-07",
       "name": "DeepSeek",
-      "title": "V4正式发布并开源,万亿参数",
-      "update": "V4正式发布并开源,万亿参数,华为昇腾全系宣布支持适配。",
-      "url": "https://news.qq.com/rain/a/20260424A05GFE00"
+      "title": "传首轮融资洽谈中，国家大基金领投，估值约450亿美元",
+      "update": "消息称国家集成电路产业投资基金正洽谈领投DeepSeek首轮融资，估值约450亿美元，较半月前200亿美元翻倍。腾讯等也在洽谈入股。",
+      "url": "https://new.qq.com/rain/a/20260507A03Y4400"
     },
     {
-      "date": "2026-04-30",
-      "name": "谷歌",
-      "title": "谷歌向Anthropic投资400亿美元(估值3800亿)",
-      "update": "AI史上最大单笔投资,Anthropic估值达3800亿美元。",
-      "url": "https://news.qq.com/rain/a/20260428A06PD900"
+      "date": "2026-05-07",
+      "name": "DeepSeek",
+      "title": "首轮融资估值约450亿美元，大基金寻求领投",
+      "update": "融资动态",
+      "url": "https://new.qq.com/rain/a/20260507A03Y4400"
     },
     {
-      "date": "2026-04-30",
-      "name": "华为",
-      "title": "昇腾950超节点下半年放量预期",
-      "update": "国产算力重要里程碑,昇腾950超节点下半年放量。",
-      "url": "https://finance.sina.com.cn/jjxw/2026-04-30/doc-inhwfyeh7136821.shtml"
+      "date": "2026-05-07",
+      "name": "月之暗面(Kimi)",
+      "title": "完成20亿美元融资，估值突破200亿美元",
+      "update": "美团龙珠领投，水木资本、中国移动、CPE参投，为国内大模型最大单笔融资。半年累计融资超39亿美元，ARR在4月突破2亿美元。累计融资额居国内大模型创业公司首位。",
+      "url": "https://www.stcn.com/article/detail/3897538.html"
+    },
+    {
+      "date": "2026-05-07",
+      "name": "月之暗面",
+      "title": "即将完成20亿美元融资，投后估值突破200亿美元",
+      "update": "融资动态",
+      "url": "https://new.qq.com/rain/a/20260507A055G300"
+    },
+    {
+      "date": "2026-05-07",
+      "name": "腾讯",
+      "title": "5月13日即将发布2026年一季报",
+      "update": "花旗预测Q1收入同比+9.9%至1979亿元,NON-IFRS净利润672亿元。游戏+14%、广告+18%、云+AI为焦点。混元3.0即将发布。",
+      "url": "https://www.eeo.com.cn/2026/0423/848045.shtml"
+    },
+    {
+      "date": "2026-05-07",
+      "name": "腾讯",
+      "title": "腾讯云等头部厂商密集上调AI服务价格",
+      "update": "3月中旬以来阿里云、腾讯云、百度云AI服务涨价5%-34%，大厂云业务进入AI算力溢价新阶段。",
+      "url": "https://news.qq.com/rain/a/20260420A04JJZ00"
+    },
+    {
+      "date": "2026-05-07",
+      "name": "腾讯",
+      "title": "混元Hy3 Token调用量暴增16.5倍，日均API突破12亿次",
+      "update": "腾讯混元公布最新数据，Hy3 preview总Token调用量超上一代10倍，代码和智能体场景增长16.5倍。日均API调用量突破12亿次。模型采用MoE架构，总参2950亿，激活210亿，支持256K上下文。",
+      "url": "https://www.stcn.com/article/detail/3897777.html"
     },
     {
       "date": "2026-05-06",
@@ -4509,116 +4159,466 @@ var DATA = {
       "url": "https://www.eeo.com.cn/2026/0423/848045.shtml"
     },
     {
-      "date": "2026-05-07",
-      "name": "腾讯",
-      "title": "5月13日即将发布2026年一季报",
-      "update": "花旗预测Q1收入同比+9.9%至1979亿元,NON-IFRS净利润672亿元。游戏+14%、广告+18%、云+AI为焦点。混元3.0即将发布。",
-      "url": "https://www.eeo.com.cn/2026/0423/848045.shtml"
-    },
-    {
-      "date": "2026-05-07",
-      "name": "腾讯",
-      "title": "腾讯云等头部厂商密集上调AI服务价格",
-      "update": "3月中旬以来阿里云、腾讯云、百度云AI服务涨价5%-34%，大厂云业务进入AI算力溢价新阶段。",
-      "url": "https://news.qq.com/rain/a/20260420A04JJZ00"
-    },
-    {
-      "date": "2026-05-07",
-      "name": "腾讯",
-      "title": "混元Hy3 Token调用量暴增16.5倍，日均API突破12亿次",
-      "update": "腾讯混元公布最新数据，Hy3 preview总Token调用量超上一代10倍，代码和智能体场景增长16.5倍。日均API调用量突破12亿次。模型采用MoE架构，总参2950亿，激活210亿，支持256K上下文。",
-      "url": "https://www.stcn.com/article/detail/3897777.html"
-    },
-    {
-      "date": "2026-05-07",
-      "name": "月之暗面(Kimi)",
-      "title": "完成20亿美元融资，估值突破200亿美元",
-      "update": "美团龙珠领投，水木资本、中国移动、CPE参投，为国内大模型最大单笔融资。半年累计融资超39亿美元，ARR在4月突破2亿美元。累计融资额居国内大模型创业公司首位。",
-      "url": "https://www.stcn.com/article/detail/3897538.html"
-    },
-    {
-      "date": "2026-05-07",
-      "name": "DeepSeek",
-      "title": "传首轮融资洽谈中，国家大基金领投，估值约450亿美元",
-      "update": "消息称国家集成电路产业投资基金正洽谈领投DeepSeek首轮融资，估值约450亿美元，较半月前200亿美元翻倍。腾讯等也在洽谈入股。",
-      "url": "https://new.qq.com/rain/a/20260507A03Y4400"
-    },
-    {
-      "date": "2026-05-07",
-      "name": "Anthropic",
-      "title": "承诺未来5年向谷歌支付2000亿美元采购云计算资源",
-      "update": "重大融资/合作",
-      "url": "https://news.qq.com/rain/a/20260506A05UNE00"
-    },
-    {
-      "date": "2026-05-07",
       "name": "OpenAI",
-      "title": "ChatGPT上线广告主平台，AI行业迈入广告变现时代",
-      "update": "产品发布",
-      "url": "https://new.qq.com/rain/a/20260507A0519G00"
+      "date": "2026-04-30",
+      "title": "GPT-5.5 API价格翻三倍引发行业热议",
+      "update": "4月24日发布GPT-5.5称为史上最智能模型,Terminal-Bench 2.0准确率82.7%,但API价格从$5升至$15/百万token引发关注。",
+      "url": "https://news.qq.com/rain/a/20260429A02Z0C00"
     },
     {
-      "date": "2026-05-07",
-      "name": "月之暗面",
-      "title": "即将完成20亿美元融资，投后估值突破200亿美元",
-      "update": "融资动态",
-      "url": "https://new.qq.com/rain/a/20260507A055G300"
+      "name": "谷歌/Anthropic",
+      "date": "2026-04-30",
+      "title": "谷歌向Anthropic投资400亿美元创AI史最大单笔",
+      "update": "谷歌4月24日宣布100亿美元立即到账(估值3800亿),剩余300亿视业绩追加。Anthropic同时考虑按超9000亿估值进一步融资。",
+      "url": "https://finance.sina.com.cn/wm/2026-04-25/doc-inhvupep0114847.shtml"
     },
     {
-      "date": "2026-05-07",
+      "date": "2026-04-30",
       "name": "DeepSeek",
-      "title": "首轮融资估值约450亿美元，大基金寻求领投",
-      "update": "融资动态",
-      "url": "https://new.qq.com/rain/a/20260507A03Y4400"
+      "title": "V4正式发布并开源,万亿参数",
+      "update": "V4正式发布并开源,万亿参数,华为昇腾全系宣布支持适配。",
+      "url": "https://news.qq.com/rain/a/20260424A05GFE00"
     },
     {
-      "date": "2026-05-08",
-      "name": "OpenAI",
-      "title": "发布三款新一代语音模型GPT-Realtime-2，具备GPT-5级推理能力",
-      "update": "OpenAI在API中加入GPT-Realtime-2、GPT-Realtime-Translate和GPT-Realtime-Whisper三款语音模型。GPT-Realtime-2是首个具备GPT-5级别推理能力的语音模型，准确率达96.6%。同时推出GPT-5.5-Cyber网络安全专属模型。",
-      "url": "https://new.qq.com/rain/a/20260508A023LD00"
-    },
-    {
-      "date": "2026-05-08",
-      "name": "Anthropic",
-      "title": "开发者大会：与SpaceX签约获22万GPU，Claude Code全面升级",
-      "update": "5月6日Anthropic召开第二届开发者大会，宣布与SpaceX签约接管Colossus 1数据中心全部算力（22万GPU/300兆瓦），Claude Code限额翻倍，新增多智能体编排、自主推演等能力。马斯克同日宣布解散xAI并入SpaceX。",
-      "url": "https://news.qq.com/rain/a/20260507A03CLG00"
-    },
-    {
-      "date": "2026-05-08",
+      "date": "2026-04-30",
       "name": "字节跳动",
-      "title": "豆包启动付费订阅测试，标准版68元/月",
-      "update": "5月4日豆包在App Store更新付费订阅：标准版68元/月、加强版200元/月、专业版500元/月，聚焦PPT生成、数据分析等高算力场景。同时Seed-2.0-lite全模态理解模型5月6日发布。",
-      "url": "https://new.qq.com/rain/a/20260508A02NDR00"
+      "title": "Doubao-Seed-2.0-Pro中文多模态评测总榜第一;入选时代2026全球十大AI公司",
+      "update": "Doubao-Seed-2.0-Pro中文多模态评测总榜第一(90.66分),超越Gemini;入选时代2026全球十大AI公司。",
+      "url": "https://news.qq.com/rain/a/20260429A02LS100"
     },
     {
-      "date": "2026-05-08",
-      "name": "阿里巴巴",
-      "title": "通义千问Qwen3.6-27B发布，主打本地部署旗舰级编程能力",
-      "update": "阿里发布Qwen3.6-27B开源模型，可在32GB Mac上运行，定位本地AI编程助手。同时Qwen3-Next架构预览发布，800亿参数30亿激活，训练成本降至十分之一。",
-      "url": "https://www.163.com/dy/article/KS5JG2IR05561FZD_pdya11y.html"
-    },
-    {
-      "date": "2026-05-08",
+      "date": "2026-04-30",
       "name": "华为",
-      "title": "昇腾950PR量产引发大厂抢单，字节56亿美元订单锁定近半产能",
-      "update": "华为昇腾950PR推理芯片量产，单卡FP4算力1.56PFlops（H20的2.87倍），112GB自研HBM。字节采购25万颗（56亿美元），阿里15万颗，腾讯/百度合计超5万颗，全年75万颗产能基本售罄。国产AI芯片厂商Q1营收集体暴增（寒武纪+160%、摩尔线程+155%）。",
-      "url": "https://new.qq.com/rain/a/20260508A02J9Q00"
+      "title": "昇腾950超节点下半年放量预期",
+      "update": "国产算力重要里程碑,昇腾950超节点下半年放量。",
+      "url": "https://finance.sina.com.cn/jjxw/2026-04-30/doc-inhwfyeh7136821.shtml"
     },
     {
-      "date": "2026-05-08",
-      "name": "月之暗面",
-      "title": "Kimi完成20亿美元融资，估值突破200亿美元",
-      "update": "5月7日华峰资本披露，月之暗面Kimi完成约20亿美元新一轮融资，美团龙珠领投，水木资本、中国移动等参投，估值突破200亿美元。半年内累计融资超39亿美元，ARR已超2亿美元。",
-      "url": "https://www.stcn.com/article/detail/3899605.html"
+      "name": "智谱AI",
+      "date": "2026-04-30",
+      "title": "GLM-5 Coding Agent推理工程实践首次系统披露",
+      "update": "智谱公众号首次系统披露GLM-5系列在超大规模Coding Agent调用场景下的底层推理技术突破,包括KV Cache分层存储等关键优化。",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-04-30/doc-inhwfyef0358119.shtml"
     },
     {
-      "date": "2026-05-08",
+      "name": "百度",
+      "date": "2026-04-30",
+      "title": "创作者大会发布Master Agent搜索升级引擎",
+      "update": "百度4月24日创作者大会发布Master Agent,搜索从信息查找升级为任务执行。百度App日活同比增1.6倍。",
+      "url": "https://finance.sina.com.cn/roll/2026-04-29/doc-inhwaxzu7002312.shtml"
+    },
+    {
+      "name": "小米",
+      "date": "2026-04-30",
+      "title": "MiMo Orbit计划: 百万亿Token免费发放+Agent生态共建",
+      "update": "4月28日宣布MiMo Orbit计划,30天内免费发放100万亿Token,加速AI开发者生态建设。",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-04-28/doc-inhvzwqc1663586.shtml"
+    },
+    {
+      "name": "寒武纪",
+      "date": "2026-04-30",
+      "title": "Q1营收28.85亿(+160%),净利10.13亿(+185%)",
+      "update": "受益AI算力需求持续攀升,寒武纪一季度业绩大幅增长。预付款项环比激增155%至19亿元。",
+      "url": "https://finance.sina.com.cn/roll/2026-04-30/doc-inhwewsw6620541.shtml"
+    },
+    {
+      "name": "腾讯",
+      "date": "2026-04-30",
+      "title": "Agent智能体生态亮相数字中国峰会+算力涨价",
+      "update": "腾讯在福州第九届数字中国峰会展示混元Hy3 preview首秀和SkillHub社区(3.5万+技能)。CodeBuddy企业旗舰版5月15日涨价154%。",
+      "url": "https://finance.sina.com.cn/tech/digi/2026-04-29/doc-inhwefuw7881849.shtml"
+    },
+    {
+      "date": "2026-04-30",
+      "name": "谷歌",
+      "title": "谷歌向Anthropic投资400亿美元(估值3800亿)",
+      "update": "AI史上最大单笔投资,Anthropic估值达3800亿美元。",
+      "url": "https://news.qq.com/rain/a/20260428A06PD900"
+    },
+    {
       "name": "DeepSeek",
-      "title": "8款国产AI芯片Day0实现V4适配，首轮融资估值450亿美元洽谈中",
-      "update": "众智FlagOS社区完成DeepSeek-V4在9种AI芯片适配（含昇腾/沐曦/摩尔线程等），首次在国产可重构芯片完成千亿大模型DAY0适配。融资方面，大基金洽谈领投首轮，估值约450亿美元。",
-      "url": "https://news.qq.com/rain/a/20260508A0267Y00"
+      "date": "2026-04-29",
+      "title": "V4发布持续发酵：引爆A股半导体板块，昇腾产业链全面爆发",
+      "update": "4月24日发布的V4（1.6T参数/MIT开源/百万上下文）全面适配华为昇腾950PR，引发A股半导体板块4月27日集体走强。",
+      "url": "https://news.qq.com/rain/a/20260428A02MBZ00"
+    },
+    {
+      "name": "阿里巴巴",
+      "date": "2026-04-29",
+      "title": "入选《时代》十大AI公司+HappyHorse视频模型4月27日开测",
+      "update": "HappyHorse-1.0登顶ArtificialAnalysis视频排行榜，4月27日通过百炼平台开放API测试。5月正式商用。",
+      "url": "https://news.china.com/socialgd/10000169/20260420/49433207.html"
+    },
+    {
+      "name": "字节跳动",
+      "date": "2026-04-29",
+      "title": "入选《时代》全球十大AI公司+3款AI产品被网信办处罚",
+      "update": "《时代》杂志4月27日公布2026全球十大最具影响力AI公司，字节跳动入选。同日旗下剪映/猫箱/即梦AI因AI标识违规被网信办处罚。",
+      "url": "https://finance.sina.com.cn/chanjing/wddc/2026-04-28/doc-inhvzsha8536341.shtml"
+    },
+    {
+      "name": "华为",
+      "date": "2026-04-29",
+      "title": "昇腾产业链因DeepSeek V4适配迎来全面爆发",
+      "update": "昇腾超节点全系列支持DeepSeek V4。Atlas 350/昇腾950PR服务器整机已商用。昇腾概念股集体暴涨。",
+      "url": "https://www.21jingji.com/article/20260428/herald/bd639c059f92401e30ac50efa8ec349f.html"
+    },
+    {
+      "name": "智谱AI",
+      "date": "2026-04-29",
+      "title": "入选《时代》全球十大AI公司，国内AI新势力唯一入选",
+      "update": "《时代》评价智谱为中国AI新势力代表，国际影响力获权威认可。GLM-5.1系列已在多项评测中进入全球前五。",
+      "url": "https://www.ithome.com/0/944/371.htm"
+    },
+    {
+      "name": "阿里（通义千问）",
+      "date": "2026-04-28",
+      "title": "Qwen3.6-Max-Preview+27B开源版密集发布",
+      "update": "4月20日发布旗舰模型Qwen3.6-Max-Preview；4月22日开源Qwen3.6-27B。Qwen3.6-Plus上线24小时调用1.4万亿Token创纪录。",
+      "url": "https://finance.sina.com.cn/tech/digi/2026-04-22/doc-inhvkupy6024987.shtml"
+    },
+    {
+      "name": "字节跳动（豆包）",
+      "date": "2026-04-28",
+      "title": "Seeduplex全双工语音模型上线豆包App",
+      "update": "4月9日发布Seeduplex语音模型并全量上线豆包App，实现自然交互。Seed 2.0系列持续迭代中。",
+      "url": "https://news.pedaily.cn/202604/562628.shtml"
+    },
+    {
+      "name": "华为（昇腾）",
+      "date": "2026-04-28",
+      "title": "昇腾产业链全面爆发，DeepSeek V4首发适配昇腾950P",
+      "update": "DeepSeek V4论文中昇腾和英伟达首次并列。昇腾950单卡算力是H20的2.87倍，搭载国产HBM。昇腾SuperNode商用加速。",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-04-28/doc-inhvyzks7395902.shtml"
+    },
+    {
+      "name": "Kimi（月之暗面）",
+      "date": "2026-04-28",
+      "title": "K2.6发布并开源，13小时不间断编码+300子Agent并行",
+      "update": "4月20日发布并开源K2.6，代码能力对标GPT-5.4，Agent集群支持300子Agent并行调度。估值3个月翻4倍，新一轮融资推进中。",
+      "url": "https://news.qq.com/rain/a/20260421A04Y2M00"
+    },
+    {
+      "name": "OpenAI",
+      "date": "2026-04-26",
+      "title": "GPT-5.5深夜发布，Token成本降至前代1/4",
+      "update": "4月24日凌晨发布GPT-5.5及GPT-5.5 Pro。OpenAI称其为迄今最智能最直观的模型。在Agentic Coding、计算机使用及科研领域表现卓越，完成相同Codex任务Token消耗仅GPT-5.4的1/4。与DeepSeek V4同日发布，全球AI竞争进入同日对决新阶段。",
+      "url": "https://www.ithome.com/0/942/841.htm"
+    },
+    {
+      "name": "华为",
+      "date": "2026-04-26",
+      "title": "昇腾SuperNode全系零日适配DeepSeek V4",
+      "update": "4月24日华为同步官宣昇腾超节点全系列产品支持DeepSeek V4系列，寒武纪也完成适配。昇腾950单卡算力为英伟达H20的2.87倍，搭载自研国产HBM芯片。国产算力生态里程碑事件。",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-04-24/doc-inhvqrvy4391095.shtml"
+    },
+    {
+      "name": "DeepSeek",
+      "date": "2026-04-24",
+      "title": "V4预览版正式上线并开源，1.6万亿参数+百万上下文",
+      "update": "4月24日中午正式上线。V4-Pro(1.6T参数)+V4-Flash(284B参数)两版本，百万字超长上下文，全面适配华为昇腾950PR(CANN框架)，推理成本降至GPT系列十分之一。混元3.0与V4在同周亮相。",
+      "url": "https://aiproducthub.cn/newsflash/2026-04-24/"
+    },
+    {
+      "name": "阿里巴巴",
+      "date": "2026-04-24",
+      "title": "千问首家接入东航，上线全流程AI机票服务",
+      "update": "4月23日千问对外开放AI办事能力，首家接入中国东方航空。用户可通过自然语言完成航班查询/购票/选座/值机全流程，标志AI助手从对话走向实际场景应用。",
+      "url": "https://aiproducthub.cn/newsflash/2026-04-24/"
+    },
+    {
+      "name": "华为",
+      "date": "2026-04-24",
+      "title": "发布乾崑智驾ADS 5+鸿蒙座舱HarmonySpace 6",
+      "update": "4月23日发布新一代汽车解决方案，ADS 5采用WEWA 2.0架构进化为自动驾驶AI智能体，训练效率提升10倍碰撞风险降50%。累计搭载170万辆，合作25个车企品牌。",
+      "url": "https://aiproducthub.cn/newsflash/2026-04-24/"
+    },
+    {
+      "name": "腾讯",
+      "date": "2026-04-24",
+      "title": "混元3.0（Hy3 preview）正式发布并开源，姚顺雨首秀交卷",
+      "update": "4月23日正式发布。295B总参数MoE，激活21B，支持256K上下文。快慢思考融合，已接入元宝/CodeBuddy/WorkBuddy/QQ/腾讯文档等首发上线，微信等十余核心产品陆续接入。混元重建后训练的第一个模型。",
+      "url": "https://finance.sina.com.cn/jjxw/2026-04-23/doc-inhvnxpa3709044.shtml"
+    },
+    {
+      "name": "特斯拉",
+      "date": "2026-04-24",
+      "title": "季报披露拟以最高20亿美元收购AI硬件企业",
+      "update": "4月23日Q1季报披露，特斯拉将收购一家未具名AI硬件企业，约18亿美元附加业绩里程碑条件。旨在为自动驾驶芯片和机器人业务提供硬件支撑。",
+      "url": "https://aiproducthub.cn/newsflash/2026-04-24/"
+    },
+    {
+      "name": "OpenAI",
+      "date": "2026-04-23",
+      "title": "发布ChatGPT Workspace Agents，7x24企业级工作流智能体",
+      "update": "4月23日OpenAI在ChatGPT中推出Workspace Agents，由Codex底层支持，能处理报告准备、代码编写、消息响应等多种办公任务，7x24小时在线自动化处理长周期工作流。解决跨时区、跨工具协作难题。",
+      "url": "https://www.ithome.com/0/942/362.htm"
+    },
+    {
+      "name": "Anthropic",
+      "date": "2026-04-23",
+      "title": "Claude Mythos遭未授权访问+无预警切断Belo公司权限",
+      "update": "据彭博社报道少数未授权用户访问了Anthropic最新Claude Mythos模型。同时无预警切断Belo公司访问权限，60名员工停摆15小时。安全治理和客户信任同时受挑战。",
+      "url": "https://www.ithome.com/tag/AI/"
+    },
+    {
+      "name": "DeepSeek",
+      "date": "2026-04-23",
+      "title": "估值飙升至200亿美元，两大科技巨头争投",
+      "update": "据智东西报道，DeepSeek估值已飙升至200亿美元，有两家科技大厂争相投资。此前首轮融资目标为100亿美元估值、3亿美元募资。V4纯国产华为昇腾算力训练，4月下旬发布。",
+      "url": "https://news.qq.com/rain/a/20260422A06J4900"
+    },
+    {
+      "name": "阿里巴巴",
+      "date": "2026-04-23",
+      "title": "开源Qwen3.6-27B，270亿参数编程能力超前代397B模型",
+      "update": "4月22日阿里云通义千问团队正式开源Qwen3.6-27B多模态大模型，在SWE-bench、Terminal-Bench等编程基准上全面超越前代Qwen3.5-397B-A17B。此前已发布Qwen3.6-Max-Preview登顶国产模型榜。",
+      "url": "https://www.donews.com/news/detail/8/6524528.html"
+    },
+    {
+      "name": "小米",
+      "date": "2026-04-23",
+      "title": "MiMo-V2.5系列发布并开源，Pro版百万上下文对标GPT-5.4",
+      "update": "4月23日小米发布迄今最强大模型系列MiMo-V2.5并开启公测。旗舰Pro版支持百万级上下文，4.3小时完成北大编译原理课程项目，比Kimi K2.6省42% Token。核心模型面向全球开源。",
+      "url": "https://www.ithome.com/0/942/347.htm"
+    },
+    {
+      "name": "普渡机器人",
+      "date": "2026-04-23",
+      "title": "完成近10亿元融资，估值突破百亿元人民币",
+      "update": "全球商用服务机器人龙头，龙岗金控、亚投资本联合领投，北汽产投、蓝思科技等参与。累计融资超20亿元。资金将投入具身智能技术研发和全球化布局。",
+      "url": "https://www.nbd.com.cn/articles/2026-04-23/4354083.html"
+    },
+    {
+      "name": "谷歌",
+      "date": "2026-04-23",
+      "title": "发布Gemini 3.1 Pro深度研究智能体，支持MCP协议",
+      "update": "4月22日谷歌升级自主研究智能体，推出Deep Research与Deep Research Max，基于Gemini 3.1 Pro，支持MCP协议连接专有数据源，将智能体从摘要引擎升级为企业级工作流组件。",
+      "url": "https://www.ithome.com/0/942/071.htm"
+    },
+    {
+      "name": "OpenAI",
+      "date": "2026-04-22",
+      "title": "ChatGPT Images 2.0发布，首个具备思考能力的图像模型",
+      "update": "基于GPT Image 2模型，引入思考能力核心升级。支持联网搜索、单次生成8张连贯图像、多语言渲染零偏差。Codex新增Chronicle功能可截取用户桌面屏幕作为上下文。",
+      "url": "https://www.ithome.com/0/941/549.htm"
+    },
+    {
+      "name": "亚马逊/Anthropic",
+      "date": "2026-04-22",
+      "title": "亚马逊追加投资Anthropic最高250亿美元，十年锁定千亿算力大单",
+      "update": "50亿美元立即到位，剩余200亿按里程碑兑现。Anthropic承诺十年采购超1000亿美元AWS技术（含Trainium芯片）。此前亚马逊已累计投入80亿。全球AI算力军备竞赛白热化。",
+      "url": "https://finance.sina.com.cn/jjxw/2026-04-21/doc-inhvfivk6364512.shtml"
+    },
+    {
+      "name": "DeepSeek",
+      "date": "2026-04-22",
+      "title": "既要融资也要商业化，梁文锋被评还是太保守了",
+      "update": "V4发布在即，估值超100亿美元。多名核心人员流失，AGI梦想与商业化现实博弈。36氪深度报道DeepSeek的下一步战略。",
+      "url": "https://www.thepaper.cn/newsDetail_forward_33002057"
+    },
+    {
+      "name": "谷歌",
+      "date": "2026-04-22",
+      "title": "紧急更新Deep Research智能体，布林亲自督战围剿Claude",
+      "update": "基于Gemini 3.1 Pro，新增支持MCP协议、原生图表。联合创始人布林亲自挂帅组建DeepMind精英团队提升编程能力，全力追赶Anthropic Claude。自ChatGPT发布以来再次进入红色警报状态。",
+      "url": "https://aiproducthub.cn/newsflash/google-deep-research-max-launch-mcp-support-enterprise-data/"
+    },
+    {
+      "name": "腾讯",
+      "date": "2026-04-22",
+      "title": "混元3.0本周内发布，推理较2.0提升42%",
+      "update": "姚顺雨主导研发，以通用版与Dev版等多个版本形式开放。元宝内测版已发现HY3-dev条目。2025年AI投入超180亿元，2026年将翻倍。",
+      "url": "https://www.chooseai.net/news/3393/"
+    },
+    {
+      "name": "Forbes AI 50",
+      "date": "2026-04-22",
+      "title": "2026福布斯AI 50榜单发布，20家新上榜",
+      "update": "OpenAI+Anthropic累计融资2426亿美元占榜单总融资80%。OpenAI年化收入超250亿美元，Anthropic收入运行率突破300亿美元。两家正筹备重磅IPO。",
+      "url": "https://www.ithome.com/0/941/759.htm"
+    },
+    {
+      "name": "苹果",
+      "date": "2026-04-22",
+      "title": "库克官宣9月卸任CEO，硬件老将特努斯接任",
+      "update": "4月20日苹果官宣：库克转任执行董事长，硬件工程SVP约翰·特努斯9月1日接任CEO。乔布斯以来首次最高层交接。特努斯已着手利用AI重塑内部运营，Siri主管洛克威尔考虑离职。",
+      "url": "https://www.36kr.com/p/3775791350268675"
+    },
+    {
+      "name": "具身智能",
+      "date": "2026-04-22",
+      "title": "高德ABot-World世界模型破解零样本泛化，众擎聘前小鹏自驾一号位",
+      "update": "高德通过高精渲染引擎解决数据稀缺问题实现零样本泛化突破。前小鹏汽车自动驾驶负责人李力耘加入众擎任CTO，将工业化AI打法引入具身赛道。",
+      "url": "https://www.qbitai.com/"
+    },
+    {
+      "name": "Anthropic",
+      "date": "2026-04-21",
+      "title": "Claude Mythos架构被22岁天才逆向开源（OpenMythos）",
+      "update": "Kye Gomez融合DeepSeek MoE和注意力机制思路，采用循环思考16次的推理方式复现Mythos。闭源模型护城河受到挑战。",
+      "url": "https://news.qq.com/rain/a/20260420A069X200"
+    },
+    {
+      "name": "阿里巴巴",
+      "date": "2026-04-21",
+      "title": "高德发布四足机器狗途途，阿里正式入局具身智能硬件",
+      "update": "高德具身业务部推出首款四足机器人，在亦庄半马化身智能导盲犬。此前已开源ABot-M0具身操作基座模型。阿里继小米/字节后入局具身硬件。",
+      "url": "https://www.36kr.com/p/3775075041128964"
+    },
+    {
+      "name": "字节跳动",
+      "date": "2026-04-21",
+      "title": "2025年净利润下滑超70%，AI烧钱成主因",
+      "update": "据每经/第一财经报道，净利润率大幅下滑，核心原因是AI投入加大+硬件涨价。但海外营收同比增长近50%，国内增幅约20%。",
+      "url": "https://www.nbd.com.cn/articles/2026-04-21/4348210.html"
+    },
+    {
+      "name": "月之暗面",
+      "date": "2026-04-21",
+      "title": "Kimi K2.6正式发布并开源，Agent+代码旗舰",
+      "update": "从Preview到GA仅用8天，通用Agent、代码生成、视觉理解全面提升，为Kimi系列最智能旗舰。kimi-k2系列5月25日下线。",
+      "url": "https://kimi-k2.org/zh/blog/24-kimi-k2-6-release"
+    },
+    {
+      "name": "xAI",
+      "date": "2026-04-21",
+      "title": "马斯克宣称Grok 5即AGI，5月连发两代万亿参数模型",
+      "update": "马斯克放出豪言，五月将连发1T和1.5T两代万亿参数模型。AI巨头AGI竞赛进入白热化阶段。",
+      "url": "https://36kr.com/information/AI/"
+    },
+    {
+      "name": "芯片",
+      "date": "2026-04-21",
+      "title": "谷歌TPUv8双芯片发布+AMD MI500前瞻CDNA6架构",
+      "update": "谷歌TPUv8t（博通）专注训练+TPUv8i（联发科）主打推理。AMD MI500采用CPO封装CDNA6架构，内存带宽超19.6TB/s。AI芯片三强竞争加剧。",
+      "url": "https://www.ithome.com/tag/AI/"
+    },
+    {
+      "name": "Anthropic",
+      "date": "2026-04-20",
+      "title": "Claude Design视觉创作工具上线，对话即可生成设计原型",
+      "update": "基于Opus 4.7模型，支持对话生成设计原型和演示文稿，具备品牌系统自动应用和多源导入功能。CEO达里奥阿莫迪警告AI将在5年内取代最多50%初级白领岗位。对Figma构成直接威胁。",
+      "url": "https://www.ithome.com/tag/AI/"
+    },
+    {
+      "name": "Meta",
+      "date": "2026-04-20",
+      "title": "宣布再裁8000人，微软首日集成Claude至9大工具",
+      "update": "裁员拟5月20日启动。同时微软将Claude Opus 4.7集成至GitHub Copilot等9大AI工具，AI编程生态快速重组。",
+      "url": "https://www.geekpark.net/"
+    },
+    {
+      "name": "DeepSeek",
+      "date": "2026-04-20",
+      "title": "V4纯国产昇腾算力训练完成，首轮融资估值超100亿美元",
+      "update": "万亿参数MoE架构，推理速度比V3提升35倍，支持1M Token上下文，4月下旬全量发布。全程采用华为昇腾950PR完成训练，为国内首个彻底摆脱英伟达依赖的万亿级大模型。36氪报道融资传闻或为员工期权定价。",
+      "url": "https://aiproducthub.cn/newsflash/deepseek-v4-pure-domestic-computing-power-training/"
+    },
+    {
+      "name": "腾讯",
+      "date": "2026-04-20",
+      "title": "混元3D世界模型2.0正式开源，一句话生成可交互3D世界",
+      "update": "多模态世界模型，理解文字/图片/视频输入生成完整3D世界场景，可直接导入Unity/Unreal引擎。与Google Genie 3、李飞飞World Labs三足鼎立。混元3.0大模型内部测试中，计划4月发布。",
+      "url": "https://news.qq.com/rain/a/20260416A03QFK00"
+    },
+    {
+      "name": "具身智能",
+      "date": "2026-04-20",
+      "title": "自变量机器人近20亿B轮融资，五大互联网巨头齐投",
+      "update": "小米战投/红杉中国领投，唯一同时获字节/美团/阿里/小米四家大厂投资的具身智能企业。央视焦点访谈聚焦人形机器人半马赛事，具身天工ultra以1小时15分自主完赛。2026中国人形机器人生态大会在上海举办。",
+      "url": "https://36kr.com/information/AI/"
+    },
+    {
+      "name": "xAI",
+      "date": "2026-04-20",
+      "title": "马斯克xAI即将发布Grok Build，进军AI编程赛道",
+      "update": "有望推出Grok Build与Grok CLI两款编程产品，正式与Claude Code、Codex、Cursor形成四方竞争格局。",
+      "url": "https://www.ithome.com/tag/AI/"
+    },
+    {
+      "name": "Cursor",
+      "date": "2026-04-20",
+      "title": "完成20亿美元融资，估值飙升至500亿美元",
+      "update": "成为全球最热AI编程独角兽，AI编程赛道竞争白热化。Cursor/Claude Code/Codex/Grok Build四强争霸格局形成。",
+      "url": "https://www.geekpark.net/"
+    },
+    {
+      "name": "国产算力",
+      "date": "2026-04-20",
+      "title": "头部大模型全面完成华为昇腾迁移，国产替代里程碑",
+      "update": "DeepSeek V4、阿里通义、字节豆包全面完成从英伟达CUDA到华为昇腾CANN的全栈迁移，昇腾950PR芯片进入规模化量产交付阶段。",
+      "url": "https://www.sohu.com/a/1008903123_120426565"
+    },
+    {
+      "name": "Anthropic",
+      "date": "2026-04-17",
+      "title": "Claude Opus 4.7发布，视觉+编码能力跃升至满分级",
+      "update": "上线Claude Code Routine功能（定时/API/GitHub三路触发）。AI设计工具即将发布，Adobe股价跌超2%。",
+      "url": "https://news.qq.com/rain/a/20260416A084YY00"
+    },
+    {
+      "name": "DeepSeek",
+      "date": "2026-04-17",
+      "title": "梁文锋透露V4四月下旬发布，全面运行在华为昇腾上",
+      "update": "万亿参数MoE+百万Token上下文。V4全面运行在华为昇腾950PR上，标志国产算力里程碑。已推出快速/专家模式分层设计。",
+      "url": "https://www.aitop100.cn/deepseek-v4"
+    },
+    {
+      "name": "阿里巴巴",
+      "date": "2026-04-17",
+      "title": "Qwen 3.6 Plus全球首个单日调用破万亿Token",
+      "update": "问鼎OpenRouter全球周榜，锚定智能体经济。此前一周连发Qwen3.5-Omni、Wan2.7-Image、Qwen3.6-Plus三款模型。",
+      "url": "https://news.qq.com/rain/a/20260414A04QF100"
+    },
+    {
+      "name": "字节跳动",
+      "date": "2026-04-17",
+      "title": "豆包登顶SuperCLUE国产大模型榜首，挖角DeepSeek核心人员",
+      "update": "Seed-2.0-pro以71.53分登顶。前DeepSeek核心研究员郭达雅加入Seed团队任Agent方向负责人。Seeduplex全双工语音模型全量上线豆包App。",
+      "url": "https://news.pedaily.cn/202604/562628.shtml"
+    },
+    {
+      "name": "月之暗面",
+      "date": "2026-04-17",
+      "title": "上线Kimi K2.6-code-preview万亿参数AI编程模型",
+      "update": "专为代码生成优化的万亿参数模型。发布防范假冒融资诈骗声明。",
+      "url": "https://www.chinaz.com/ainews/27125.shtml"
+    },
+    {
+      "name": "腾讯",
+      "date": "2026-04-17",
+      "title": "微信升级AI小程序成长计划，腾讯云AI算力即将涨价",
+      "update": "微信面向全行业开放AI小程序成长计划申请。混元3.0计划4月内发布。腾讯云5月9日起AI算力涨价5%。QuestMobile数据显示国产AI三强：DeepSeek技术最强、豆包用户最多、混元生态最广。",
+      "url": "https://www.sohu.com/a/1010468113_362042"
+    },
+    {
+      "name": "具身智能",
+      "date": "2026-04-17",
+      "title": "它石智航4.55亿美金创中国具身智能最大单笔融资",
+      "update": "高瓴红杉美团领投。智象未来超5亿元融资。京东发布行业首个具身数据全链路基础设施。Q1国内具身赛道融资超50起累计约200亿元。",
+      "url": "https://www.36kr.com/p/3768920808391176"
+    },
+    {
+      "name": "其他",
+      "date": "2026-04-17",
+      "title": "Token通胀元年算力全面涨价，杭州六小龙港交所上市",
+      "update": "算力涨价最高463%。杭州六小龙第一股登陆港交所高开172%市值307亿。MiniMax 2.5到2.7版迭代。百度文心一言全面免费6月30日开源。",
+      "url": "https://36kr.com/information/AI/"
+    },
+    {
+      "name": "OpenAI",
+      "date": "2026-04-15",
+      "title": "GPT-6全球发布（代号Spud），性能暴涨40%",
+      "update": "支持200万Token上下文，全新Symphony架构。对国产模型形成新竞争压力。Mac版Codex进化为赛博同事。",
+      "url": "https://blog.my321.cn/ai-daily-20260415/"
+    },
+    {
+      "name": "智谱AI",
+      "date": "2026-04-14",
+      "title": "GLM-5.1开源登顶Code Arena，编程力超越Opus 4.6",
+      "update": "全球首个验证8小时持续工作的开源模型。2025年收入7.243亿元同比增131.9%。同步全线涨价10%，年内累计涨幅83%。",
+      "url": "https://www.qbitai.com/2026/04/397898.html"
     }
   ],
   "alerts": [
