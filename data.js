@@ -1,5 +1,5 @@
 var DATA = {
-  "lastUpdate": "2026-05-07",
+  "lastUpdate": "2026-05-08",
   "entries": [
     {
       "id": "0430-001",
@@ -2298,6 +2298,97 @@ var DATA = {
       "isTop": true,
       "isNew": true,
       "publishDate": "2026-05-07"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "国务院国资委将开展新一轮数智化转型专项行动",
+      "source": "国务院国资委",
+      "province": "国家级",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "国资委副主任李镇在第九届数字中国建设峰会表示，将组织新一轮数智化转型专项行动，指导央企智能工厂梯度培育，强化数字技术自主创新。",
+      "url": "https://m.cnfin.com/hg-lb//zixun/20260507/4408874_1.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-06"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "央行等三部门印发通知扩大科技创新和技术改造贷款支持范围至AI领域",
+      "source": "中国人民银行/国家发改委/财政部",
+      "province": "国家级",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "将技术改造和设备更新贷款支持范围扩展至电子信息、人工智能等14个领域，着力做好企业购买AI设备和软件服务的金融服务。",
+      "url": "https://www.sohu.com/a/1018729877_436021",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-06"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "十部门联合公布《促进和规范电子单证应用规定》9月1日起施行",
+      "source": "国家网信办等十部门",
+      "province": "国家级",
+      "category": "数据安全",
+      "impact": "中",
+      "summary": "促进和规范电子单证推广应用，提升货物贸易和运输数字化水平，分类分级管理电子单证系统，自2026年9月1日起施行。",
+      "url": "https://xysy.sanya.gov.cn/detail.do?contentId=5bd15f61fd1642208a4793836d192843",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-07"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "市场监管总局公布第六批直播电商违法典型案例",
+      "source": "国家市场监督管理总局",
+      "province": "国家级",
+      "category": "行业监管",
+      "impact": "中",
+      "summary": "涉及虚假宣传、违法广告、刷单炒信、未履行核验义务等多种违法行为，多家企业被罚。",
+      "url": "https://news.10jqka.com.cn/20260506/c676468826.shtml",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-06"
+    },
+    {
+      "date": "2026-04-17",
+      "title": "市场监管总局对7家外卖平台开出35.97亿元巨额罚单",
+      "source": "国家市场监督管理总局",
+      "province": "国家级",
+      "category": "行业监管",
+      "impact": "高",
+      "summary": "对拼多多、美团、京东、饿了么、抖音、淘宝、天猫7家平台开出35.97亿元罚单，系2015年以来面向平台最大金额罚单，矛头直指幽灵外卖。",
+      "url": "https://www.ce.cn/cysc/newmain/yc/jsxw/202605/t20260508_2950782.shtml",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-04-17"
+    },
+    {
+      "date": "2026-04-29",
+      "title": "上海市市管干部任职前公示（4月29日）",
+      "source": "上海市委组织部",
+      "province": "上海",
+      "category": "人事变动",
+      "impact": "中",
+      "summary": "王珏拟为市级机关正职人选，金俊峰拟任市属事业单位党委正职等。公示期至5月9日。",
+      "url": "https://renshi.people.com.cn/n1/2026/0506/c139617-40714110.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-04-29"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "湖南省印发《加快场景创新和大规模应用三年行动方案(2026-2028年)》",
+      "source": "湖南省人民政府办公厅",
+      "province": "湖南",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "深入实施AI+制造行动，围绕研发设计等环节打造智能场景，推动文化科技融合，培育AIGC、元宇宙等新业态。",
+      "url": "https://fgw.zhuzhou.gov.cn/c14786/20260507/i2495683.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-07"
     }
   ],
   "personnel": [
@@ -3650,6 +3741,51 @@ var DATA = {
       ],
       "source_url": "",
       "analysis": null
+    },
+    {
+      "date": "2026-05-08",
+      "province": "江西",
+      "title": "江西省三市市委书记集中调整（5月6日）",
+      "appointments": [
+        {
+          "name": "刘烁",
+          "newRole": "上饶市委书记",
+          "prevRole": "萍乡市委书记"
+        },
+        {
+          "name": "陈云",
+          "newRole": "九江市委书记",
+          "prevRole": "上饶市委书记"
+        },
+        {
+          "name": "余正琨",
+          "newRole": "萍乡市委书记",
+          "prevRole": "江西省生态环境厅党组书记"
+        }
+      ],
+      "removals": [],
+      "source_url": "",
+      "analysis": null
+    },
+    {
+      "date": "2026-05-08",
+      "province": "上海",
+      "title": "上海金山区党政主官调整（4月29日）",
+      "appointments": [
+        {
+          "name": "袁罡",
+          "newRole": "金山区委书记",
+          "prevRole": "金山区区长"
+        },
+        {
+          "name": "杨元飞",
+          "newRole": "金山区代理区长",
+          "prevRole": "共青团上海市委副书记"
+        }
+      ],
+      "removals": [],
+      "source_url": "",
+      "analysis": null
     }
   ],
   "competitors": [
@@ -4226,6 +4362,55 @@ var DATA = {
       "title": "首轮融资估值约450亿美元，大基金寻求领投",
       "update": "融资动态",
       "url": "https://new.qq.com/rain/a/20260507A03Y4400"
+    },
+    {
+      "date": "2026-05-08",
+      "name": "OpenAI",
+      "title": "发布三款新一代语音模型GPT-Realtime-2，具备GPT-5级推理能力",
+      "update": "OpenAI在API中加入GPT-Realtime-2、GPT-Realtime-Translate和GPT-Realtime-Whisper三款语音模型。GPT-Realtime-2是首个具备GPT-5级别推理能力的语音模型，准确率达96.6%。同时推出GPT-5.5-Cyber网络安全专属模型。",
+      "url": "https://new.qq.com/rain/a/20260508A023LD00"
+    },
+    {
+      "date": "2026-05-08",
+      "name": "Anthropic",
+      "title": "开发者大会：与SpaceX签约获22万GPU，Claude Code全面升级",
+      "update": "5月6日Anthropic召开第二届开发者大会，宣布与SpaceX签约接管Colossus 1数据中心全部算力（22万GPU/300兆瓦），Claude Code限额翻倍，新增多智能体编排、自主推演等能力。马斯克同日宣布解散xAI并入SpaceX。",
+      "url": "https://news.qq.com/rain/a/20260507A03CLG00"
+    },
+    {
+      "date": "2026-05-08",
+      "name": "字节跳动",
+      "title": "豆包启动付费订阅测试，标准版68元/月",
+      "update": "5月4日豆包在App Store更新付费订阅：标准版68元/月、加强版200元/月、专业版500元/月，聚焦PPT生成、数据分析等高算力场景。同时Seed-2.0-lite全模态理解模型5月6日发布。",
+      "url": "https://new.qq.com/rain/a/20260508A02NDR00"
+    },
+    {
+      "date": "2026-05-08",
+      "name": "阿里巴巴",
+      "title": "通义千问Qwen3.6-27B发布，主打本地部署旗舰级编程能力",
+      "update": "阿里发布Qwen3.6-27B开源模型，可在32GB Mac上运行，定位本地AI编程助手。同时Qwen3-Next架构预览发布，800亿参数30亿激活，训练成本降至十分之一。",
+      "url": "https://www.163.com/dy/article/KS5JG2IR05561FZD_pdya11y.html"
+    },
+    {
+      "date": "2026-05-08",
+      "name": "华为",
+      "title": "昇腾950PR量产引发大厂抢单，字节56亿美元订单锁定近半产能",
+      "update": "华为昇腾950PR推理芯片量产，单卡FP4算力1.56PFlops（H20的2.87倍），112GB自研HBM。字节采购25万颗（56亿美元），阿里15万颗，腾讯/百度合计超5万颗，全年75万颗产能基本售罄。国产AI芯片厂商Q1营收集体暴增（寒武纪+160%、摩尔线程+155%）。",
+      "url": "https://new.qq.com/rain/a/20260508A02J9Q00"
+    },
+    {
+      "date": "2026-05-08",
+      "name": "月之暗面",
+      "title": "Kimi完成20亿美元融资，估值突破200亿美元",
+      "update": "5月7日华峰资本披露，月之暗面Kimi完成约20亿美元新一轮融资，美团龙珠领投，水木资本、中国移动等参投，估值突破200亿美元。半年内累计融资超39亿美元，ARR已超2亿美元。",
+      "url": "https://www.stcn.com/article/detail/3899605.html"
+    },
+    {
+      "date": "2026-05-08",
+      "name": "DeepSeek",
+      "title": "8款国产AI芯片Day0实现V4适配，首轮融资估值450亿美元洽谈中",
+      "update": "众智FlagOS社区完成DeepSeek-V4在9种AI芯片适配（含昇腾/沐曦/摩尔线程等），首次在国产可重构芯片完成千亿大模型DAY0适配。融资方面，大基金洽谈领投首轮，估值约450亿美元。",
+      "url": "https://news.qq.com/rain/a/20260508A0267Y00"
     }
   ],
   "alerts": [
