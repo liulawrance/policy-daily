@@ -2597,6 +2597,136 @@ var DATA = {
       "isTop": false,
       "isNew": true,
       "publishDate": "2026-05-07"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "国务院国资委将开展新一轮数智化转型专项行动",
+      "source": "国务院国资委",
+      "province": "国家级",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "国资委副主任李镇在第九届数字中国建设峰会表示，将组织新一轮数智化转型专项行动，指导央企智能工厂梯度培育，强化数字技术自主创新。",
+      "url": "https://m.cnfin.com/hg-lb//zixun/20260507/4408874_1.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-06"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "央行等三部门印发通知扩大科技创新和技术改造贷款支持范围至AI领域",
+      "source": "中国人民银行/国家发改委/财政部",
+      "province": "国家级",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "将技术改造和设备更新贷款支持范围扩展至电子信息、人工智能等14个领域，着力做好企业购买AI设备和软件服务的金融服务。",
+      "url": "https://www.sohu.com/a/1018729877_436021",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-06"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "十部门联合公布《促进和规范电子单证应用规定》9月1日起施行",
+      "source": "国家网信办等十部门",
+      "province": "国家级",
+      "category": "数据安全",
+      "impact": "中",
+      "summary": "促进和规范电子单证推广应用，提升货物贸易和运输数字化水平，分类分级管理电子单证系统，自2026年9月1日起施行。",
+      "url": "https://xysy.sanya.gov.cn/detail.do?contentId=5bd15f61fd1642208a4793836d192843",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-07"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "市场监管总局公布第六批直播电商违法典型案例",
+      "source": "国家市场监督管理总局",
+      "province": "国家级",
+      "category": "行业监管",
+      "impact": "中",
+      "summary": "涉及虚假宣传、违法广告、刷单炒信、未履行核验义务等多种违法行为，多家企业被罚。",
+      "url": "https://news.10jqka.com.cn/20260506/c676468826.shtml",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-06"
+    },
+    {
+      "date": "2026-04-29",
+      "title": "上海市市管干部任职前公示（4月29日）",
+      "source": "上海市委组织部",
+      "province": "上海",
+      "category": "人事变动",
+      "impact": "中",
+      "summary": "王珏拟为市级机关正职人选，金俊峰拟任市属事业单位党委正职等。公示期至5月9日。",
+      "url": "https://renshi.people.com.cn/n1/2026/0506/c139617-40714110.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-04-29"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "湖南省印发《加快场景创新和大规模应用三年行动方案(2026-2028年)》",
+      "source": "湖南省人民政府办公厅",
+      "province": "湖南",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "深入实施AI+制造行动，围绕研发设计等环节打造智能场景，推动文化科技融合，培育AIGC、元宇宙等新业态。",
+      "url": "https://fgw.zhuzhou.gov.cn/c14786/20260507/i2495683.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-07"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "江苏省商务厅等九部门印发《直播电商高质量发展提升攻坚三年行动计划(2026-2028年)》",
+      "source": "江苏省商务厅等九部门",
+      "province": "江苏",
+      "category": "平台经济",
+      "impact": "中",
+      "summary": "推动直播电商高质量发展,实施业态融合创新、产业带培育、人才培养等重点工程,到2028年培育30个以上优势明显的直播电商产业带。",
+      "url": "https://doc.jiangsu.gov.cn/art/2026/5/6/art_78743_11765802.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-06"
+    },
+    {
+      "date": "2026-04-29",
+      "title": "中共江苏省委十四届十一次全会召开：深化拓展\"人工智能+\"行动",
+      "source": "中共江苏省委",
+      "province": "江苏",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "全会对因地制宜发展新质生产力作出部署，提出深化拓展\"人工智能+\"行动，一体推进教育科技人才发展，全面融入长三角国际科技创新中心建设。",
+      "url": "http://www.js.xinhuanet.com/20260508/104bad8729b34fb7b89126b4cbcc2cb3/c.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-04-29"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "安徽省发改委启动2026年人工智能算力券申报",
+      "source": "安徽省发展改革委",
+      "province": "安徽",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "面向全省开展2026年AI算力券申报,补贴时间范围2025年5月至2026年4月实际发生的算力服务费用,降低企业AI算力使用成本。",
+      "url": "https://fzggw.ah.gov.cn/ywdt/tzgg/150523751.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-04-30"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "江西省长叶建春主持召开省发展数字经济领导小组会议",
+      "source": "江西省人民政府",
+      "province": "江西",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "审议2026年数据工作要点，强调抢抓AI发展机遇，抓紧制定实施十五五数字江西建设规划，配套实施数字经济、数字社会等行动计划。",
+      "url": "https://rf.jiangxi.gov.cn/jxsgfdybgs/szfyw123/list/content/content_2052524103950188544.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-07"
     }
   ],
   "personnel": [
@@ -4062,34 +4192,6 @@ var DATA = {
     },
     {
       "date": "2026-05-07",
-      "name": "DeepSeek",
-      "title": "传首轮融资洽谈中，国家大基金领投，估值约450亿美元",
-      "update": "消息称国家集成电路产业投资基金正洽谈领投DeepSeek首轮融资，估值约450亿美元，较半月前200亿美元翻倍。腾讯等也在洽谈入股。",
-      "url": "https://new.qq.com/rain/a/20260507A03Y4400"
-    },
-    {
-      "date": "2026-05-07",
-      "name": "DeepSeek",
-      "title": "首轮融资估值约450亿美元，大基金寻求领投",
-      "update": "融资动态",
-      "url": "https://new.qq.com/rain/a/20260507A03Y4400"
-    },
-    {
-      "date": "2026-05-07",
-      "name": "月之暗面(Kimi)",
-      "title": "完成20亿美元融资，估值突破200亿美元",
-      "update": "美团龙珠领投，水木资本、中国移动、CPE参投，为国内大模型最大单笔融资。半年累计融资超39亿美元，ARR在4月突破2亿美元。累计融资额居国内大模型创业公司首位。",
-      "url": "https://www.stcn.com/article/detail/3897538.html"
-    },
-    {
-      "date": "2026-05-07",
-      "name": "月之暗面",
-      "title": "即将完成20亿美元融资，投后估值突破200亿美元",
-      "update": "融资动态",
-      "url": "https://new.qq.com/rain/a/20260507A055G300"
-    },
-    {
-      "date": "2026-05-07",
       "name": "腾讯",
       "title": "5月13日即将发布2026年一季报",
       "update": "花旗预测Q1收入同比+9.9%至1979亿元,NON-IFRS净利润672亿元。游戏+14%、广告+18%、云+AI为焦点。混元3.0即将发布。",
@@ -4110,11 +4212,46 @@ var DATA = {
       "url": "https://www.stcn.com/article/detail/3897777.html"
     },
     {
+      "date": "2026-05-07",
+      "name": "DeepSeek",
+      "title": "传首轮融资洽谈中，国家大基金领投，估值约450亿美元",
+      "update": "消息称国家集成电路产业投资基金正洽谈领投DeepSeek首轮融资，估值约450亿美元，较半月前200亿美元翻倍。腾讯等也在洽谈入股。",
+      "url": "https://new.qq.com/rain/a/20260507A03Y4400"
+    },
+    {
+      "date": "2026-05-07",
+      "name": "DeepSeek",
+      "title": "首轮融资估值约450亿美元，大基金寻求领投",
+      "update": "融资动态",
+      "url": "https://new.qq.com/rain/a/20260507A03Y4400"
+    },
+    {
+      "date": "2026-05-07",
+      "name": "月之暗面",
+      "title": "即将完成20亿美元融资，投后估值突破200亿美元",
+      "update": "融资动态",
+      "url": "https://new.qq.com/rain/a/20260507A055G300"
+    },
+    {
+      "date": "2026-05-07",
+      "name": "月之暗面(Kimi)",
+      "title": "完成20亿美元融资，估值突破200亿美元",
+      "update": "美团龙珠领投，水木资本、中国移动、CPE参投，为国内大模型最大单笔融资。半年累计融资超39亿美元，ARR在4月突破2亿美元。累计融资额居国内大模型创业公司首位。",
+      "url": "https://www.stcn.com/article/detail/3897538.html"
+    },
+    {
       "date": "2026-05-06",
       "name": "OpenAI",
       "title": "GPT-5.5 Instant全员免费，取代GPT-5.3成ChatGPT默认模型",
       "update": "幻觉减少52.5%，AIME数学65→81分，引入记忆来源可视化。所有用户5月6日起获得更新。",
       "url": "https://www.chinaz.com/ainews/27668.shtml"
+    },
+    {
+      "date": "2026-05-06",
+      "name": "腾讯",
+      "title": "5月13日发布一季报，多家机构重申买入评级",
+      "update": "花旗预测Q1收入同比增9.9%至1979亿元。混元3.0+微信AI智能体巩固AI定位。云业务AI需求推动同比增22%。",
+      "url": "https://www.eeo.com.cn/2026/0423/848045.shtml"
     },
     {
       "date": "2026-05-06",
@@ -4152,13 +4289,6 @@ var DATA = {
       "url": "https://ghyjsc.hebeinu.edu.cn/webpage/showarticle638.html"
     },
     {
-      "date": "2026-05-06",
-      "name": "腾讯",
-      "title": "5月13日发布一季报，多家机构重申买入评级",
-      "update": "花旗预测Q1收入同比增9.9%至1979亿元。混元3.0+微信AI智能体巩固AI定位。云业务AI需求推动同比增22%。",
-      "url": "https://www.eeo.com.cn/2026/0423/848045.shtml"
-    },
-    {
       "name": "OpenAI",
       "date": "2026-04-30",
       "title": "GPT-5.5 API价格翻三倍引发行业热议",
@@ -4166,11 +4296,18 @@ var DATA = {
       "url": "https://news.qq.com/rain/a/20260429A02Z0C00"
     },
     {
-      "name": "谷歌/Anthropic",
       "date": "2026-04-30",
-      "title": "谷歌向Anthropic投资400亿美元创AI史最大单笔",
-      "update": "谷歌4月24日宣布100亿美元立即到账(估值3800亿),剩余300亿视业绩追加。Anthropic同时考虑按超9000亿估值进一步融资。",
-      "url": "https://finance.sina.com.cn/wm/2026-04-25/doc-inhvupep0114847.shtml"
+      "name": "谷歌",
+      "title": "谷歌向Anthropic投资400亿美元(估值3800亿)",
+      "update": "AI史上最大单笔投资,Anthropic估值达3800亿美元。",
+      "url": "https://news.qq.com/rain/a/20260428A06PD900"
+    },
+    {
+      "name": "腾讯",
+      "date": "2026-04-30",
+      "title": "Agent智能体生态亮相数字中国峰会+算力涨价",
+      "update": "腾讯在福州第九届数字中国峰会展示混元Hy3 preview首秀和SkillHub社区(3.5万+技能)。CodeBuddy企业旗舰版5月15日涨价154%。",
+      "url": "https://finance.sina.com.cn/tech/digi/2026-04-29/doc-inhwefuw7881849.shtml"
     },
     {
       "date": "2026-04-30",
@@ -4215,25 +4352,18 @@ var DATA = {
       "url": "https://finance.sina.com.cn/tech/roll/2026-04-28/doc-inhvzwqc1663586.shtml"
     },
     {
+      "name": "谷歌/Anthropic",
+      "date": "2026-04-30",
+      "title": "谷歌向Anthropic投资400亿美元创AI史最大单笔",
+      "update": "谷歌4月24日宣布100亿美元立即到账(估值3800亿),剩余300亿视业绩追加。Anthropic同时考虑按超9000亿估值进一步融资。",
+      "url": "https://finance.sina.com.cn/wm/2026-04-25/doc-inhvupep0114847.shtml"
+    },
+    {
       "name": "寒武纪",
       "date": "2026-04-30",
       "title": "Q1营收28.85亿(+160%),净利10.13亿(+185%)",
       "update": "受益AI算力需求持续攀升,寒武纪一季度业绩大幅增长。预付款项环比激增155%至19亿元。",
       "url": "https://finance.sina.com.cn/roll/2026-04-30/doc-inhwewsw6620541.shtml"
-    },
-    {
-      "name": "腾讯",
-      "date": "2026-04-30",
-      "title": "Agent智能体生态亮相数字中国峰会+算力涨价",
-      "update": "腾讯在福州第九届数字中国峰会展示混元Hy3 preview首秀和SkillHub社区(3.5万+技能)。CodeBuddy企业旗舰版5月15日涨价154%。",
-      "url": "https://finance.sina.com.cn/tech/digi/2026-04-29/doc-inhwefuw7881849.shtml"
-    },
-    {
-      "date": "2026-04-30",
-      "name": "谷歌",
-      "title": "谷歌向Anthropic投资400亿美元(估值3800亿)",
-      "update": "AI史上最大单笔投资,Anthropic估值达3800亿美元。",
-      "url": "https://news.qq.com/rain/a/20260428A06PD900"
     },
     {
       "name": "DeepSeek",
@@ -4313,6 +4443,13 @@ var DATA = {
       "url": "https://finance.sina.com.cn/tech/roll/2026-04-24/doc-inhvqrvy4391095.shtml"
     },
     {
+      "name": "腾讯",
+      "date": "2026-04-24",
+      "title": "混元3.0（Hy3 preview）正式发布并开源，姚顺雨首秀交卷",
+      "update": "4月23日正式发布。295B总参数MoE，激活21B，支持256K上下文。快慢思考融合，已接入元宝/CodeBuddy/WorkBuddy/QQ/腾讯文档等首发上线，微信等十余核心产品陆续接入。混元重建后训练的第一个模型。",
+      "url": "https://finance.sina.com.cn/jjxw/2026-04-23/doc-inhvnxpa3709044.shtml"
+    },
+    {
       "name": "DeepSeek",
       "date": "2026-04-24",
       "title": "V4预览版正式上线并开源，1.6万亿参数+百万上下文",
@@ -4334,13 +4471,6 @@ var DATA = {
       "url": "https://aiproducthub.cn/newsflash/2026-04-24/"
     },
     {
-      "name": "腾讯",
-      "date": "2026-04-24",
-      "title": "混元3.0（Hy3 preview）正式发布并开源，姚顺雨首秀交卷",
-      "update": "4月23日正式发布。295B总参数MoE，激活21B，支持256K上下文。快慢思考融合，已接入元宝/CodeBuddy/WorkBuddy/QQ/腾讯文档等首发上线，微信等十余核心产品陆续接入。混元重建后训练的第一个模型。",
-      "url": "https://finance.sina.com.cn/jjxw/2026-04-23/doc-inhvnxpa3709044.shtml"
-    },
-    {
       "name": "特斯拉",
       "date": "2026-04-24",
       "title": "季报披露拟以最高20亿美元收购AI硬件企业",
@@ -4360,6 +4490,13 @@ var DATA = {
       "title": "Claude Mythos遭未授权访问+无预警切断Belo公司权限",
       "update": "据彭博社报道少数未授权用户访问了Anthropic最新Claude Mythos模型。同时无预警切断Belo公司访问权限，60名员工停摆15小时。安全治理和客户信任同时受挑战。",
       "url": "https://www.ithome.com/tag/AI/"
+    },
+    {
+      "name": "谷歌",
+      "date": "2026-04-23",
+      "title": "发布Gemini 3.1 Pro深度研究智能体，支持MCP协议",
+      "update": "4月22日谷歌升级自主研究智能体，推出Deep Research与Deep Research Max，基于Gemini 3.1 Pro，支持MCP协议连接专有数据源，将智能体从摘要引擎升级为企业级工作流组件。",
+      "url": "https://www.ithome.com/0/942/071.htm"
     },
     {
       "name": "DeepSeek",
@@ -4390,32 +4527,11 @@ var DATA = {
       "url": "https://www.nbd.com.cn/articles/2026-04-23/4354083.html"
     },
     {
-      "name": "谷歌",
-      "date": "2026-04-23",
-      "title": "发布Gemini 3.1 Pro深度研究智能体，支持MCP协议",
-      "update": "4月22日谷歌升级自主研究智能体，推出Deep Research与Deep Research Max，基于Gemini 3.1 Pro，支持MCP协议连接专有数据源，将智能体从摘要引擎升级为企业级工作流组件。",
-      "url": "https://www.ithome.com/0/942/071.htm"
-    },
-    {
       "name": "OpenAI",
       "date": "2026-04-22",
       "title": "ChatGPT Images 2.0发布，首个具备思考能力的图像模型",
       "update": "基于GPT Image 2模型，引入思考能力核心升级。支持联网搜索、单次生成8张连贯图像、多语言渲染零偏差。Codex新增Chronicle功能可截取用户桌面屏幕作为上下文。",
       "url": "https://www.ithome.com/0/941/549.htm"
-    },
-    {
-      "name": "亚马逊/Anthropic",
-      "date": "2026-04-22",
-      "title": "亚马逊追加投资Anthropic最高250亿美元，十年锁定千亿算力大单",
-      "update": "50亿美元立即到位，剩余200亿按里程碑兑现。Anthropic承诺十年采购超1000亿美元AWS技术（含Trainium芯片）。此前亚马逊已累计投入80亿。全球AI算力军备竞赛白热化。",
-      "url": "https://finance.sina.com.cn/jjxw/2026-04-21/doc-inhvfivk6364512.shtml"
-    },
-    {
-      "name": "DeepSeek",
-      "date": "2026-04-22",
-      "title": "既要融资也要商业化，梁文锋被评还是太保守了",
-      "update": "V4发布在即，估值超100亿美元。多名核心人员流失，AGI梦想与商业化现实博弈。36氪深度报道DeepSeek的下一步战略。",
-      "url": "https://www.thepaper.cn/newsDetail_forward_33002057"
     },
     {
       "name": "谷歌",
@@ -4430,6 +4546,20 @@ var DATA = {
       "title": "混元3.0本周内发布，推理较2.0提升42%",
       "update": "姚顺雨主导研发，以通用版与Dev版等多个版本形式开放。元宝内测版已发现HY3-dev条目。2025年AI投入超180亿元，2026年将翻倍。",
       "url": "https://www.chooseai.net/news/3393/"
+    },
+    {
+      "name": "DeepSeek",
+      "date": "2026-04-22",
+      "title": "既要融资也要商业化，梁文锋被评还是太保守了",
+      "update": "V4发布在即，估值超100亿美元。多名核心人员流失，AGI梦想与商业化现实博弈。36氪深度报道DeepSeek的下一步战略。",
+      "url": "https://www.thepaper.cn/newsDetail_forward_33002057"
+    },
+    {
+      "name": "亚马逊/Anthropic",
+      "date": "2026-04-22",
+      "title": "亚马逊追加投资Anthropic最高250亿美元，十年锁定千亿算力大单",
+      "update": "50亿美元立即到位，剩余200亿按里程碑兑现。Anthropic承诺十年采购超1000亿美元AWS技术（含Trainium芯片）。此前亚马逊已累计投入80亿。全球AI算力军备竞赛白热化。",
+      "url": "https://finance.sina.com.cn/jjxw/2026-04-21/doc-inhvfivk6364512.shtml"
     },
     {
       "name": "Forbes AI 50",
@@ -4509,18 +4639,18 @@ var DATA = {
       "url": "https://www.geekpark.net/"
     },
     {
-      "name": "DeepSeek",
-      "date": "2026-04-20",
-      "title": "V4纯国产昇腾算力训练完成，首轮融资估值超100亿美元",
-      "update": "万亿参数MoE架构，推理速度比V3提升35倍，支持1M Token上下文，4月下旬全量发布。全程采用华为昇腾950PR完成训练，为国内首个彻底摆脱英伟达依赖的万亿级大模型。36氪报道融资传闻或为员工期权定价。",
-      "url": "https://aiproducthub.cn/newsflash/deepseek-v4-pure-domestic-computing-power-training/"
-    },
-    {
       "name": "腾讯",
       "date": "2026-04-20",
       "title": "混元3D世界模型2.0正式开源，一句话生成可交互3D世界",
       "update": "多模态世界模型，理解文字/图片/视频输入生成完整3D世界场景，可直接导入Unity/Unreal引擎。与Google Genie 3、李飞飞World Labs三足鼎立。混元3.0大模型内部测试中，计划4月发布。",
       "url": "https://news.qq.com/rain/a/20260416A03QFK00"
+    },
+    {
+      "name": "DeepSeek",
+      "date": "2026-04-20",
+      "title": "V4纯国产昇腾算力训练完成，首轮融资估值超100亿美元",
+      "update": "万亿参数MoE架构，推理速度比V3提升35倍，支持1M Token上下文，4月下旬全量发布。全程采用华为昇腾950PR完成训练，为国内首个彻底摆脱英伟达依赖的万亿级大模型。36氪报道融资传闻或为员工期权定价。",
+      "url": "https://aiproducthub.cn/newsflash/deepseek-v4-pure-domestic-computing-power-training/"
     },
     {
       "name": "具身智能",
@@ -4558,6 +4688,13 @@ var DATA = {
       "url": "https://news.qq.com/rain/a/20260416A084YY00"
     },
     {
+      "name": "腾讯",
+      "date": "2026-04-17",
+      "title": "微信升级AI小程序成长计划，腾讯云AI算力即将涨价",
+      "update": "微信面向全行业开放AI小程序成长计划申请。混元3.0计划4月内发布。腾讯云5月9日起AI算力涨价5%。QuestMobile数据显示国产AI三强：DeepSeek技术最强、豆包用户最多、混元生态最广。",
+      "url": "https://www.sohu.com/a/1010468113_362042"
+    },
+    {
       "name": "DeepSeek",
       "date": "2026-04-17",
       "title": "梁文锋透露V4四月下旬发布，全面运行在华为昇腾上",
@@ -4584,13 +4721,6 @@ var DATA = {
       "title": "上线Kimi K2.6-code-preview万亿参数AI编程模型",
       "update": "专为代码生成优化的万亿参数模型。发布防范假冒融资诈骗声明。",
       "url": "https://www.chinaz.com/ainews/27125.shtml"
-    },
-    {
-      "name": "腾讯",
-      "date": "2026-04-17",
-      "title": "微信升级AI小程序成长计划，腾讯云AI算力即将涨价",
-      "update": "微信面向全行业开放AI小程序成长计划申请。混元3.0计划4月内发布。腾讯云5月9日起AI算力涨价5%。QuestMobile数据显示国产AI三强：DeepSeek技术最强、豆包用户最多、混元生态最广。",
-      "url": "https://www.sohu.com/a/1010468113_362042"
     },
     {
       "name": "具身智能",
