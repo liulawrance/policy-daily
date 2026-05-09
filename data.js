@@ -1,5 +1,5 @@
 var DATA = {
-  "lastUpdate": "2026-05-08",
+  "lastUpdate": "2026-05-09",
   "entries": [
     {
       "id": "0430-001",
@@ -2727,6 +2727,84 @@ var DATA = {
       "isTop": false,
       "isNew": true,
       "publishDate": "2026-05-07"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "国家网信办等三部门联合印发《智能体规范应用与创新发展实施意见》",
+      "source": "国家互联网信息办公室/国家发改委/工信部",
+      "province": "国家级",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "明确智能体分类分级治理框架，提出19个典型应用场景，要求防范数据投毒、隐私泄露、算法篡改等安全风险，促进智能体规范应用与创新发展。",
+      "url": "https://www.cac.gov.cn/2026-05/08/c_1779979789523320.htm",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-08"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "工信部等三部门发布《人工智能终端智能化分级》系列国家标准",
+      "source": "工业和信息化部/商务部/市场监管总局",
+      "province": "国家级",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "AI终端分L1-L4四级，首批覆盖手机、电脑、电视、眼镜、汽车座舱、音箱、耳机7品类，将纳入2026年消费品以旧换新政策落地实施。",
+      "url": "https://www.stcn.com/article/detail/3900326.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-08"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "上海发布2026年优化营商环境十大攻坚突破任务",
+      "source": "上海市发展改革委",
+      "province": "上海",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "试点AI辅助评标和智慧监管，建设全市统一融资增信平台\"随申融\"，完善异常低价甄别处置机制，规范招投标和政府采购。",
+      "url": "https://www.stcn.com/article/detail/3897838.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-07"
+    },
+    {
+      "date": "2026-05-09",
+      "title": "福建省十五五开局专场发布会：5年培育1500家AI企业",
+      "source": "福建省人民政府新闻办",
+      "province": "福建",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "推动人工智能和实体经济深度融合，计划5年培育1500多家AI企业，力争十五五末关键业务环节全面数字化企业占比超76%。",
+      "url": "https://new.qq.com/rain/a/20260509A020UP00",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-09"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "江苏四部门联合印发信息通信网络演进升级支撑人工智能+实施方案",
+      "source": "江苏省通信管理局/省发改委/省工信厅/省数据局",
+      "province": "江苏",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "推动网络从连接向智连升级，由服务Bit传输向服务Token生产转型，重点实施智算为基、网随智动、智赋网络、绿色安全四方面任务。",
+      "url": "https://jsca.miit.gov.cn/xwdt/gzdt/art/2026/art_3413e09a08a14fdeb67382d56d20958f.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-08"
+    },
+    {
+      "date": "2026-05-09",
+      "title": "国家脑机接口临床应用示范基地落地无锡",
+      "source": "新华网江苏频道",
+      "province": "江苏",
+      "category": "人工智能",
+      "impact": "低",
+      "summary": "无锡实现非侵入式至侵入式脑机技术逐级应用，完成全市首例脑机接口+闭环脑起搏器植入手术，产业覆盖核心器件到临床诊疗全链条。",
+      "url": "https://js.news.cn/20260509/e41b3eb7874f45d0b7e161da42d7b44f/c.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-09"
     }
   ],
   "personnel": [
@@ -4124,9 +4202,64 @@ var DATA = {
       "removals": [],
       "source_url": "",
       "analysis": null
+    },
+    {
+      "date": "2026-05-09",
+      "province": "国务院",
+      "title": "国务院人事任免（5月8日）",
+      "appointments": [
+        {
+          "name": "贺勇",
+          "newRole": "国家自然资源副总督察（专职）",
+          "prevRole": ""
+        },
+        {
+          "name": "陈东明",
+          "newRole": "黄河水利委员会主任",
+          "prevRole": ""
+        }
+      ],
+      "removals": [],
+      "source_url": "",
+      "analysis": null
     }
   ],
   "competitors": [
+    {
+      "date": "2026-05-09",
+      "name": "Anthropic",
+      "title": "估值冲击9000亿美元新轮融资，ARR达440亿美元",
+      "update": "Anthropic正进行高达500亿美元新融资，估值达9000亿美元(约6万亿人民币)。Claude Code等智能体产品落地形成完整矩阵，年化营收突破440亿美元。",
+      "url": "https://new.qq.com/rain/a/20260506A0752W00"
+    },
+    {
+      "date": "2026-05-09",
+      "name": "DeepSeek",
+      "title": "首轮融资500亿元，梁文锋个人出资200亿，V4.1定档6月",
+      "update": "DeepSeek正式启动首轮外部融资，目标500亿元人民币，创中国AI公司纪录。创始人梁文锋个人出资最高200亿（占40%），估值3500亿元。同时宣布V4.1将于6月发布，商业化节奏加快。",
+      "url": "https://www.qbitai.com/2026/05/414432.html"
+    },
+    {
+      "date": "2026-05-09",
+      "name": "DeepSeek",
+      "title": "DeepSeek-V3.2正式版发布，强化Agent能力融入思考推理",
+      "update": "V3.2正式版在网页端、APP和API全面上线，强化Agent能力并融入思考推理，在推理和工具调用方面实现显著提升。",
+      "url": "https://deepseek.com/"
+    },
+    {
+      "date": "2026-05-09",
+      "name": "字节跳动",
+      "title": "火山引擎与中国移动联合发布机密模型服务+Seedance 2.0",
+      "update": "2026移动云大会上联合发布移动引擎机密模型服务专区，豆包模型推理全程端到端加密可审计，上线Seedance 2.0视频生成SOTA模型。后续将集成HiAgent、Arkclaw等智能体平台。",
+      "url": "https://www.cet.com.cn/xwsd/10358057.shtml"
+    },
+    {
+      "date": "2026-05-09",
+      "name": "月之暗面",
+      "title": "Kimi K2.6发布，主攻代码能力和Agent协同",
+      "update": "K2.6被内部称为迄今最强代码模型，测试中可不间断编码13小时、编写修改超4000行代码。公司半年内累计融资超39亿美元，ARR在4月已超2亿美元。",
+      "url": "https://www.stcn.com/article/detail/3899329.html"
+    },
     {
       "date": "2026-05-08",
       "name": "OpenAI",
