@@ -1,5 +1,5 @@
 var DATA = {
-  "lastUpdate": "2026-05-09",
+  "lastUpdate": "2026-05-11",
   "entries": [
     {
       "id": "0430-001",
@@ -2805,6 +2805,110 @@ var DATA = {
       "isTop": false,
       "isNew": true,
       "publishDate": "2026-05-09"
+    },
+    {
+      "date": "2026-05-09",
+      "title": "江苏省印发人工智能+文化旅游行动方案（2026-2028年）",
+      "source": "江苏省文旅厅",
+      "province": "江苏",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "明确6大应用场景和20项重点任务，已汇聚5.73亿条文旅数据，率先打造智慧文旅行业大脑，实现全省6977家文旅监管主体实时监测全覆盖。",
+      "url": "https://www.js.chinanews.com.cn/news/2026/0510/233549.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-09"
+    },
+    {
+      "date": "2026-05-09",
+      "title": "浙江省发布加快新场景建设应用推动科技和产业高质量发展行动方案（2026-2027年）",
+      "source": "浙江省人民政府",
+      "province": "浙江",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "聚焦AI、脑机接口、全空间无人体系等24个重点领域，每年开放150个以上综合性重大场景，培育100家以上场景创新标杆企业，带动有效投资3000亿元以上。",
+      "url": "https://www.cnstock.com/commonDetail/712437",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-09"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "江西省工业领域算力服务和数据筑基三年行动方案（2026-2028年）",
+      "source": "江西省工信厅",
+      "province": "江西",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "聚焦重点优势产业集群，优化边缘算力资源配置，启动制造业人工智能创新伙伴计划，构建算力伙伴、数据伙伴体系。",
+      "url": "https://www.jxlc.gov.cn/art/2026/5/7/art_5195_4445329.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-07"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "湖南省2026年人工智能+智赋万企行动项目支持资金申报通知",
+      "source": "湖南省工信厅",
+      "province": "湖南",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "支持方向涵盖优秀算法产品、数据产品、通过国家网信办备案的生成式AI大模型、国家揭榜挂帅优胜单位、省级AI终端产品等，落实AI+行动决策部署。",
+      "url": "https://gxt.hunan.gov.cn/gxt/xxgk_71033/tzgg/202605/t20260506_33970529.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-06"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "智能体规范应用与创新发展实施意见答记者问发布",
+      "source": "国家网信办",
+      "province": "国家级",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "三部门就智能体实施意见答记者问，详解分类分级治理框架、供应链安全管理、应用衍生风险防范等核心制度，明确产业发展底线与创新空间双重边界。",
+      "url": "https://www.hnwx.gov.cn/2026/05-11/75831.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-11"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "中美经贸磋商：何立峰将率团赴韩国与美方举行磋商",
+      "source": "商务部",
+      "province": "国家级",
+      "category": "平台经济",
+      "impact": "高",
+      "summary": "商务部发言人宣布何立峰将于5月12-13日率团赴韩与美方举行经贸磋商，以两国元首重要共识为引领就彼此关心的经贸问题磋商，关系科技出口管制政策走向。",
+      "url": "https://world.people.com.cn/n1/2026/0511/c1002-40717030.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-11"
+    },
+    {
+      "date": "2026-05-09",
+      "title": "安徽省市场监管局约谈淘宝闪购、美团、京东、抖音四家网络餐饮平台",
+      "source": "安徽省市场监管局",
+      "province": "安徽",
+      "category": "行业监管",
+      "impact": "中",
+      "summary": "针对入网经营者公示信息隐匿失真、无堂食外卖商户证照资质不合规、幽灵外卖等问题约谈四家平台，划定行为红线，明确整改时限和法律后果。",
+      "url": "https://api.app.anhuinews.com/content/9263907.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-09"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "国产大模型锚定国产算力生态，昇腾超节点全面支撑",
+      "source": "人民日报",
+      "province": "国家级",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "DeepSeek V4获昇腾超节点全面支持，蚂蚁百灵大模型Ling-2.6-flash适配昇腾910全系列，国产大模型与国产算力双向奔赴成为产业突破外依赖的战略选择。",
+      "url": "https://new.qq.com/rain/a/20260511A037N000",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-11"
     }
   ],
   "personnel": [
@@ -4222,9 +4326,156 @@ var DATA = {
       "removals": [],
       "source_url": "",
       "analysis": null
+    },
+    {
+      "date": "2026-05-11",
+      "province": "湖南",
+      "title": "湖南省地市主官任免（5月10日）",
+      "appointments": [
+        {
+          "name": "韦朝晖",
+          "newRole": "怀化市委书记",
+          "prevRole": "怀化市政府党组书记、市长"
+        }
+      ],
+      "removals": [
+        {
+          "name": "许忠建",
+          "prevRole": "怀化市委书记，另有任用"
+        }
+      ],
+      "source_url": "",
+      "analysis": null
+    },
+    {
+      "date": "2026-05-11",
+      "province": "江苏",
+      "title": "江苏省省管领导干部调整到位（5月10日）",
+      "appointments": [
+        {
+          "name": "许峰",
+          "newRole": "南京市委常委、副市长",
+          "prevRole": "南京市副市长"
+        },
+        {
+          "name": "鹿飞",
+          "newRole": "丰县县委书记",
+          "prevRole": "省委批准调任"
+        },
+        {
+          "name": "杨远朝",
+          "newRole": "邳州市委书记",
+          "prevRole": "省委批准调任"
+        },
+        {
+          "name": "陈琳",
+          "newRole": "新沂市委书记",
+          "prevRole": "省委批准调任"
+        },
+        {
+          "name": "李胜",
+          "newRole": "铜山区委书记",
+          "prevRole": "原新沂市委书记"
+        }
+      ],
+      "removals": [],
+      "source_url": "",
+      "analysis": null
+    },
+    {
+      "date": "2026-05-11",
+      "province": "江西",
+      "title": "江西省地市主官任免（5月9日）",
+      "appointments": [
+        {
+          "name": "黄练",
+          "newRole": "景德镇市政府副市长、市公安局局长",
+          "prevRole": "新任"
+        }
+      ],
+      "removals": [
+        {
+          "name": "陈克龙",
+          "prevRole": "景德镇市人民政府市长（辞职）"
+        }
+      ],
+      "source_url": "",
+      "analysis": null
+    },
+    {
+      "date": "2026-05-11",
+      "province": "湖南",
+      "title": "湖南省政府人事任免（4月29日）",
+      "appointments": [
+        {
+          "name": "熊炜",
+          "newRole": "湖南省人民政府副秘书长",
+          "prevRole": "新任"
+        },
+        {
+          "name": "康重文",
+          "newRole": "湖南省互联网信息办公室副主任",
+          "prevRole": "新任"
+        },
+        {
+          "name": "仇怡",
+          "newRole": "湖南省教育厅副厅长",
+          "prevRole": "原中南林业科技大学校长"
+        },
+        {
+          "name": "侯俊军",
+          "newRole": "湖南工商大学校长",
+          "prevRole": "试用期一年"
+        }
+      ],
+      "removals": [],
+      "source_url": "",
+      "analysis": null
     }
   ],
   "competitors": [
+    {
+      "date": "2026-05-11",
+      "name": "腾讯",
+      "title": "5月13日公布一季报，混元3.0即将发布",
+      "update": "腾讯将于5月13日发布2026年Q1业绩。花旗预测Q1收入1979亿元同比+9.9%。多家券商重申买入评级，认为混元3.0和微信AI智能体将巩固AI定位，云业务AI收入增长迅速。",
+      "url": "https://baijiahao.baidu.com/s?id=1862354324440735310"
+    },
+    {
+      "date": "2026-05-11",
+      "name": "DeepSeek",
+      "title": "首轮融资500亿估值3500亿，梁文锋个人出资200亿",
+      "update": "据多家媒体5/10报道，DeepSeek首轮融资规模达500亿元人民币(73.5亿美元)，投后估值约3500亿元(515亿美元)。创始人梁文锋个人出资约200亿占40%，腾讯、国家集成电路产业投资基金等均有投资意向。",
+      "url": "https://finance.sina.com.cn/roll/2026-05-10/doc-inhxkhwr2876069.shtml"
+    },
+    {
+      "date": "2026-05-11",
+      "name": "阿里巴巴",
+      "title": "千问与淘宝深度整合，对话式购物正式上线",
+      "update": "阿里正式宣布千问AI与淘宝打通，接入40亿商品库，用户可通过对话完成商品筛选、比价及下单。淘宝内同步上线AI购物助手，支持虚拟试穿、30天价格走势追踪等功能，是国内电商首次在全流程实现AI融合。",
+      "url": "https://tech.ifeng.com/c/8t2Fl1dmnu1"
+    },
+    {
+      "date": "2026-05-11",
+      "name": "字节跳动",
+      "title": "豆包Seed-2.0-lite全模态理解模型发布",
+      "update": "火山引擎发布Doubao-Seed-2.0-lite，首次实现视频/图像/音频/文本原生统一理解。视觉理解超pro版本，支持19种语言语音转写，同步推出mini轻量版，思考长度缩短30%。",
+      "url": "https://www.sohu.com/a/1020076084_121850782"
+    },
+    {
+      "date": "2026-05-11",
+      "name": "智谱AI",
+      "title": "GLM-5V-Turbo发布，引领视觉即代码革命",
+      "update": "智谱AI发布GLM-5V-Turbo多模态编程基座模型，采用原生多模态融合架构，可直接解析设计稿/网页截图生成可运行前端代码，Design2Code测试得分94.8分，超越国际竞品。",
+      "url": "https://forum.trae.cn/t/topic/16476"
+    },
+    {
+      "date": "2026-05-11",
+      "name": "xAI/SpaceX",
+      "title": "xAI正式解散并入SpaceX，Colossus 1整租给Anthropic",
+      "update": "马斯克宣布xAI不再独立运营，并入SpaceX成为AI部门。Colossus 1数据中心（22万GPU、300兆瓦）全部计算资源独占租给Anthropic，用于提升Claude服务容量。Grok团队核心人员已流失。",
+      "url": "https://k.sina.com.cn/article_7857141524_1d452771401902c6na.html"
+    },
     {
       "date": "2026-05-09",
       "name": "Anthropic",
