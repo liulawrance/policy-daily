@@ -2859,6 +2859,71 @@ var DATA = {
       "publishDate": "2026-05-06"
     },
     {
+      "date": "2026-05-09",
+      "title": "安徽省市场监管局约谈淘宝闪购、美团、京东、抖音四家网络餐饮平台",
+      "source": "安徽省市场监管局",
+      "province": "安徽",
+      "category": "行业监管",
+      "impact": "中",
+      "summary": "针对入网经营者公示信息隐匿失真、无堂食外卖商户证照资质不合规、幽灵外卖等问题约谈四家平台，划定行为红线，明确整改时限和法律后果。",
+      "url": "https://api.app.anhuinews.com/content/9263907.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-09"
+    },
+    {
+      "date": "2026-05-09",
+      "title": "江苏省印发人工智能+文化旅游行动方案（2026-2028年）",
+      "source": "江苏省文旅厅",
+      "province": "江苏",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "明确6大应用场景和20项重点任务，已汇聚5.73亿条文旅数据，率先打造智慧文旅行业大脑，实现全省6977家文旅监管主体实时监测全覆盖。",
+      "url": "https://www.js.chinanews.com.cn/news/2026/0510/233549.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-09"
+    },
+    {
+      "date": "2026-05-09",
+      "title": "浙江省发布加快新场景建设应用推动科技和产业高质量发展行动方案（2026-2027年）",
+      "source": "浙江省人民政府",
+      "province": "浙江",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "聚焦AI、脑机接口、全空间无人体系等24个重点领域，每年开放150个以上综合性重大场景，培育100家以上场景创新标杆企业，带动有效投资3000亿元以上。",
+      "url": "https://www.cnstock.com/commonDetail/712437",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-09"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "江西省工业领域算力服务和数据筑基三年行动方案（2026-2028年）",
+      "source": "江西省工信厅",
+      "province": "江西",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "聚焦重点优势产业集群，优化边缘算力资源配置，启动制造业人工智能创新伙伴计划，构建算力伙伴、数据伙伴体系。",
+      "url": "https://www.jxlc.gov.cn/art/2026/5/7/art_5195_4445329.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-07"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "湖南省2026年人工智能+智赋万企行动项目支持资金申报通知",
+      "source": "湖南省工信厅",
+      "province": "湖南",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "支持方向涵盖优秀算法产品、数据产品、通过国家网信办备案的生成式AI大模型、国家揭榜挂帅优胜单位、省级AI终端产品等，落实AI+行动决策部署。",
+      "url": "https://gxt.hunan.gov.cn/gxt/xxgk_71033/tzgg/202605/t20260506_33970529.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-06"
+    },
+    {
       "date": "2026-05-11",
       "title": "智能体规范应用与创新发展实施意见答记者问发布",
       "source": "国家网信办",
@@ -2896,19 +2961,6 @@ var DATA = {
       "isTop": false,
       "isNew": true,
       "publishDate": "2026-05-09"
-    },
-    {
-      "date": "2026-05-11",
-      "title": "国产大模型锚定国产算力生态，昇腾超节点全面支撑",
-      "source": "人民日报",
-      "province": "国家级",
-      "category": "人工智能",
-      "impact": "中",
-      "summary": "DeepSeek V4获昇腾超节点全面支持，蚂蚁百灵大模型Ling-2.6-flash适配昇腾910全系列，国产大模型与国产算力双向奔赴成为产业突破外依赖的战略选择。",
-      "url": "https://new.qq.com/rain/a/20260511A037N000",
-      "isTop": false,
-      "isNew": true,
-      "publishDate": "2026-05-11"
     }
   ],
   "personnel": [
@@ -4350,32 +4402,12 @@ var DATA = {
     {
       "date": "2026-05-11",
       "province": "江苏",
-      "title": "江苏省省管领导干部调整到位（5月10日）",
+      "title": "江苏省南京市委常委任命（5月10日）",
       "appointments": [
         {
           "name": "许峰",
           "newRole": "南京市委常委、副市长",
           "prevRole": "南京市副市长"
-        },
-        {
-          "name": "鹿飞",
-          "newRole": "丰县县委书记",
-          "prevRole": "省委批准调任"
-        },
-        {
-          "name": "杨远朝",
-          "newRole": "邳州市委书记",
-          "prevRole": "省委批准调任"
-        },
-        {
-          "name": "陈琳",
-          "newRole": "新沂市委书记",
-          "prevRole": "省委批准调任"
-        },
-        {
-          "name": "李胜",
-          "newRole": "铜山区委书记",
-          "prevRole": "原新沂市委书记"
         }
       ],
       "removals": [],
@@ -4421,11 +4453,6 @@ var DATA = {
           "name": "仇怡",
           "newRole": "湖南省教育厅副厅长",
           "prevRole": "原中南林业科技大学校长"
-        },
-        {
-          "name": "侯俊军",
-          "newRole": "湖南工商大学校长",
-          "prevRole": "试用期一年"
         }
       ],
       "removals": [],
