@@ -1,5 +1,5 @@
 var DATA = {
-  "lastUpdate": "2026-05-12",
+  "lastUpdate": "2026-05-13",
   "entries": [
     {
       "id": "0430-001",
@@ -3221,6 +3221,344 @@ var DATA = {
       "isTop": false,
       "isNew": true,
       "publishDate": "2026-05-10"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "上海市贯彻实施2026年大规模设备更新和消费品以旧换新政策的通知",
+      "source": "国家发改委/上海市发改委",
+      "province": "上海",
+      "category": "消费零售",
+      "impact": "中",
+      "summary": "统筹推进大规模设备更新和消费品以旧换新，安排超长期特别国债资金和市级配套资金实施两新政策",
+      "url": "https://www.ndrc.gov.cn/xwdt/ztzl/tddgmsbgxhxfpyjhx/dfjy/202605/t20260512_1405162.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-12"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "中央网信办部署压实网站平台内容审核责任",
+      "source": "中央网信办",
+      "province": "国家级",
+      "category": "行业监管",
+      "impact": "高",
+      "summary": "中央网信办近日部署指导网站平台规范内容审核流程，进一步压实平台内容审核主体责任",
+      "url": "https://www.cs.com.cn/xwzx/01/2026/05/13/detail_2026051310011263.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-12"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "安徽省市场监管局约谈四家网络餐饮平台严查幽灵外卖",
+      "source": "安徽省市场监管局",
+      "province": "安徽",
+      "category": "行业监管",
+      "impact": "中",
+      "summary": "安徽省市场监管局召开网络餐饮平台落实主体责任行政约谈会，对淘宝闪购、美团、京东、抖音四家平台严查幽灵外卖与证照失真",
+      "url": "https://amr.ah.gov.cn/xwdt/mtjjx/twbd/150532861.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-11"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "上海市国家数字经济创新发展试验区实施方案印发",
+      "source": "上海市人民政府办公厅",
+      "province": "上海",
+      "category": "数字经济",
+      "impact": "高",
+      "summary": "国家数字经济创新发展试验区（上海）实施方案正式印发，系统部署上海数字经济创新发展路径",
+      "url": "https://www.shanghai.gov.cn/202609bgtwj/20260508/ace285ddcdf440c09a32da9e0e036724.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-08"
+    },
+    {
+      "date": "2026-05-09",
+      "title": "上海市2026年度人工智能+及科学智能百团百项项目申报通知",
+      "source": "上海市经济信息化委",
+      "province": "上海",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "促进科学智能领域高质量发展，打造人工智能上海高地，组织开展2026年度AI+和科学智能百团百项项目申报",
+      "url": "https://www.sheitc.sh.gov.cn/cyfz/20260509/de819b5e109141aa898ead1a55e5aa49.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-09"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "江苏省征集2026年度数字经济创新发展典型案例",
+      "source": "江苏省政务办",
+      "province": "江苏",
+      "category": "数字经济",
+      "impact": "低",
+      "summary": "征集2026年度数字经济创新发展典型案例，企业需在江苏省内注册具备独立法人资格",
+      "url": "https://jszwb.jiangsu.gov.cn/art/2026/5/11/art_19390_11768286.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-11"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "安徽省制造业中试平台建设实施方案印发",
+      "source": "安徽省人民政府",
+      "province": "安徽",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "加快制造业中试平台建设，重点覆盖人工智能、高端装备制造、新能源及绿色低碳、低空经济和商业航天、机器人等领域",
+      "url": "https://finance.sina.com.cn/jjxw/2026-05-11/doc-inhxmuxx2360913.shtml",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-11"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "安徽出台18条金融举措护航未来产业迈向5000亿元",
+      "source": "安徽省地方金融监管局",
+      "province": "安徽",
+      "category": "金融监管",
+      "impact": "中",
+      "summary": "18条金融举措支持量子+人工智能+低空经济+等城市级标杆应用场景落地，科技人才金融服务丰富",
+      "url": "https://www.sohu.com/a/1019378654_120988576",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-11"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "福建十五五聚焦数智赋能打造四区一标杆",
+      "source": "福建省发改委",
+      "province": "福建",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "推动人工智能和实体经济深度融合，壮大数智领域新质生产力，力争数字经济核心产业增加值年均增长目标",
+      "url": "https://zjic.zj.gov.cn/ywdh/qyfz/202605/t20260508_24067195.shtml",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-08"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "湖南省重点领域关键软件技术攻关及产业化项目实施细则印发",
+      "source": "湖南省工信厅",
+      "province": "湖南",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "依据湖南省促进绿色智能计算产业高质量发展政策，制定重点领域关键软件技术攻关及产业化项目实施细则",
+      "url": "https://www.hengyang.gov.cn/gxj/xxgk/zcwjjjd/zcwj/20260512/i3900675.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-12"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "江西省工业领域算力服务和数据筑基三年行动方案印发",
+      "source": "江西省工信厅",
+      "province": "江西",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "围绕人工智能和制造业深度融合，启动制造业人工智能创新伙伴计划，促进算力和数据发展生态协同共建",
+      "url": "https://www.yugan.gov.cn/yugan/zwdtaaaa/202605/911b714000dd499f93f296e88fcd49fe.shtml",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-12"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "上海市贯彻实施2026年大规模设备更新和消费品以旧换新政策的通知",
+      "source": "国家发改委/上海市发改委",
+      "province": "上海",
+      "category": "消费零售",
+      "impact": "中",
+      "summary": "统筹推进大规模设备更新和消费品以旧换新，安排超长期特别国债资金和市级配套资金实施两新政策",
+      "url": "https://www.ndrc.gov.cn/xwdt/ztzl/tddgmsbgxhxfpyjhx/dfjy/202605/t20260512_1405162.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-12"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "中央网信办部署压实网站平台内容审核责任",
+      "source": "中央网信办",
+      "province": "国家级",
+      "category": "行业监管",
+      "impact": "高",
+      "summary": "中央网信办近日部署指导网站平台规范内容审核流程，进一步压实平台内容审核主体责任",
+      "url": "https://www.cs.com.cn/xwzx/01/2026/05/13/detail_2026051310011263.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-12"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "安徽省市场监管局约谈四家网络餐饮平台严查幽灵外卖",
+      "source": "安徽省市场监管局",
+      "province": "安徽",
+      "category": "行业监管",
+      "impact": "中",
+      "summary": "安徽省市场监管局召开网络餐饮平台落实主体责任行政约谈会，对淘宝闪购、美团、京东、抖音四家平台严查幽灵外卖与证照失真",
+      "url": "https://amr.ah.gov.cn/xwdt/mtjjx/twbd/150532861.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-11"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "上海市国家数字经济创新发展试验区实施方案印发",
+      "source": "上海市人民政府办公厅",
+      "province": "上海",
+      "category": "数字经济",
+      "impact": "高",
+      "summary": "国家数字经济创新发展试验区（上海）实施方案正式印发，系统部署上海数字经济创新发展路径",
+      "url": "https://www.shanghai.gov.cn/202609bgtwj/20260508/ace285ddcdf440c09a32da9e0e036724.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-08"
+    },
+    {
+      "date": "2026-05-09",
+      "title": "上海市2026年度人工智能+及科学智能百团百项项目申报通知",
+      "source": "上海市经济信息化委",
+      "province": "上海",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "促进科学智能领域高质量发展，打造人工智能上海高地，组织开展2026年度AI+和科学智能百团百项项目申报",
+      "url": "https://www.sheitc.sh.gov.cn/cyfz/20260509/de819b5e109141aa898ead1a55e5aa49.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-09"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "江苏省征集2026年度数字经济创新发展典型案例",
+      "source": "江苏省政务办",
+      "province": "江苏",
+      "category": "数字经济",
+      "impact": "低",
+      "summary": "征集2026年度数字经济创新发展典型案例，企业需在江苏省内注册具备独立法人资格",
+      "url": "https://jszwb.jiangsu.gov.cn/art/2026/5/11/art_19390_11768286.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-11"
+    },
+    {
+      "date": "2026-05-13",
+      "title": "江苏加快形成满足AI就绪度要求的高质量数据集",
+      "source": "江苏省数据局",
+      "province": "江苏",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "江苏为高质量数据集建设划重点，加快形成一批满足AI就绪度要求的数据集，推动数据要素赋能AI发展",
+      "url": "https://zwb.xz.gov.cn/001/001001/20260513/f73f9f72-8ea0-4118-b9d7-fe77cc0bd359.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-13"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "安徽省制造业中试平台建设实施方案印发",
+      "source": "安徽省人民政府",
+      "province": "安徽",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "加快制造业中试平台建设，重点覆盖人工智能、高端装备制造、新能源及绿色低碳、低空经济和商业航天、机器人等领域",
+      "url": "https://finance.sina.com.cn/jjxw/2026-05-11/doc-inhxmuxx2360913.shtml",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-11"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "安徽出台18条金融举措护航未来产业迈向5000亿元",
+      "source": "安徽省地方金融监管局",
+      "province": "安徽",
+      "category": "金融监管",
+      "impact": "中",
+      "summary": "18条金融举措支持量子+人工智能+低空经济+等城市级标杆应用场景落地，科技人才金融服务丰富",
+      "url": "https://www.sohu.com/a/1019378654_120988576",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-11"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "福建十五五聚焦数智赋能打造四区一标杆",
+      "source": "福建省发改委",
+      "province": "福建",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "推动人工智能和实体经济深度融合，壮大数智领域新质生产力，力争数字经济核心产业增加值年均增长目标",
+      "url": "https://zjic.zj.gov.cn/ywdh/qyfz/202605/t20260508_24067195.shtml",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-08"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "湖南省重点领域关键软件技术攻关及产业化项目实施细则印发",
+      "source": "湖南省工信厅",
+      "province": "湖南",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "依据湖南省促进绿色智能计算产业高质量发展政策，制定重点领域关键软件技术攻关及产业化项目实施细则",
+      "url": "https://www.hengyang.gov.cn/gxj/xxgk/zcwjjjd/zcwj/20260512/i3900675.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-12"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "江西省工业领域算力服务和数据筑基三年行动方案印发",
+      "source": "江西省工信厅",
+      "province": "江西",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "围绕人工智能和制造业深度融合，启动制造业人工智能创新伙伴计划，促进算力和数据发展生态协同共建",
+      "url": "https://www.yugan.gov.cn/yugan/zwdtaaaa/202605/911b714000dd499f93f296e88fcd49fe.shtml",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-12"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "工信部国家数据局联合实施2026年模数共振行动通知",
+      "source": "工业和信息化部/国家数据局",
+      "province": "国家级",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "推动AI模型与数据资源协同互促，面向钢铁、石化、汽车、医疗装备等行业开展人工智能高水平赋能新型工业化",
+      "url": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_ba07e09d40834ec992615490fd2ccd18.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-11"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "智能体规范应用与创新发展实施意见政策解读",
+      "source": "国家网信办/发改委/工信部",
+      "province": "国家级",
+      "category": "数字内容",
+      "impact": "高",
+      "summary": "三部门智能体实施意见政策解读发布，明确智能体19个应用场景和规范发展框架，构建智能体治理体系",
+      "url": "https://www.legaldaily.com.cn/IT/content/2026-05/11/content_9386507.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-11"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "浙江省加快新场景建设应用推动科技和产业高质量发展行动方案",
+      "source": "浙江省发改委等四部门",
+      "province": "浙江",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "在人工智能、脑机接口、全空间无人体系、海洋经济等24个重点领域发力，到2027年打造300个以上AI+典型应用场景",
+      "url": "https://tidenews.com.cn/news.html?id=3441454&from_channel=5d8b4d25cf8dfd0001a4143c&top_id=3441482",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-11"
     }
   ],
   "personnel": [
@@ -4813,9 +5151,104 @@ var DATA = {
       ],
       "source_url": "",
       "analysis": null
+    },
+    {
+      "date": "2026-05-13",
+      "province": "上海",
+      "title": "上海市金山区委书记调整（5月）",
+      "appointments": [
+        {
+          "name": "袁罡",
+          "newRole": "金山区委书记",
+          "prevRole": ""
+        }
+      ],
+      "removals": [],
+      "source_url": "",
+      "analysis": null
+    },
+    {
+      "date": "2026-05-13",
+      "province": "湖南",
+      "title": "湖南省永州市委书记调整（5月11日）",
+      "appointments": [
+        {
+          "name": "陈爱林",
+          "newRole": "永州市委书记",
+          "prevRole": ""
+        }
+      ],
+      "removals": [
+        {
+          "name": "朱洪武",
+          "prevRole": "永州市委书记"
+        }
+      ],
+      "source_url": "",
+      "analysis": null
+    },
+    {
+      "date": "2026-05-13",
+      "province": "福建",
+      "title": "福建省厅级干部调整（5月12日）",
+      "appointments": [
+        {
+          "name": "黄信有",
+          "newRole": "福建省人社厅副厅长",
+          "prevRole": "省人事考试中心主任"
+        },
+        {
+          "name": "梁玉华",
+          "newRole": "福建省纪委常委",
+          "prevRole": ""
+        },
+        {
+          "name": "叶华",
+          "newRole": "福建省委编办副主任",
+          "prevRole": ""
+        }
+      ],
+      "removals": [],
+      "source_url": "",
+      "analysis": null
     }
   ],
   "competitors": [
+    {
+      "date": "2026-05-13",
+      "name": "OpenAI",
+      "title": "GPT-5.5 Instant已设为ChatGPT默认模型",
+      "update": "OpenAI发布GPT-5.5 Instant并将其设为ChatGPT默认模型，继4月23日GPT-5.5发布后的快速迭代。国内外大模型迎来超级更新月。",
+      "url": "https://www.163.com/dy/article/KS8SHG6I0519DDQ2.html"
+    },
+    {
+      "date": "2026-05-13",
+      "name": "腾讯",
+      "title": "腾讯2026年Q1业绩今日公布：预计营收1995亿元同比增10.8%",
+      "update": "腾讯今日披露Q1财报，市场预期营收约1995亿元（+10.8%），经调整净利润约677亿元（+10.3%）。AI战略进入商业化收获期，混元HY3 Preview已开源，Agent能力成估值胜负手。",
+      "url": "https://stock.10jqka.com.cn/hks/20260512/c676612061.shtml"
+    },
+    {
+      "date": "2026-05-13",
+      "name": "阿里巴巴",
+      "title": "千问重构淘宝+千问3.6 Plus发布，AI电商全面落地",
+      "update": "5月10日阿里日展示千问全面接管淘宝搜索/推荐/客服，AI电商路线成型。千问3.6 Plus支持百万token长文本，价格仅为竞品1/30，开源下载量近10亿。",
+      "url": "https://36kr.com/p/3805692991462912"
+    },
+    {
+      "date": "2026-05-13",
+      "name": "字节跳动",
+      "title": "豆包正式收费68-500元/月，资本开支再增25%",
+      "update": "豆包（3.45亿MAU）推出付费订阅服务68-500元/月，大模型行业告别免费时代。同时字节资本开支再增25%用于AI数据中心建设，AI流量爆表驱动扩张。",
+      "url": "https://new.qq.com/rain/a/20260513A02JM500"
+    },
+    {
+      "date": "2026-05-13",
+      "name": "华为",
+      "title": "昇腾950PR批量出货，AI超节点放量元年",
+      "update": "昇腾950PR（单卡算力超英伟达对华特供版2.87倍）开始批量出货。华为还将推出昇腾950超节点（8EFLOPS FP8），全光互联组网。国内大厂纷纷押注华为算力方案。",
+      "url": "https://www.chinaz.com/2026/0511/1751432.shtml"
+    },
     {
       "date": "2026-05-12",
       "name": "腾讯",
@@ -5576,7 +6009,7 @@ var DATA = {
       "date": "2026-05-07",
       "level": "二级重要",
       "item": "AI拟人化互动服务管理暂行办法施行",
-      "days": "⚠️ 65天",
+      "days": "⚠️ 63天",
       "assessment": "混元AI助手合规评估",
       "deadline": "2026-07-15",
       "linkType": "",
@@ -5587,7 +6020,7 @@ var DATA = {
       "date": "2026-05-07",
       "level": "二级重要",
       "item": "网络安全标识管理办法施行",
-      "days": "⚠️ 51天",
+      "days": "⚠️ 49天",
       "assessment": "IoT设备标识方案",
       "deadline": "2026-07-01",
       "linkType": "",
@@ -5598,7 +6031,7 @@ var DATA = {
       "date": "2026-05-07",
       "level": "二级重要",
       "item": "金融产品网络营销管理办法施行",
-      "days": "⚠️ 142天",
+      "days": "⚠️ 140天",
       "assessment": "微信支付/财付通合规",
       "deadline": "2026-09-30",
       "linkType": "",
