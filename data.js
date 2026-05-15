@@ -1,5 +1,5 @@
 var DATA = {
-  "lastUpdate": "2026-05-14",
+  "lastUpdate": "2026-05-15",
   "entries": [
     {
       "id": "0430-001",
@@ -3832,6 +3832,110 @@ var DATA = {
       "isTop": false,
       "isNew": true,
       "publishDate": "2026-05-12"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "安徽省人民政府办公厅印发《安徽省人工智能万物应用行动方案》",
+      "source": "安徽省人民政府办公厅",
+      "province": "安徽",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "全面实施人工智能+行动，推动AI赋能制造、交通、医疗、教育等领域，打造通用人工智能产业创新和应用高地。",
+      "url": "https://ggzy.bengbu.gov.cn/fwzn/024007/024007002/20260514/b13cf8d9-0aef-4848-b9a4-0d00e94115c6.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-14"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "江苏数据要素×城市行全国首站在南京启动——发布60+数据供需对接成果",
+      "source": "国家数据局、江苏省数据局",
+      "province": "江苏",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "国家数据发展研究院联合江苏省数据局在南京举办数据要素×城市行首站，发布江苏数据要素支持政策包及60余项数据供需对接成果。",
+      "url": "https://js.cri.cn/20260514/d12fe5c8-c2a2-95eb-947f-aadd58c25ff5.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-14"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "江苏全面实施人工智能+行动打造创新发展高地——十五五专场发布会",
+      "source": "江苏省人民政府",
+      "province": "江苏",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "十五五开局起步专场发布会明确江苏将抓住AI历史机遇，全面实施人工智能+行动，推动AI创新发展高地建设。",
+      "url": "https://www.js.gov.cn/art/2026/5/15/art_60095_11771491.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-15"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "浙江出台民营经济新增13条举措——每年专项资金支持人工智能",
+      "source": "浙江省人民政府",
+      "province": "浙江",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "浙江省发布民营经济新增13条政策，每年安排财政专项资金支持人工智能，开放大科学装置、超算中心等创新资源，推动国企每年开放场景30个以上。",
+      "url": "https://www.chinanews.com/cj/2026/05-14/10621297.shtml",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-14"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "江西省印发交通运输人工智能+行动计划——驱动交通基础设施数字化转型",
+      "source": "江西省交通运输厅",
+      "province": "江西",
+      "category": "人工智能",
+      "impact": "低",
+      "summary": "江西省印发交通运输人工智能+行动计划，以AI驱动交通基础设施数字化转型，推动智慧交通建设。",
+      "url": "https://www.ncnews.com.cn/xwzx/ncxw/snxw/202605/t20260514_2218989.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-14"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "湖南以模数共振激活数据价值——推动数字经济产业升级",
+      "source": "湖南省数据局",
+      "province": "湖南",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "湖南积极响应工信部模数共振行动，通过算力券+数据要素双轮驱动，激活数据价值推动数字经济产业升级。",
+      "url": "https://www.nda.gov.cn/sjj/swdt/dfdt/0514/20260514131647721507645_pc.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-14"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "安徽省科技厅开展2026年度人工智能场景创新项目申报（AI赋能科学研究方向）",
+      "source": "安徽省科技厅",
+      "province": "安徽",
+      "category": "人工智能",
+      "impact": "低",
+      "summary": "依据安徽省打造通用人工智能产业创新和应用高地若干政策2.0版，开展AI赋能科学研究方向的场景创新项目申报。",
+      "url": "https://kjt.ah.gov.cn/kjzx/tzgg/123369801.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-14"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "福建省人工智能+制造行动计划(2026-2028年)公开征求意见",
+      "source": "福建省工业和信息化厅",
+      "province": "福建",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "福建省工信厅发布征求意见稿，规划2026-2028年AI赋能制造业路径，推动工业智能化升级。",
+      "url": "https://gxt.fujian.gov.cn/zmhd/yjzj/detail.htm?id=45947",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-14"
     }
   ],
   "personnel": [
@@ -5547,9 +5651,70 @@ var DATA = {
       "removals": [],
       "source_url": "",
       "analysis": null
+    },
+    {
+      "date": "2026-05-15",
+      "province": "湖南",
+      "title": "湖南省委管理干部任前公示（5月15日，拟任32名）",
+      "appointments": [],
+      "removals": [],
+      "source_url": "",
+      "analysis": null
+    },
+    {
+      "date": "2026-05-15",
+      "province": "江苏",
+      "title": "江苏4县市区党政一把手调整（南京六合、无锡等，5月14日）",
+      "appointments": [
+        {
+          "name": "林小明",
+          "newRole": "南京江北新区管委会主任、浦口区代区长",
+          "prevRole": "此前任职待确认"
+        }
+      ],
+      "removals": [],
+      "source_url": "",
+      "analysis": null
+    },
+    {
+      "date": "2026-05-15",
+      "province": "安徽",
+      "title": "安徽宿州市人大人事任免（5月12日）",
+      "appointments": [],
+      "removals": [],
+      "source_url": "",
+      "analysis": null
     }
   ],
   "competitors": [
+    {
+      "date": "2026-05-15",
+      "name": "OpenAI",
+      "title": "GPT-5.6曝光内测+Codex引入ChatGPT手机端",
+      "update": "GPT-5.5发布仅三周，GPT-5.6已在内测，同时OpenAI将Codex编码工具引入ChatGPT手机端，加速争夺移动端AI编程市场。另外OpenAI因TanStack安全事件敦促Mac用户升级ChatGPT应用。",
+      "url": "https://new.qq.com/rain/a/20260515A0219V00"
+    },
+    {
+      "date": "2026-05-15",
+      "name": "腾讯",
+      "title": "股东大会马化腾嫌船速太慢，AI信心大增，Hy3调用量增10倍",
+      "update": "腾讯召开2026年股东大会，马化腾表示还坐不下去，希望船速能快一点，最近几个月对AI业务信心大增。混元Hy3 preview调用增长超10倍，数十款Agent密集上新。Q1为AI补交88亿船票。",
+      "url": "https://www.stcn.com/article/detail/3910267.html"
+    },
+    {
+      "date": "2026-05-15",
+      "name": "智谱AI",
+      "title": "GLM-5.1旗舰版发布，SWE-Bench Pro超越GPT-5.4",
+      "update": "智谱AI发布GLM-5.1旗舰模型，在SWE-Bench Pro代码基准测试中得分58.4%，超越GPT-5.4的57.7%和Claude系列模型，标志国产模型在复杂编程任务上达到世界领先水平。",
+      "url": "https://www.itbear.com.cn/html/2026-05/1340668.html"
+    },
+    {
+      "date": "2026-05-15",
+      "name": "行业格局",
+      "title": "中国大模型五强格局成型：估值集体暴走",
+      "update": "DeepSeek、智谱AI、MiniMax、月之暗面、阶跃星辰五家公司形成中国大模型五强格局，估值集体飙升。DeepSeek估值515亿美元领跑，月之暗面突破200亿美元，智谱/MiniMax/阶跃紧随其后。",
+      "url": "https://new.qq.com/rain/a/20260515A03DP400"
+    },
     {
       "date": "2026-05-14",
       "name": "OpenAI",
@@ -6401,7 +6566,7 @@ var DATA = {
       "date": "2026-05-07",
       "level": "二级重要",
       "item": "AI拟人化互动服务管理暂行办法施行",
-      "days": "⚠️ 62天",
+      "days": "⚠️ 61天",
       "assessment": "混元AI助手合规评估",
       "deadline": "2026-07-15",
       "linkType": "",
@@ -6412,7 +6577,7 @@ var DATA = {
       "date": "2026-05-07",
       "level": "二级重要",
       "item": "网络安全标识管理办法施行",
-      "days": "⚠️ 48天",
+      "days": "⚠️ 47天",
       "assessment": "IoT设备标识方案",
       "deadline": "2026-07-01",
       "linkType": "",
@@ -6423,7 +6588,7 @@ var DATA = {
       "date": "2026-05-07",
       "level": "二级重要",
       "item": "金融产品网络营销管理办法施行",
-      "days": "⚠️ 139天",
+      "days": "⚠️ 138天",
       "assessment": "微信支付/财付通合规",
       "deadline": "2026-09-30",
       "linkType": "",
