@@ -3951,6 +3951,97 @@ var DATA = {
       "publishDate": "2026-05-14"
     },
     {
+      "date": "2026-05-14",
+      "title": "浙江出台民营经济新增13条举措——每年专项资金支持人工智能",
+      "source": "浙江省人民政府",
+      "province": "浙江",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "浙江省发布民营经济新增13条政策，每年安排财政专项资金支持人工智能，开放大科学装置、超算中心等创新资源，推动国企每年开放场景30个以上。",
+      "url": "https://www.chinanews.com/cj/2026/05-14/10621297.shtml",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-14"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "江西省印发交通运输人工智能+行动计划——驱动交通基础设施数字化转型",
+      "source": "江西省交通运输厅",
+      "province": "江西",
+      "category": "人工智能",
+      "impact": "低",
+      "summary": "江西省印发交通运输人工智能+行动计划，以AI驱动交通基础设施数字化转型，推动智慧交通建设。",
+      "url": "https://www.ncnews.com.cn/xwzx/ncxw/snxw/202605/t20260514_2218989.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-14"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "湖南以模数共振激活数据价值——推动数字经济产业升级",
+      "source": "湖南省数据局",
+      "province": "湖南",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "湖南积极响应工信部模数共振行动，通过算力券+数据要素双轮驱动，激活数据价值推动数字经济产业升级。",
+      "url": "https://www.nda.gov.cn/sjj/swdt/dfdt/0514/20260514131647721507645_pc.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-14"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "安徽省科技厅开展2026年度人工智能场景创新项目申报（AI赋能科学研究方向）",
+      "source": "安徽省科技厅",
+      "province": "安徽",
+      "category": "人工智能",
+      "impact": "低",
+      "summary": "依据安徽省打造通用人工智能产业创新和应用高地若干政策2.0版，开展AI赋能科学研究方向的场景创新项目申报。",
+      "url": "https://kjt.ah.gov.cn/kjzx/tzgg/123369801.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-14"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "福建省人工智能+制造行动计划(2026-2028年)公开征求意见",
+      "source": "福建省工业和信息化厅",
+      "province": "福建",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "福建省工信厅发布征求意见稿，规划2026-2028年AI赋能制造业路径，推动工业智能化升级。",
+      "url": "https://gxt.fujian.gov.cn/zmhd/yjzj/detail.htm?id=45947",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-14"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "安徽省人民政府办公厅印发《安徽省人工智能万物应用行动方案》",
+      "source": "安徽省人民政府办公厅",
+      "province": "安徽",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "全面实施人工智能+行动，推动AI赋能制造、交通、医疗、教育等领域，打造通用人工智能产业创新和应用高地。",
+      "url": "https://ggzy.bengbu.gov.cn/fwzn/024007/024007002/20260514/b13cf8d9-0aef-4848-b9a4-0d00e94115c6.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-14"
+    },
+    {
+      "date": "2026-05-14",
+      "title": "江苏数据要素×城市行全国首站在南京启动——发布60+数据供需对接成果",
+      "source": "国家数据局、江苏省数据局",
+      "province": "江苏",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "国家数据发展研究院联合江苏省数据局在南京举办数据要素×城市行首站，发布江苏数据要素支持政策包及60余项数据供需对接成果。",
+      "url": "https://js.cri.cn/20260514/d12fe5c8-c2a2-95eb-947f-aadd58c25ff5.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-14"
+    },
+    {
       "date": "2026-05-15",
       "title": "江苏全面实施人工智能+行动打造创新发展高地——十五五专场发布会",
       "source": "江苏省人民政府",
@@ -5779,20 +5870,30 @@ var DATA = {
     {
       "date": "2026-05-15",
       "province": "上海",
-      "title": "上海市政府人事任免通知（4月30日印发，5月13日公布）",
+      "title": "上海市政府人事任免通知（4月30日印发，5月13日公布）——马笑虹、张磊任副秘书长",
       "appointments": [
         {
           "name": "马笑虹",
           "newRole": "上海市人民政府副秘书长",
-          "prevRole": ""
+          "prevRole": "上海报业集团党委书记、社长（此前历任上海市委宣传部副部长等职）"
         },
         {
           "name": "张磊",
-          "newRole": "上海市人民政府副秘书长",
+          "newRole": "上海市人民政府副秘书长、市城市运行管理中心主任",
+          "prevRole": ""
+        },
+        {
+          "name": "姜爱锋",
+          "newRole": "上海市国防动员办公室主任",
           "prevRole": ""
         }
       ],
-      "removals": [],
+      "removals": [
+        {
+          "name": "方世忠",
+          "prevRole": "上海广播电视台台长、总编辑（此前任上海市委宣传部副部长）"
+        }
+      ],
       "source_url": "",
       "analysis": null
     }
