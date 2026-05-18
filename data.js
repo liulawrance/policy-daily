@@ -1,5 +1,5 @@
 var DATA = {
-  "lastUpdate": "2026-05-15",
+  "lastUpdate": "2026-05-18",
   "entries": [
     {
       "id": "0430-001",
@@ -4209,6 +4209,370 @@ var DATA = {
       "isTop": false,
       "isNew": true,
       "publishDate": "2026-05-14"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "国务院常务会议审议通过城市更新十五五规划和农业农村现代化十五五规划",
+      "source": "国务院",
+      "province": "国家级",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "5月15日国常会审议通过城市更新和农业农村现代化两个十五五规划，提出建设智慧城市、提升城市治理能力水平，推进宜居宜业和美乡村建设。",
+      "url": "https://www.cs.com.cn/xwzx/01/2026/05/15/detail_2026051510012053.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-15"
+    },
+    {
+      "date": "2026-05-16",
+      "title": "2026年知识产权强国建设推进计划发布——剑网2026等多个专项行动启动",
+      "source": "国家知识产权强国建设工作部际联席会议办公室",
+      "province": "国家级",
+      "category": "数字内容",
+      "impact": "高",
+      "summary": "5月16日发布推进计划，明确开展剑网2026打击网络侵权盗版、剑影2026院线电影版权保护、青少年版权保护季等专项行动，探索运用AI促进专利转化运用。",
+      "url": "https://www.cnipa.gov.cn/art/2026/5/16/art_75_206379.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-16"
+    },
+    {
+      "date": "2026-05-17",
+      "title": "世界电信日：信息通信业发布2026年十大暖心服务举措",
+      "source": "工信部/中国通信企业协会",
+      "province": "国家级",
+      "category": "平台经济",
+      "impact": "中",
+      "summary": "5月17日武汉世界电信日大会发布十件实事，涉及资费公示简化、业务二次确认、来电免打扰、取消无正当理由限制用户办理业务等，压实平台责任。",
+      "url": "https://www.chinanews.com/cj/2026/05-17/10622894.shtml",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-17"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "上海市深化一网通办改革打造高效办成一件事最佳体验地行动方案",
+      "source": "上海市人民政府办公厅",
+      "province": "上海",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "沪府办发〔2026〕6号，推动高效办成一件事向政策服务、综合监管、政务运行等领域拓展，实现高效办成一类事。",
+      "url": "https://www.shanghai.gov.cn/nw12344/20260515/b393a352da314b92b42730755baf2d25.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-15"
+    },
+    {
+      "date": "2026-05-17",
+      "title": "上海信息通信业发布智能体矩阵倡议书——全国首次谋划智能体即服务",
+      "source": "上海市通信管理局",
+      "province": "上海",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "全国首次系统性谋划智能体即服务(AaaS)，提出基础网络智能体、服务智能体、安全智能体、工业智能体四大方向，2028年目标L4高阶自智网络。",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260517/c3721b1199d54b309de60383cfae1bca.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-17"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "江苏省长宣布全面实施人工智能+行动打造全国AI创新发展高地",
+      "source": "江苏省人民政府",
+      "province": "江苏",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "省长刘小涛在十五五开局专题发布会上宣布，全省已备案大模型74款、注册用户超1.5亿、API日均调用4400万次，算力规模超10万P居全国前列。",
+      "url": "https://www.chinanews.com/cj/2026/05-15/10621509.shtml",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-15"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "江苏为高质量数据集建设划重点——已形成521个数据集超95PB",
+      "source": "江苏省数据局",
+      "province": "江苏",
+      "category": "数据安全",
+      "impact": "中",
+      "summary": "聚焦医疗、交通、工业等领域已形成高质量数据集521个总规模超95PB，将推动出台AI专项政策、建设数据标注产业创新试验区。",
+      "url": "https://zwfwb.zhenjiang.gov.cn/zwfwb/zxgz/202605/c4e9c13a3da146028bc798adc444b229.shtml",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-15"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "湖南省政府与中国电信签署战略合作协议——夯实算力支撑共育智算产业",
+      "source": "湖南省人民政府",
+      "province": "湖南",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "省委书记沈晓明见证签约，全省AI核心企业超400家、产业营收约850亿(+20%)，将聚焦五大领域推进5个十大抓手确保有突破见成效成高地。",
+      "url": "https://searchs.hunan.gov.cn/hnszf/hnyw/sy/hnyw1/202605/t20260516_33978557.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-15"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "九江市深化制造数智化转型协同人工智能+制造行动计划(2026-2027年)",
+      "source": "九江市人民政府",
+      "province": "江西",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "加速信息化和工业化深度融合，推进AI技术在制造业融合应用，培育壮大AI产业，构建具有九江特色的现代化产业体系。",
+      "url": "https://gxj.jiujiang.gov.cn/zwgk_248/zcfg/zcwj/202605/t20260512_7237077.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-12"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "华为鲲鹏昇腾开发者大会2026在武汉举行——发布数值托卡马克模拟软件",
+      "source": "华为",
+      "province": "国家级",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "5月15-16日举行，发布国内首个数值托卡马克模拟软件、昇腾AI+核聚变算力方案，推出聚变专用AI算法库面向开发者开放。",
+      "url": "https://xueqiu.com/7077825025/381971012",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-15"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "无锡高新区签约华为昇腾超节点集群——华东最大国产算力基地",
+      "source": "弘信电子/华为",
+      "province": "江苏",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "5月15日签约，首批部署4台华为昇腾384超节点服务器（单套算力215PFLOPS），拟打造华东地区规模最大的昇腾超节点算力集群。",
+      "url": "https://finance.ifeng.com/c/8tDtK8DROdU",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-15"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "国务院常务会议审议通过城市更新十五五规划和农业农村现代化十五五规划",
+      "source": "国务院",
+      "province": "国家级",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "5月15日国常会审议通过城市更新和农业农村现代化两个十五五规划，提出建设智慧城市、提升城市治理能力水平，推进宜居宜业和美乡村建设。",
+      "url": "https://www.cs.com.cn/xwzx/01/2026/05/15/detail_2026051510012053.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-15"
+    },
+    {
+      "date": "2026-05-16",
+      "title": "2026年知识产权强国建设推进计划发布——剑网2026等多个专项行动启动",
+      "source": "国家知识产权强国建设工作部际联席会议办公室",
+      "province": "国家级",
+      "category": "数字内容",
+      "impact": "高",
+      "summary": "5月16日发布推进计划，明确开展剑网2026打击网络侵权盗版、剑影2026院线电影版权保护、青少年版权保护季等专项行动，探索运用AI促进专利转化运用。",
+      "url": "https://www.cnipa.gov.cn/art/2026/5/16/art_75_206379.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-16"
+    },
+    {
+      "date": "2026-05-17",
+      "title": "世界电信日：信息通信业发布2026年十大暖心服务举措",
+      "source": "工信部/中国通信企业协会",
+      "province": "国家级",
+      "category": "平台经济",
+      "impact": "中",
+      "summary": "5月17日武汉世界电信日大会发布十件实事，涉及资费公示简化、业务二次确认、来电免打扰、取消无正当理由限制用户办理业务等，压实平台责任。",
+      "url": "https://www.chinanews.com/cj/2026/05-17/10622894.shtml",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-17"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "上海市深化一网通办改革打造高效办成一件事最佳体验地行动方案",
+      "source": "上海市人民政府办公厅",
+      "province": "上海",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "沪府办发〔2026〕6号，推动高效办成一件事向政策服务、综合监管、政务运行等领域拓展，实现高效办成一类事。",
+      "url": "https://www.shanghai.gov.cn/nw12344/20260515/b393a352da314b92b42730755baf2d25.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-15"
+    },
+    {
+      "date": "2026-05-17",
+      "title": "上海信息通信业发布智能体矩阵倡议书——全国首次谋划智能体即服务",
+      "source": "上海市通信管理局",
+      "province": "上海",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "全国首次系统性谋划智能体即服务(AaaS)，提出基础网络智能体、服务智能体、安全智能体、工业智能体四大方向，2028年目标L4高阶自智网络。",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260517/c3721b1199d54b309de60383cfae1bca.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-17"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "江苏省长宣布全面实施人工智能+行动打造全国AI创新发展高地",
+      "source": "江苏省人民政府",
+      "province": "江苏",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "省长刘小涛在十五五开局专题发布会上宣布，全省已备案大模型74款、注册用户超1.5亿、API日均调用4400万次，算力规模超10万P居全国前列。",
+      "url": "https://www.chinanews.com/cj/2026/05-15/10621509.shtml",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-15"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "江苏为高质量数据集建设划重点——已形成521个数据集超95PB",
+      "source": "江苏省数据局",
+      "province": "江苏",
+      "category": "数据安全",
+      "impact": "中",
+      "summary": "聚焦医疗、交通、工业等领域已形成高质量数据集521个总规模超95PB，将推动出台AI专项政策、建设数据标注产业创新试验区。",
+      "url": "https://zwfwb.zhenjiang.gov.cn/zwfwb/zxgz/202605/c4e9c13a3da146028bc798adc444b229.shtml",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-15"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "湖南省政府与中国电信签署战略合作协议——夯实算力支撑共育智算产业",
+      "source": "湖南省人民政府",
+      "province": "湖南",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "省委书记沈晓明见证签约，全省AI核心企业超400家、产业营收约850亿(+20%)，将聚焦五大领域推进5个十大抓手确保有突破见成效成高地。",
+      "url": "https://searchs.hunan.gov.cn/hnszf/hnyw/sy/hnyw1/202605/t20260516_33978557.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-15"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "九江市深化制造数智化转型协同人工智能+制造行动计划(2026-2027年)",
+      "source": "九江市人民政府",
+      "province": "江西",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "加速信息化和工业化深度融合，推进AI技术在制造业融合应用，培育壮大AI产业，构建具有九江特色的现代化产业体系。",
+      "url": "https://gxj.jiujiang.gov.cn/zwgk_248/zcfg/zcwj/202605/t20260512_7237077.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-12"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "华为鲲鹏昇腾开发者大会2026在武汉举行——发布数值托卡马克模拟软件",
+      "source": "华为",
+      "province": "国家级",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "5月15-16日举行，发布国内首个数值托卡马克模拟软件、昇腾AI+核聚变算力方案，推出聚变专用AI算法库面向开发者开放。",
+      "url": "https://xueqiu.com/7077825025/381971012",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-15"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "无锡高新区签约华为昇腾超节点集群——华东最大国产算力基地",
+      "source": "弘信电子/华为",
+      "province": "江苏",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "5月15日签约，首批部署4台华为昇腾384超节点服务器（单套算力215PFLOPS），拟打造华东地区规模最大的昇腾超节点算力集群。",
+      "url": "https://finance.ifeng.com/c/8tDtK8DROdU",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-15"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "浙江出台13条措施促进民营经济高质量发展——明确AI等9领域向民资开放",
+      "source": "浙江省委、省政府",
+      "province": "浙江",
+      "category": "数字经济",
+      "impact": "高",
+      "summary": "铁路、核电等9领域向民资开放（持股不低于10%），核电/深远海风电不低于20%。新增无还本续贷5000亿+、支持民企参与AI创新。",
+      "url": "https://www.cs.com.cn/xwzx/01/2026/05/15/detail_2026051510011999.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-15"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "浙江省知识产权保护中心举办AI企业商业秘密保护座谈会",
+      "source": "浙江省知识产权保护中心",
+      "province": "浙江",
+      "category": "数据安全",
+      "impact": "中",
+      "summary": "研制《人工智能企业商业秘密保护指南》标准，聚焦AI企业商业秘密保护核心痛点，11家单位14位专家参会。",
+      "url": "https://yushen.zjamr.zj.gov.cn/web/details/df789313be6f425d87c6efdee592488e.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-15"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "安徽十五五开局发布会：人工智能+万物应用行动方案已出台",
+      "source": "安徽省人民政府",
+      "province": "安徽",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "省长王清宪介绍十五五部署，已出台AI+万物应用行动方案，目标应用落地超万个、智能终端普及率超90%。聚焦量子+AI+聚变协同联动。",
+      "url": "https://www.ce.cn/xwzx/gnsz/gdxw/202605/t20260516_2969685.shtml",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-15"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "安徽省科技厅启动2026年度AI场景创新项目（AI赋能科学研究方向）申报",
+      "source": "安徽省科学技术厅",
+      "province": "安徽",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "聚焦省1188现代化产业体系建设，支持使用AI科研工具开展应用基础研究，解决产业发展中的科学问题。",
+      "url": "https://www.ahcy.gov.cn/foundPolicy/policyInterpretDetail.html?id=a04f89d2fd154c508ac26eb52e3c9d83",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-15"
+    },
+    {
+      "date": "2026-05-16",
+      "title": "福建省政策入园数据进企服务到府惠企活动——数据赋能企业高质量发展",
+      "source": "福建省大数据局",
+      "province": "福建",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "5月14日在南平举办，聚焦数据管理政策、公共数据开发利用、企业数据流通交易，重点覆盖数字经济核心产业创新企业。",
+      "url": "http://www.fujian.gov.cn:85/gate/big5/www.fujian.gov.cn/xwdt/mszx/202605/t20260516_7148614.htm",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-16"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "厦门经济特区人工智能产业促进条例（草案送审稿）公开征求意见",
+      "source": "厦门市司法局/厦门市工信局",
+      "province": "福建",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "厦门以特区立法形式促进AI产业发展，征求意见截止6月8日。这是福建首个AI产业专项地方立法。",
+      "url": "https://www.xm.gov.cn/zmhd/myzj/gzcamyzj/202605/t20260507_2994710.htm",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-08"
     }
   ],
   "personnel": [
@@ -5987,9 +6351,94 @@ var DATA = {
       ],
       "source_url": "",
       "analysis": null
+    },
+    {
+      "date": "2026-05-18",
+      "province": "江苏",
+      "title": "南京4区区长同日调整（5月14日）",
+      "appointments": [
+        {
+          "name": "施勇君",
+          "newRole": "南京市栖霞区代区长",
+          "prevRole": "南京市委副秘书长、市委研究室主任"
+        },
+        {
+          "name": "陈文斌",
+          "newRole": "南京市雨花台区代区长",
+          "prevRole": "无锡市工信局局长"
+        },
+        {
+          "name": "林小明",
+          "newRole": "南京江北新区管委会主任、浦口区代区长",
+          "prevRole": "淮安市委常委、常务副市长"
+        },
+        {
+          "name": "荣飞",
+          "newRole": "南京市六合区代区长",
+          "prevRole": "此前南京市工作"
+        }
+      ],
+      "removals": [],
+      "source_url": "",
+      "analysis": null
+    },
+    {
+      "date": "2026-05-18",
+      "province": "江西",
+      "title": "江西省管领导干部任前公示（5月15日）",
+      "appointments": [
+        {
+          "name": "毛暉圆",
+          "newRole": "拟任设区市委常委",
+          "prevRole": "省纪委省监委党风政风监督室主任（正处级）"
+        },
+        {
+          "name": "熊杰",
+          "newRole": "拟提名为设区市中级人民法院院长候选人",
+          "prevRole": "省高级人民法院办公室主任"
+        }
+      ],
+      "removals": [],
+      "source_url": "",
+      "analysis": null
     }
   ],
   "competitors": [
+    {
+      "date": "2026-05-18",
+      "name": "OpenAI",
+      "title": "GPT-5 Agent Mode正式发布——最长24小时自主任务执行",
+      "update": "5月16日推出GPT-5 Agent Mode，可自主浏览网页、编码和执行多步骤任务，最长持续24小时。基础月费20美元，重度用户可达200美元/月。标志着AI Agent进入长时间自主执行新阶段。",
+      "url": "https://www.cnblogs.com/yijunzhao/p/20067465"
+    },
+    {
+      "date": "2026-05-18",
+      "name": "DeepSeek",
+      "title": "500亿融资持续推进——6月将推V4.1迭代版本",
+      "update": "据每日经济新闻5/15报道，基金门槛起投50亿元，60-70%资金将用于算力集群建设，V4.1将新增图像音频理解+强化MCP适配，大规模采用国产算力。",
+      "url": "https://www.stcn.com/article/detail/3910203.html"
+    },
+    {
+      "date": "2026-05-18",
+      "name": "阿里巴巴",
+      "title": "Qwen3.6-35B-A3B登顶Terminal-Bench 2.0——3B激活参数打入Agent编程第一梯队",
+      "update": "阿里Qwen3.6-35B-A3B（35B总参/3B激活MoE）在Terminal-Bench 2.0评测得分24.6%，展示稀疏MoE架构在Agent编程领域的高性价比优势，推动小参数高效模型路线。",
+      "url": "https://startupfortune.com/alibabas-new-qwen-models-show-how-far-efficiency-can-stretch"
+    },
+    {
+      "date": "2026-05-18",
+      "name": "字节跳动",
+      "title": "豆包Agent月活突破2亿+Cola DLM扩散语言模型开源",
+      "update": "字节豆包Agent月活跃用户突破2亿，推出企业定制版。同时ByteDance Seed开源Cola DLM扩散语言模型，用连续潜在空间替代自回归token生成，探索全新文本生成路径。",
+      "url": "https://www.cnblogs.com/yijunzhao/p/20067465"
+    },
+    {
+      "date": "2026-05-18",
+      "name": "华为",
+      "title": "鲲鹏昇腾开发者大会2026+无锡昇腾超节点签约",
+      "update": "5月15-16日鲲鹏昇腾开发者大会(KADC2026)在武汉举行，发布国内首个数值托卡马克模拟软件。同日无锡签约华东最大昇腾超节点集群（4台384节点，单套215PFLOPS）。",
+      "url": "https://finance.ifeng.com/c/8tDtK8DROdU"
+    },
     {
       "date": "2026-05-15",
       "name": "OpenAI",
