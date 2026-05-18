@@ -6851,63 +6851,72 @@ var DATA = {
       "name": "OpenAI",
       "title": "GPT-5 Agent Mode正式发布——最长24小时自主任务执行",
       "update": "5月16日推出GPT-5 Agent Mode，可自主浏览网页、编码和执行多步骤任务，最长持续24小时。基础月费20美元，重度用户可达200美元/月。标志着AI Agent进入长时间自主执行新阶段。",
-      "url": "https://www.cnblogs.com/yijunzhao/p/20067465"
+      "url": "https://www.cnblogs.com/yijunzhao/p/20067465",
+      "province": ""
     },
     {
       "date": "2026-05-18",
       "name": "OpenAI",
       "title": "40亿美元成立部署公司DeployCo+收购声音克隆公司Weights.gg",
       "update": "5月11日宣布成立OpenAI Deployment Company（40亿美元，TPG/贝恩/软银等19家机构），COO亲自挂帅，收购AI咨询公司Toromo（150名工程师）。同时低调收购声音克隆平台Weights.gg。CFO表示1220亿融资后仍考虑公开市场。",
-      "url": "https://www.sohu.com/a/1023195005_211762"
+      "url": "https://www.sohu.com/a/1023195005_211762",
+      "province": ""
     },
     {
       "date": "2026-05-18",
       "name": "Anthropic",
       "title": "300亿美元融资敲定——估值飙升至9000亿超越OpenAI",
       "update": "5月15日据报道已就300亿美元融资达成最终条款，红杉/Dragoneer/Greenoaks/Altimeter联合领投，投后估值约9000亿美元（超OpenAI的8520亿）。另与黑石/H&F/高盛成立15亿美元合资企业。年化收入半年涨4倍。",
-      "url": "https://m.jiemian.com/article/14434603.html"
+      "url": "https://m.jiemian.com/article/14434603.html",
+      "province": ""
     },
     {
       "date": "2026-05-18",
       "name": "DeepSeek",
       "title": "500亿融资持续推进——6月将推V4.1迭代版本",
       "update": "据每日经济新闻5/15报道，基金门槛起投50亿元，60-70%资金将用于算力集群建设，V4.1将新增图像音频理解+强化MCP适配，大规模采用国产算力。",
-      "url": "https://www.stcn.com/article/detail/3910203.html"
+      "url": "https://www.stcn.com/article/detail/3910203.html",
+      "province": ""
     },
     {
       "date": "2026-05-18",
       "name": "阿里巴巴",
       "title": "Qwen3.6-35B-A3B登顶Terminal-Bench 2.0——3B激活参数打入Agent编程第一梯队",
       "update": "阿里Qwen3.6-35B-A3B（35B总参/3B激活MoE）在Terminal-Bench 2.0评测得分24.6%，展示稀疏MoE架构在Agent编程领域的高性价比优势，推动小参数高效模型路线。",
-      "url": "https://startupfortune.com/alibabas-new-qwen-models-show-how-far-efficiency-can-stretch"
+      "url": "https://startupfortune.com/alibabas-new-qwen-models-show-how-far-efficiency-can-stretch",
+      "province": ""
     },
     {
       "date": "2026-05-18",
       "name": "阿里巴巴",
       "title": "FY2026财报：营收破万亿但净利近零——AI投入超3800亿+即时零售双线烧钱",
       "update": "5月13日发布FY2026Q4财报：营收2434亿(+3%)，经调整净利仅0.86亿元（去年298亿），利润同比跌100%。云收入416亿(+38%)，AI收入占比突破30%。吴泳铭：未来5年AI基建投入将远超3800亿。阿里健康整合医药板块，发布AI产品「氢离子」。",
-      "url": "https://tele.ofweek.com/2026-05/ART-8320505-8460-30687639.html"
+      "url": "https://tele.ofweek.com/2026-05/ART-8320505-8460-30687639.html",
+      "province": ""
     },
     {
       "date": "2026-05-18",
       "name": "字节跳动",
       "title": "豆包Agent月活突破2亿+Cola DLM扩散语言模型开源",
       "update": "字节豆包Agent月活跃用户突破2亿，推出企业定制版。同时ByteDance Seed开源Cola DLM扩散语言模型，用连续潜在空间替代自回归token生成，探索全新文本生成路径。",
-      "url": "https://www.cnblogs.com/yijunzhao/p/20067465"
+      "url": "https://www.cnblogs.com/yijunzhao/p/20067465",
+      "province": ""
     },
     {
       "date": "2026-05-18",
       "name": "字节跳动",
       "title": "2026年资本支出计划超2000亿——较初步计划增加25%",
       "update": "据媒体报道，字节跳动今年资本支出将超2000亿元，较初步计划增加25%，主要投入AI基础设施。豆包已开启分层订阅付费模式，行业预期AI应用将最终全面过渡至订阅模式。",
-      "url": "https://finance.eastmoney.com/a/202605153738707480.html"
+      "url": "https://finance.eastmoney.com/a/202605153738707480.html",
+      "province": ""
     },
     {
       "date": "2026-05-18",
       "name": "华为",
       "title": "鲲鹏昇腾开发者大会2026+无锡昇腾超节点签约",
       "update": "5月15-16日鲲鹏昇腾开发者大会(KADC2026)在武汉举行，发布国内首个数值托卡马克模拟软件。同日无锡签约华东最大昇腾超节点集群（4台384节点，单套215PFLOPS）。",
-      "url": "https://finance.ifeng.com/c/8tDtK8DROdU"
+      "url": "https://finance.ifeng.com/c/8tDtK8DROdU",
+      "province": ""
     },
     {
       "date": "2026-05-15",
