@@ -7978,6 +7978,28 @@ var DATA = {
       "counterpart": "江西交通投资集团",
       "summary": "推动国资国企改革走深走实",
       "url": "https://www.sohu.com/a/1022477850_121106994"
+    },
+    {
+      "date": "2026-05-18",
+      "province": "湖南",
+      "leader": "沈晓明",
+      "role": "省委书记",
+      "type": "会议",
+      "title": "全省防汛和安全稳定工作部署会议",
+      "counterpart": "省长毛伟明",
+      "summary": "建立健全安全发展工作机制，以科技创新赋能安全监管",
+      "url": "https://www.hunan.gov.cn/hnszf/hnyw/sy/hnyw1/202605/t20260517_33978776.html"
+    },
+    {
+      "date": "2026-05-18",
+      "province": "江西",
+      "leader": "尹弘",
+      "role": "省委书记",
+      "type": "调研",
+      "title": "深入万载县暗访检查烟花爆竹安全生产工作",
+      "counterpart": "万载县花炮企业",
+      "summary": "从严从实从细抓好烟花爆竹全链条安全监管",
+      "url": "https://www.163.com/dy/article/KT34L1H60514R9P4.html"
     }
   ]
 };
