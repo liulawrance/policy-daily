@@ -6392,7 +6392,10 @@ var DATA = {
       "province": "上海",
       "title": "调研高增长企业并开展现场办公——支持企业把握数字化智能化绿色化机遇",
       "summary": "5月18日下午,市委书记陈吉宁调研上海六联智能科技(智能终端)、海智在线(工业零部件数智化产业互联网),指出要深入把握人工智能发展底层逻辑,顺应产业链垂直整合和横向协同趋势,在推动工业生产方式组织方式创新上积极探索,在构建创新生态产业生态上发挥牵引带动作用。",
-      "url": "https://www.shanghai.gov.cn/nw4411/20260519/11a129839cbd40069ad35d11001d42a8.html"
+      "url": "https://www.shanghai.gov.cn/nw4411/20260519/11a129839cbd40069ad35d11001d42a8.html",
+      "role": "市委书记",
+      "type": "调研",
+      "counterpart": ""
     },
     {
       "date": "2026-05-19",
@@ -6400,7 +6403,10 @@ var DATA = {
       "province": "上海",
       "title": "围绕未来产业发展开展中央巡视反馈意见整改专题调研",
       "summary": "陈吉宁来到上海未来产业基金设立的未来启点社区,听取社区建设及生态营造汇报,与加速纪元、极光天算、中器无量等创新企业交流,鼓励企业聚焦细分赛道持续攻坚,抢占前沿未来领域制高点。朱忠明参加。",
-      "url": "https://www.shio.gov.cn/TrueCMS//shxwbgs/ywts/content/a92db121-ebe3-4dfb-a2cc-a2386cbd2339.htm"
+      "url": "https://www.shio.gov.cn/TrueCMS//shxwbgs/ywts/content/a92db121-ebe3-4dfb-a2cc-a2386cbd2339.htm",
+      "role": "市委书记",
+      "type": "调研",
+      "counterpart": ""
     },
     {
       "date": "2026-05-19",
@@ -6408,7 +6414,10 @@ var DATA = {
       "province": "江苏",
       "title": "主持省委常委会会议——学习贯彻总书记近期重要讲话持续巩固经济稳中向好",
       "summary": "5月18日省委常委会召开会议,信长星主持并讲话。传达学习习近平总书记在中央政治局会议上关于一季度经济形势讲话精神,强调持续巩固拓展经济稳中向好势头;学习中美元首会谈精神,要求发挥江苏开放优势深化重点领域交流合作。",
-      "url": "https://www.jiangsu.gov.cn/art/2026/5/19/art_60095_11772998.html"
+      "url": "https://www.jiangsu.gov.cn/art/2026/5/19/art_60095_11772998.html",
+      "role": "省委书记",
+      "type": "会议",
+      "counterpart": ""
     },
     {
       "date": "2026-05-19",
@@ -6416,7 +6425,10 @@ var DATA = {
       "province": "江苏",
       "title": "在全省警示教育会上强调坚持为人民出政绩以实干出政绩",
       "summary": "5月18日省委召开全省警示教育会,信长星主持并讲话,强调深入学习贯彻习近平总书记关于树立和践行正确政绩观的重要论述,坚持以案示警以案促改促治。省长刘小涛、省政协主席张义珍出席。",
-      "url": "https://www.js.gov.cn/art/2026/5/19/art_60095_11772996.html"
+      "url": "https://www.js.gov.cn/art/2026/5/19/art_60095_11772996.html",
+      "role": "省委书记",
+      "type": "会议",
+      "counterpart": ""
     },
     {
       "date": "2026-05-19",
@@ -6424,7 +6436,10 @@ var DATA = {
       "province": "安徽",
       "title": "省委专题会议部署信访积案集中整治——坚持人民至上勇于担当克难",
       "summary": "5月18日安徽省委用一天时间召开专题会议研究部署信访积案问题集中整治推进工作。梁言顺主持并讲话,强调以正确政绩观指导推动信访积案化解。王清宪、张西明、唐良智出席,各市党委政府主要负责同志汇报工作。",
-      "url": "https://www.163.com/dy/article/KT86J4II0514DTOA.html"
+      "url": "https://www.163.com/dy/article/KT86J4II0514DTOA.html",
+      "role": "省委书记",
+      "type": "会议",
+      "counterpart": ""
     }
   ]
 };
