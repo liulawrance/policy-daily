@@ -1171,17 +1171,71 @@ async function generateMonthlyExcel(month) {
     });
     sections.push({name:"重大政策", items:polItems});
 
-    // 4. 行业信息
+    // 4. 行业信息（AI/大模型、游戏/电竞、云计算/企业服务、AIGC、金融科技、社交平台）
+    //    关注：行业大会、行业格局变动、重磅产品
+    var industryKw = ["AI","人工智能","大模型","智能体","算力","智算","AIGC","生成式","游戏","电竞","云计算","企业服务","SaaS","金融科技","数字人民币","社交","内容生态","开源","数据要素","数字经济"];
+    var industryEventKw = ["大会","峰会","展会","博览会","论坛","发布会","格局","突破","首发","上线","开源","发布"];
     seenKeys = {};
     var indItems = [];
-    indOverflow.forEach(function(item){if(seenKeys[item[0]]) return; seenKeys[item[0]]=true; indItems.push(item);});
+
+    // 来源1：政策溢出（含行业关键词的）
+    indOverflow.forEach(function(item){
+      if(seenKeys[item[0]]) return;
+      var content = item[0]+item[2];
+      var isInd = false;
+      industryKw.forEach(function(kw){if(content.indexOf(kw)>=0) isInd=true;});
+      industryEventKw.forEach(function(kw){if(content.indexOf(kw)>=0) isInd=true;});
+      if(!isInd) return;
+      seenKeys[item[0]]=true;
+      indItems.push(item);
+    });
+
+    // 来源2：events
     (DATA.events||[]).filter(function(ev){
+      if(ev.date&&!ev.date.startsWith(month)) return false;
       for(var i=0;i<cities.length;i++){if((ev.location||"").indexOf(cities[i])>=0) return true;}
       return false;
     }).forEach(function(ev){
       if(seenKeys[ev.name]) return; seenKeys[ev.name]=true;
-      indItems.push([ev.name, "", (ev.time?ev.time+"，":"")+(ev.location||"")+"。"+(ev.relevance||ev.note||"")]);
+      var dp = ev.time||ev.date||"";
+      indItems.push([ev.name, ev.url||"", (dp?dp+"，":"")+(ev.location?ev.location+"。":"")+(ev.relevance||ev.note||"")]);
     });
+
+    // 来源3：competitors 中的行业格局类
+    (DATA.competitors||[]).filter(function(c){
+      if(!c.date||!c.date.startsWith(month)) return false;
+      if(c.name==="行业格局"||c.name==="其他"){
+        var content = (c.title||"")+(c.update||"");
+        for(var ci=0;ci<cities.length;ci++){if(content.indexOf(cities[ci])>=0) return true;}
+        if(prov==="上海") return true;
+        return false;
+      }
+      return false;
+    }).forEach(function(c){
+      var key = c.name+(c.title||"");
+      if(seenKeys[key]) return; seenKeys[key]=true;
+      var dp = c.date?c.date.replace("2026-","").replace("-","月")+"日":"";
+      indItems.push([(c.title||c.name), c.url||"", (dp?dp+"，":"")+(c.update||"")]);
+    });
+
+    // 来源4：entries 中含行业方向+事件类型的
+    (DATA.entries||[]).filter(function(e){
+      if(!e.date||!e.date.startsWith(month)) return false;
+      if(e.province!==prov) return false;
+      var title = e.title||"";
+      if(polItems.some(function(p){return p[0]===title;})) return false;
+      if(indOverflow.some(function(p){return p[0]===title;})) return false;
+      var hasDir = false;
+      industryKw.forEach(function(kw){if(title.indexOf(kw)>=0) hasDir=true;});
+      var hasEvt = false;
+      industryEventKw.forEach(function(kw){if(title.indexOf(kw)>=0) hasEvt=true;});
+      return hasDir&&hasEvt;
+    }).forEach(function(e){
+      if(seenKeys[e.title]) return; seenKeys[e.title]=true;
+      var dp = e.publishDate?e.publishDate.replace("2026-","").replace("-","月")+"日":"";
+      indItems.push([e.title, e.url||"", (dp?dp+"，":"")+(e.summary||"")]);
+    });
+
     sections.push({name:"行业信息", items:indItems});
 
     // 5. 友商动态
