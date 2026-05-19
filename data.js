@@ -1,5 +1,5 @@
 var DATA = {
-  "lastUpdate": "2026-05-18",
+  "lastUpdate": "2026-05-19",
   "entries": [
     {
       "id": "0430-001",
@@ -3173,6 +3173,110 @@ var DATA = {
       "isTop": true,
       "isNew": true,
       "publishDate": "2026-05-08"
+    },
+    {
+      "date": "2026-05-19",
+      "title": "2026年中国网络文明大会在南宁开幕发布人工智能应用伦理安全指引1.0",
+      "source": "中央网信办",
+      "province": "国家级",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "5月19日中国网络文明大会在广西南宁开幕,设置14场分论坛含AI赋能网络文明分论坛,发布人工智能应用伦理安全指引1.0,启动2026年全民数字素养与技能提升月。聚焦AI技术滥用算法乱象等治理课题。",
+      "url": "https://news.cri.cn/20260519/01650283-7beb-4600-b0a9-656c144693f8.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-19"
+    },
+    {
+      "date": "2026-05-19",
+      "title": "国务院2026年度立法工作计划明确推进人工智能综合性立法",
+      "source": "国务院办公厅",
+      "province": "国家级",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "国务院办公厅发布2026年度立法工作计划(国办发2026-14号),明确提出完善人工智能治理加快推进人工智能健康发展综合性立法。今年首次明确要制定综合性法律,中国AI治理进入法规密集出台期。",
+      "url": "https://www.mee.gov.cn/zcwj/gwywj/202605/t20260514_1152263.shtml",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-11"
+    },
+    {
+      "date": "2026-05-19",
+      "title": "上海十五五AI+行动全面部署10万台人形机器人进工厂年均10亿三券补贴",
+      "source": "上海市人民政府",
+      "province": "上海",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "5月18日上海市政府发布会部署十五五AI+行动:推动10万台人形机器人进工厂,规上企业智能体应用普及率超80%,每年10亿元算力券语料券模型券先用后付,实施百团百项工程,强化AI Coding做强软件龙头。",
+      "url": "https://www.shanghai.gov.cn/nw9820/20260518/5b490c148d994af89d3cbc35a4c50d03.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-18"
+    },
+    {
+      "date": "2026-05-19",
+      "title": "江苏十五五全面实施AI+行动算力超10万P核心产业剑指万亿级",
+      "source": "江苏省人民政府",
+      "province": "江苏",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "江苏省十五五发布会省长宣布:算力规模超10万P居全国前列十五五末翻番;AI核心产业产值目标万亿级;设立近2800亿战略新兴产业基金其中千亿投向AI;全链条推动AI+制造;300+AI青年社区。",
+      "url": "https://society-app.people.cn/n1/2026/0515/c1008-40720317.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-18"
+    },
+    {
+      "date": "2026-05-19",
+      "title": "无锡高新区签约弘信电子Token工厂首批部署4台华为昇腾384超节点",
+      "source": "无锡市人民政府",
+      "province": "江苏",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "5月15日弘信电子联手无锡高新区签约江苏省内首个华为昇腾384超节点算力集群,首批4台384卡服务器组成大规模Token工厂,打造国芯国模算力集群新样板。",
+      "url": "http://www.sohu.com/a/1023863535_222256",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-17"
+    },
+    {
+      "date": "2026-05-19",
+      "title": "国家网信办发布生成式AI服务备案公告累计868款备案530款登记",
+      "source": "国家互联网信息办公室",
+      "province": "国家级",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "5月13日国家网信办公告:2026年3-4月新增72款生成式AI服务备案49款登记,截至4月30日累计868款备案530款登记。要求已上线AI应用公示所用已备案模型名称和备案号。",
+      "url": "https://www.cac.gov.cn/2026-05/13/c_1780413225190669.htm",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-13"
+    },
+    {
+      "date": "2026-05-19",
+      "title": "湖南省加快场景创新和大规模应用三年行动方案2026-2028年",
+      "source": "湖南省人民政府办公厅",
+      "province": "湖南",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "湖南省政府办公厅印发场景创新三年方案,实施AI+制造行动围绕工程机械轨道交通打造智能调度机器人等场景,文化科技融合打造智慧景区AIGC元宇宙云展会,同时部署农业消费跨界融合。",
+      "url": "https://gxt.hunan.gov.cn/gxt/xxgk_71033/zcfg/dfxfg/202605/t20260509_33972619.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-09"
+    },
+    {
+      "date": "2026-05-19",
+      "title": "江西省工业领域算力服务和数据筑基三年行动方案2026-2028年",
+      "source": "江西省工业和信息化厅",
+      "province": "江西",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "江西省印发工业领域算力服务和数据筑基三年行动方案,构建多元供给协同部署的智能算力服务体系,加快工业数据底座建设,推动由设备联网数据可视向算力驱动数据赋能跃升。",
+      "url": "https://www.yugan.gov.cn/yugan/zwdtaaaa/202605/911b714000dd499f93f296e88fcd49fe.shtml",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-09"
     }
   ],
   "personnel": [
@@ -4972,9 +5076,152 @@ var DATA = {
       "removals": [],
       "source_url": "",
       "analysis": null
+    },
+    {
+      "date": "2026-05-19",
+      "province": "江苏",
+      "title": "江苏省人民政府关于张胜等职务任免的通知(5月18日)",
+      "appointments": [
+        {
+          "name": "张胜",
+          "newRole": "江苏省政府办公厅副主任",
+          "prevRole": "试用期一年"
+        },
+        {
+          "name": "高飞",
+          "newRole": "江苏省科学技术厅副厅长",
+          "prevRole": ""
+        },
+        {
+          "name": "蒋成效",
+          "newRole": "江苏省商务厅副厅长",
+          "prevRole": ""
+        },
+        {
+          "name": "顾忠卫",
+          "newRole": "江苏省政府驻上海办事处副主任",
+          "prevRole": "试用期一年"
+        }
+      ],
+      "removals": [
+        {
+          "name": "王文斌",
+          "prevRole": "江苏省政府办公厅副主任"
+        },
+        {
+          "name": "朱新华",
+          "prevRole": "江苏省农业农村厅副厅长"
+        },
+        {
+          "name": "刘建东",
+          "prevRole": "江苏省政府外事办公室副主任"
+        }
+      ],
+      "source_url": "",
+      "analysis": null
+    },
+    {
+      "date": "2026-05-19",
+      "province": "江苏",
+      "title": "江苏省13名省管领导干部任前公示(5月18日)",
+      "appointments": [
+        {
+          "name": "黄克涛",
+          "newRole": "拟任县(市区)委书记",
+          "prevRole": "滨海县委副书记县长"
+        },
+        {
+          "name": "吴洋",
+          "newRole": "拟任县(市区)委书记",
+          "prevRole": "连云港市赣榆区委副书记区长"
+        },
+        {
+          "name": "周常青",
+          "newRole": "拟任省委管理企业正职",
+          "prevRole": "无锡市委常委政法委书记"
+        }
+      ],
+      "removals": [],
+      "source_url": "",
+      "analysis": null
+    },
+    {
+      "date": "2026-05-19",
+      "province": "安徽",
+      "title": "安徽省委组织部干部任前公示公告(5月18日)",
+      "appointments": [
+        {
+          "name": "李立新",
+          "newRole": "拟任省直正厅级领导职务",
+          "prevRole": "亳州市纪委书记"
+        },
+        {
+          "name": "王晓晨",
+          "newRole": "拟任省辖市市委常委",
+          "prevRole": "六安市副市长公安局局长"
+        },
+        {
+          "name": "范伟军",
+          "newRole": "拟任省辖市市委常委",
+          "prevRole": "淮南市副市长"
+        },
+        {
+          "name": "马飞",
+          "newRole": "拟任省辖市市委常委",
+          "prevRole": "滁州市副市长公安局局长"
+        },
+        {
+          "name": "曹小明",
+          "newRole": "拟任省辖市市委常委",
+          "prevRole": "芜湖市副市长"
+        }
+      ],
+      "removals": [],
+      "source_url": "",
+      "analysis": null
     }
   ],
   "competitors": [
+    {
+      "date": "2026-05-19",
+      "name": "腾讯",
+      "title": "腾讯云宣布Hy3和DeepSeek-V4-Pro模型5月27日正式商用",
+      "update": "5月19日腾讯云公告Hy3 preview和DeepSeek-V4-Pro模型5月27日结束免费公测转正式商用。Hy3已部署在元宝QQ等131产品,Q1营收1965亿(+9%),AI企业服务+20%。",
+      "url": "https://new.qq.com/rain/a/20260519A03TKS00",
+      "province": ""
+    },
+    {
+      "date": "2026-05-19",
+      "name": "阿里巴巴",
+      "title": "千问Qwen3.7-Max上线+5月20日阿里云峰会发布重量级新版本",
+      "update": "5月18日千问预告5月20日杭州阿里云峰会发布升级版大模型;Qwen3.7-Max-Preview已上线Arena AI竞技场文本排名第13数学第7编程第10。",
+      "url": "https://finance.sina.com.cn/tech/digi/2026-05-19/doc-inhyknru0243615.shtml",
+      "province": "浙江"
+    },
+    {
+      "date": "2026-05-19",
+      "name": "字节跳动",
+      "title": "豆包上线博物馆AI讲解模式合作20余家博物馆",
+      "update": "5月18日豆包上线博物馆讲解模式覆盖国博等20余家场馆,对准展品自动识别讲解。多模态垂直场景落地,月活超3.45亿。",
+      "url": "https://stock.stockstar.com/IG2026051800029826.shtml",
+      "province": ""
+    },
+    {
+      "date": "2026-05-19",
+      "name": "华为",
+      "title": "昇腾384超节点累计部署300+套Q4推950超节点",
+      "update": "数字中国峰会华为展出昇腾384超节点累计300+套;Q4推昇腾950超节点8EFLOPS。无锡Token工厂签约,国产算力规模化部署加速。",
+      "url": "https://www.chinastarmarket.cn/detail/2369967",
+      "province": "江苏"
+    },
+    {
+      "date": "2026-05-19",
+      "name": "智谱AI",
+      "title": "港股市值首破5000亿港元GLM-5.1独立工作超8小时",
+      "update": "5月14日智谱港股市值突破5000亿港元日涨37%。GLM-5.1能独立工作超8小时自主规划执行交付工程级成果。MiniMax市值2566亿港元。",
+      "url": "https://tech.ifeng.com/c/8t7atD6aPXH",
+      "province": ""
+    },
     {
       "date": "2026-05-18",
       "name": "OpenAI",
