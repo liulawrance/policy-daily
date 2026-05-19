@@ -105,6 +105,17 @@ body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro SC","PingFang SC","Hel
 .event-info .e-loc{font-size:11px;color:var(--gray);margin-top:2px}
 .event-info .e-note{font-size:11px;color:#555;margin-top:2px}
 
+/* Leader Activities */
+.leader-province-title{font-size:13px;font-weight:700;color:var(--blue);margin:12px 0 6px;padding-left:2px}
+.leader-card{background:#fff;border-radius:10px;padding:12px 14px;margin-bottom:8px;border:1px solid var(--border);border-left:3px solid #7C3AED}
+.leader-card-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.leader-name{font-size:14px;font-weight:700;color:#333}
+.leader-role{font-size:11px;color:var(--gray);background:#F5F5F5;padding:1px 6px;border-radius:4px}
+.leader-type{font-size:11px;color:#7C3AED;font-weight:500}
+.leader-card-title{font-size:13px;color:#333;margin-top:6px;line-height:1.5;font-weight:500}
+.leader-card-counter{font-size:12px;color:#666;margin-top:4px}
+.leader-card-summary{font-size:11px;color:var(--gray);margin-top:4px;line-height:1.5}
+
 /* Personnel */
 .personnel-block{background:#fff;border-radius:var(--radius);margin-bottom:12px;border:1px solid var(--border);overflow:hidden}
 .personnel-header{padding:12px 14px;background:linear-gradient(135deg,#1F4E79,#2E6EA6);color:#fff}
@@ -205,12 +216,27 @@ body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro SC","PingFang SC","Hel
 <div class="header">
   <h1>📋 华东区域政策日报</h1>
   <div class="subtitle">六省一市 · 每日政策监测</div>
-  <div class="date-nav" id="dateNav">
+  <div class="date-nav" id="dateNav" style="display:flex;align-items:center;gap:10px">
     <div class="date-btn" id="dateBtn" onclick="toggleDatePicker()">
       <span id="dateBtnText">全部日期</span>
       <span class="arrow">▾</span>
     </div>
+    <div class="date-btn" onclick="showExportModal()" style="background:rgba(255,255,255,.25)">
+      📤 导出月报
+    </div>
   </div>
+</div>
+
+<!-- 导出弹窗 -->
+<div id="exportMask" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:300" onclick="hideExportModal()"></div>
+<div id="exportModal" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;border-radius:16px;padding:24px;width:320px;z-index:310;box-shadow:0 20px 60px rgba(0,0,0,.3)">
+  <h3 style="font-size:16px;font-weight:700;color:var(--blue);margin-bottom:16px">📤 导出月度政务信息</h3>
+  <label style="font-size:12px;color:#666;display:block;margin-bottom:4px">选择月份</label>
+  <select id="exportMonth" style="width:100%;padding:10px;border:1.5px solid var(--border);border-radius:8px;font-size:14px;margin-bottom:12px"></select>
+  <label style="font-size:12px;color:#666;display:block;margin-bottom:4px">收件邮箱</label>
+  <input type="email" id="exportEmail" placeholder="example@company.com" style="width:100%;padding:10px;border:1.5px solid var(--border);border-radius:8px;font-size:14px;margin-bottom:16px;outline:none">
+  <button onclick="doExport()" style="width:100%;padding:12px;background:var(--blue);color:#fff;border:none;border-radius:10px;font-size:15px;font-weight:600;cursor:pointer">生成并发送</button>
+  <p id="exportStatus" style="font-size:12px;color:var(--gray);margin-top:10px;text-align:center;min-height:18px"></p>
 </div>
 
 <div class="date-picker-mask" id="datePickerMask" onclick="closeDatePicker()"></div>
@@ -245,6 +271,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro SC","PingFang SC","Hel
   <div class="section" id="eventList"></div>
 </div>
 
+<div id="panelLeader" class="panel">
+  <div class="section" id="leaderList"></div>
+</div>
+
 <div class="tab-bar">
   <div class="tab-item active" data-panel="panelDigest" onclick="switchTab(this)">
     <div class="tab-icon">📰</div>
@@ -269,6 +299,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro SC","PingFang SC","Hel
   <div class="tab-item" data-panel="panelEvent" onclick="switchTab(this)">
     <div class="tab-icon">📅</div>
     <div class="tab-label">活动</div>
+  </div>
+  <div class="tab-item" data-panel="panelLeader" onclick="switchTab(this)">
+    <div class="tab-icon">🏛️</div>
+    <div class="tab-label">领导</div>
   </div>
 </div>
 </div><!-- end mainApp -->
@@ -299,6 +333,8 @@ document.addEventListener('DOMContentLoaded', function() {
   if (input) input.addEventListener('keydown', function(e) { if (e.key === 'Enter') checkPwd(); });
 });
 </script>
+<script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/exceljs/4.4.0/exceljs.min.js"></script>
 <script src="data.js"></script>
 <script>
 // Defensive defaults
@@ -307,6 +343,7 @@ DATA.personnel = DATA.personnel || [];
 DATA.competitors = DATA.competitors || [];
 DATA.alerts = DATA.alerts || [];
 DATA.events = DATA.events || [];
+DATA.leader_activities = DATA.leader_activities || [];
 
 // State
 var today = new Date().toISOString().slice(0, 10);
@@ -426,6 +463,8 @@ function renderPolicies() {
     if (a.isTop !== b.isTop) return a.isTop ? -1 : 1;
     return b.publishDate > a.publishDate ? 1 : b.publishDate < a.publishDate ? -1 : 0;
   });
+  // Assign stable index-based id for cards without id
+  sorted.forEach(function(e, idx) { if (!e.id) e.id = 'entry-' + idx; });
 
   // Group sorted entries by impact level for display
   const impactGroups = {'高':[],'中':[],'低':[]};
@@ -578,26 +617,108 @@ function renderCompetitors() {
   el.innerHTML = html;
 }
 
-// Render events
+// Render events (hide ended events)
 function renderEvents() {
   const el = document.getElementById('eventList');
-  let html = '<div class="section-title">📅 区域活动</div>';
-  DATA.events.forEach(e => {
-    const parts = e.time.split(/[\s\/]/);
-    html += `
-      <div class="event-item">
-        <div class="event-date">
-          <div class="day">${parts[0]}</div>
-          <div class="month">${e.location}</div>
-        </div>
-        <div class="event-info">
-          <div class="e-name">${e.name}</div>
-          <div class="e-loc">📍 ${e.location} · ${e.time}</div>
-          <div class="e-note">${e.note}</div>
-        </div>
-      </div>`;
+  const now = new Date().toISOString().slice(0,10);
+  // Filter: only show events whose end date >= today
+  const upcoming = DATA.events.filter(e => {
+    // Parse end date from time field (format: "2026.4.29-5.1" or "2026-05-20")
+    var timeStr = e.time || '';
+    var endDate = '';
+    if (timeStr.indexOf('-') >= 0 && timeStr.indexOf('.') >= 0) {
+      // Format like "2026.4.29-5.1"
+      var parts = timeStr.split('-');
+      var yearMatch = timeStr.match(/^(\d{4})\./);
+      var year = yearMatch ? yearMatch[1] : new Date().getFullYear().toString();
+      var endPart = parts[parts.length - 1]; // e.g. "5.1"
+      var endParts = endPart.split('.');
+      var month = endParts[0].padStart(2, '0');
+      var day = (endParts[1] || '28').padStart(2, '0');
+      endDate = year + '-' + month + '-' + day;
+    } else if (timeStr.match(/^\d{4}-\d{2}-\d{2}/)) {
+      endDate = timeStr.slice(0, 10);
+    } else {
+      // Fallback: use date field
+      endDate = e.date || '';
+    }
+    return endDate >= now;
   });
+
+  let html = '<div class="section-title">📅 区域活动 <span class="badge">' + upcoming.length + '</span></div>';
+  if (upcoming.length === 0) {
+    html += '<div class="empty">近期无即将举办的活动</div>';
+  } else {
+    upcoming.forEach(e => {
+      const parts = e.time.split(/[\s\/]/);
+      html += `
+        <div class="event-item">
+          <div class="event-date">
+            <div class="day">${parts[0]}</div>
+            <div class="month">${e.location}</div>
+          </div>
+          <div class="event-info">
+            <div class="e-name">${e.name}</div>
+            <div class="e-loc">📍 ${e.location} · ${e.time}</div>
+            <div class="e-note">${e.note || e.relevance || ''}</div>
+          </div>
+        </div>`;
+    });
+  }
   el.innerHTML = html;
+}
+
+// Render leader activities
+function renderLeaderActivities() {
+  const el = document.getElementById('leaderList');
+  var acts;
+  if (currentDate === 'all') {
+    acts = DATA.leader_activities;
+  } else {
+    acts = DATA.leader_activities.filter(a => a.date === currentDate);
+    // 如果选中日期无数据，显示最近一天有数据的
+    if (!acts.length) {
+      const allDates = [...new Set(DATA.leader_activities.map(a => a.date))].sort().reverse();
+      // 找到距离选中日期最近的
+      const target = allDates.find(d => d <= currentDate);
+      if (target) {
+        acts = DATA.leader_activities.filter(a => a.date === target);
+      }
+    }
+  }
+  if (!acts.length) {
+    el.innerHTML = '<div class="section-title">🏛️ 领导活动</div><div style="text-align:center;padding:40px;color:var(--gray);font-size:13px">暂无领导活动数据</div>';
+    return;
+  }
+  el.innerHTML = renderLeaderCards(acts, currentDate === 'all' ? '本月' : currentDate);
+}
+
+function renderLeaderCards(acts, date) {
+  const provOrder = ['上海','江苏','浙江','安徽','福建','江西','湖南'];
+  const typeEmoji = {'调研':'🔍','会见':'🤝','会议':'📋','座谈':'💬','考察':'🏭','出席':'🎯'};
+  let html = '<div class="section-title">🏛️ 领导活动 <span class="badge">' + acts.length + '</span></div>';
+  
+  provOrder.forEach(prov => {
+    const provActs = acts.filter(a => a.province === prov);
+    if (!provActs.length) return;
+    html += '<div class="leader-province-title">' + prov + '</div>';
+    provActs.forEach(a => {
+      const emoji = typeEmoji[a.type] || '📌';
+      html += `
+        <div class="leader-card">
+          <div class="leader-card-head">
+            <span class="leader-name">${a.leader}</span>
+            <span class="leader-role">${a.role}</span>
+            <span class="leader-type">${emoji} ${a.type}</span>
+          </div>
+          <div class="leader-card-title">${a.title}</div>
+          ${a.counterpart ? '<div class="leader-card-counter">👥 ' + a.counterpart + '</div>' : ''}
+          ${a.summary ? '<div class="leader-card-summary">' + a.summary + '</div>' : ''}
+          ${a.url ? '<a class="card-link" href="' + a.url + '" target="_blank">查看来源 →</a>' : ''}
+        </div>`;
+    });
+  });
+  return html;
 }
 
 // Render analysis card for vice-ministerial+ personnel
@@ -698,7 +819,7 @@ function switchTab(el) {
   el.classList.add('active');
   document.getElementById(el.dataset.panel).classList.add('active');
 }
-// Render daily digest
+// Render daily digest — 优先展示对腾讯高影响和高关联内容
 function renderDigest() {
   var el = document.getElementById('digestList');
   // 取当日或最新一天的数据
@@ -707,50 +828,92 @@ function renderDigest() {
   var dt = new Date(targetDate);
   var dateLabel = targetDate + '\uFF08\u5468' + weekdays[dt.getDay()] + '\uFF09';
 
-  // 筛选重要信息：高影响政策 + 一级紧急预警 + 重点人事 + 重要行业动态
+  // 腾讯关联度关键词（用于判断是否与腾讯高关联）
+  var txKeywords = ['腾讯','微信','元宝','混元','Hy3','视频号','小程序','企业微信','QQ','WeChat','腾讯云','游戏版号','直播','平台经济','内容审核','短视频标注','AI生成内容'];
+
+  function hasTxRelevance(text) {
+    if (!text) return false;
+    for (var i = 0; i < txKeywords.length; i++) {
+      if (text.indexOf(txKeywords[i]) >= 0) return true;
+    }
+    return false;
+  }
+
   var items = [];
 
-  // 1. 当日新增预警（只显示有date字段且匹配当天的预警，或无date字段的一级紧急）
+  // 1. 一级紧急预警（始终最高优先）
   DATA.alerts.forEach(function(a, i) {
-    if (a.date && a.date !== targetDate) return; // 有日期但不是当天，跳过
-    if (!a.date && a.level.indexOf('\u4E00\u7EA7') < 0) return; // 无日期且非一级，跳过
-    if (a.date) {
-      items.push({type:'alert',tag:'\u7D27\u6025\u9884\u8B66',tagClass:'d-tag-alert',headline:a.item,title:a.item,summary:a.detail||a.assessment,meta:a.days||a.assessment,priority:0,idx:i});
+    if (a.level.indexOf('\u4E00\u7EA7') >= 0) {
+      items.push({type:'alert',tag:'\u7D27\u6025\u9884\u8B66',tagClass:'d-tag-alert',headline:a.item,title:a.item,summary:a.assessment,priority:0,idx:i});
     }
   });
 
-  // 2. 高影响政策
+  // 2. 高影响政策（对腾讯高影响 = impact为高）
   DATA.entries.filter(function(e) { return e.date === targetDate && e.impact === '\u9AD8'; }).forEach(function(e) {
+    var eid = e.id || ('entry-title-' + encodeURIComponent((e.title||'').substring(0,20)));
     var dTitle = e.headline || e.title;
-    items.push({type:'policy',tag:'\u91CD\u8981\u653F\u7B56',tagClass:'d-tag-policy',headline:e.headline,title:dTitle,summary:e.summary,meta:e.source,priority:1,id:e.id});
+    var provPrefix = e.province ? '【' + e.province + '】' : '';
+    items.push({type:'policy',tag:'\u91CD\u8981\u653F\u7B56',tagClass:'d-tag-policy',headline:provPrefix + dTitle,title:dTitle,summary:e.summary,meta:e.source,priority:1,id:eid,entryTitle:e.title});
   });
 
-  // 3. 中影响+isTop的政策
-  DATA.entries.filter(function(e) { return e.date === targetDate && e.impact === '\u4E2D' && e.isTop; }).forEach(function(e) {
+  // 3. 中影响但与腾讯高关联的政策
+  DATA.entries.filter(function(e) { return e.date === targetDate && e.impact === '\u4E2D' && hasTxRelevance(e.title + e.summary); }).forEach(function(e) {
+    var eid = e.id || ('entry-title-' + encodeURIComponent((e.title||'').substring(0,20)));
     var dTitle = e.headline || e.title;
-    items.push({type:'policy',tag:'\u653F\u7B56\u52A8\u6001',tagClass:'d-tag-policy',headline:e.headline,title:dTitle,summary:e.summary,meta:e.source,priority:2,id:e.id});
+    var provPrefix = e.province ? '【' + e.province + '】' : '';
+    items.push({type:'policy',tag:'\u8154\u8baf\u76f8\u5173',tagClass:'d-tag-policy',headline:provPrefix + dTitle,title:dTitle,summary:e.summary,meta:e.source,priority:2,id:eid,entryTitle:e.title});
   });
 
-  // 4. 当日人事变动（所有有任命或免职的）
+  // 4. 友商动态（仅T0-T1核心公司 + 重大经营动向关键词）
+  var topCompanies = {'\u817E\u8BAF':0,'DeepSeek':1,'OpenAI':2,'Anthropic':3,'\u963f\u91cc\u5df4\u5df4':4,'\u5b57\u8282\u8df3\u52a8':5,'\u534e\u4e3a':6,'\u667a\u8c31AI':7};
+  var majorKeywords = ['融资','估值','收购','并购','IPO','上市','财报','营收','利润','战略','重组','裁员','关停','合资','Agent Mode','开源','首发','登顶','突破','第一'];
+  DATA.competitors.filter(function(c) { return c.date === targetDate; }).forEach(function(c) {
+    // 只收录T0-T1公司，或内容含重大经营动向关键词的
+    var isTopComp = topCompanies[c.name] !== undefined;
+    var isMajor = false;
+    if (!isTopComp) {
+      var content = (c.title || '') + (c.update || '');
+      for (var mk = 0; mk < majorKeywords.length; mk++) {
+        if (content.indexOf(majorKeywords[mk]) >= 0) { isMajor = true; break; }
+      }
+    }
+    if (!isTopComp && !isMajor) return; // 非重要公司且非重大内容，不进导读
+
+    var cp = topCompanies[c.name] !== undefined ? topCompanies[c.name] : 10;
+    var dTitle = c.title ? c.name + ' | ' + c.title : c.name + '\u6700\u65B0\u52A8\u6001';
+    var headlineText = c.title ? c.name + '：' + c.title : c.name + '\u6700\u65B0\u52A8\u6001';
+    items.push({type:'competitor',tag:'\u884C\u4E1A\u52A8\u6001',tagClass:'d-tag-industry',headline:headlineText,title:dTitle,summary:c.update||'',meta:c.date,priority:3 + cp * 0.1,name:c.name});
+  });
+
+  // 5. 当日人事变动（仅副部级以上：国务院任免 / 省委常委 / 省长副省长）
+  var viceMinisterKeywords = ['国务院','副部','部长','省委常委','省长','副省长','省委书记','省委副书记'];
   DATA.personnel.filter(function(p) { return p.date === targetDate; }).forEach(function(p) {
+    // 只有省份为国家级，或标题/职务包含副部级以上关键词才进入导读
+    var isViceMinister = false;
+    if (p.province === '国家级') { isViceMinister = true; }
+    if (!isViceMinister) {
+      var combined = p.title || '';
+      for (var k = 0; k < viceMinisterKeywords.length; k++) {
+        if (combined.indexOf(viceMinisterKeywords[k]) >= 0) { isViceMinister = true; break; }
+      }
+    }
+    if (!isViceMinister && p.appointments) {
+      p.appointments.forEach(function(a) {
+        var role = (a.newRole || '');
+        if (role.indexOf('副部') >= 0 || role.indexOf('部长') >= 0 || role.indexOf('省长') >= 0 || role.indexOf('省委常委') >= 0) {
+          isViceMinister = true;
+        }
+      });
+    }
+    if (!isViceMinister) return; // 非副部级以上，不进入导读
+
     var keyNames = [];
-    if (p.appointments) p.appointments.forEach(function(a) {
+    if (p.appointments) p.appointments.slice(0,3).forEach(function(a) {
       keyNames.push(a.name + ' \u2192 ' + a.newRole);
     });
-    if (p.removals) p.removals.forEach(function(r) {
-      keyNames.push(r.name + '\uff08\u514d\u804c\uff09');
-    });
     if (keyNames.length > 0) {
-      var oneLine = p.title;
-      items.push({type:'personnel',tag:'\u4EBA\u4E8B\u53D8\u52A8',tagClass:'d-tag-personnel',headline:oneLine,title:oneLine,summary:keyNames.join('\uFF1B'),meta:p.province,priority:3});
+      items.push({type:'personnel',tag:'\u4EBA\u4E8B\u53D8\u52A8',tagClass:'d-tag-personnel',headline:p.title,title:p.title,summary:keyNames.join('\uFF1B'),meta:p.province,priority:5});
     }
-  });
-
-  // 5. 重要行业动态（腾讯、DeepSeek、OpenAI、阿里、字节）
-  var keyComps = ['\u817E\u8BAF','DeepSeek','OpenAI','\u963f\u91cc\u5df4\u5df4','\u963f\u91cc\uff08\u901a\u4e49\u5343\u95ee\uff09','\u5b57\u8282\u8df3\u52a8','\u5b57\u8282\u8df3\u52a8\uff08\u8c46\u5305\uff09'];
-  DATA.competitors.filter(function(c) { return c.date === targetDate && keyComps.indexOf(c.name) >= 0; }).forEach(function(c) {
-    var dTitle = c.title ? c.name + ' | ' + c.title : c.name + '\u6700\u65B0\u52A8\u6001';
-    items.push({type:'competitor',tag:'\u884C\u4E1A\u52A8\u6001',tagClass:'d-tag-industry',headline:c.title,title:dTitle,summary:c.update||'',meta:c.date,priority:4,name:c.name});
   });
 
   // 排序
@@ -758,19 +921,19 @@ function renderDigest() {
 
   // 渲染
   var html = '<div class="digest-date">\u{1F4F0} ' + dateLabel + ' \u6BCF\u65E5\u5BFC\u8BFB</div>';
+  html += '<div style="font-size:11px;color:var(--gray);padding:0 16px 8px">\u2139\uFE0F \u4F18\u5148\u5C55\u793A\u5BF9\u817E\u8BAF\u9AD8\u5F71\u54CD/\u9AD8\u5173\u8054\u5185\u5BB9\uFF0C\u70B9\u51FB\u8DF3\u8F6C\u8BE6\u60C5</div>';
 
   if (items.length === 0) {
     html += '<div class="digest-empty">\u5F53\u65E5\u65E0\u91CD\u8981\u4FE1\u606F</div>';
   } else {
-    items.forEach(function(item, i) {
+    items.forEach(function(item) {
       var urgentClass = item.priority === 0 ? ' urgent' : item.priority <= 1 ? ' important' : '';
       var onclick = '';
       if (item.type === 'alert') onclick = 'alertJump(' + item.idx + ')';
-      else if (item.type === 'policy') onclick = "digestJump('policy','" + item.id + "')";
+      else if (item.type === 'policy') onclick = "digestJumpPolicy('" + encodeURIComponent(item.entryTitle || item.title) + "')";
       else if (item.type === 'personnel') onclick = "digestJump('personnel','')";
-      else if (item.type === 'competitor') onclick = "digestJump('competitor','" + (item.name || '') + "')";
+      else if (item.type === 'competitor') onclick = "digestJumpComp('" + encodeURIComponent(item.name || '') + "')";
 
-      // 一句话导读：优先用headline，否则用title截断
       var oneLiner = item.headline || item.title;
       if (oneLiner.length > 50) oneLiner = oneLiner.substring(0, 48) + '...';
 
@@ -785,36 +948,51 @@ function renderDigest() {
   el.innerHTML = html;
 }
 
-// Digest jump helper
-function digestJump(type, target) {
-  var tabMap = {policy:'panelPolicy', personnel:'panelPersonnel', competitor:'panelCompetitor'};
-  var targetPanel = tabMap[type];
-  if (!targetPanel) return;
+// 导读跳转：通过标题匹配找到卡片（解决id缺失问题）
+function digestJumpPolicy(encodedTitle) {
+  var title = decodeURIComponent(encodedTitle);
+  switchToPanel('panelPolicy');
+  setTimeout(function() {
+    var cards = document.querySelectorAll('.card');
+    var target = null;
+    cards.forEach(function(c) {
+      var cardTitle = c.querySelector('.card-title');
+      if (cardTitle && cardTitle.textContent === title) target = c;
+    });
+    if (target) {
+      target.scrollIntoView({behavior:'smooth', block:'center'});
+      target.classList.add('highlight');
+      setTimeout(function() { target.classList.remove('highlight'); }, 2000);
+    }
+  }, 150);
+}
 
+function digestJumpComp(encodedName) {
+  var name = decodeURIComponent(encodedName);
+  switchToPanel('panelCompetitor');
+  setTimeout(function() {
+    var comps = document.querySelectorAll('.comp-card');
+    var target = null;
+    comps.forEach(function(c) {
+      if (c.getAttribute('data-name') === name) target = c;
+    });
+    if (target) {
+      target.scrollIntoView({behavior:'smooth', block:'center'});
+      target.classList.add('highlight');
+      setTimeout(function() { target.classList.remove('highlight'); }, 2000);
+    }
+  }, 150);
+}
+
+function switchToPanel(panelId) {
   currentDate = 'all'; currentProvince = 'all';
   renderAll();
-
   document.querySelectorAll('.tab-item').forEach(function(t) { t.classList.remove('active'); });
   document.querySelectorAll('.panel').forEach(function(p) { p.classList.remove('active'); });
-  var tabEl = document.querySelector('[data-panel="' + targetPanel + '"]');
+  var tabEl = document.querySelector('[data-panel="' + panelId + '"]');
   if (tabEl) tabEl.classList.add('active');
-  var panelEl = document.getElementById(targetPanel);
+  var panelEl = document.getElementById(panelId);
   if (panelEl) panelEl.classList.add('active');
-
-  if (target) {
-    setTimeout(function() {
-      var sel = type === 'policy' ? '.card[data-id="' + target + '"]' :
-                type === 'competitor' ? '.comp-card[data-name="' + target + '"]' : null;
-      if (sel) {
-        var el = document.querySelector(sel);
-        if (el) {
-          el.scrollIntoView({behavior:'smooth', block:'center'});
-          el.classList.add('highlight');
-          setTimeout(function() { el.classList.remove('highlight'); }, 2000);
-        }
-      }
-    }, 100);
-  }
 }
 
 function renderAll() {
@@ -827,6 +1005,292 @@ function renderAll() {
   renderPersonnel();
   renderCompetitors();
   renderEvents();
+  renderLeaderActivities();
+}
+
+// ========== 月报导出功能 ==========
+function showExportModal() {
+  document.getElementById('exportMask').style.display = 'block';
+  document.getElementById('exportModal').style.display = 'block';
+  document.getElementById('exportStatus').textContent = '';
+  // 填充月份选择器
+  var months = [...new Set(DATA.entries.map(e => e.date ? e.date.substring(0,7) : ''))].filter(Boolean).sort().reverse();
+  var sel = document.getElementById('exportMonth');
+  sel.innerHTML = months.map(m => '<option value="' + m + '">' + m + '</option>').join('');
+}
+function hideExportModal() {
+  document.getElementById('exportMask').style.display = 'none';
+  document.getElementById('exportModal').style.display = 'none';
+}
+
+function doExport() {
+  var month = document.getElementById('exportMonth').value;
+  var email = document.getElementById('exportEmail').value.trim();
+  var statusEl = document.getElementById('exportStatus');
+  if (!month) { statusEl.textContent = '请选择月份'; return; }
+  if (!email || email.indexOf('@') < 0) { statusEl.textContent = '请输入有效邮箱'; return; }
+  statusEl.textContent = '正在生成Excel...';
+  statusEl.style.color = 'var(--gray)';
+
+  generateMonthlyExcel(month).then(function(result) {
+    var base64 = result.base64;
+    var fileName = '华东政务信息' + month + '.xlsx';
+    statusEl.textContent = '正在发送邮件...';
+
+    fetch('/api/send-email', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ email: email, fileName: fileName, fileBase64: base64 })
+    }).then(function(resp) { return resp.json(); }).then(function(data) {
+      if (data.success) {
+        statusEl.textContent = '已发送至 ' + email;
+        statusEl.style.color = 'var(--green)';
+      } else {
+        statusEl.textContent = '邮件发送失败，已下载到本地：' + (data.error || '');
+        statusEl.style.color = 'var(--orange)';
+        downloadFromBase64(base64, fileName);
+      }
+    }).catch(function(err) {
+      statusEl.textContent = '网络异常，已下载到本地';
+      statusEl.style.color = 'var(--orange)';
+      downloadFromBase64(base64, fileName);
+    });
+  }).catch(function(e) {
+    statusEl.textContent = '生成失败：' + e.message;
+    statusEl.style.color = 'var(--red)';
+  });
+}
+
+function downloadFromBase64(base64, fileName) {
+  var byteString = atob(base64);
+  var ab = new ArrayBuffer(byteString.length);
+  var ia = new Uint8Array(ab);
+  for (var i = 0; i < byteString.length; i++) ia[i] = byteString.charCodeAt(i);
+  var blob = new Blob([ab], {type:'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'});
+  var url = URL.createObjectURL(blob);
+  var a = document.createElement('a');
+  a.href = url; a.download = fileName; a.click();
+  URL.revokeObjectURL(url);
+}
+
+function downloadExcel(wb, fileName) {
+  var wbout = XLSX.write(wb, {bookType:'xlsx', type:'array'});
+  var blob = new Blob([wbout], {type:'application/octet-stream'});
+  var url = URL.createObjectURL(blob);
+  var a = document.createElement('a');
+  a.href = url;
+  a.download = fileName;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+async function generateMonthlyExcel(month) {
+  var provList = ["上海","江苏","浙江","安徽","福建","江西","湖南"];
+  var viceMinKw = ["副部","部长","省委常委","省长","副省长","省委书记","省委副书记"];
+  var overseasComps = ["OpenAI","Anthropic","Google","Meta","Apple","Microsoft","NVIDIA","AMD","Intel","ARM","TSMC"];
+  var provCities = {"上海":["上海"],"江苏":["南京","苏州","无锡","常州","南通","徐州","扬州","镇江","盐城","泰州"],"浙江":["杭州","宁波","温州","嘉兴","绍兴","义乌","金华","台州"],"安徽":["合肥","芜湖","蚌埠","安庆","马鞍山","阜阳"],"福建":["福州","厦门","泉州","漳州","莆田","南平","龙岩","宁德"],"江西":["南昌","九江","赣州","景德镇","上饶","宜春","萍乡"],"湖南":["长沙","株洲","湘潭","岳阳","衡阳","郴州","常德","永州","怀化"]};
+  var compHomeMap = {"商汤":"上海","MiniMax":"上海","阿里巴巴":"浙江","网易":"浙江","科大讯飞":"安徽","智谱AI":"上海"};
+  var notPolicyKw = ["签署","签约","合作协议","战略合作","会见","会谈","座谈","调研"];
+  var personnelKw = ["人事","任免","公示","任前","干部"];
+  var provCapitals = {"上海":["上海"],"江苏":["江苏","南京"],"浙江":["浙江","杭州"],"安徽":["安徽","合肥"],"福建":["福建","福州"],"江西":["江西","南昌"],"湖南":["湖南","长沙"]};
+
+  // 样式定义
+  var thinBorder = {top:{style:'thin'},left:{style:'thin'},bottom:{style:'thin'},right:{style:'thin'}};
+  var titleFont = {bold:true, size:12, name:'微软雅黑'};
+  var headerFont = {bold:true, size:9, name:'微软雅黑', color:{argb:'FFFFFFFF'}};
+  var headerFill = {type:'pattern', pattern:'solid', fgColor:{argb:'FFC00000'}};
+  var dataFont = {size:9, name:'微软雅黑'};
+  var linkFont = {size:8, name:'微软雅黑', color:{argb:'FF0563C1'}};
+
+  // 数据构建
+  var allRows = []; // [{type, cells:[]}]
+  var merges = [];
+  var monthLabel = month.replace("-","年") + "月";
+  allRows.push({type:'title', cells:["华东政务信息（" + monthLabel + "）","","","",""]});
+  merges.push({s:{r:1,c:1},e:{r:1,c:5}});
+
+  provList.forEach(function(prov) {
+    var cities = provCities[prov] || [];
+    var allowedPrefixes = provCapitals[prov] || [prov];
+    var seenKeys = {};
+    allRows.push({type:'header', cells:["区  域","项  目","信  息","新闻链接","解  读"]});
+    var sections = [];
+
+    // 1. 重要人事变动
+    seenKeys = {};
+    var hrItems = [];
+    (DATA.personnel || []).filter(function(p){return p.date&&p.date.startsWith(month)&&p.province===prov;}).forEach(function(p){
+      if(p.appointments) p.appointments.forEach(function(a){
+        if(!a.name) return;
+        var role = a.newRole||"";
+        var isVice = false;
+        viceMinKw.forEach(function(kw){if(role.indexOf(kw)>=0) isVice=true;});
+        if(!isVice) return;
+        var key = a.name+role;
+        if(seenKeys[key]) return; seenKeys[key]=true;
+        var bio = (a.analysis&&a.analysis.bio)?a.analysis.bio:(a.prevRole?a.name+"，"+a.prevRole:"");
+        hrItems.push([a.name+"任"+a.newRole, p.url||"", bio]);
+      });
+    });
+    sections.push({name:"重要人事变动", items:hrItems});
+
+    // 2. 主要领导动态
+    seenKeys = {};
+    var ldItems = [];
+    (DATA.leader_activities||[]).filter(function(la){return la.date&&la.date.startsWith(month)&&la.province===prov;}).forEach(function(la){
+      var key = la.leader+la.title;
+      if(seenKeys[key]) return; seenKeys[key]=true;
+      var info = la.leader+la.type+la.title;
+      var parts = [];
+      if(la.date) parts.push(la.date.replace("2026-","").replace("-","月")+"日");
+      if(la.counterpart) parts.push(la.leader+"与"+la.counterpart+"举行"+la.type);
+      if(la.summary) parts.push(la.summary);
+      ldItems.push([info, la.url||"", parts.join("，")+"。"]);
+    });
+    sections.push({name:"主要领导动态及政策导向", items:ldItems});
+
+    // 3. 重大政策
+    seenKeys = {};
+    var polItems = [];
+    var indOverflow = [];
+    (DATA.entries||[]).filter(function(e){return e.date&&e.date.startsWith(month)&&e.province===prov&&(e.impact==="高"||e.impact==="中");}).forEach(function(e){
+      if(seenKeys[e.title]) return; seenKeys[e.title]=true;
+      var title = e.title||"";
+      var isPersonnel = false;
+      personnelKw.forEach(function(kw){if(title.indexOf(kw)>=0) isPersonnel=true;});
+      if(isPersonnel) return;
+      var isNotPolicy = false;
+      notPolicyKw.forEach(function(kw){if(title.indexOf(kw)>=0) isNotPolicy=true;});
+      var isLocalCity = false;
+      var localCities = cities.filter(function(c){return allowedPrefixes.indexOf(c)<0;});
+      localCities.forEach(function(c){if(title.indexOf(c)===0||title.indexOf(c+"市")>=0) isLocalCity=true;});
+      var datePart = e.publishDate?e.publishDate.replace("2026-","").replace("-","月")+"日发布。":"";
+      var note = datePart + (e.summary||"");
+      if(isNotPolicy||isLocalCity){indOverflow.push([title, e.url||"", note]); return;}
+      polItems.push([title, e.url||"", note]);
+    });
+    sections.push({name:"重大政策", items:polItems});
+
+    // 4. 行业信息
+    seenKeys = {};
+    var indItems = [];
+    indOverflow.forEach(function(item){if(seenKeys[item[0]]) return; seenKeys[item[0]]=true; indItems.push(item);});
+    (DATA.events||[]).filter(function(ev){
+      for(var i=0;i<cities.length;i++){if((ev.location||"").indexOf(cities[i])>=0) return true;}
+      return false;
+    }).forEach(function(ev){
+      if(seenKeys[ev.name]) return; seenKeys[ev.name]=true;
+      indItems.push([ev.name, "", (ev.time?ev.time+"，":"")+(ev.location||"")+"。"+(ev.relevance||ev.note||"")]);
+    });
+    sections.push({name:"行业信息", items:indItems});
+
+    // 5. 友商动态
+    seenKeys = {};
+    var compItems = [];
+    (DATA.competitors||[]).filter(function(c){
+      if(!c.date||!c.date.startsWith(month)) return false;
+      for(var i=0;i<overseasComps.length;i++){if(c.name===overseasComps[i]) return false;}
+      if(c.name==="腾讯"||c.name==="微信"||c.name==="行业格局"||c.name==="其他") return false;
+      if(c.province===prov) return true;
+      if(compHomeMap[c.name]===prov) return true;
+      var content = (c.title||"")+(c.update||"");
+      for(var ci=0;ci<cities.length;ci++){if(content.indexOf(cities[ci])>=0) return true;}
+      return false;
+    }).forEach(function(c){
+      var key = c.name+(c.title||"");
+      if(seenKeys[key]) return; seenKeys[key]=true;
+      compItems.push([c.name+(c.title?"："+c.title:""), c.url||"", c.update||""]);
+    });
+    sections.push({name:"友商动态", items:compItems});
+
+    // 写入行+合并
+    var provStartRow = allRows.length + 1;
+    var provTotalRows = 0;
+    sections.forEach(function(sec){
+      var secStartRow = allRows.length + 1;
+      if(sec.items.length===0){
+        allRows.push({type:'data', cells:["", sec.name, "", "", ""]});
+        provTotalRows++;
+      } else {
+        sec.items.forEach(function(item,idx){
+          allRows.push({type:'data', cells:["", idx===0?sec.name:"", item[0], item[1], item[2]]});
+          provTotalRows++;
+        });
+        if(sec.items.length>1){
+          merges.push({s:{r:secStartRow,c:2},e:{r:secStartRow+sec.items.length-1,c:2}});
+        }
+      }
+    });
+    allRows[provStartRow-1].cells[0] = prov;
+    if(provTotalRows>1){
+      merges.push({s:{r:provStartRow,c:1},e:{r:provStartRow+provTotalRows-1,c:1}});
+    }
+  });
+
+  // 使用 ExcelJS 生成带样式工作簿
+  var workbook = new ExcelJS.Workbook();
+  var ws = workbook.addWorksheet('Sheet1');
+
+  // 列宽（A4横版PDF优化）
+  ws.columns = [{width:6},{width:13},{width:45},{width:20},{width:60}];
+
+  // 页面设置
+  ws.pageSetup = {paperSize:9, orientation:'landscape', fitToPage:true, fitToWidth:1, fitToHeight:0,
+    margins:{left:0.4,right:0.4,top:0.5,bottom:0.5,header:0.3,footer:0.3}};
+
+  // 写入数据
+  allRows.forEach(function(row) {
+    var excelRow = ws.addRow(row.cells);
+    if (row.type === 'title') {
+      excelRow.height = 28;
+      excelRow.eachCell({includeEmpty:true}, function(cell) {
+        cell.font = titleFont;
+        cell.alignment = {vertical:'middle', horizontal:'center'};
+        cell.border = thinBorder;
+      });
+    } else if (row.type === 'header') {
+      excelRow.height = 20;
+      excelRow.eachCell({includeEmpty:true}, function(cell) {
+        cell.font = headerFont;
+        cell.alignment = {vertical:'middle', horizontal:'center', wrapText:true};
+        cell.border = thinBorder;
+        cell.fill = headerFill;
+      });
+    } else {
+      excelRow.eachCell({includeEmpty:true}, function(cell, colNumber) {
+        cell.border = thinBorder;
+        if (colNumber <= 2) {
+          cell.font = dataFont;
+          cell.alignment = {vertical:'middle', horizontal:'center', wrapText:true};
+        } else if (colNumber === 3) {
+          cell.font = dataFont;
+          cell.alignment = {vertical:'middle', horizontal:'left', wrapText:true};
+        } else if (colNumber === 4) {
+          cell.font = linkFont;
+          cell.alignment = {vertical:'middle', horizontal:'left', wrapText:true};
+        } else {
+          cell.font = dataFont;
+          cell.alignment = {vertical:'middle', horizontal:'left', wrapText:true};
+        }
+      });
+    }
+  });
+
+  // 合并单元格
+  merges.forEach(function(m) {
+    ws.mergeCells(m.s.r, m.s.c, m.e.r, m.e.c);
+    var cell = ws.getCell(m.s.r, m.s.c);
+    cell.border = thinBorder;
+    if (m.s.c <= 2) cell.alignment = {vertical:'middle', horizontal:'center', wrapText:true};
+  });
+
+  // 导出为 base64
+  var buffer = await workbook.xlsx.writeBuffer();
+  var binary = '';
+  var bytes = new Uint8Array(buffer);
+  for (var i = 0; i < bytes.byteLength; i++) binary += String.fromCharCode(bytes[i]);
+  var base64 = btoa(binary);
+  return {base64: base64, buffer: buffer};
 }
 
 // Init
