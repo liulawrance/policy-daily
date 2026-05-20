@@ -5619,36 +5619,6 @@ var DATA = {
       "removals": [],
       "source_url": "",
       "analysis": null
-    },
-    {
-      "date": "2026-05-20",
-      "province": "安徽",
-      "title": "安徽多市发布干部任前公示（5月18-19日）",
-      "appointments": [
-        {
-          "name": "张旭生",
-          "newRole": "合肥市县(市区)委书记",
-          "prevRole": "合肥市教育局局长、党委书记"
-        },
-        {
-          "name": "潘良能",
-          "newRole": "安庆市县(市区)党委正职",
-          "prevRole": "潜山市委副书记、市长"
-        },
-        {
-          "name": "郑冬冬",
-          "newRole": "滁州市县(市区)党委正职",
-          "prevRole": "全椒县委副书记、县长"
-        },
-        {
-          "name": "高真理",
-          "newRole": "宣城市县(市区)委书记",
-          "prevRole": "宣城市政府秘书长"
-        }
-      ],
-      "removals": [],
-      "source_url": "",
-      "analysis": null
     }
   ],
   "competitors": [
