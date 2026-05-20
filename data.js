@@ -6776,24 +6776,7 @@ var DATA = {
       "linkTarget": ""
     }
   ],
-  "events": [
-    {
-      "id": "e0430-001",
-      "date": "2026-04-30",
-      "name": "第九届数字中国建设峰会",
-      "time": "2026.4.29-5.1",
-      "location": "福州",
-      "relevance": "高(腾讯参展/Agent首秀)"
-    },
-    {
-      "id": "e0430-002",
-      "date": "2026-04-30",
-      "name": "2026安徽电信数智科技生态大会",
-      "time": "2026.4.28-29",
-      "location": "芜湖",
-      "relevance": "中(AI+万物生态竞争)"
-    }
-  ],
+  "events": [],
   "leader_activities": [
     {
       "date": "2026-05-08",
