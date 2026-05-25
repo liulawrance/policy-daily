@@ -5963,7 +5963,7 @@ var DATA = {
       "name": "OpenAI",
       "title": "GPT-5.5-Cyber限量预览+即将提交IPO招股书",
       "update": "OpenAI发布GPT-5.5网络安全专用版本GPT-5.5-Cyber，向经审核安全团队开放限量预览，定向训练放宽模型处理安全任务的内置限制。同时据CNBC消息，OpenAI最快本周提交IPO招股书草案，标志从研究实验室向商业化全面转型。",
-      "url": "https://www.cacfo.com/content428586.xls",
+      "url": "https://new.qq.com/rain/a/20260508A02AQ700",
       "province": ""
     },
     {
@@ -5971,7 +5971,7 @@ var DATA = {
       "name": "腾讯",
       "title": "Hy3 preview Token调用量超上代10倍，OpenRouter双榜第一",
       "update": "腾讯混元Hy3 preview上线以来Token调用量持续攀升，总量超上一代Hy2的10倍。WorkBuddy/Codebuddy等应用中增幅超16.5倍。OpenRouter数据显示Hy3 preview在周榜总量及市场占有率排名双第一，编程和工具调用场景调用量也排榜首。已部署到131个内部产品。",
-      "url": "https://www.cacfo.com/hh398274994.doc",
+      "url": "https://tech.cnr.cn/techph/20260507/t20260507_527612702.shtml",
       "province": ""
     },
     {
