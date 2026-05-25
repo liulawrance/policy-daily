@@ -5961,17 +5961,17 @@ var DATA = {
     {
       "date": "2026-05-25",
       "name": "OpenAI",
-      "title": "GPT-5.5-Cyber限量预览+即将提交IPO招股书",
-      "update": "OpenAI发布GPT-5.5网络安全专用版本GPT-5.5-Cyber，向经审核安全团队开放限量预览，定向训练放宽模型处理安全任务的内置限制。同时据CNBC消息，OpenAI最快本周提交IPO招股书草案，标志从研究实验室向商业化全面转型。",
-      "url": "https://new.qq.com/rain/a/20260508A02AQ700",
+      "title": "OpenAI最快本周向SEC提交IPO招股书草案，估值8520亿美元",
+      "update": "5月22日据WSJ报道，OpenAI正与高盛、摩根士丹利合作，最快于本周五向SEC秘密提交招股书草案，目标今年9月上市，估值超万亿美元。但Altman同日在全员会上暗示\"提交≠准备好上市\"，时机仍存变数。此次IPO意在抢跑Anthropic，成为全球最大AI科技IPO。",
+      "url": "https://finance.sina.com.cn/roll/2026-05-22/doc-inhytqkw6237170.shtml",
       "province": ""
     },
     {
       "date": "2026-05-25",
       "name": "腾讯",
-      "title": "Hy3 preview Token调用量超上代10倍，OpenRouter双榜第一",
-      "update": "腾讯混元Hy3 preview上线以来Token调用量持续攀升，总量超上一代Hy2的10倍。WorkBuddy/Codebuddy等应用中增幅超16.5倍。OpenRouter数据显示Hy3 preview在周榜总量及市场占有率排名双第一，编程和工具调用场景调用量也排榜首。已部署到131个内部产品。",
-      "url": "https://tech.cnr.cn/techph/20260507/t20260507_527612702.shtml",
+      "title": "腾讯混元World Model 2.0开源+深圳文博会展示AI全链路重塑游戏",
+      "update": "5月23日腾讯开源混元World Model 2.0，支持文字/图片/视频输入直接生成3D世界并可导入游戏引擎。同日中国经营报报道腾讯AI全链路重塑游戏业态：Hy3已部署131个内部产品，和平精英AI NPC累计体验1.1亿用户，AI战犬玩法单局互动70轮。",
+      "url": "https://www.163.com/dy/article/KTJ88KQ005568W0A.html",
       "province": ""
     },
     {
