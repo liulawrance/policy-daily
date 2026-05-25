@@ -1,5 +1,5 @@
 var DATA = {
-  "lastUpdate": "2026-05-22",
+  "lastUpdate": "2026-05-25",
   "entries": [
     {
       "id": "0430-001",
@@ -3835,6 +3835,71 @@ var DATA = {
       "isTop": false,
       "isNew": true,
       "publishDate": "2026-05-20"
+    },
+    {
+      "date": "2026-05-25",
+      "title": "国家发改委谋划出台加快人工智能+落地配套文件",
+      "source": "国家发改委",
+      "province": "国家级",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "5月22日国家发改委新闻发布会上，发言人李超表示正在谋划出台加快\"人工智能+\"落地的配套文件，进一步加大要素保障，持续推动央国企开放高价值应用场景。同时指导国产大模型加大力度适配国产算力芯片，确保自主可控、向善发展。对上海AI产业落地有直接政策推动作用。",
+      "url": "https://www.jwview.com/jingwei/html/05-22/671781.shtml",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-22"
+    },
+    {
+      "date": "2026-05-25",
+      "title": "上海杨浦发布类脑智能产业发展2.0版政策",
+      "source": "上海市杨浦区人民政府",
+      "province": "上海",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "5月24日2026类脑智能产业创新发展大会在杨浦长阳创谷举行，发布杨浦区支持类脑智能产业发展2.0版政策和十大应用场景。已有34家企业落户未来产业集聚区，核心企业总估值突破100亿元。中国信通院首发《类脑智能产业图谱研究报告》与《类脑智能标准体系》。",
+      "url": "https://new.qq.com/rain/a/20260525A02EGO00",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-24"
+    },
+    {
+      "date": "2026-05-25",
+      "title": "浙江省全国科技活动周开幕——创新积分制数智平台上线",
+      "source": "浙江省科技厅",
+      "province": "浙江",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "5月24日2026年浙江省全国科技活动周在浙江展览馆开幕，以\"奋进十五五创新浙江谱新篇\"为主题。正式上线浙江省\"创新积分制\"数智平台，将科技成色变成融资硬通货；\"科技副总\"首次纳入省外人才。围绕\"AI向善\"开展浙江人工智能+实践对话，强调赋能实体两条底线。",
+      "url": "https://new.qq.com/rain/a/20260524A08R9U00",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-24"
+    },
+    {
+      "date": "2026-05-25",
+      "title": "安徽十五五时期积极抢占人工智能发展新位势",
+      "source": "安徽省科学技术厅",
+      "province": "安徽",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "安徽省科技厅发文阐述十五五AI布局：已获批建设国家AI中试基地、数据标注基地，建成国内首个国产万卡算力集群。全省AI规上企业超千家、年营收超2000亿元，产业发展评价跃居全国第5位。十五五末目标：应用落地超万个，智能终端普及率超90%。",
+      "url": "https://www.most.gov.cn/dfkj/ah/zxdt/202605/t20260522_196662.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-22"
+    },
+    {
+      "date": "2026-05-25",
+      "title": "福建省全面推进工业数智化赋能九条措施",
+      "source": "福建省工信厅/财政厅",
+      "province": "福建",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "福建省工信厅、财政厅联合印发《全面推进工业数智化赋能九条措施》，从深化平台赋能、加强典型示范、发挥服务商作用、拓展AI应用、突出场景创新、强化数据安全、开展数字培训、加大金融支持、优化公共服务九个方面推进全省工业数智化转型扩面提质。",
+      "url": "https://www.foodjx.com/news/detail/157128.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-22"
     }
   ],
   "personnel": [
@@ -5873,9 +5938,71 @@ var DATA = {
       "removals": [],
       "source_url": "",
       "analysis": null
+    },
+    {
+      "date": "2026-05-25",
+      "province": "安徽",
+      "title": "安徽省人大常委会决定任命何淳宽为副省长（5月22日）",
+      "appointments": [
+        {
+          "name": "何淳宽",
+          "newRole": "安徽省人民政府副省长",
+          "prevRole": "安徽省发展和改革委员会主任"
+        }
+      ],
+      "removals": [],
+      "source_url": "",
+      "analysis": null
+    },
+    {
+      "date": "2026-05-25",
+      "province": "江苏",
+      "title": "南京市管领导干部任前公示（5月23日）",
+      "appointments": [
+        {
+          "name": "王玉春",
+          "newRole": "拟任市级机关部门正职",
+          "prevRole": "鼓楼区委副书记"
+        }
+      ],
+      "removals": [],
+      "source_url": "",
+      "analysis": null
     }
   ],
   "competitors": [
+    {
+      "date": "2026-05-25",
+      "name": "OpenAI",
+      "title": "GPT-5.5-Cyber限量预览+即将提交IPO招股书",
+      "update": "OpenAI发布GPT-5.5网络安全专用版本GPT-5.5-Cyber，向经审核安全团队开放限量预览，定向训练放宽模型处理安全任务的内置限制。同时据CNBC消息，OpenAI最快本周提交IPO招股书草案，标志从研究实验室向商业化全面转型。",
+      "url": "https://www.cacfo.com/content428586.xls",
+      "province": ""
+    },
+    {
+      "date": "2026-05-25",
+      "name": "腾讯",
+      "title": "Hy3 preview Token调用量超上代10倍，OpenRouter双榜第一",
+      "update": "腾讯混元Hy3 preview上线以来Token调用量持续攀升，总量超上一代Hy2的10倍。WorkBuddy/Codebuddy等应用中增幅超16.5倍。OpenRouter数据显示Hy3 preview在周榜总量及市场占有率排名双第一，编程和工具调用场景调用量也排榜首。已部署到131个内部产品。",
+      "url": "https://www.cacfo.com/hh398274994.doc",
+      "province": ""
+    },
+    {
+      "date": "2026-05-25",
+      "name": "DeepSeek",
+      "title": "V4-Pro永久降价至原价25%+融资规模增至700亿元",
+      "update": "DeepSeek官宣V4-Pro API于5月31日优惠结束后正式调整为原定价的1/4（永久降价）。同时据彭博社消息，DeepSeek融资规模从500亿增至700亿元人民币（约100亿美元），创中国AI企业史上最大单笔融资纪录。公司表示将优先进行突破性AI研究而非短期商业化。",
+      "url": "https://www.163.com/dy/article/KTKVUJAC053469RG.html",
+      "province": ""
+    },
+    {
+      "date": "2026-05-25",
+      "name": "华为",
+      "title": "鲲鹏昇腾开发者大会2026：950DT发布+CANN全面开源",
+      "update": "5月22日华为鲲鹏昇腾开发者大会在京开幕。发布昇腾950DT芯片（144GB/96GB双显存规格，带宽4TB/s），Q4上市液冷+风冷双方案超节点（1024卡规格，FP8达1EFLOPS）。CANN框架全面开源开放，Triton和TileLang接口100%兼容，已支持DeepSeek V4推理。",
+      "url": "https://new.qq.com/rain/a/20260522A0B2KM00",
+      "province": "国家级"
+    },
     {
       "date": "2026-05-22",
       "name": "Anthropic",
@@ -7584,6 +7711,39 @@ var DATA = {
       "counterpart": "赵龙、郭宁宁",
       "summary": "5月21日，周祖翼主持召开十一届省委财经委员会第十四次会议，研究加大力度投资于人和推动口岸经济高质量发展两个议题。会议强调要把投资于物和投资于人紧密结合，研究出台投资于人行动方案。同时要聚焦服务国家对外开放和对台工作大局，做大做强口岸经济。",
       "url": "https://new.qq.com/rain/a/20260522A02R3M00"
+    },
+    {
+      "date": "2026-05-25",
+      "province": "湖南",
+      "leader": "沈晓明",
+      "role": "省委书记",
+      "type": "调研",
+      "title": "沈晓明赴常德石门县检查督导防汛救灾工作",
+      "counterpart": "常德市/石门县干部群众",
+      "summary": "5月23日至24日，湖南省委书记沈晓明深入常德市石门县实地察看暴雨灾情，看望慰问受灾群众和抢险救援人员。石门县遭遇持续强降雨局地突破历史极值，沈晓明连夜召开视频调度会部署防汛救灾，强调争分夺秒搜救失联群众、果断转移受威胁群众、加快抢修水毁基础设施。",
+      "url": "https://news.qq.com/rain/a/20260524A088KY00"
+    },
+    {
+      "date": "2026-05-25",
+      "province": "江西",
+      "leader": "尹弘",
+      "role": "省委书记",
+      "type": "会见",
+      "title": "尹弘率团赴广东开展粤港澳大湾区经贸活动",
+      "counterpart": "粤港澳大湾区企业/深圳市长覃伟中",
+      "summary": "5月19日至21日，江西省委书记尹弘率团赴广东开展2026年江西-粤港澳大湾区经贸活动周，出席战略性新兴产业合作交流会，在东莞深圳走访企业会见客商。强调江西营商环境优、创新活力足、产业生态好，推动江西与大湾区各领域合作走深走实。",
+      "url": "https://www.jxcn.cn/system/2026/05/22/031139855.shtml"
+    },
+    {
+      "date": "2026-05-25",
+      "province": "上海",
+      "leader": "陈吉宁",
+      "role": "市委书记",
+      "type": "会议",
+      "title": "陈吉宁出席长三角一体化发展高层论坛并致辞",
+      "counterpart": "信长星/王浩/梁言顺/中央财办/国家发改委",
+      "summary": "5月20日至21日长三角地区主要领导座谈会在上海举行，陈吉宁、信长星、王浩、梁言顺等8位书记省长出席。审议通过《长三角政务服务一网通办三年行动计划》《大气污染防治提质增效行动方案》，发布2026年度一体化发展实事项目清单。2027年座谈会将在安徽召开。",
+      "url": "http://www.wuhuzx.gov.cn/xsdt/ywsd/8981342.html"
     }
   ]
 };
