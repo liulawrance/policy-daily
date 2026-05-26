@@ -6050,20 +6050,12 @@ var DATA = {
     {
       "date": "2026-05-26",
       "province": "国家级",
-      "title": "国务院人事任免（5月25日）",
+      "title": "国务院免去张云明工业和信息化部副部长职务（5月25日）",
       "appointments": [],
       "removals": [
         {
           "name": "张云明",
           "prevRole": "工业和信息化部副部长"
-        },
-        {
-          "name": "龚旗煌",
-          "prevRole": "北京大学校长"
-        },
-        {
-          "name": "高松",
-          "prevRole": "中山大学校长"
         }
       ],
       "source_url": "",
