@@ -2472,19 +2472,6 @@ var DATA = {
       "publishDate": "2026-04-30"
     },
     {
-      "date": "2026-05-08",
-      "title": "江西省长叶建春主持召开省发展数字经济领导小组会议",
-      "source": "江西省人民政府",
-      "province": "江西",
-      "category": "数字经济",
-      "impact": "中",
-      "summary": "审议2026年数据工作要点，强调抢抓AI发展机遇，抓紧制定实施十五五数字江西建设规划，配套实施数字经济、数字社会等行动计划。",
-      "url": "https://rf.jiangxi.gov.cn/jxsgfdybgs/szfyw123/list/content/content_2052524103950188544.html",
-      "isTop": false,
-      "isNew": true,
-      "publishDate": "2026-05-07"
-    },
-    {
       "date": "2026-05-09",
       "title": "国家网信办等三部门联合印发《智能体规范应用与创新发展实施意见》",
       "source": "国家互联网信息办公室/国家发改委/工信部",
@@ -2522,19 +2509,6 @@ var DATA = {
       "isTop": false,
       "isNew": true,
       "publishDate": "2026-05-07"
-    },
-    {
-      "date": "2026-05-09",
-      "title": "福建省十五五开局专场发布会：5年培育1500家AI企业",
-      "source": "福建省人民政府新闻办",
-      "province": "福建",
-      "category": "人工智能",
-      "impact": "中",
-      "summary": "推动人工智能和实体经济深度融合，计划5年培育1500多家AI企业，力争十五五末关键业务环节全面数字化企业占比超76%。",
-      "url": "https://new.qq.com/rain/a/20260509A020UP00",
-      "isTop": false,
-      "isNew": true,
-      "publishDate": "2026-05-09"
     },
     {
       "date": "2026-05-09",
@@ -2626,32 +2600,6 @@ var DATA = {
       "isTop": true,
       "isNew": true,
       "publishDate": "2026-05-11"
-    },
-    {
-      "date": "2026-05-11",
-      "title": "中美经贸磋商：何立峰将率团赴韩国与美方举行磋商",
-      "source": "商务部",
-      "province": "国家级",
-      "category": "平台经济",
-      "impact": "高",
-      "summary": "商务部发言人宣布何立峰将于5月12-13日率团赴韩与美方举行经贸磋商，以两国元首重要共识为引领就彼此关心的经贸问题磋商，关系科技出口管制政策走向。",
-      "url": "https://world.people.com.cn/n1/2026/0511/c1002-40717030.html",
-      "isTop": true,
-      "isNew": true,
-      "publishDate": "2026-05-11"
-    },
-    {
-      "date": "2026-05-11",
-      "title": "安徽省市场监管局约谈淘宝闪购、美团、京东、抖音四家网络餐饮平台",
-      "source": "安徽省市场监管局",
-      "province": "安徽",
-      "category": "行业监管",
-      "impact": "中",
-      "summary": "针对入网经营者公示信息隐匿失真、无堂食外卖商户证照资质不合规、幽灵外卖等问题约谈四家平台，划定行为红线，明确整改时限和法律后果。",
-      "url": "https://api.app.anhuinews.com/content/9263907.html",
-      "isTop": false,
-      "isNew": true,
-      "publishDate": "2026-05-09"
     },
     {
       "date": "2026-05-12",
@@ -2876,19 +2824,6 @@ var DATA = {
     },
     {
       "date": "2026-05-13",
-      "title": "福建十五五聚焦数智赋能打造四区一标杆",
-      "source": "福建省发改委",
-      "province": "福建",
-      "category": "数字经济",
-      "impact": "中",
-      "summary": "推动人工智能和实体经济深度融合，壮大数智领域新质生产力，力争数字经济核心产业增加值年均增长目标",
-      "url": "https://zjic.zj.gov.cn/ywdh/qyfz/202605/t20260508_24067195.shtml",
-      "isTop": false,
-      "isNew": true,
-      "publishDate": "2026-05-08"
-    },
-    {
-      "date": "2026-05-13",
       "title": "湖南省重点领域关键软件技术攻关及产业化项目实施细则印发",
       "source": "湖南省工信厅",
       "province": "湖南",
@@ -3097,19 +3032,6 @@ var DATA = {
     },
     {
       "date": "2026-05-15",
-      "title": "江苏全面实施人工智能+行动打造创新发展高地——十五五专场发布会",
-      "source": "江苏省人民政府",
-      "province": "江苏",
-      "category": "人工智能",
-      "impact": "中",
-      "summary": "十五五开局起步专场发布会明确江苏将抓住AI历史机遇，全面实施人工智能+行动，推动AI创新发展高地建设。",
-      "url": "https://www.js.gov.cn/art/2026/5/15/art_60095_11771491.html",
-      "isTop": false,
-      "isNew": true,
-      "publishDate": "2026-05-15"
-    },
-    {
-      "date": "2026-05-15",
       "title": "浙江出台民营经济新增13条举措——每年专项资金支持人工智能",
       "source": "浙江省人民政府",
       "province": "浙江",
@@ -3240,19 +3162,6 @@ var DATA = {
     },
     {
       "date": "2026-05-18",
-      "title": "江苏省长宣布全面实施人工智能+行动打造全国AI创新发展高地",
-      "source": "江苏省人民政府",
-      "province": "江苏",
-      "category": "人工智能",
-      "impact": "高",
-      "summary": "省长刘小涛在十五五开局专题发布会上宣布，全省已备案大模型74款、注册用户超1.5亿、API日均调用4400万次，算力规模超10万P居全国前列。",
-      "url": "https://www.chinanews.com/cj/2026/05-15/10621509.shtml",
-      "isTop": true,
-      "isNew": true,
-      "publishDate": "2026-05-15"
-    },
-    {
-      "date": "2026-05-18",
       "title": "江苏为高质量数据集建设划重点——已形成521个数据集超95PB",
       "source": "江苏省数据局",
       "province": "江苏",
@@ -3292,32 +3201,6 @@ var DATA = {
     },
     {
       "date": "2026-05-18",
-      "title": "华为鲲鹏昇腾开发者大会2026在武汉举行——发布数值托卡马克模拟软件",
-      "source": "华为",
-      "province": "国家级",
-      "category": "人工智能",
-      "impact": "中",
-      "summary": "5月15-16日举行，发布国内首个数值托卡马克模拟软件、昇腾AI+核聚变算力方案，推出聚变专用AI算法库面向开发者开放。",
-      "url": "https://xueqiu.com/7077825025/381971012",
-      "isTop": false,
-      "isNew": true,
-      "publishDate": "2026-05-15"
-    },
-    {
-      "date": "2026-05-18",
-      "title": "无锡高新区签约华为昇腾超节点集群——华东最大国产算力基地",
-      "source": "弘信电子/华为",
-      "province": "江苏",
-      "category": "人工智能",
-      "impact": "高",
-      "summary": "5月15日签约，首批部署4台华为昇腾384超节点服务器（单套算力215PFLOPS），拟打造华东地区规模最大的昇腾超节点算力集群。",
-      "url": "https://finance.ifeng.com/c/8tDtK8DROdU",
-      "isTop": true,
-      "isNew": true,
-      "publishDate": "2026-05-15"
-    },
-    {
-      "date": "2026-05-18",
       "title": "浙江出台13条措施促进民营经济高质量发展——明确AI等9领域向民资开放",
       "source": "浙江省委、省政府",
       "province": "浙江",
@@ -3339,19 +3222,6 @@ var DATA = {
       "summary": "研制《人工智能企业商业秘密保护指南》标准，聚焦AI企业商业秘密保护核心痛点，11家单位14位专家参会。",
       "url": "https://yushen.zjamr.zj.gov.cn/web/details/df789313be6f425d87c6efdee592488e.html",
       "isTop": false,
-      "isNew": true,
-      "publishDate": "2026-05-15"
-    },
-    {
-      "date": "2026-05-18",
-      "title": "安徽十五五开局发布会：人工智能+万物应用行动方案已出台",
-      "source": "安徽省人民政府",
-      "province": "安徽",
-      "category": "人工智能",
-      "impact": "高",
-      "summary": "省长王清宪介绍十五五部署，已出台AI+万物应用行动方案，目标应用落地超万个、智能终端普及率超90%。聚焦量子+AI+聚变协同联动。",
-      "url": "https://www.ce.cn/xwzx/gnsz/gdxw/202605/t20260516_2969685.shtml",
-      "isTop": true,
       "isNew": true,
       "publishDate": "2026-05-15"
     },
@@ -3445,19 +3315,6 @@ var DATA = {
       "isTop": true,
       "isNew": true,
       "publishDate": "2026-05-18"
-    },
-    {
-      "date": "2026-05-19",
-      "title": "无锡高新区签约弘信电子Token工厂首批部署4台华为昇腾384超节点",
-      "source": "无锡市人民政府",
-      "province": "江苏",
-      "category": "数字经济",
-      "impact": "中",
-      "summary": "5月15日弘信电子联手无锡高新区签约江苏省内首个华为昇腾384超节点算力集群,首批4台384卡服务器组成大规模Token工厂,打造国芯国模算力集群新样板。",
-      "url": "http://www.sohu.com/a/1023863535_222256",
-      "isTop": false,
-      "isNew": true,
-      "publishDate": "2026-05-17"
     },
     {
       "date": "2026-05-19",
@@ -3708,19 +3565,6 @@ var DATA = {
     },
     {
       "date": "2026-05-21",
-      "title": "英伟达Q1营收816亿美元同比增85%，净利润583亿美元同比增211%",
-      "source": "英伟达",
-      "province": "",
-      "category": "行业动态",
-      "impact": "中",
-      "summary": "5月21日英伟达发布2027财年Q1财报：营收816.15亿美元同比增长85%，净利润583.21亿美元同比增长211%。董事会批准新增800亿美元回购授权，季度股息从0.01美元提升至0.25美元/股。数据中心业务仍是核心增长引擎，高盛维持买入评级目标价250美元。全球AI算力需求持续旺盛，对国产算力替代形成竞争压力。",
-      "url": "https://new.qq.com/rain/a/20260521A022FV00",
-      "isTop": false,
-      "isNew": true,
-      "publishDate": "2026-05-21"
-    },
-    {
-      "date": "2026-05-21",
       "title": "福建省数据管理局公开征求《推进算力基础设施高质量发展实施意见》",
       "source": "福建省数据管理局",
       "province": "福建",
@@ -3824,32 +3668,6 @@ var DATA = {
       "publishDate": "2026-05-21"
     },
     {
-      "date": "2026-05-22",
-      "title": "湖南省科技厅发布十五五规划落实方案——打造科技创新高地引领新质生产力",
-      "source": "湖南省科学技术厅",
-      "province": "湖南",
-      "category": "人工智能",
-      "impact": "中",
-      "summary": "5月20日湖南省科技厅厅长朱皖解读十五五规划纲要落实方案，提出持续用力打造具有核心竞争力的科技创新高地。实施人工智能+先进制造行动，坚持算力算法算据算网四算一体全域统筹，建强国家超算长沙中心等算力设施。争创深海、信息等领域全国重点实验室，培育具身智能、脑机接口等后备力量。",
-      "url": "https://www.toutiao.com/article/7641755040437142067/",
-      "isTop": false,
-      "isNew": true,
-      "publishDate": "2026-05-20"
-    },
-    {
-      "date": "2026-05-25",
-      "title": "国家发改委谋划出台加快人工智能+落地配套文件",
-      "source": "国家发改委",
-      "province": "国家级",
-      "category": "人工智能",
-      "impact": "高",
-      "summary": "5月22日国家发改委新闻发布会上，发言人李超表示正在谋划出台加快\"人工智能+\"落地的配套文件，进一步加大要素保障，持续推动央国企开放高价值应用场景。同时指导国产大模型加大力度适配国产算力芯片，确保自主可控、向善发展。对上海AI产业落地有直接政策推动作用。",
-      "url": "https://www.jwview.com/jingwei/html/05-22/671781.shtml",
-      "isTop": true,
-      "isNew": true,
-      "publishDate": "2026-05-22"
-    },
-    {
       "date": "2026-05-25",
       "title": "上海杨浦发布类脑智能产业发展2.0版政策",
       "source": "上海市杨浦区人民政府",
@@ -3874,19 +3692,6 @@ var DATA = {
       "isTop": false,
       "isNew": true,
       "publishDate": "2026-05-22"
-    },
-    {
-      "date": "2026-05-25",
-      "title": "第十届中国网络版权保护与发展大会发布剑网2026重点任务",
-      "source": "国家版权局/中宣部",
-      "province": "国家级",
-      "category": "数字内容",
-      "impact": "中",
-      "summary": "5月23日第十届中国网络版权保护与发展大会在深圳举办，发布\"剑网2026\"专项行动重点任务、2025年度全国打击侵权盗版十大案件。强调十五五时期加快完善新兴领域版权制度设计，加快AI等前沿技术在版权领域创新应用，健全网络版权信用评价体系。",
-      "url": "https://new.qq.com/rain/a/20260523A01ZMA00",
-      "isTop": false,
-      "isNew": true,
-      "publishDate": "2026-05-23"
     },
     {
       "date": "2026-05-26",
@@ -7984,4 +7789,4 @@ var DATA = {
       "url": "https://www.sohu.com/a/1027587170_121106994"
     }
   ]
-};
+}
