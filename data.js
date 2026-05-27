@@ -1,5 +1,5 @@
 var DATA = {
-  "lastUpdate": "2026-05-26",
+  "lastUpdate": "2026-05-27",
   "entries": [
     {
       "id": "0430-001",
@@ -2196,6 +2196,45 @@ var DATA = {
       "isTop": false,
       "isNew": true,
       "publishDate": "2026-05-25"
+    },
+    {
+      "date": "2026-05-27",
+      "title": "国家新闻出版署发布2026年5月游戏版号（158款）",
+      "source": "国家新闻出版署",
+      "province": "",
+      "category": "游戏",
+      "impact": "高",
+      "summary": "5月26日，国家新闻出版署发布2026年5月游戏版号，共158款游戏获批（国产154款+进口4款）。腾讯《追逐卡蕾多》、网易《诡影藏锋》、字节跳动朝夕光年《托托比亚》、莉莉丝《小冰冰斗蛐蛐》、三七互娱《斗破苍穹:觉醒》等重点产品过审。腾讯游戏获批产品为潮酷二游，网易新作定位中式志怪搜打撤为从未曝光的神秘新品类。",
+      "url": "https://www.stcn.com/article/detail/3928396.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-26"
+    },
+    {
+      "date": "2026-05-27",
+      "title": "工信部发布2026年汽车标准化工作要点（含汽车AI标准）",
+      "source": "工业和信息化部",
+      "province": "",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "5月26日，工信部发布2026年汽车标准化工作要点，部署质量安全标准提升、绿色低碳标准焕新、新兴领域标准引领、未来技术标准预研四大行动。首次明确加快汽车人工智能风险评估与治理、端到端模型通用开发框架等国标研制，推进汽车AI智能化分级标准立项，完成汽车行业十五五技术标准体系建设方案编制。",
+      "url": "https://finance-app.people.cn/n1/2026/0526/c1004-40727887.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-26"
+    },
+    {
+      "date": "2026-05-27",
+      "title": "江苏已启动人工智能产业立法工作，列为今年重点立法项目",
+      "source": "江苏省人大常委会",
+      "province": "江苏",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "5月26日，江苏省十四届人大常委会第二十二次会议审议议案，确认人工智能产业立法已列为今年重点立法项目。《江苏省人工智能产业发展促进条例》将提交7月省人大常委会一审，明年初省人代会审议。条例涵盖算力基础设施建设、产业赋能与应用、技术创新与人才培育等内容，由省工信厅配合起草。同日省政协还召开AI产业立法协商会。",
+      "url": "http://www.js.xinhuanet.com/20260527/3c4a9be20d8343648f607c937c33f103/c.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-26"
     }
   ],
   "personnel": [
@@ -4322,6 +4361,46 @@ var DATA = {
   ],
   "competitors": [
     {
+      "date": "2026-05-27",
+      "name": "OpenAI",
+      "title": "GPT-5.6曝光（150万上下文）+广告业务瞄准中小商家",
+      "update": "5月26日，多名开发者在OpenAI Codex后端日志中发现未官宣模型GPT-5.6（内部代号iris-alpha），支持150万token上下文窗口（较GPT-5.5的105万提升43%），有望6月发布。同日OpenAI宣布调整ChatGPT广告策略转向中小广告主，推出无最低消费自助投放通道，预计今年广告收入24亿美元，2030年增至1020亿美元占收入35%。",
+      "url": "https://tech.ifeng.com/c/8tPxP7tkeJ2",
+      "province": ""
+    },
+    {
+      "date": "2026-05-27",
+      "name": "Anthropic",
+      "title": "正式成立韩国分公司，任命崔基英为首任负责人",
+      "update": "5月27日，Anthropic宣布正式推进韩国业务布局，任命前Snowflake韩国负责人崔基英为韩国代表。韩国用户对Claude使用量达人口预期值的3.5倍。Anthropic高层将数周内访韩完成办公室设立。此前Anthropic已在日本和新加坡设立亚洲分支，韩国为第三个亚洲办公室。估值已达9000亿美元超越OpenAI。",
+      "url": "https://new.qq.com/rain/a/20260527A041XW00",
+      "province": ""
+    },
+    {
+      "date": "2026-05-27",
+      "name": "腾讯",
+      "title": "Hy3 preview+DeepSeek-V4-Pro正式商用，结束免费公测",
+      "update": "5月27日10:00起，腾讯云智能体开发平台中Hy3 preview和DeepSeek-V4-Pro两款热门模型结束限时免费公测，转为按量计费的正式商用服务。消息公布后腾讯控股大涨超4%至468.6港元。Hy3 preview自4月开源以来在OpenRouter调用量持续居榜首，此次转商用标志着腾讯大模型商业化进入实质收获阶段。",
+      "url": "https://www.toutiao.com/a7641772288774013475",
+      "province": ""
+    },
+    {
+      "date": "2026-05-27",
+      "name": "阿里巴巴",
+      "title": "新加坡首届国际千问大会：发布Qwen Cloud+MuleRun+Qoder",
+      "update": "5月26日，阿里云在新加坡举办首届国际Qwen Conference，面向海外发布AI产品官网Qwen Cloud、Agent产品MuleRun、智能体编程平台Qoder及通用桌面智能体QoderWork。同日Qwen3.7-Max在CodeArena编程评测以1541分位列全球第二，超越GPT-5.5等主流竞品。阿里云还联合新加坡NTUC向800+中小企业开放AI工具。",
+      "url": "https://www.eqs-news.com/news/corporate/alibaba-cloud-unveils-advanced-agentic-ai-ecosystem-for-global-customers/a191d39b-db45-48ed-b194-9cce5071b556_en",
+      "province": "浙江"
+    },
+    {
+      "date": "2026-05-27",
+      "name": "字节跳动",
+      "title": "向Seed员工开放豆包股认购，每股13美元",
+      "update": "5月26日，字节跳动向Seed AI部门约2000名员工开放豆包股新一轮激励，每股定价13美元（较2025Q4试点授予价10美元上涨30%）。这是字节首次发行与特定业务部门挂钩的独立股份，员工可选择年终奖以豆包股形式发放。业内评估豆包股AI业务整体含金量远超200亿美元可灵估值，至少存在10倍增长空间。",
+      "url": "https://www.ithome.com/0/955/640.htm",
+      "province": ""
+    },
+    {
       "date": "2026-05-26",
       "name": "OpenAI",
       "title": "Codex重大更新：/goal模式正式上线，Mac截图功能上线",
@@ -6252,6 +6331,39 @@ var DATA = {
       "counterpart": "",
       "summary": "5月25日福建省委书记周祖翼主持省委常委会会议，学习贯彻习近平总书记近期重要讲话指示精神并研究贯彻落实措施。会议强调时刻绷紧安全生产这根弦，扎实推进安全生产治本攻坚三年行动，强化重大隐患动态清零，全力做好防汛救灾各项工作。",
       "url": "https://www.sohu.com/a/1027587170_121106994"
+    },
+    {
+      "date": "2026-05-27",
+      "province": "上海",
+      "leader": "陈吉宁",
+      "role": "市委书记",
+      "type": "会议",
+      "title": "陈吉宁主持上海市实施乡村振兴战略现场推进会",
+      "counterpart": "龚正、朱忠明",
+      "summary": "5月26日，上海市实施乡村振兴战略现场推进会举行。市委书记陈吉宁主持会议并强调，要大力发展壮大农业新质生产力，因地制宜推进宜居宜业和美乡村建设，更大力度促进农民增收，在十五五新起点上走出超大城市城乡融合发展新路子。市长龚正出席讲话。",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260527/37910f7e2ef04d15a08fab606ceee7ff.html"
+    },
+    {
+      "date": "2026-05-27",
+      "province": "江苏",
+      "leader": "信长星",
+      "role": "省委书记",
+      "type": "会议",
+      "title": "信长星主持江苏省委常委会，部署安全生产和AI产业立法",
+      "counterpart": "",
+      "summary": "5月25日，江苏省委书记信长星主持召开省委常委会会议，学习习近平总书记近期重要讲话精神，研究部署安全生产、防汛救灾工作。同日省人大常委会开幕，审议AI产业立法等议题。信长星强调要强化底线思维，抓实抓细安全生产各项工作，深化一带一路交汇点优势。",
+      "url": "https://www.jiangsu.gov.cn/art/2026/5/26/art_60095_11776210.html"
+    },
+    {
+      "date": "2026-05-27",
+      "province": "浙江",
+      "leader": "王浩",
+      "role": "省委书记",
+      "type": "会见",
+      "title": "王浩会见出席2026浙江·台湾合作周台湾嘉宾代表",
+      "counterpart": "台湾嘉宾代表",
+      "summary": "5月25日，浙江省委书记王浩在杭州会见出席2026浙江·台湾合作周的台湾嘉宾代表。王浩介绍浙江经济社会发展最新情况，表示将发挥浙台合作周平台作用，深化在数字经济、人工智能、生命健康等领域务实合作，积极为在浙台胞办实事解难事，持续推进浙台融合发展。",
+      "url": "https://www.thepaper.cn/newsDetail_forward_33239275"
     }
   ]
-}
+};
