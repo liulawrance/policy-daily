@@ -1,5 +1,5 @@
 var DATA = {
-  "lastUpdate": "2026-05-26",
+  "lastUpdate": "2026-05-28",
   "entries": [
     {
       "id": "0430-001",
@@ -2196,6 +2196,97 @@ var DATA = {
       "isTop": false,
       "isNew": true,
       "publishDate": "2026-05-25"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "司法部明确加快推进人工智能健康发展综合性立法和低空经济立法",
+      "source": "司法部/国务院新闻办",
+      "province": "国家级",
+      "category": "人工智能",
+      "impact": "高",
+      "summary": "5月27日国新办发布会上,司法部副部长武增表示将加快推进人工智能健康发展综合性立法、低空经济立法,制定全国统一大市场建设条例。最高法同步宣布将研究制定涉人工智能、数据产权司法保护的规范性文件,完善数据权属、AI生成物等裁判规则。",
+      "url": "https://www.cnstock.com/commonDetail/721330",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-27"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "市场监管总局部署信用赋能整治内卷式竞争专项行动（5月至12月）",
+      "source": "市场监管总局",
+      "province": "国家级",
+      "category": "行业监管",
+      "impact": "高",
+      "summary": "市场监管总局印发通知部署5月至12月信用赋能整治内卷式竞争专项行动,明确在直播带货、外卖行业及重点工业产品领域开展双随机专项抽查,综合运用经营异常名录、严重违法失信名单等信用监管工具从严从快处置违法失信案件,对涉及内卷式竞争的企业从严实施信用修复。",
+      "url": "https://new.qq.com/rain/a/20260528A03AXH00",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-27"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "广电总局开展2026年网络视听节目精品创作传播工程扶持项目申报",
+      "source": "国家广播电视总局",
+      "province": "国家级",
+      "category": "数字内容",
+      "impact": "中",
+      "summary": "广电总局办公厅印发广电办发〔2026〕124号通知,开展2026年网络视听节目精品创作传播工程扶持项目申报评审工作,重点扶持网络动画片、网络综艺、网络纪录片、网络直播、网络音频、短视频等原创精品。申报作品须坚持正确政治方向和以人民为中心的创作导向。",
+      "url": "https://www.nrta.gov.cn/art/2026/5/26/art_113_73368.html?xxgkhide=1",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-26"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "上海发布服务业扩能提质实施意见：实施AI+行动，打造数字内容高地",
+      "source": "上海市人民政府",
+      "province": "上海",
+      "category": "数字经济",
+      "impact": "高",
+      "summary": "上海市政府发布《关于推进服务业扩能提质的实施意见》,明确实施AI+行动加快关键核心软件攻关,推动行业大模型、通用智能体在工业金融等场景规模化落地。研究激励机制鼓励平台企业加快信息服务转型打造跨界综合型互联网平台,聚焦游戏微短剧等重点领域打造高品质数字内容高地。",
+      "url": "https://www.stcn.com/article/detail/3929420.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-27"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "上海发布AI微短剧沪8条：单项最高给予1000万元支持",
+      "source": "上海市文化和旅游局",
+      "province": "上海",
+      "category": "数字内容",
+      "impact": "高",
+      "summary": "市文旅局正式印发《上海市加快推进人工智能赋能微短剧高质量发展的若干措施》（AI微短剧沪8条），以八大方向二十四项措施全面落地AI+发展战略。对自主研发AI微短剧智能体项目按不超过实际研发投入20%给予最高1000万元支持,对优秀微短剧项目给予最高300万元奖励。",
+      "url": "https://new.qq.com/rain/a/20260528A000O400",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-26"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "安徽印发人工智能+政务行动方案：2027年落地100个特色应用场景",
+      "source": "安徽省人民政府",
+      "province": "安徽",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "《安徽省加快推进人工智能政务行动方案》印发,聚焦政务服务、数据要素、经济调节等六大领域系统推进AI+政务深度融合。到2027年夯实全省统一数智底座落地不少于100个特色应用场景,2030年实现全方位全流程深度应用。首批推出64个重点应用场景,推行省级统建全省共用模式。",
+      "url": "https://www.sohu.com/a/1028551913_122014422",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-28"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "中国版权协会发布《关于加强图书版权保护的共识》",
+      "source": "中国版权协会/国家版权局",
+      "province": "国家级",
+      "category": "数字内容",
+      "impact": "中",
+      "summary": "5月23日第十届中国网络版权保护与发展大会上,中国版权协会理事长周慧琳发布《关于加强图书版权保护的共识》,联合出版机构及电商平台搭建全方位立体化图书版权保护体系。分论坛主题为人工智能时代图书版权保护与高质量语料库建设。",
+      "url": "https://www.ncac.gov.cn/xxfb/yjdt/202605/t20260527_991704.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-27"
     }
   ],
   "personnel": [
@@ -4318,9 +4409,131 @@ var DATA = {
       "removals": [],
       "source_url": "",
       "analysis": null
+    },
+    {
+      "date": "2026-05-28",
+      "province": "浙江",
+      "title": "浙江省人大常委会决定任命姚高员为副省长（5月28日）",
+      "appointments": [
+        {
+          "name": "姚高员",
+          "newRole": "浙江省人民政府副省长",
+          "prevRole": "杭州市市长（1968年8月生，浙江慈溪人）"
+        }
+      ],
+      "removals": [],
+      "source_url": "",
+      "analysis": null
+    },
+    {
+      "date": "2026-05-28",
+      "province": "上海",
+      "title": "上海市人大常委会审议通过多项人事任免（5月27日）",
+      "appointments": [
+        {
+          "name": "朱新远",
+          "newRole": "上海市教育委员会主任",
+          "prevRole": "此前职务待查"
+        },
+        {
+          "name": "王珏",
+          "newRole": "上海市生态环境局局长",
+          "prevRole": "此前职务待查"
+        },
+        {
+          "name": "刘斌",
+          "newRole": "上海市应急管理局局长",
+          "prevRole": "此前职务待查"
+        }
+      ],
+      "removals": [
+        {
+          "name": "周亚明",
+          "prevRole": "上海市教育委员会主任"
+        },
+        {
+          "name": "马坚泓",
+          "prevRole": "上海市应急管理局局长"
+        }
+      ],
+      "source_url": "",
+      "analysis": null
+    },
+    {
+      "date": "2026-05-28",
+      "province": "上海",
+      "title": "上海市政府人事任免通知（5月27日）",
+      "appointments": [
+        {
+          "name": "赵丹丹",
+          "newRole": "上海市政府相关职务（待确认具体职务）",
+          "prevRole": "此前职务待查"
+        },
+        {
+          "name": "俞文杰",
+          "newRole": "上海市政府相关职务（待确认具体职务）",
+          "prevRole": "此前职务待查"
+        },
+        {
+          "name": "李栋",
+          "newRole": "上海市政府新任职务",
+          "prevRole": "上海市政府原职务（同日免原职另任新职）"
+        }
+      ],
+      "removals": [],
+      "source_url": "",
+      "analysis": null
     }
   ],
   "competitors": [
+    {
+      "date": "2026-05-28",
+      "name": "Anthropic",
+      "title": "Anthropic 300亿美元融资正式关闭，估值9000亿美元成全球最贵AI独角兽",
+      "update": "5月26日当周Anthropic确认完成超300亿美元融资,估值突破9000亿美元超越OpenAI成为全球最贵私营AI公司。由红杉、Dragoneer、Altimeter联合领投,微软、英伟达参投。4月ARR已达300亿美元,预计10月启动IPO。另外Mythos模型已进入上线前测试阶段,定位安全推理超越Opus 4.7。",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-may-27-2026",
+      "province": ""
+    },
+    {
+      "date": "2026-05-28",
+      "name": "微软",
+      "title": "Microsoft Copilot Studio电脑操作Agent正式GA,重构企业级AI工作流",
+      "update": "5月26日微软发布Copilot Studio 5月更新,核心突破为电脑操作Agent正式GA（通用可用）——Agent可直接操控桌面和Web应用如人类用户一样点击、填表、提取数据,无需API。同时新增工作流重构、Work IQ集成、实时语音(<500ms延迟)三大更新,加速从对话助手向Agent平台转型。",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-may-27-2026",
+      "province": ""
+    },
+    {
+      "date": "2026-05-28",
+      "name": "腾讯",
+      "title": "腾讯游戏发布会All in AI：MagicDawn渲染+代号Craft创作平台+数字景德镇",
+      "update": "5月27日2026腾讯游戏发布会亮相42款游戏,One More Thing环节重磅推出三项AI应用：AI渲染方案MagicDawn重构光影声场、AI游戏创作平台代号Craft支持一句话生成3D游戏、AI文化传承游戏《数字景德镇·瓷都小匠》还原古法制瓷。此外和平精英AI搭子、王者荣耀AI助手灵宝等均已上线。",
+      "url": "https://www.36kr.com/p/3827658881323649",
+      "province": ""
+    },
+    {
+      "date": "2026-05-28",
+      "name": "阿里巴巴",
+      "title": "Qwen3.7-Max冲入全球编程前四,阿里云新加坡发布Qwen Cloud全栈产品",
+      "update": "阿里Qwen3.7-Max以1541分冲入Code Arena全球编程榜单前四,超越GPT-5.5等强劲对手,是前五中唯一中国厂商仅次于Anthropic。5月26日阿里云在新加坡面向海外市场发布Qwen Cloud、Agent产品MuleRun、智能体编程平台Qoder等,全栈Agent云基础设施升级。",
+      "url": "https://finance.eastmoney.com/a/202605273750604348.html",
+      "province": "浙江"
+    },
+    {
+      "date": "2026-05-28",
+      "name": "智谱AI",
+      "title": "智谱港股市值刷新新高,GLM-4.7开源+MiniMax下月纳入恒生科技指数",
+      "update": "5月28日智谱(2513.HK)股价续创新高达1467港元涨3%,5月累计涨超50%。GLM-4.7新一代旗舰模型开源,编码与推理能力领先;智谱与MiniMax将于6月8日正式纳入恒生科技指数。中国大模型周调用量已连续四周超过美国稳居全球首位,DeepSeek-V4-Flash登顶OpenRouter调用榜。",
+      "url": "https://new.qq.com/rain/a/20260528A03TPH00",
+      "province": "上海"
+    },
+    {
+      "date": "2026-05-28",
+      "name": "OpenRouter",
+      "title": "AI模型聚合平台OpenRouter完成1.13亿美元B轮融资,英伟达参投",
+      "update": "5月26日AI模型聚合平台OpenRouter宣布完成1.13亿美元B轮融资,由谷歌CapitalG领投、英伟达NVentures跟投,估值达13亿美元。平台接入超400款模型覆盖OpenAI/Anthropic/Google/DeepSeek/腾讯/阿里等厂商,是开发者调用多模型的关键基础设施,此前腾讯Hy3曾登顶该平台排行榜。",
+      "url": "https://finance.sina.com.cn/stock/t/2026-05-27/doc-inhziqxq9261304.shtml",
+      "province": ""
+    },
     {
       "date": "2026-05-27",
       "name": "OpenAI",
@@ -6325,6 +6538,50 @@ var DATA = {
       "counterpart": "",
       "summary": "5月25日福建省委书记周祖翼主持省委常委会会议，学习贯彻习近平总书记近期重要讲话指示精神并研究贯彻落实措施。会议强调时刻绷紧安全生产这根弦，扎实推进安全生产治本攻坚三年行动，强化重大隐患动态清零，全力做好防汛救灾各项工作。",
       "url": "https://www.sohu.com/a/1027587170_121106994"
+    },
+    {
+      "date": "2026-05-28",
+      "province": "上海",
+      "leader": "陈吉宁",
+      "role": "市委书记",
+      "type": "会议",
+      "title": "陈吉宁主持市委常委会审议国际金融中心和科创中心十五五规划",
+      "counterpart": "市委常委会成员",
+      "summary": "5月27日下午市委常委会举行会议,陈吉宁主持并讲话。会议审议通过《上海国际金融中心建设十五五规划》和《上海市加快国际科技创新中心建设十五五规划》,传达学习习近平总书记对安全生产和哲学社会科学高质量发展的重要指示精神,要求以临战状态打好防汛工作主动仗。",
+      "url": "https://new.qq.com/rain/a/20260528A032U400"
+    },
+    {
+      "date": "2026-05-28",
+      "province": "上海",
+      "leader": "陈吉宁",
+      "role": "市委书记",
+      "type": "会议",
+      "title": "陈吉宁主持实施乡村振兴战略现场推进会",
+      "counterpart": "各区和相关部门",
+      "summary": "5月27日陈吉宁主持实施乡村振兴战略现场推进会,深入浦东新区镇村园区开展专题调研。强调要充分用好超大城市市场优势和科技创新优势,牢牢把握数智化发展机遇推动农业做精做强,创新现代农业生产方式促进农民稳定长效增收,走出超大城市城乡融合发展新路子。",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260527/37910f7e2ef04d15a08fab606ceee7ff.html"
+    },
+    {
+      "date": "2026-05-28",
+      "province": "浙江",
+      "leader": "王浩",
+      "role": "省委书记",
+      "type": "会议",
+      "title": "浙江省人大常委会举行第二十四次会议,姚高员获任副省长",
+      "counterpart": "省人大常委会",
+      "summary": "5月28日浙江省十四届人大常委会第二十四次会议审议表决,决定任命姚高员为浙江省人民政府副省长。今年以来浙江省政府领导班子已三度调整,姚高员卸任杭州市长后晋升副省级。此前杜旭亮已接任杭州代市长。",
+      "url": "https://www.chinanews.com/gn/2026/05-28/10629978.shtml"
+    },
+    {
+      "date": "2026-05-28",
+      "province": "江苏",
+      "leader": "信长星",
+      "role": "省委书记",
+      "type": "会议",
+      "title": "江苏省人大常委会第二十二次会议闭幕,AI产业立法列为重点项目",
+      "counterpart": "省人大常委会",
+      "summary": "5月26-27日江苏省十四届人大常委会第二十二次会议召开。会议审议人大代表议案结果报告,明确人工智能产业立法已被列为今年重点立法项目,将提交7月省人大常委会一审并提请明年省人代会审议。省人大财经委正深入调研算力基础设施、产业赋能、人才培育等内容。",
+      "url": "http://www.js.xinhuanet.com/20260527/3c4a9be20d8343648f607c937c33f103/c.html"
     }
   ]
 };
