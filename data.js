@@ -1,5 +1,5 @@
 var DATA = {
-  "lastUpdate": "2026-05-28",
+  "lastUpdate": "2026-05-29",
   "entries": [
     {
       "id": "0430-001",
@@ -2199,32 +2199,6 @@ var DATA = {
     },
     {
       "date": "2026-05-28",
-      "title": "司法部明确加快推进人工智能健康发展综合性立法和低空经济立法",
-      "source": "司法部/国务院新闻办",
-      "province": "国家级",
-      "category": "人工智能",
-      "impact": "高",
-      "summary": "5月27日国新办发布会上,司法部副部长武增表示将加快推进人工智能健康发展综合性立法、低空经济立法,制定全国统一大市场建设条例。最高法同步宣布将研究制定涉人工智能、数据产权司法保护的规范性文件,完善数据权属、AI生成物等裁判规则。",
-      "url": "https://www.cnstock.com/commonDetail/721330",
-      "isTop": true,
-      "isNew": true,
-      "publishDate": "2026-05-27"
-    },
-    {
-      "date": "2026-05-28",
-      "title": "市场监管总局部署信用赋能整治内卷式竞争专项行动（5月至12月）",
-      "source": "市场监管总局",
-      "province": "国家级",
-      "category": "行业监管",
-      "impact": "高",
-      "summary": "市场监管总局印发通知部署5月至12月信用赋能整治内卷式竞争专项行动,明确在直播带货、外卖行业及重点工业产品领域开展双随机专项抽查,综合运用经营异常名录、严重违法失信名单等信用监管工具从严从快处置违法失信案件,对涉及内卷式竞争的企业从严实施信用修复。",
-      "url": "https://new.qq.com/rain/a/20260528A03AXH00",
-      "isTop": true,
-      "isNew": true,
-      "publishDate": "2026-05-27"
-    },
-    {
-      "date": "2026-05-28",
       "title": "广电总局开展2026年网络视听节目精品创作传播工程扶持项目申报",
       "source": "国家广播电视总局",
       "province": "国家级",
@@ -2251,32 +2225,6 @@ var DATA = {
     },
     {
       "date": "2026-05-28",
-      "title": "上海发布AI微短剧沪8条：单项最高给予1000万元支持",
-      "source": "上海市文化和旅游局",
-      "province": "上海",
-      "category": "数字内容",
-      "impact": "高",
-      "summary": "市文旅局正式印发《上海市加快推进人工智能赋能微短剧高质量发展的若干措施》（AI微短剧沪8条），以八大方向二十四项措施全面落地AI+发展战略。对自主研发AI微短剧智能体项目按不超过实际研发投入20%给予最高1000万元支持,对优秀微短剧项目给予最高300万元奖励。",
-      "url": "https://new.qq.com/rain/a/20260528A000O400",
-      "isTop": true,
-      "isNew": true,
-      "publishDate": "2026-05-26"
-    },
-    {
-      "date": "2026-05-28",
-      "title": "安徽印发人工智能+政务行动方案：2027年落地100个特色应用场景",
-      "source": "安徽省人民政府",
-      "province": "安徽",
-      "category": "人工智能",
-      "impact": "中",
-      "summary": "《安徽省加快推进人工智能政务行动方案》印发,聚焦政务服务、数据要素、经济调节等六大领域系统推进AI+政务深度融合。到2027年夯实全省统一数智底座落地不少于100个特色应用场景,2030年实现全方位全流程深度应用。首批推出64个重点应用场景,推行省级统建全省共用模式。",
-      "url": "https://www.sohu.com/a/1028551913_122014422",
-      "isTop": false,
-      "isNew": true,
-      "publishDate": "2026-05-28"
-    },
-    {
-      "date": "2026-05-28",
       "title": "中国版权协会发布《关于加强图书版权保护的共识》",
       "source": "中国版权协会/国家版权局",
       "province": "国家级",
@@ -2287,6 +2235,71 @@ var DATA = {
       "isTop": false,
       "isNew": true,
       "publishDate": "2026-05-27"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "国家发展改革委发布贯彻实施民营经济促进法典型案例(第一批)",
+      "source": "国家发展改革委",
+      "province": "国家级",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "5月28日发改委发布发改民营〔2026〕708号文件，公布贯彻实施民营经济促进法典型案例(第一批)，涵盖公平竞争、投融资、科技创新、权益保护等领域，为地方和部门提供参考借鉴。",
+      "url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/2026/05/t20260528_1405123.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-28"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "市场监管总局、发改委联合印发《人工智能计量体系和能力建设指引(2026版)》",
+      "source": "市场监管总局、国家发展改革委",
+      "province": "国家级",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "5月28日两部门联合印发指引，系统布局AI计量能力建设，围绕基础支撑、通用技术、核心技术等六大部分，推动建立AI可靠、安全、可信计量标准，实现技术性能可测量、可比较、可追溯。",
+      "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/rzjls/art/2026/art_5f8c0e9e2d6e4b6e8a9f8c2e3d4b5a6c.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-28"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "《商业秘密保护规定》6月1日起施行，首次将数据、算法纳入保护范畴",
+      "source": "市场监管总局",
+      "province": "国家级",
+      "category": "数据安全",
+      "impact": "高",
+      "summary": "5月29日发布，6月1日起正式施行。规定首次在部门规章层面细化商业秘密认定规则，明确将数据、算法、计算机程序、代码等数字资产纳入技术信息保护范畴，覆盖电子侵入、远程爬取等新型侵权手段。",
+      "url": "http://zw.china.com.cn/2026-05/29/content_118520441.shtml",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-05-29"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "上海通过修法支持区块链赋能电子单证应用，6月1日起施行",
+      "source": "上海市人大常委会",
+      "province": "上海",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "5月27日上海市人大常委会表决通过《关于修改〈上海市促进浦东新区运用区块链赋能电子单证应用若干规定〉的决定》，首次以地方性法规明确支持智能合约、电子运输记录、电子仓单等实践应用。",
+      "url": "https://www.thepaper.cn/newsDetail_forward_33243567",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-27"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "厦门发布《2026年数字厦门工作要点暨数智全面赋能行动计划》",
+      "source": "厦门市人民政府",
+      "province": "福建",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "5月28日发布，围绕数据要素×和人工智能+两大引擎，部署6大方面26项重点举措58项具体任务，推进数据要素市场化配置改革、AI创新应用、数字政府建设，培育游戏出海等数字服务新业态。",
+      "url": "https://new.qq.com/rain/a/20260529A03K2300",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-05-28"
     }
   ],
   "personnel": [
@@ -4428,22 +4441,37 @@ var DATA = {
     {
       "date": "2026-05-28",
       "province": "上海",
-      "title": "上海市人大常委会审议通过多项人事任免（5月27日）",
+      "title": "上海市人事任免（5月27日）",
       "appointments": [
         {
           "name": "朱新远",
           "newRole": "上海市教育委员会主任",
-          "prevRole": "此前职务待查"
+          "prevRole": "上海理工大学校长、党委副书记（1972年7月生，工学博士，教授）"
         },
         {
           "name": "王珏",
           "newRole": "上海市生态环境局局长",
-          "prevRole": "此前职务待查"
+          "prevRole": "上海市普陀区人民政府副区长（1968年9月生，理学硕士，高级工程师）"
         },
         {
           "name": "刘斌",
           "newRole": "上海市应急管理局局长",
-          "prevRole": "此前职务待查"
+          "prevRole": "暂无公开信息"
+        },
+        {
+          "name": "赵丹丹",
+          "newRole": "上海申康医院发展中心主任",
+          "prevRole": "上海申康医院发展中心党委书记（1967年4月生，管理学博士）"
+        },
+        {
+          "name": "俞文杰",
+          "newRole": "上海市经济和信息化委员会副主任（挂职）",
+          "prevRole": "挂职干部"
+        },
+        {
+          "name": "李栋",
+          "newRole": "上海市国际贸易促进委员会会长",
+          "prevRole": "东浩兰生（集团）有限公司总裁"
         }
       ],
       "removals": [
@@ -4460,32 +4488,99 @@ var DATA = {
       "analysis": null
     },
     {
-      "date": "2026-05-28",
-      "province": "上海",
-      "title": "上海市政府人事任免通知（5月27日）",
+      "date": "2026-05-29",
+      "province": "国家级",
+      "title": "国务院人事任免（2026年5月27日）",
       "appointments": [
         {
-          "name": "赵丹丹",
-          "newRole": "上海市政府相关职务（待确认具体职务）",
-          "prevRole": "此前职务待查"
-        },
-        {
-          "name": "俞文杰",
-          "newRole": "上海市政府相关职务（待确认具体职务）",
-          "prevRole": "此前职务待查"
-        },
-        {
-          "name": "李栋",
-          "newRole": "上海市政府新任职务",
-          "prevRole": "上海市政府原职务（同日免原职另任新职）"
+          "name": "华春莹",
+          "newRole": "外交部副部长",
+          "prevRole": "外交部发言人、新闻司司长（1970年4月生，江苏淮安人）"
         }
       ],
-      "removals": [],
+      "removals": [
+        {
+          "name": "曲云海",
+          "prevRole": "国家移民管理局副局长"
+        }
+      ],
       "source_url": "",
       "analysis": null
     }
   ],
   "competitors": [
+    {
+      "date": "2026-05-29",
+      "name": "OpenAI",
+      "title": "OpenAI发布Codex自进化方案，6周内报税草稿准确率从25%升至86%",
+      "update": "5月28日OpenAI发布生产级Agent案例：与Thrive Holdings合作用Codex为会计师事务所打造Tax AI，报税季处理7000份税单，6周内草稿准确率从25%升至86%。通过三环循环（记录修正、生产trace、Codex驱动改进）实现Agent自进化。",
+      "url": "https://view.inews.qq.com/a/20260528A095VX00",
+      "province": ""
+    },
+    {
+      "date": "2026-05-29",
+      "name": "Anthropic",
+      "title": "Anthropic完成H轮650亿美元融资，估值9650亿美元首次超越OpenAI",
+      "update": "5月29日Anthropic官宣完成H轮650亿美元融资，投后估值达9650亿美元（约6.5万亿元人民币），首次超越OpenAI成为全球最贵AI创业公司。由红杉、Dragoneer、Altimeter联合领投，微软、英伟达参投。同日发布Claude Opus 4.8。",
+      "url": "https://new.qq.com/rain/a/20260529A03BOJ00",
+      "province": ""
+    },
+    {
+      "date": "2026-05-29",
+      "name": "Meta",
+      "title": "Meta计划成立新部门为企业客户定制AI服务",
+      "update": "据报道，Meta内部备忘录显示计划成立一个新部门，专门为企业客户定制人工智能服务。这是Meta在Llama开源策略之外拓展企业级AI服务的重要信号，将进一步加剧与微软、谷歌在企业AI市场的竞争。",
+      "url": "https://new.qq.com/rain/a/20260529A03BOJ00",
+      "province": ""
+    },
+    {
+      "date": "2026-05-29",
+      "name": "微软",
+      "title": "微软发布MAI-Image-2.5文生图模型，Arena排行榜位列第三",
+      "update": "5月27日微软发布MAI-Image-2.5文本生成图像模型，在Arena文生图排行榜中位列第三。较上一代在提示词遵循、文字渲染及画面细节处理方面显著提升，可更好理解光照、比例与空间关系，即将登陆MAI Playground与Microsoft Foundry。",
+      "url": "https://view.inews.qq.com/a/20260527A08L5D00",
+      "province": ""
+    },
+    {
+      "date": "2026-05-29",
+      "name": "腾讯",
+      "title": "腾讯混元发布Hy-Memory记忆插件，解决Agent长期协作记忆痛点",
+      "update": "5月28日腾讯混元正式推出Hy-Memory智能记忆插件，专为长期协作型Agent设计。评测显示记忆数量降低70%+，单条记忆信息密度提升45%+，Token消耗降低35%，记忆更新速度快20%。采用6层记忆框架+System1/System2双系统设计。",
+      "url": "https://www.chinaz.com/ainews/28443.shtml",
+      "province": ""
+    },
+    {
+      "date": "2026-05-29",
+      "name": "腾讯",
+      "title": "SPARK2026腾讯游戏发布会：《和平精英》展示混元3 preview驱动AI队友",
+      "update": "5月27日SPARK2026腾讯游戏发布会举行，《和平精英》展示行业首个由混元3 preview大模型驱动的AI明星队友小田，具备情感养成、策略模型、自动生成图文回忆等功能。同步推出绿洲启元-AI创作助手，革新UGC玩法创作模式。",
+      "url": "https://tech.tom.com/202605/4417778695.html",
+      "province": ""
+    },
+    {
+      "date": "2026-05-29",
+      "name": "阿里巴巴",
+      "title": "阿里语音大模型登顶Speech Arena国产第一，千问云海外发布Qwen Cloud",
+      "update": "5月28日阿里语音大模型Fun-Realtime-TTS-Preview以1190分Elo评分登顶Artificial Analysis语音排行榜国产第一、全球第五。5月26日阿里云在新加坡面向全球市场正式发布Qwen Cloud，专为AI Agent设计的三入口架构。",
+      "url": "https://developer.aliyun.com/article/1737254",
+      "province": "浙江"
+    },
+    {
+      "date": "2026-05-29",
+      "name": "字节跳动",
+      "title": "字节跳动与高通达成AI芯片供应协议，采购数百万颗定制ASIC",
+      "update": "5月26日高通与字节跳动正式达成AI芯片供应合作协议，高通将向字节提供数百万颗定制化ASIC芯片，专门支撑数据中心内的AI工作负载及AI Agent软件基础设施。协议还涉及联合制造服务，助力字节自研芯片设计转化为量产产品。",
+      "url": "https://www.chinaz.com/ainews/28359.shtml",
+      "province": ""
+    },
+    {
+      "date": "2026-05-28",
+      "name": "市场监管总局",
+      "title": "市场监管总局部署信用赋能整治内卷式竞争专项行动（5至12月）",
+      "update": "市场监管总局印发通知部署5月至12月信用赋能整治内卷式竞争专项行动,明确在直播带货、外卖行业及重点工业产品领域开展双随机专项抽查,综合运用经营异常名录、严重违法失信名单等信用监管工具从严从快处置违法失信案件。北京已约谈17家重点平台企业规范618期间经营行为。",
+      "url": "https://new.qq.com/rain/a/20260528A03AXH00",
+      "province": ""
+    },
     {
       "date": "2026-05-28",
       "name": "Anthropic",
@@ -4500,6 +4595,14 @@ var DATA = {
       "title": "Microsoft Copilot Studio电脑操作Agent正式GA,重构企业级AI工作流",
       "update": "5月26日微软发布Copilot Studio 5月更新,核心突破为电脑操作Agent正式GA（通用可用）——Agent可直接操控桌面和Web应用如人类用户一样点击、填表、提取数据,无需API。同时新增工作流重构、Work IQ集成、实时语音(<500ms延迟)三大更新,加速从对话助手向Agent平台转型。",
       "url": "https://www.buildfastwithai.com/blogs/ai-news-today-may-27-2026",
+      "province": ""
+    },
+    {
+      "date": "2026-05-28",
+      "name": "OpenRouter",
+      "title": "AI模型聚合平台OpenRouter完成1.13亿美元B轮融资,英伟达参投",
+      "update": "5月26日AI模型聚合平台OpenRouter宣布完成1.13亿美元B轮融资,由谷歌CapitalG领投、英伟达NVentures跟投,估值达13亿美元。平台接入超400款模型覆盖OpenAI/Anthropic/Google/DeepSeek/腾讯/阿里等厂商,是开发者调用多模型的关键基础设施,此前腾讯Hy3曾登顶该平台排行榜。",
+      "url": "https://finance.sina.com.cn/stock/t/2026-05-27/doc-inhziqxq9261304.shtml",
       "province": ""
     },
     {
@@ -4525,14 +4628,6 @@ var DATA = {
       "update": "5月28日智谱(2513.HK)股价续创新高达1467港元涨3%,5月累计涨超50%。GLM-4.7新一代旗舰模型开源,编码与推理能力领先;智谱与MiniMax将于6月8日正式纳入恒生科技指数。中国大模型周调用量已连续四周超过美国稳居全球首位,DeepSeek-V4-Flash登顶OpenRouter调用榜。",
       "url": "https://new.qq.com/rain/a/20260528A03TPH00",
       "province": "上海"
-    },
-    {
-      "date": "2026-05-28",
-      "name": "OpenRouter",
-      "title": "AI模型聚合平台OpenRouter完成1.13亿美元B轮融资,英伟达参投",
-      "update": "5月26日AI模型聚合平台OpenRouter宣布完成1.13亿美元B轮融资,由谷歌CapitalG领投、英伟达NVentures跟投,估值达13亿美元。平台接入超400款模型覆盖OpenAI/Anthropic/Google/DeepSeek/腾讯/阿里等厂商,是开发者调用多模型的关键基础设施,此前腾讯Hy3曾登顶该平台排行榜。",
-      "url": "https://finance.sina.com.cn/stock/t/2026-05-27/doc-inhziqxq9261304.shtml",
-      "province": ""
     },
     {
       "date": "2026-05-27",
@@ -6552,17 +6647,6 @@ var DATA = {
     },
     {
       "date": "2026-05-28",
-      "province": "上海",
-      "leader": "陈吉宁",
-      "role": "市委书记",
-      "type": "会议",
-      "title": "陈吉宁主持实施乡村振兴战略现场推进会",
-      "counterpart": "各区和相关部门",
-      "summary": "5月27日陈吉宁主持实施乡村振兴战略现场推进会,深入浦东新区镇村园区开展专题调研。强调要充分用好超大城市市场优势和科技创新优势,牢牢把握数智化发展机遇推动农业做精做强,创新现代农业生产方式促进农民稳定长效增收,走出超大城市城乡融合发展新路子。",
-      "url": "https://www.shanghai.gov.cn/nw4411/20260527/37910f7e2ef04d15a08fab606ceee7ff.html"
-    },
-    {
-      "date": "2026-05-28",
       "province": "浙江",
       "leader": "王浩",
       "role": "省委书记",
@@ -6571,17 +6655,6 @@ var DATA = {
       "counterpart": "省人大常委会",
       "summary": "5月28日浙江省十四届人大常委会第二十四次会议审议表决,决定任命姚高员为浙江省人民政府副省长。今年以来浙江省政府领导班子已三度调整,姚高员卸任杭州市长后晋升副省级。此前杜旭亮已接任杭州代市长。",
       "url": "https://www.chinanews.com/gn/2026/05-28/10629978.shtml"
-    },
-    {
-      "date": "2026-05-28",
-      "province": "江苏",
-      "leader": "信长星",
-      "role": "省委书记",
-      "type": "会议",
-      "title": "江苏省人大常委会第二十二次会议闭幕,AI产业立法列为重点项目",
-      "counterpart": "省人大常委会",
-      "summary": "5月26-27日江苏省十四届人大常委会第二十二次会议召开。会议审议人大代表议案结果报告,明确人工智能产业立法已被列为今年重点立法项目,将提交7月省人大常委会一审并提请明年省人代会审议。省人大财经委正深入调研算力基础设施、产业赋能、人才培育等内容。",
-      "url": "http://www.js.xinhuanet.com/20260527/3c4a9be20d8343648f607c937c33f103/c.html"
     }
   ]
 };
