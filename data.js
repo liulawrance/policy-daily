@@ -4844,21 +4844,6 @@ var DATA = {
       "removals": [],
       "source_url": "",
       "analysis": null
-    },
-    {
-      "date": "2026-06-03",
-      "province": "安徽",
-      "title": "安徽省管领导干部任前公示（2026年6月1日）",
-      "appointments": [
-        {
-          "name": "待补充",
-          "newRole": "安徽11位县市区党政一把手拟任",
-          "prevRole": "待补充"
-        }
-      ],
-      "removals": [],
-      "source_url": "",
-      "analysis": null
     }
   ],
   "competitors": [
