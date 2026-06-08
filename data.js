@@ -1,5 +1,5 @@
 var DATA = {
-  "lastUpdate": "2026-06-05",
+  "lastUpdate": "2026-06-08",
   "entries": [
     {
       "id": "0430-001",
@@ -2573,6 +2573,162 @@ var DATA = {
       "isTop": false,
       "isNew": true,
       "publishDate": "2026-06-04"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "五部门联合公布《互联网信息内容多渠道分发服务管理规定》",
+      "source": "国家网信办、公安部、文旅部、市场监管总局、广电总局",
+      "province": "国家级",
+      "category": "行业监管",
+      "impact": "高",
+      "summary": "五部门联合公布新规,自9月1日起施行,规范MCN机构、网红经纪、内容代运营等业态。要求MCN依法办理经营主体登记,入驻平台向省级网信部门备案,禁止虚构流量、煽动对立、未成年人直播等11类违规行为,违规最高可罚款数百万元。",
+      "url": "https://paper.people.com.cn/rmrb/pc/content/202606/02/content_30160363.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-06-02"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "数据、算法正式纳入商业秘密保护范畴 6月1日起施行",
+      "source": "市场监管总局",
+      "province": "国家级",
+      "category": "数据安全",
+      "impact": "中",
+      "summary": "《商业秘密保护规定》6月1日起施行,首次明确将数据、算法、计算机程序、代码等数字化要素纳入商业秘密保护体系,标志着我国商业秘密保护制度全面适应数字经济时代。",
+      "url": "https://www.toutiao.com/article/7646607029611676195/",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-06-01"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "工信部向166家外资企业发放增值电信业务经营试点批复",
+      "source": "工信部",
+      "province": "国家级",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "在北京、上海、海南、深圳四地试点取消互联网数据中心等增值电信业务外资股比限制,166家外资企业已获批复,全国外商投资电信企业超3100家,经营范围覆盖全部10项增值电信业务。",
+      "url": "https://www.chinanews.com.cn/gn/2026/06-03/10633699.shtml",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-06-05"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "发改委总结推广上海浦东、深圳、厦门综合改革试点经验",
+      "source": "国家发改委",
+      "province": "国家级",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "发改委印发通知,总结推广上海浦东新区、深圳、厦门综合改革试点创新举措和经验做法,推动改革经验向全国复制推广。",
+      "url": "https://www.ndrc.gov.cn/",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-06-05"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "上海印发服务业发展十五五规划 优化布局算力设施",
+      "source": "上海市人民政府办公厅",
+      "province": "上海",
+      "category": "数字经济",
+      "impact": "高",
+      "summary": "《上海市服务业发展十五五规划》提出到2030年服务业增加值达6万亿元左右,强化AI+新兴业态基础支撑,优化布局算力设施,加强算力券支持和智能算力普惠供给。",
+      "url": "https://www.stcn.com/article/detail/3937431.html",
+      "isTop": true,
+      "isNew": true,
+      "publishDate": "2026-06-01"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "上海支持打造资产管理领域人工智能应用中试基地",
+      "source": "上海市人民政府办公厅",
+      "province": "上海",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "上海支持打造资管领域AI应用中试基地,探索数字人民币在证券、基金、银行理财等领域创新应用。",
+      "url": "https://www.stcn.com/article/detail/3938938.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-06-02"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "浙江布局10+X未来产业行动方案面向社会征求意见",
+      "source": "浙江省人民政府办公厅",
+      "province": "浙江",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "浙江布局具身智能、生物制造、量子科技、脑机接口、氢能、6G、前沿新材料等10个重点领域。",
+      "url": "https://finance.eastmoney.com/a/202606013755959056.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-06-01"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "浙江部署数字化服务商培优育强行动",
+      "source": "浙江省经信厅",
+      "province": "浙江",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "省经信厅部署到2030年数字化服务商培育工作,支持服务商向AI驱动转型。",
+      "url": "https://jxt.zj.gov.cn/col/col1229123455/art/2026/art_b5838f5de1f940a198eb60a966cc824a.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-06-02"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "江苏本年度支持建设约30个前沿技术应用场景",
+      "source": "江苏省科技厅",
+      "province": "江苏",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "省科技厅支持建设智能体、量子科技、脑机接口、具身智能、6G等领域前沿技术应用场景。",
+      "url": "http://js.xinhuanet.com/20260606/39394b8b025a42e3905649f4751902fb/c.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-06-06"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "江苏印发工作方案加快具身智能机器人数据集建设",
+      "source": "江苏省工信厅",
+      "province": "江苏",
+      "category": "人工智能",
+      "impact": "中",
+      "summary": "省工信厅围绕4方面11条举措加快具身智能机器人数据集建设。",
+      "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_1556a24bd4577452",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-06-07"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "江苏出台优化营商环境行动方案(2026版)",
+      "source": "江苏省政府办公厅",
+      "province": "江苏",
+      "category": "数字经济",
+      "impact": "中",
+      "summary": "方案提出全年新增科技领域专项贷款超3300亿元,设立早期硬科技投资基金。",
+      "url": "https://www.toutiao.com/w/1867141854895114",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-06-05"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "湖南推动人工智能+教育融合发展征集供需清单",
+      "source": "湖南省工信厅",
+      "province": "湖南",
+      "category": "人工智能",
+      "impact": "低",
+      "summary": "省工信厅首次征集发布人工智能应用需求清单254个、供给能力清单518个。",
+      "url": "https://gxt.hunan.gov.cn/gxt/xxgk_71033/jyta/rd/202606/t20260601_33991208.html",
+      "isTop": false,
+      "isNew": true,
+      "publishDate": "2026-06-01"
     }
   ],
   "personnel": [
@@ -4967,9 +5123,216 @@ var DATA = {
       "removals": [],
       "source_url": "",
       "analysis": null
+    },
+    {
+      "date": "2026-06-08",
+      "province": "国家级",
+      "title": "国务院人事任免(6月5日)",
+      "appointments": [
+        {
+          "name": "刘苏社",
+          "newRole": "文旅部副部长",
+          "prevRole": "发改委副主任",
+          "note": "",
+          "analysis": {}
+        },
+        {
+          "name": "丁向群",
+          "newRole": "金融监管总局局长",
+          "prevRole": "",
+          "note": "",
+          "analysis": {}
+        }
+      ],
+      "removals": [
+        {
+          "name": "陈家昌",
+          "newRole": "",
+          "prevRole": "科技部副部长",
+          "note": "免职",
+          "analysis": {}
+        },
+        {
+          "name": "张玉卓",
+          "newRole": "",
+          "prevRole": "国资委主任",
+          "note": "免职",
+          "analysis": {}
+        }
+      ],
+      "source_url": "",
+      "analysis": null
+    },
+    {
+      "date": "2026-06-08",
+      "province": "福建",
+      "title": "福建省委人事任免 魏晓奎任省委常委、省纪委书记",
+      "appointments": [
+        {
+          "name": "魏晓奎",
+          "newRole": "福建省委常委、省纪委书记",
+          "prevRole": "福建省副省长",
+          "note": "",
+          "analysis": {
+            "bio": "1969年1月生,曾任江西省纪委副书记、抚州市委书记。",
+            "impact": "中 — 省部级人事变动。"
+          }
+        }
+      ],
+      "removals": [],
+      "source_url": "",
+      "analysis": null
+    },
+    {
+      "date": "2026-06-08",
+      "province": "上海",
+      "title": "上海市管干部任职 韦明任闵行区政协党组书记",
+      "appointments": [
+        {
+          "name": "韦明",
+          "newRole": "闵行区政协党组书记",
+          "prevRole": "市委社工部副部长",
+          "note": "",
+          "analysis": {
+            "bio": "1969年6月生,中央党校研究生。",
+            "impact": "低 — 区级政协职务。"
+          }
+        }
+      ],
+      "removals": [],
+      "source_url": "",
+      "analysis": null
+    },
+    {
+      "date": "2026-06-08",
+      "province": "湖南",
+      "title": "湖南省委组织部干部任前公示 王武拟任正厅级",
+      "appointments": [
+        {
+          "name": "王武",
+          "newRole": "省直单位正厅级领导职务",
+          "prevRole": "省委组织部副部长",
+          "note": "",
+          "analysis": {
+            "bio": "1969年7月生,研究生,法学硕士。",
+            "impact": "待观察。"
+          }
+        }
+      ],
+      "removals": [],
+      "source_url": "",
+      "analysis": null
+    },
+    {
+      "date": "2026-06-08",
+      "province": "安徽",
+      "title": "安徽三市干部任前公示 程志华拟任县(区)委书记",
+      "appointments": [
+        {
+          "name": "程志华",
+          "newRole": "铜陵县(区)委书记",
+          "prevRole": "铜陵市农业农村局局长",
+          "note": "",
+          "analysis": {
+            "bio": "1977年3月出生,省委党校研究生学历。",
+            "impact": "低 — 县区级职务。"
+          }
+        }
+      ],
+      "removals": [],
+      "source_url": "",
+      "analysis": null
     }
   ],
   "competitors": [
+    {
+      "date": "2026-06-08",
+      "name": "工信部",
+      "title": "工信部组织开展6G创新发展部省协同试点专项行动",
+      "update": "工信部发布通知,组织开展6G创新发展部省协同试点专项行动,目标到2029年形成自主创新6G技术方案,培育新型业务应用场景,打造地方6G特色产业集群,聚焦沉浸式通信、工业制造、低空经济、具身智能、智慧海洋等潜力场景。",
+      "url": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/gg/art/2026/art_b27da8133cf04e2c94d35cbb0e5d84c0.html",
+      "province": "国家级"
+    },
+    {
+      "date": "2026-06-08",
+      "name": "国家版权局、工信部、公安部、网信办",
+      "title": "四部门联合启动剑网2026专项行动聚焦AI版权治理",
+      "update": "6月至11月开展第22次剑网专项行动,聚焦影视版权、文创版权、图书版权、人工智能领域版权四大领域。AI领域重点推动解决大模型训练语料版权合规问题,严打AI换脸、AI魔改侵权牟利行为。",
+      "url": "https://new.qq.com/rain/a/20260604A01C3G00",
+      "province": "国家级"
+    },
+    {
+      "date": "2026-06-08",
+      "name": "OpenAI",
+      "title": "OpenAI准备ChatGPT史上最大改版将Codex整体并入",
+      "update": "OpenAI正准备对ChatGPT最大规模改版,核心是将编程工具Codex整体并入,将其重塑为超级应用。6月4日升级记忆系统,采用Dreaming V3机制算力降至1/5。",
+      "url": "https://news.qq.com/rain/a/20260607A06UDH00?adChannelId=news_news_tech",
+      "province": ""
+    },
+    {
+      "date": "2026-06-08",
+      "name": "腾讯",
+      "title": "腾讯云发布效率智能体工具集及WorkBuddy企业版",
+      "update": "6月5日腾讯云AI产业应用大会上首发覆盖20多个垂直场景的效率智能体工具集,面向个人升级QClaw、WorkBuddy、元宝、ima、腾讯文档等AI工具,面向企业发布WorkBuddy企业版AI工作台。汤道生表示元宝与混元团队将搬到同一座楼办公,约80%元宝用户已使用HY3。",
+      "url": "https://www.ithome.com/0/960/951.htm",
+      "province": ""
+    },
+    {
+      "date": "2026-06-08",
+      "name": "DeepSeek",
+      "title": "DeepSeek据报6月推出V4.1版本重点提升编程和多模态能力",
+      "update": "据媒体报道,DeepSeek计划6月推出V4.1版本,重点提升编程能力、增加图像和音频处理能力,支持MCP协议。公司正寻求首轮融资最多500亿元,估值或达350亿美元。",
+      "url": "https://new.qq.com/rain/a/20260608A032TN00",
+      "province": "上海"
+    },
+    {
+      "date": "2026-06-08",
+      "name": "阿里巴巴",
+      "title": "阿里发布Qwen3.7-Plus多模态智能体实现GUI操作闭环",
+      "update": "6月2日通义实验室发布Qwen3.7-Plus,深度融合视觉能力,实现GUI操作、CLI调用、代码生成与自我验证的端到端闭环,在全球视觉大模型榜单中居全球前五、国内第一。",
+      "url": "https://tech.ifeng.com/c/8tcSNvl805G",
+      "province": "浙江"
+    },
+    {
+      "date": "2026-06-08",
+      "name": "字节跳动",
+      "title": "豆包专业版即将上线覆盖六大领域",
+      "update": "豆包专业版覆盖软件开发、数据分析、专业设计、流程自动化、金融分析、科学研究六大领域,PC端已开通内测。媒体报道付费版预计6月下旬上线。",
+      "url": "https://news.qq.com/rain/a/20260605A06DTQ00?adChannelId=tech",
+      "province": "北京"
+    },
+    {
+      "date": "2026-06-08",
+      "name": "华为",
+      "title": "华为云发布十余款Agentic AI新品 昇腾950DT芯片8月提前上线",
+      "update": "6月5日华为云发布全球首个全流程具身智能开发平台CloudRobo等新品。昇腾950DT芯片将提前至8月上线,内存带宽从1.6TB/s提升至4TB/s。",
+      "url": "https://tech.ifeng.com/c/8thwYzZMwkt",
+      "province": "广东"
+    },
+    {
+      "date": "2026-06-08",
+      "name": "智谱AI",
+      "title": "智谱GLM-5.1高速版API刷新全球速度上限",
+      "update": "智谱推出GLM-5.1高速版API,输出速度达400 tokens/s。公司公告拟申请A股科创板上市,拟募资150亿元。",
+      "url": "https://new.qq.com/rain/a/20260608A0447900",
+      "province": "上海"
+    },
+    {
+      "date": "2026-06-08",
+      "name": "MiniMax",
+      "title": "MiniMax发布M3模型启动A股IPO辅导",
+      "update": "MiniMax发布M3模型,推出49元/月Plus订阅方案。公司与中信证券签署辅导协议正式启动A股IPO。",
+      "url": "https://new.qq.com/rain/a/20260602A05YGA00",
+      "province": "上海"
+    },
+    {
+      "date": "2026-06-08",
+      "name": "Kimi/月之暗面",
+      "title": "Kimi启动新一轮融资估值升至300亿美元",
+      "update": "Kimi已启动新一轮融资,投前估值升至300亿美元。公司发布本地Agent Kimi Work,年度经常性收入4月突破2亿美元。",
+      "url": "https://stock.10jqka.com.cn/20260608/c677284079.shtml",
+      "province": "上海"
+    },
     {
       "date": "2026-06-05",
       "name": "工业和信息化部",
